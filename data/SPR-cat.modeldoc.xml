@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.46.3"
-      generator-date="2018-08-13T12:37:19Z">
+      generator-date="2018-08-14T13:07:25Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -5835,9 +5835,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Herkomst</item>
                            <item>BRO</item>
                         </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Concept: De opbouw van het bovenste deel van de ondergrond en het eventueel daarop liggende stooisel beschreven als een opeenvolging van lagen.</item>
+                        </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Concept: In een bodemkundig profiel gaat het om de opbouw van het bovenste deel van de ondergrond. Wanneer het onderzoek dat vraagt wordt ook de laag strooisel die lokaal op de ondergrond ligt beschreven. Waar het vaste gesteente dicht genoeg onder de oppervlakte ligt, wordt ook dat meegenomen.</item>
                         </part>
                      </content>
                      <section name="beschrijfkwaliteit"
@@ -6428,6 +6436,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Herkomst</item>
                               <item>BRO</item>
                            </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De aanduiding van menselijk ingrijpen in de opbouw van de ondergrond.</item>
+                           </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
@@ -6474,6 +6486,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Herkomst</item>
                               <item>BRO</item>
                            </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De omschrijving van de wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen.</item>
+                           </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
@@ -6519,6 +6535,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De diepte waarop de ingreep eindigt.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
