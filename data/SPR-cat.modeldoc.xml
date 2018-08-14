@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.46.3"
-      generator-date="2018-08-14T13:07:25Z">
+      generator-date="2018-08-14T13:23:01Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -5983,6 +5983,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
+                           </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Dit is een testregel. Wordt dit meegenomen?</item>
                            </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
