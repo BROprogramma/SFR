@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door 1.46.3 op August 14, 2018 at 13:23:01.
+   "SPR conceptueel" door 1.46.3 op August 14, 2018 at 15:33:13.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20180814-152302"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20180814-173314"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -6377,8 +6377,8 @@
                      </tr>
                      <tr>
                         <th>Definitie</th>
-                        <td>Concept: De opbouw van het bovenste deel van de ondergrond en het eventueel daarop
-                           liggende stooisel beschreven als een opeenvolging van lagen.
+                        <td>De opbouw van het bovenste deel van de ondergrond en het eventueel daarop liggende
+                           stooisel beschreven als een opeenvolging van lagen.
                         </td>
                      </tr>
                      <tr>
@@ -6387,10 +6387,10 @@
                      </tr>
                      <tr>
                         <th>Toelichting</th>
-                        <td>Concept: In een bodemkundig profiel gaat het om de opbouw van het bovenste deel van
-                           de ondergrond. Wanneer het onderzoek dat vraagt wordt ook de laag strooisel die lokaal
-                           op de ondergrond ligt beschreven. Waar het vaste gesteente dicht genoeg onder de oppervlakte
-                           ligt, wordt ook dat meegenomen.
+                        <td>In een bodemkundig profiel gaat het om de opbouw van het bovenste deel van de ondergrond.
+                           Wanneer het onderzoek dat vraagt wordt ook de laag strooisel die lokaal op de ondergrond
+                           ligt beschreven. Waar het vaste gesteente dicht genoeg onder de oppervlakte ligt,
+                           wordt ook dat meegenomen.
                         </td>
                      </tr>
                   </tbody>
@@ -6527,10 +6527,6 @@
                            <td>Authentiek</td>
                         </tr>
                         <tr>
-                           <th>Regels</th>
-                           <td>Dit is een testregel. Wordt dit meegenomen?</td>
-                        </tr>
-                        <tr>
                            <th>Formaat</th>
                            <td>IndicatieJaNee</td>
                         </tr>
@@ -6580,6 +6576,13 @@
                            <td>Authentiek</td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt
+                              gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De bewortelbare diepte
+                              is kleiner of gelijk aan de einddiepte wand van de entiteit wandontsluiting. 
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Formaat</th>
                            <td>Meetwaarde</td>
                         </tr>
@@ -6603,7 +6606,7 @@
                         <tr>
                            <th>Definitie</th>
                            <td>De aanduiding die aangeeft of het niveau van de gemiddeld hoogste grondwaterstand
-                              in het profiel is bereikt.
+                              in het wandprofiel is bereikt.
                            </td>
                         </tr>
                         <tr>
@@ -6653,7 +6656,7 @@
                         </tr>
                         <tr>
                            <th>Definitie</th>
-                           <td>De gemiddeld hoogste grondwaterstand bepaald in het profiel.</td>
+                           <td>De gemiddeld hoogste grondwaterstand bepaald in het wandprofiel.</td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>
@@ -6678,6 +6681,12 @@
                         <tr>
                            <th>Indicatie authentiek</th>
                            <td>Authentiek</td>
+                        </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand
+                              bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven.  
+                           </td>
                         </tr>
                         <tr>
                            <th>Formaat</th>
@@ -6702,11 +6711,18 @@
                         </tr>
                         <tr>
                            <th>Definitie</th>
-                           <td>De gemiddelde laagste grondwaterstand bepaald in het profiel.</td>
+                           <td>De gemiddeld laagste grondwaterstand bepaald in het wandprofiel.</td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>
                            <td>BRO</td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>De diepte van het niveau wordt geschat op basis van aspecten als kleur en aanwezigheid
+                              van ijzervlekken of concreties. Waarnemingen over de terreintoestand en het al dan
+                              niet aanwezig zijn van bepaalde planten kunnen bijdragen aan de bepaling. 
+                           </td>
                         </tr>
                         <tr>
                            <th>Mogelijk geen waarde</th>
@@ -6729,6 +6745,12 @@
                            <td>Authentiek</td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand
+                              bereikt aanwezig is. In andere gevallen ontbreekt het gegeven. etc
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Formaat</th>
                            <td>Meetwaarde</td>
                         </tr>
@@ -6748,6 +6770,22 @@
                         <tr>
                            <th>Herkomst</th>
                            <td>BRO</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>1. Bodemverdichting is een aantasting van de fysische kwaliteit van de bodem door
+                              mechanische belasting. De verdichting is het gevolg van het berijden van de bodem
+                              met een te zware last (landbouwmachines) in verhouding tot de draagkracht van de bodem.
+                              Met name onder natte omstandigheden is de draagkracht vaak onvoldoende. De verdichting
+                              ontstaat als de draagkracht van de ondergrond overschreden wordt. De grond verliest
+                              naar verloop van tijd zijn structuur waardoor het poriënvolume verkleind of verdwijnt.
+                              2. Bodemverdichting (of ook bodemcompactie of bodemcompactatie) is een vorm van bodemdegradatie
+                              waarbij de bodemstructuur verloren gaat. De bodem wordt samengedrukt wanneer je met
+                              te zware machines over kwetsbare, eventueel ook natte bodems rijdt. Negatieve effecten
+                              van bodemverdichting zijn dat regenwater minder makkelijk tot bij de wortels dringt
+                              en dat de uitwisseling van gassen zoals CO2 en zuurstof veel trager verloopt dan bij
+                              gezonde bodems.
+                           </td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>
@@ -6795,6 +6833,15 @@
                            <td>BRO</td>
                         </tr>
                         <tr>
+                           <th>Definitie</th>
+                           <td>Plaatselijke uitzakkingen van de podzol-B-horizont. De doorlaatbaarheid van grondwater
+                              is rondom levende en dode, diepe wortelstelsels doorgaans beter dan daarbuiten waardoor
+                              tijdens het bodemvormende proces podzolering, waarbij humus in de bovengrond van arme,
+                              zure gronden uiteenvalt en als disperse humus (colloïdale oplossing) uitspoelt en
+                              op enige diepte weer neer slaat op de zandkorrels, dieper in het profiel doordringt.
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Herkomst definitie</th>
                            <td>BRO</td>
                         </tr>
@@ -6840,6 +6887,10 @@
                            <td>BRO</td>
                         </tr>
                         <tr>
+                           <th>Definitie</th>
+                           <td>De diepte waarop de wortelzak eindigt.</td>
+                        </tr>
+                        <tr>
                            <th>Herkomst definitie</th>
                            <td>BRO</td>
                         </tr>
@@ -6864,6 +6915,13 @@
                            <td>Authentiek</td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>Het gegeven is aanwezig wanneer de waarde van het attribuut wortelzak gelijk is aan
+                              ja. In andere gevallen ontbreekt het gegeven. De einddiepte wortelzak is kleiner of
+                              gelijk aan de einddiepte wand van de entiteit wandontsluiting. 
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Formaat</th>
                            <td>Meetwaarde</td>
                         </tr>
@@ -6883,6 +6941,10 @@
                         <tr>
                            <th>Herkomst</th>
                            <td>BRO</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>De aanduiding van onderaardse gangen en verblijven van gewervelde dieren en reptielen.</td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>
@@ -6928,6 +6990,12 @@
                         <tr>
                            <th>Herkomst</th>
                            <td>BRO</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>De aanduiding voor aanwezigheid van wroetsporen van wilde zwijnen in het bovenste
+                              deel van het wandprofiel (strooisel en A-horizont).
+                           </td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>
@@ -7052,6 +7120,12 @@
                            <td>Authentiek</td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>Het gegeven is aanwezig wanneer de waarde van het attribuut ingreep opbouw gelijk
+                              is aan ja. In andere gevallen ontbreekt het gegeven. 
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Formaat</th>
                            <td>TypeIngreep</td>
                         </tr>
@@ -7101,6 +7175,13 @@
                            <td>Authentiek</td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>Het gegeven is aanwezig wanneer de waarde van het attribuut ingreep opbouw gelijk
+                              is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte ingreep is kleiner
+                              of gelijk aan de einddiepte wand van de entiteit wandontsluiting. 
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Formaat</th>
                            <td>Meetwaarde</td>
                         </tr>
@@ -7120,6 +7201,10 @@
                         <tr>
                            <th>Herkomst</th>
                            <td>BRO</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>Het wandprofiel bevat een kenmerkende opbouw van de horizonten.</td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>
@@ -7165,6 +7250,12 @@
                         <tr>
                            <th>Herkomst</th>
                            <td>BRO</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>De aanduiding van aanwezigheid van vervorming van bodemlagen door afwisselend bevriezen
+                              en ontdooien van een laag boven een permanent bevroren ondergrond.
+                           </td>
                         </tr>
                         <tr>
                            <th>Herkomst definitie</th>

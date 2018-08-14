@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.46.3"
-      generator-date="2018-08-14T13:23:01Z">
+      generator-date="2018-08-14T15:33:13Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -5837,7 +5837,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>Concept: De opbouw van het bovenste deel van de ondergrond en het eventueel daarop liggende stooisel beschreven als een opeenvolging van lagen.</item>
+                           <item>De opbouw van het bovenste deel van de ondergrond en het eventueel daarop liggende stooisel beschreven als een opeenvolging van lagen.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
@@ -5845,7 +5845,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-TOELICHTING">
                            <item>Toelichting</item>
-                           <item>Concept: In een bodemkundig profiel gaat het om de opbouw van het bovenste deel van de ondergrond. Wanneer het onderzoek dat vraagt wordt ook de laag strooisel die lokaal op de ondergrond ligt beschreven. Waar het vaste gesteente dicht genoeg onder de oppervlakte ligt, wordt ook dat meegenomen.</item>
+                           <item>In een bodemkundig profiel gaat het om de opbouw van het bovenste deel van de ondergrond. Wanneer het onderzoek dat vraagt wordt ook de laag strooisel die lokaal op de ondergrond ligt beschreven. Waar het vaste gesteente dicht genoeg onder de oppervlakte ligt, wordt ook dat meegenomen.</item>
                         </part>
                      </content>
                      <section name="beschrijfkwaliteit"
@@ -5984,10 +5984,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
                            </part>
-                           <part type="CFG-DOC-REGELS">
-                              <item>Regels</item>
-                              <item>Dit is een testregel. Wordt dit meegenomen?</item>
-                           </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>IndicatieJaNee</item>
@@ -6038,6 +6034,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
                            </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De bewortelbare diepte is kleiner of gelijk aan de einddiepte wand van de entiteit wandontsluiting. </item>
+                           </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>Meetwaarde</item>
@@ -6062,7 +6062,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            </part>
                            <part type="CFG-DOC-DEFINITIE">
                               <item>Definitie</item>
-                              <item>De aanduiding die aangeeft of het niveau van de gemiddeld hoogste grondwaterstand in het profiel is bereikt.</item>
+                              <item>De aanduiding die aangeeft of het niveau van de gemiddeld hoogste grondwaterstand in het wandprofiel is bereikt.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -6112,7 +6112,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            </part>
                            <part type="CFG-DOC-DEFINITIE">
                               <item>Definitie</item>
-                              <item>De gemiddeld hoogste grondwaterstand bepaald in het profiel.</item>
+                              <item>De gemiddeld hoogste grondwaterstand bepaald in het wandprofiel.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -6137,6 +6137,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
+                           </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven.  </item>
                            </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
@@ -6162,11 +6166,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            </part>
                            <part type="CFG-DOC-DEFINITIE">
                               <item>Definitie</item>
-                              <item>De gemiddelde laagste grondwaterstand bepaald in het profiel.</item>
+                              <item>De gemiddeld laagste grondwaterstand bepaald in het wandprofiel.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-TOELICHTING">
+                              <item>Toelichting</item>
+                              <item>De diepte van het niveau wordt geschat op basis van aspecten als kleur en aanwezigheid van ijzervlekken of concreties. Waarnemingen over de terreintoestand en het al dan niet aanwezig zijn van bepaalde planten kunnen bijdragen aan de bepaling. </item>
                            </part>
                            <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                               <item>Mogelijk geen waarde</item>
@@ -6187,6 +6195,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
+                           </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand bereikt aanwezig is. In andere gevallen ontbreekt het gegeven. etc</item>
                            </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
@@ -6209,6 +6221,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>1. Bodemverdichting is een aantasting van de fysische kwaliteit van de bodem door mechanische belasting. De verdichting is het gevolg van het berijden van de bodem met een te zware last (landbouwmachines) in verhouding tot de draagkracht van de bodem. Met name onder natte omstandigheden is de draagkracht vaak onvoldoende. De verdichting ontstaat als de draagkracht van de ondergrond overschreden wordt. De grond verliest naar verloop van tijd zijn structuur waardoor het poriënvolume verkleind of verdwijnt.
+2. Bodemverdichting (of ook bodemcompactie of bodemcompactatie) is een vorm van bodemdegradatie waarbij de bodemstructuur verloren gaat. De bodem wordt samengedrukt wanneer je met te zware machines over kwetsbare, eventueel ook natte bodems rijdt. Negatieve effecten van bodemverdichting zijn dat regenwater minder makkelijk tot bij de wortels dringt en dat de uitwisseling van gassen zoals CO2 en zuurstof veel trager verloopt dan bij gezonde bodems.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -6256,6 +6273,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Herkomst</item>
                               <item>BRO</item>
                            </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>Plaatselijke uitzakkingen van de podzol-B-horizont. De doorlaatbaarheid van grondwater is rondom levende en dode, diepe wortelstelsels doorgaans beter dan daarbuiten waardoor tijdens het bodemvormende proces podzolering, waarbij humus in de bovengrond van arme, zure gronden uiteenvalt en als disperse humus (colloïdale oplossing) uitspoelt en op enige diepte weer neer slaat op de zandkorrels, dieper in het profiel doordringt.</item>
+                           </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
@@ -6302,6 +6323,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Herkomst</item>
                               <item>BRO</item>
                            </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De diepte waarop de wortelzak eindigt.</item>
+                           </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
@@ -6326,6 +6351,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
                            </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Het gegeven is aanwezig wanneer de waarde van het attribuut wortelzak gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte wortelzak is kleiner of gelijk aan de einddiepte wand van de entiteit wandontsluiting. </item>
+                           </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>Meetwaarde</item>
@@ -6347,6 +6376,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De aanduiding van onderaardse gangen en verblijven van gewervelde dieren en reptielen.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -6393,6 +6426,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De aanduiding voor aanwezigheid van wroetsporen van wilde zwijnen in het bovenste deel van het wandprofiel (strooisel en A-horizont).</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -6518,6 +6555,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
                            </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Het gegeven is aanwezig wanneer de waarde van het attribuut ingreep opbouw gelijk is aan ja. In andere gevallen ontbreekt het gegeven. </item>
+                           </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>TypeIngreep</item>
@@ -6568,6 +6609,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               <item>Indicatie authentiek</item>
                               <item>Authentiek</item>
                            </part>
+                           <part type="CFG-DOC-REGELS">
+                              <item>Regels</item>
+                              <item>Het gegeven is aanwezig wanneer de waarde van het attribuut ingreep opbouw gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte ingreep is kleiner of gelijk aan de einddiepte wand van de entiteit wandontsluiting. </item>
+                           </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>Meetwaarde</item>
@@ -6589,6 +6634,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>Het wandprofiel bevat een kenmerkende opbouw van de horizonten.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -6635,6 +6684,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De aanduiding van aanwezigheid van vervorming van bodemlagen door afwisselend bevriezen en ontdooien van een laag boven een permanent bevroren ondergrond.</item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
