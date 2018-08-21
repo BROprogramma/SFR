@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.46.3"
-      generator-date="2018-08-21T07:56:49Z">
+      generator-date="2018-08-21T08:02:40Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -2495,6 +2495,22 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </item>
                      <item/>
                   </part>
+                  <part>
+                     <item>
+                        <item>Wandonderzoek</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
                </content>
                <content approach="target">
                   <itemtype/>
@@ -2523,6 +2539,22 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                                  idref="global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</item>
                         </item>
                         <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Wandonderzoek</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -9120,6 +9152,69 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>
                            <item type="global"
                                  idref="global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="heeft"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_DomeinmodelBROSPR_Wandonderzoek"
+                        id-global="global_association_DomeinmodelBROSPR_Wandonderzoek">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
                         </item>
                      </part>
                   </content>
