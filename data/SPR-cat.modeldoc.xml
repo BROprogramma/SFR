@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-11T15:33:01Z">
+      generator-date="2018-09-11T15:48:52Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -1676,6 +1676,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens over de positie van het beginpunt van het wandonderzoek in het verticale vlak, zoals aangeleverd aan de basisregistratie ondergrond.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
@@ -1693,7 +1697,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
                      </item>
-                     <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
+                     <item>Het punt dat in het wandonderzoek is gebruikt als nulpunt voor de diepte.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSPR_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</item>
@@ -6500,7 +6504,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
+                        <item>Het punt dat in het wandonderzoek is gebruikt als nulpunt voor de diepte.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -16376,6 +16380,16 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>maaiveld</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>waterbodem</item>
+                     <item/>
+                  </part>
                </content>
             </section>
             <section name="Vlekkleur"
@@ -16690,12 +16704,12 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>kaartGrootschalig</item>
-                     <item/>
+                     <item>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500, 1:5.000 of 1:10.000).</item>
                   </part>
                   <part>
                      <item/>
                      <item>kaartKleinschalig</item>
-                     <item/>
+                     <item>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000, 1:50.000 of 1:100.000).</item>
                   </part>
                </content>
             </section>

@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door Imvertor 1.47.1 op September 11, 2018 at 15:33:01.
+   "SPR conceptueel" door Imvertor 1.47.1 op September 11, 2018 at 15:48:52.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20180911-173303"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20180911-174854"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -2058,6 +2058,12 @@
                   <td>BRO</td>
                </tr>
                <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens over de positie van het beginpunt van het wandonderzoek in het verticale
+                     vlak, zoals aangeleverd aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
                </tr>
@@ -2083,7 +2089,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</a>
                      
                   </td>
-                  <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
+                  <td>Het punt dat in het wandonderzoek is gebruikt als nulpunt voor de diepte.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</a>
                      
@@ -6637,7 +6643,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
+                     <td>Het punt dat in het wandonderzoek is gebruikt als nulpunt voor de diepte.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -17043,11 +17049,24 @@
          </table>
          
          <table>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="60%"></colgroup>
             <tbody>
                <tr>
                   <th>Code</th>
                   <th>Naam</th>
                   <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>maaiveld</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>waterbodem</td>
+                  <td></td>
                </tr>
             </tbody>
          </table>
@@ -17528,12 +17547,18 @@
                <tr>
                   <td></td>
                   <td>kaartGrootschalig</td>
-                  <td></td>
+                  <td>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige
+                     kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500,
+                     1:5.000 of 1:10.000).
+                  </td>
                </tr>
                <tr>
                   <td></td>
                   <td>kaartKleinschalig</td>
-                  <td></td>
+                  <td>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige
+                     kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000,
+                     1:50.000 of 1:100.000).
+                  </td>
                </tr>
             </tbody>
          </table>
