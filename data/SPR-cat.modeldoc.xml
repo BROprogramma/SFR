@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-11T15:54:40Z">
+      generator-date="2018-09-11T16:19:52Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16628,6 +16628,16 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>NAP</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>MSL?</item>
+                     <item/>
+                  </part>
                </content>
             </section>
             <section name="Kalkgehalteklasse"
@@ -16864,6 +16874,46 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>AHN2</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>AHN3</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>RTKGPS0tot4cm</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>RTKGPS4tot10cm</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>RTKGPS10tot20cm</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>RTKGPS20tot100cm</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>AHN1</item>
+                     <item>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 1 van 1996-2003.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>geen</item>
+                     <item>Er is geen positie bepaald.</item>
+                  </part>
                </content>
             </section>
             <section name="KaderInwinning"
