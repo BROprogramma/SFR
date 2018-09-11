@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-11T15:19:07Z">
+      generator-date="2018-09-11T15:26:40Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16690,12 +16690,12 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>kaartGrootschalig</item>
-                     <item>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500, 1:5.000 of 1:10.000).</item>
+                     <item/>
                   </part>
                   <part>
                      <item/>
                      <item>kaartKleinschalig</item>
-                     <item>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000, 1:50.000 of 1:100.000).</item>
+                     <item/>
                   </part>
                </content>
             </section>
