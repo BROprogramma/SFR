@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-11T15:48:52Z">
+      generator-date="2018-09-11T15:54:40Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16699,7 +16699,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>GPS200tot1000cm</item>
-                     <item/>
+                     <item>Meting d.m.v. Global Positioning System, afwijking tussen 200 en 1000 centimeter.</item>
                   </part>
                   <part>
                      <item/>
