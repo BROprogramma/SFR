@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door Imvertor 1.47.1 op August 30, 2018 at 10:35:25.
+   "SPR conceptueel" door Imvertor 1.47.1 op September 11, 2018 at 14:00:52.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20180830-123527"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20180911-160054"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -1913,8 +1913,18 @@
                   <td>BRO</td>
                </tr>
                <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens over de plaats van het wandonderzoek op het aardoppervlak, zoals die zijn
+                     aangeleverd aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De locatie van wandonderzoek is gedefinieerd als een punt.</td>
                </tr>
             </tbody>
          </table>
@@ -1962,7 +1972,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</a>
                      
                   </td>
-                  <td>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</td>
+                  <td>De datum waarop de plaats van het wandonderzoek op het aardoppervlak is bepaald.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
                      
@@ -5901,7 +5911,7 @@
                      Wandbeschrijving
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Wandbeschrijving">relsulteert in</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Wandbeschrijving">resulteert in</a>
                      
                      
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a>
@@ -6380,6 +6390,12 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Omdat het vakgebied bodemkunde is ligt de locatie aan de landzijde van de UNCLOS-basislijn
+                        en zijn de coördinaten gedefinieerd in RD of ETRS89.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -6427,11 +6443,19 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</td>
+                     <td>De datum waarop de plaats van het wandonderzoek op het aardoppervlak is bepaald.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij gegevens
+                        uit het verleden de meest relevante datum van het booronderzoek, de rapportagedatum
+                        onderzoek, niet bekend is, kan een eventueel wel ingevulde datum locatiebepaling niet
+                        in de chronologische context geplaatst worden en verliest het zijn toegevoegde waarde.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -6490,6 +6514,12 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven geeft inzicht in de nauwkeurigheid waarmee de plaats van het wandonderzoek
+                        op het aardoppervlak is bepaald.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -6544,6 +6574,10 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16136,7 +16170,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Wandbeschrijving"></a><section id="detail_association_DomeinmodelBROSPR_Wandbeschrijving"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Wandbeschrijving">Wandbeschrijving</a> relsulteert in</strong>
+         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Wandbeschrijving"></a><section id="detail_association_DomeinmodelBROSPR_Wandbeschrijving"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Wandbeschrijving">Wandbeschrijving</a> resulteert in</strong>
             
             
             <table>
@@ -16145,7 +16179,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>relsulteert in</td>
+                     <td>resulteert in</td>
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>

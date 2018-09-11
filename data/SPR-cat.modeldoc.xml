@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-08-30T10:35:25Z">
+      generator-date="2018-09-11T14:00:52Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -1542,9 +1542,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens over de plaats van het wandonderzoek op het aardoppervlak, zoals die zijn aangeleverd aan de basisregistratie ondergrond.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -1581,7 +1589,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
                      </item>
-                     <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
+                     <item>De datum waarop de plaats van het wandonderzoek op het aardoppervlak is bepaald.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
                      </item>
@@ -5583,7 +5591,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Wandbeschrijving">relsulteert in</item>
+                                 idref="detail_association_DomeinmodelBROSPR_Wandbeschrijving">resulteert in</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</item>
@@ -5663,7 +5671,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Wandbeschrijving">relsulteert in</item>
+                                 idref="detail_association_DomeinmodelBROSPR_Wandbeschrijving">resulteert in</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</item>
@@ -6269,6 +6277,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Omdat het vakgebied bodemkunde is ligt de locatie aan de landzijde van de UNCLOS-basislijn en zijn de coördinaten gedefinieerd in RD of ETRS89.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -6314,11 +6326,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
+                        <item>De datum waarop de plaats van het wandonderzoek op het aardoppervlak is bepaald.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij gegevens uit het verleden de meest relevante datum van het booronderzoek, de rapportagedatum onderzoek, niet bekend is, kan een eventueel wel ingevulde datum locatiebepaling niet in de chronologische context geplaatst worden en verliest het zijn toegevoegde waarde.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -6371,6 +6387,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven geeft inzicht in de nauwkeurigheid waarmee de plaats van het wandonderzoek op het aardoppervlak is bepaald.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -6421,6 +6441,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -15676,14 +15700,14 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      </part>
                   </content>
                </section>
-               <section name="relsulteert in"
+               <section name="resulteert in"
                         type="DETAIL-ASSOCIATION"
                         id="detail_association_DomeinmodelBROSPR_Wandbeschrijving"
                         id-global="global_association_DomeinmodelBROSPR_Wandbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>relsulteert in</item>
+                        <item>resulteert in</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -15699,7 +15723,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>relsulteert in</item>
+                        <item>resulteert in</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
