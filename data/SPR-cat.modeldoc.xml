@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-11T14:06:43Z">
+      generator-date="2018-09-11T14:42:46Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16026,6 +16026,16 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>ETRS89</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>RD</item>
+                     <item/>
+                  </part>
                </content>
             </section>
             <section name="BijzonderheidBovenin"
