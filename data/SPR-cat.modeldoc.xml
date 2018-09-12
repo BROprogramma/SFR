@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-11T16:19:52Z">
+      generator-date="2018-09-12T08:40:13Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16210,6 +16210,16 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>standaard</item>
+                     <item>De grond is beschreven volgens lagere eisen gesteld aan wandonderzoek. Het gaat hier om projectkarteringen die gebruik maken van bestaande ontsluitingen.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>hoog</item>
+                     <item>De grond is beschreven volgens de hoogste eisen gesteld aan wandonderzoek. Dit onderzoek impliceert veelal het graven van een profielkuil en wordt uitgevoerd wanneer de behoefte bestaat een nieuwe kaarteenheid te definiëren of voor onderzoek van wetenschappelijk aard of voor educatieve doeleinden.</item>
+                  </part>
                </content>
             </section>
             <section name="Strooiselsoort"
@@ -16346,6 +16356,16 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>kerend</item>
+                     <item>De natuurlijke samenhang van de grond is door diepspitten verstoord.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>mengend</item>
+                     <item>De natuurlijke samenhang van de grond is door ploegen of andere vormen van omwoelen verstoord.</item>
+                  </part>
                </content>
             </section>
             <section name="geomorfologisch fenomeen"
