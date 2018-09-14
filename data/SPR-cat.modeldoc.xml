@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-14T12:23:37Z">
+      generator-date="2018-09-14T16:27:34Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -1612,7 +1612,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
                      </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
+                     <item>!Aanpassen naar nieuw KVK!
+De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
@@ -1755,7 +1756,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
                      </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
+                     <item>!KvK! aanpassingen
+De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
@@ -6132,7 +6134,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_DomeinmodelBROSPR_Stopcriterium"
                      uuid="EAID_D6BC41B6_1AD3_43d3_B959_7E93916D1246"
                      idref="detail_class_DomeinmodelBROSPR_Stopcriterium">Stopcriterium</item>
-               <item/>
+               <item>lijst nog uitwerken</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROSPR_MethodeVerticalePositiebepaling"
@@ -6444,7 +6446,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
+                        <item>!Aanpassen naar nieuw KVK!
+De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -6759,7 +6762,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
+                        <item>!KvK! aanpassingen
+De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -16339,6 +16343,41 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>afgraving</item>
+                     <item>Een stuk land waarvan grond afgegraven is.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>bouwput</item>
+                     <item>Voor de start van het onderzoek was de ondergrond ten behoeve van bouwwerkzaamheden uitgegraven.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>groeve</item>
+                     <item>De kuil waar een delfstof wordt gewonnen.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>profielkuil</item>
+                     <item>De kuil die ten behoeve van het doen van wandonderzoek is gegraven.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>sleuf</item>
+                     <item>De uitgegraven of uitgehakte langwerpige smalle opening van de bodem.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>slootwand</item>
+                     <item>De insnijding die is gemaakt bij een sloot.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>weginsijding</item>
+                     <item>De insnijding die is gemaakt bij een weg.</item>
+                  </part>
                </content>
             </section>
             <section name="TypeIngreep"
@@ -16407,7 +16446,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   </part>
                   <part>
                      <item/>
-                     <item>waterbodem</item>
+                     <item>waterbodem?</item>
                      <item>Waterbodem</item>
                   </part>
                </content>
@@ -16870,7 +16909,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>lijst nog uitwerken</item>
                   </part>
                </content>
                <content>
