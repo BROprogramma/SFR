@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-12T08:40:13Z">
+      generator-date="2018-09-14T12:23:37Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16033,12 +16033,12 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>ETRS89</item>
-                     <item/>
+                     <item>EPSG 4258: European Terrestrial Reference System 1989</item>
                   </part>
                   <part>
                      <item/>
                      <item>RD</item>
-                     <item/>
+                     <item>EPSG 28992: Rijks Driehoeksmeting ? Amersfoort RD New</item>
                   </part>
                </content>
             </section>
@@ -16403,12 +16403,12 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>maaiveld</item>
-                     <item/>
+                     <item>Maaiveld</item>
                   </part>
                   <part>
                      <item/>
                      <item>waterbodem</item>
-                     <item/>
+                     <item>Waterbodem</item>
                   </part>
                </content>
             </section>
@@ -16651,7 +16651,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>NAP</item>
-                     <item/>
+                     <item>Normaal Amsterdams Peil</item>
                   </part>
                   <part>
                      <item/>
@@ -16897,32 +16897,32 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <part>
                      <item/>
                      <item>AHN2</item>
-                     <item/>
+                     <item>Positie bepaald d.m.v. Actueel Hoogtebestand Nederland, versie 2 van 2007-2012.</item>
                   </part>
                   <part>
                      <item/>
                      <item>AHN3</item>
-                     <item/>
+                     <item>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 3 van 2014-2019.</item>
                   </part>
                   <part>
                      <item/>
                      <item>RTKGPS0tot4cm</item>
-                     <item/>
+                     <item>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner dan 4 centimeter.</item>
                   </part>
                   <part>
                      <item/>
                      <item>RTKGPS4tot10cm</item>
-                     <item/>
+                     <item>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen 4 en 10 centimeter.</item>
                   </part>
                   <part>
                      <item/>
                      <item>RTKGPS10tot20cm</item>
-                     <item/>
+                     <item>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 10 en 20 centimeter.</item>
                   </part>
                   <part>
                      <item/>
                      <item>RTKGPS20tot100cm</item>
-                     <item/>
+                     <item>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 20 en 100 centimeter.</item>
                   </part>
                   <part>
                      <item/>
