@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel - Copy" door Imvertor 1.47.1 op September 17, 2018 at 09:15:43.
+   "SPR conceptueel - Copy" door Imvertor 1.47.1 op September 17, 2018 at 12:30:07.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-Copy-0.1-0-20180831-20180917-111545"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-Copy-0.1-0-20180831-20180917-143009"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -279,6 +279,14 @@
                   <th>Herkomst</th>
                   <td>BRO</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak
+                     vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt
+                     in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie
+                     voor het paar is (coördinaat 1, coördinaat 2).
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -460,6 +468,12 @@
                   <th>Herkomst</th>
                   <td>BRO</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het
+                     Handelsregister. De opbouw is NNNNNNNN.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -510,6 +524,29 @@
                <tr>
                   <th>Herkomst</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
+                     die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
+                     hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
+                     uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
+                     de eenheid dimensieloos.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
+                     Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
+                     is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+                     Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
+                     verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
+                     de maximale waarde aan die een attribuut kan hebben.
+                     Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
+                     eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
+                     N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
+                     achter het scheidingsteken.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -616,57 +653,6 @@
          </section>
          
       </section>
-      <a class="anchor" name="graph_EAID_75B6B4C6_B8DC_4ff0_8C12_9E08245E18C9"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Tekst200"></a><section id="global_class_DomeinmodelBROCommon_Tekst200">
-         <h5>Gestructureerd datatype Tekst200</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Tekst200</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Tekst200_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       <a class="anchor" name="graph_EAID_6F19DCAB_741C_4f26_B871_A2305478B4FB"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Tekst100"></a><section id="global_class_DomeinmodelBROCommon_Tekst100">
          <h5>Gestructureerd datatype Tekst100</h5>
          
@@ -729,6 +715,68 @@
          </section>
          
       </section>
+      <a class="anchor" name="graph_EAID_75B6B4C6_B8DC_4ff0_8C12_9E08245E18C9"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Tekst200"></a><section id="global_class_DomeinmodelBROCommon_Tekst200">
+         <h5>Gestructureerd datatype Tekst200</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Tekst200</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale
+                     lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De
+                     MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie
+                     die een Latijns schrift kennen.
+                     Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding
+                     tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid
+                     als TekstN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Tekst200_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
       
    </section>
    <section id="">
@@ -764,11 +812,16 @@
          <tbody>
             <tr>
                <th><a class="anchor" name="global_class_DomeinmodelBROCommon_IndicatieJaNee"></a><a class="link" href="#detail_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                  Uitbreiding van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_DomeinmodelBROCommon_Kwaliteitsregime"></a><a class="link" href="#detail_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden
+                  voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding
+                  van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
          </tbody>
       </table>
@@ -1604,36 +1657,6 @@
          </section>
          
       </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROCommon_Tekst200"></a><section id="detail_class_DomeinmodelBROCommon_Tekst200">
-         <h6>Gestructureerd datatype Tekst200</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Tekst200_waarde"></a><section id="detail_attribute_DomeinmodelBROCommon_Tekst200_waarde"><strong>Data element details <a href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a> waarde</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       <a class="anchor" name="detail_class_DomeinmodelBROCommon_Tekst100"></a><section id="detail_class_DomeinmodelBROCommon_Tekst100">
          <h6>Gestructureerd datatype Tekst100</h6>
          <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Tekst100_waarde"></a><section id="detail_attribute_DomeinmodelBROCommon_Tekst100_waarde"><strong>Data element details <a href="#global_class_DomeinmodelBROCommon_Tekst100">Tekst100</a> waarde</strong>
@@ -1653,6 +1676,36 @@
                   <tr>
                      <th>Definitie</th>
                      <td>tekst (niet string, bespreken)</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROCommon_Tekst200"></a><section id="detail_class_DomeinmodelBROCommon_Tekst200">
+         <h6>Gestructureerd datatype Tekst200</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Tekst200_waarde"></a><section id="detail_attribute_DomeinmodelBROCommon_Tekst200_waarde"><strong>Data element details <a href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a> waarde</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
@@ -1791,7 +1844,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                     Uitbreiding van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -1830,7 +1885,10 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden
+                     voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding
+                     van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -1869,16 +1927,15 @@
 </section><a class="anchor" name="global_package_DomeinmodelBROSPR"></a><section id="global_package_DomeinmodelBROSPR">
    <h3>Domein Domeinmodel BRO SPR</h3>
    <div class="imageinfo overview"><img src="data/Images/EAID_DA11A7B4_75E1_4f35_BB67_F6BB1D919141.png" usemap="#imagemap-EAID_DA11A7B4_75E1_4f35_BB67_F6BB1D919141"><map name="imagemap-EAID_DA11A7B4_75E1_4f35_BB67_F6BB1D919141">
-         <area shape="rect" coords="353,140,581,39" alt="" href="#graph_EAID_8FF5EC9B_4A79_4df0_AEA6_343E30103EBC">
-         <area shape="rect" coords="25,221,261,29" alt="" href="#graph_EAID_90D7457F_7C95_4e3a_A16F_905BC4F113A1">
-         <area shape="rect" coords="291,696,581,426" alt="" href="#graph_EAID_3229F8DD_C903_450d_9D3B_742B3AC0E1C7">
-         <area shape="rect" coords="353,348,581,320" alt="" href="#graph_EAID_91707823_1938_4e96_B2B0_AEA4C2A3F89C">
-         <area shape="rect" coords="353,268,581,240" alt="" href="#graph_EAID_147A219D_4097_4e0d_AFF1_8B7EAB948597"></map><p><b>Domeinmodel BRO wandonderzoek - overzicht</b></p>
+         <area shape="rect" coords="360,136,588,35" alt="" href="#graph_EAID_8FF5EC9B_4A79_4df0_AEA6_343E30103EBC">
+         <area shape="rect" coords="298,692,588,422" alt="" href="#graph_EAID_3229F8DD_C903_450d_9D3B_742B3AC0E1C7">
+         <area shape="rect" coords="360,367,588,339" alt="" href="#graph_EAID_91707823_1938_4e96_B2B0_AEA4C2A3F89C">
+         <area shape="rect" coords="360,285,588,236" alt="" href="#graph_EAID_147A219D_4097_4e0d_AFF1_8B7EAB948597"></map><p><b>Domeinmodel BRO wandonderzoek - overzicht</b></p>
    </div>
    <section id="">
       <h4>Objecttypen </h4>
-      <a class="anchor" name="graph_EAID_90D7457F_7C95_4e3a_A16F_905BC4F113A1"></a><a class="anchor" name="global_class_DomeinmodelBROSPR_Registratiegeschiedenis"></a><section id="global_class_DomeinmodelBROSPR_Registratiegeschiedenis">
-         <h5>Objecttype Registratiegeschiedenis</h5>
+      <a class="anchor" name="graph_EAID_147A219D_4097_4e0d_AFF1_8B7EAB948597"></a><a class="anchor" name="global_class_DomeinmodelBROSPR_Wandonderzoek"></a><section id="global_class_DomeinmodelBROSPR_Wandonderzoek">
+         <h5>Objecttype Wandonderzoek</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -1886,7 +1943,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Registratiegeschiedenis</td>
+                  <td>Wandonderzoek</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -1915,10 +1972,27 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</a>
+                     
+                     <a class="link" href="#detail_class_DomeinmodelBROCommon_Registratiegeschiedenis">registratieGeschiedenis</a>
+                     
+                     :
+                  </td>
+                  <td>
+                     De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.
                      
                   </td>
-                  <td>De datum en het tijdstip waarop voor het eerst gegevens van het object in de registratie
+                  <td></td>
+                  <td>
+                     1
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie
                      ondergrond zijn opgenomen.
                   </td>
                   <td>
@@ -1928,8 +2002,8 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_registratiestatus">registratiestatus</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_registratiestatus">registratiestatus</a>
                      
                   </td>
                   <td>De actuele fase van registratie waarin het object zich bevindt.</td>
@@ -1940,11 +2014,11 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</a>
                      
                   </td>
-                  <td>De datum en het tijdstip waarop de laatste aanvulling op de gegevens in de registratie
+                  <td>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie
                      ondergrond is doorgevoerd.
                   </td>
                   <td>
@@ -1954,12 +2028,12 @@
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</a>
                      
                   </td>
                   <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                     zijn opgenomen.
+                     zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</a>
@@ -1968,12 +2042,12 @@
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</a>
                      
                   </td>
-                  <td>De aanduiding die aangeeft of er een verbetering in de gegevens van het object in
-                     de registratie ondergrond heeft plaatsgevonden.
+                  <td>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de
+                     registratie ondergrond heeft plaatsgevonden.
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
@@ -1982,11 +2056,11 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
                      
                   </td>
-                  <td>De datum en het tijdstip waarop de laatste verbetering in de gegevens van het object
+                  <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
                      is doorgevoerd.
                   </td>
                   <td>
@@ -1996,8 +2070,8 @@
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_inOnderzoek">in onderzoek</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_inOnderzoek">in onderzoek</a>
                      
                   </td>
                   <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
@@ -2010,8 +2084,8 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_inOnderzoekSinds">in onderzoek sinds</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_inOnderzoekSinds">in onderzoek sinds</a>
                      
                   </td>
                   <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
@@ -2024,12 +2098,12 @@
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</a>
                      
                   </td>
                   <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
-                     uit registratie zijn genomen.
+                     uit de registratie ondergrond zijn verwijderd.
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
@@ -2038,11 +2112,11 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</a>
                      
                   </td>
-                  <td>De datum en het tijdstip waarop het object uit registratie is genomen.</td>
+                  <td>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</a>
                      
@@ -2050,11 +2124,11 @@
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
                      
                   </td>
-                  <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
+                  <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
                      nadat het eerder uit registratie was genomen.
                   </td>
                   <td>
@@ -2064,8 +2138,8 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">tijdstip weer in registratie genomen</a>
+                  <td>- 
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">tijdstip weer in registratie genomen</a>
                      
                   </td>
                   <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
@@ -2094,59 +2168,6 @@
                </tr>
                <tr>
                   <td>
-                     
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</a>
-                     
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</a>
-                     
-                     Registratiegeschiedenis
-                     [ 1 ]
-                     
-                  </td>
-                  <td></td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-      </section>
-      <a class="anchor" name="graph_EAID_147A219D_4097_4e0d_AFF1_8B7EAB948597"></a><a class="anchor" name="global_class_DomeinmodelBROSPR_Wandonderzoek"></a><section id="global_class_DomeinmodelBROSPR_Wandonderzoek">
-         <h5>Objecttype Wandonderzoek</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Wandonderzoek</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <h6>Overzicht relaties</h6>
-         
-         
-         <table>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Rol naam met kardinaliteiten</th>
-                  <th>Definitie</th>
-               </tr>
-               <tr>
-                  <td>
                      Wandonderzoek
                      is specialisatie van
                      
@@ -2161,21 +2182,6 @@
                      basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
                      is opgenomen.
                   </td>
-               </tr>
-               <tr>
-                  <td>
-                     Wandonderzoek
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</a>
-                     
-                     
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a>
-                     
-                     [ 1 ]
-                     
-                  </td>
-                  <td></td>
                </tr>
                <tr>
                   <td>
@@ -2597,7 +2603,9 @@
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Beschrijfkwaliteit"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Beschrijfkwaliteit">Beschrijfkwaliteit</a></th>
-               <td></td>
+               <td>Beheerde lijst met toegestane waarden voor de aanduiding voor de mate van detail waarmee
+                  de opbouw van de ondergrond in het wandprofiel is beschreven.
+               </td>
             </tr>
          </tbody>
       </table>
@@ -2606,682 +2614,9 @@
    <section id="">
       <h4>Attribuut- en relatiesoort details</h4>
       
-      <a class="anchor" name="detail_class_DomeinmodelBROSPR_Registratiegeschiedenis"></a><section id="detail_class_DomeinmodelBROSPR_Registratiegeschiedenis">
-         <h6>Objecttype Registratiegeschiedenis</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipRegistratieObject"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipRegistratieObject"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip registratie object</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip registratie object</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop voor het eerst gegevens van het object in de registratie
-                        ondergrond zijn opgenomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_registratiestatus"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_registratiestatus"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> registratiestatus</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>registratiestatus</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De actuele fase van registratie waarin het object zich bevindt.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Registratiestatus</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipLaatsteAanvulling"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipLaatsteAanvulling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip laatste aanvulling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip laatste aanvulling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de laatste aanvulling op de gegevens in de registratie
-                        ondergrond is doorgevoerd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip voltooiing registratie</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip voltooiing registratie</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                        zijn opgenomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_gecorrigeerd"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_gecorrigeerd"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> gecorrigeerd</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>gecorrigeerd</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of er een verbetering in de gegevens van het object in
-                        de registratie ondergrond heeft plaatsgevonden.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipLaatsteCorrectie"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipLaatsteCorrectie"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip laatste correctie</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip laatste correctie</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de laatste verbetering in de gegevens van het object
-                        is doorgevoerd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_inOnderzoek"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_inOnderzoek"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> in onderzoek</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>in onderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
-                        genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_inOnderzoekSinds"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_inOnderzoekSinds"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> in onderzoek sinds</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>in onderzoek sinds</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
-                        genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_uitRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_uitRegistratieGenomen"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> uit registratie genomen</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uit registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
-                        uit registratie zijn genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip uit registratie genomen</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip uit registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop het object uit registratie is genomen.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_weerInRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_weerInRegistratieGenomen"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> weer in registratie genomen</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>weer in registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
-                        nadat het eerder uit registratie was genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROSPR_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip weer in registratie genomen</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip weer in registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
-                        nadat het uit registratie was genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       <a class="anchor" name="detail_class_DomeinmodelBROSPR_Wandonderzoek"></a><section id="detail_class_DomeinmodelBROSPR_Wandonderzoek">
          <h6>Objecttype Wandonderzoek</h6>
-         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Wandonderzoek"></a><section id="detail_association_DomeinmodelBROSPR_Wandonderzoek"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</a> heeft</strong>
-            
+         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Registratiegeschiedenis"></a><section id="detail_class_DomeinmodelBROCommon_Registratiegeschiedenis"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</a> Registratiegeschiedenis</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -3289,45 +2624,678 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>heeft</td>
+                     <td>Registratiegeschiedenis</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
+                     <th>Toelichting</th>
+                     <td>De gegevens van de entiteit worden geautomatiseerd door de basisregistratie ondergrond
+                        geproduceerd.
+                     </td>
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
                   </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd objecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_DomeinmodelBROSPR_Registratiegeschiedenis">Registratiegeschiedenis</a>
-                        
-                     </td>
-                  </tr>
                </tbody>
             </table>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipRegistratieObject"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipRegistratieObject" class="notoc"><strong>Attribuutsoort tijdstip registratie object  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip registratie object</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie
+                           ondergrond zijn opgenomen.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_registratiestatus"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_registratiestatus" class="notoc"><strong>Attribuutsoort registratiestatus  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>registratiestatus</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De actuele fase van registratie waarin het object zich bevindt.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>Registratiestatus</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling" class="notoc"><strong>Attribuutsoort tijdstip laatste aanvulling  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip laatste aanvulling</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie
+                           ondergrond is doorgevoerd.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Het gegeven is alleen aanwezig wanneer na de start van de registratie van de mijnbouwwetvergunning
+                           aanvullende gegevens zijn vastgelegd.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie" class="notoc"><strong>Attribuutsoort tijdstip voltooiing registratie  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip voltooiing registratie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
+                           zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
+                           Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
+                           Wel kunnen fouten in de registratie worden verbeterd.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_gecorrigeerd"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_gecorrigeerd" class="notoc"><strong>Attribuutsoort gecorrigeerd  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gecorrigeerd</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de
+                           registratie ondergrond heeft plaatsgevonden.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>IndicatieJaNee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie" class="notoc"><strong>Attribuutsoort tijdstip laatste correctie  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip laatste correctie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
+                           is doorgevoerd.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_inOnderzoek"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_inOnderzoek" class="notoc"><strong>Attribuutsoort in onderzoek  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>in onderzoek</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
+                           genomen.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder
+                           gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er
+                           een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter
+                           gaat hieraan een melding van derden vooraf.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>IndicatieJaNee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_inOnderzoekSinds"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_inOnderzoekSinds" class="notoc"><strong>Attribuutsoort in onderzoek sinds  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>in onderzoek sinds</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
+                           genomen.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_uitRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_uitRegistratieGenomen" class="notoc"><strong>Attribuutsoort uit registratie genomen  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>uit registratie genomen</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
+                           uit de registratie ondergrond zijn verwijderd.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens
+                           niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier.
+                           De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen.
+                           Aan die beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot
+                           uitdrukking in de regel dat een object slechts een keer uit registratie kan worden
+                           genomen.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>IndicatieJaNee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen" class="notoc"><strong>Attribuutsoort tijdstip uit registratie genomen  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip uit registratie genomen</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_weerInRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_weerInRegistratieGenomen" class="notoc"><strong>Attribuutsoort weer in registratie genomen  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>weer in registratie genomen</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                           nadat het eerder uit registratie was genomen.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan
+                           hij eenmalig ongedaan maken.
+                           Ook hiervoor geldt dat akkoord van de bronhouder vereist is.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>IndicatieJaNee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen" class="notoc"><strong>Attribuutsoort tijdstip weer in registratie genomen  Registratiegeschiedenis</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip weer in registratie genomen</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                           nadat het uit registratie was genomen.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Overig</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>DatumTijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
             
          </section>
          <a class="anchor" name="detail_association_DomeinmodelBROSPR_Wandonderzoek"></a><section id="detail_association_DomeinmodelBROSPR_Wandonderzoek"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</a> heeft</strong>
@@ -4628,7 +4596,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Beheerde lijst met toegestane waarden voor de aanduiding voor de mate van detail waarmee
+                     de opbouw van de ondergrond in het wandprofiel is beschreven.
+                  </td>
                </tr>
             </tbody>
          </table>
