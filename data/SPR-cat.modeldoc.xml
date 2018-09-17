@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.1"
-      generator-date="2018-09-17T16:31:28Z">
+      generator-date="2018-09-17T17:03:40Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -3046,11 +3046,22 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Strooisellaag_bepalingOndergrens">bepaling ondergrens</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Strooisellaag_scherpteOndergrens">scherpte ondergrens</item>
                      </item>
-                     <item/>
+                     <item>De manier waarop de ondergrens van de laag is bepaald, met een aanduiding van hoe scherp de grens is.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Grensbepaling">Grensbepaling</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_ScherpteOndergrens">Scherpte ondergrens</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_Strooisellaag_vormOndergrens">vorm ondergrens</item>
+                     </item>
+                     <item>De manier waarop de ondergrens van de laag is bepaald, met een aanduiding van welke vorm de grens heeft.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_VormOndergrens">VormOndergrens</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3188,7 +3199,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Grensbepaling">Grensbepaling</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_ScherpteOndergrens">Scherpte ondergrens</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -4176,7 +4187,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Grensbepaling">Grensbepaling</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_ScherpteOndergrens">Scherpte ondergrens</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -5819,7 +5830,19 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
       <!--removed empty content-->
       <!--removed empty content-->
       <!--removed empty content-->
-      <!--removed empty content-->
+      <section type="OVERVIEW-PRIMITIVEDATATYPE">
+         <section name="VormOndergrens"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_DomeinmodelBROSPR_VormOndergrens"
+                  uuid="EAID_B3B49F8E_49C3_43c6_BE8E_C98AFCCA74EF">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>VormOndergrens</item>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
@@ -6039,9 +6062,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                <item/>
             </part>
             <part>
-               <item id="global_class_DomeinmodelBROSPR_Grensbepaling"
+               <item id="global_class_DomeinmodelBROSPR_ScherpteOndergrens"
                      uuid="EAID_8C7FABAC_2007_4a32_B7C3_89850082334B"
-                     idref="detail_class_DomeinmodelBROSPR_Grensbepaling">Grensbepaling</item>
+                     idref="detail_class_DomeinmodelBROSPR_ScherpteOndergrens">Scherpte ondergrens</item>
                <item/>
             </part>
             <part>
@@ -9760,18 +9783,22 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </part>
                   </content>
                </section>
-               <section name="bepaling ondergrens"
+               <section name="scherpte ondergrens"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Strooisellaag_bepalingOndergrens"
-                        id-global="global_attribute_DomeinmodelBROSPR_Strooisellaag_bepalingOndergrens">
+                        id="detail_attribute_DomeinmodelBROSPR_Strooisellaag_scherpteOndergrens"
+                        id-global="global_attribute_DomeinmodelBROSPR_Strooisellaag_scherpteOndergrens">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bepaling ondergrens</item>
+                        <item>scherpte ondergrens</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De manier waarop de ondergrens van de laag is bepaald, met een aanduiding van hoe scherp de grens is.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -9799,7 +9826,58 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Grensbepaling</item>
+                        <item>Scherpte ondergrens</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="vorm ondergrens"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_Strooisellaag_vormOndergrens"
+                        id-global="global_attribute_DomeinmodelBROSPR_Strooisellaag_vormOndergrens">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>vorm ondergrens</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De manier waarop de ondergrens van de laag is bepaald, met een aanduiding van welke vorm de grens heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>VormOndergrens</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10106,7 +10184,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Grensbepaling</item>
+                        <item>Scherpte ondergrens</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -12710,7 +12788,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Grensbepaling</item>
+                        <item>Scherpte ondergrens</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -16608,10 +16686,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="DEFINITION"/>
                </content>
             </section>
-            <section name="Grensbepaling"
+            <section name="Scherpte ondergrens"
                      type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROSPR_Grensbepaling"
-                     id-global="global_class_DomeinmodelBROSPR_Grensbepaling"
+                     id="detail_class_DomeinmodelBROSPR_ScherpteOndergrens"
+                     id-global="global_class_DomeinmodelBROSPR_ScherpteOndergrens"
                      uuid="EAID_8C7FABAC_2007_4a32_B7C3_89850082334B">
                <content>
                   <part>
