@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_2A1B0615_25D6_4ac5_B400_0ACC5A017C98"
       generator-version="1.47.1"
-      generator-date="2018-09-17T12:31:40Z">
+      generator-date="2018-09-17T12:40:04Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -1565,6 +1565,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
@@ -2081,6 +2085,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
@@ -2171,7 +2179,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_DomeinmodelBROSPR_TypeIngreep"
                      uuid="EAID_506737AC_5844_41f1_8F70_252EF03B8BC6"
                      idref="detail_class_DomeinmodelBROSPR_TypeIngreep">TypeIngreep</item>
-               <item/>
+               <item>TODO</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROSPR_Beschrijfkwaliteit"
@@ -4001,7 +4009,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>TODO</item>
                   </part>
                </content>
                <content>
