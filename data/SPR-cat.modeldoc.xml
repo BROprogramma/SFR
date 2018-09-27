@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_2A1B0615_25D6_4ac5_B400_0ACC5A017C98"
       generator-version="1.47.2"
-      generator-date="2018-09-27T07:48:22Z">
+      generator-date="2018-09-27T08:02:19Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -397,6 +397,10 @@
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
