@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_2A1B0615_25D6_4ac5_B400_0ACC5A017C98"
       generator-version="1.47.2"
-      generator-date="2018-09-27T07:41:01Z">
+      generator-date="2018-09-27T07:48:22Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -221,7 +221,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_InnameAntwoord_transactieID">transactie-ID</item>
                      </item>
-                     <item/>
+                     <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Transactiecode">Transactiecode</item>
                      </item>
@@ -232,7 +232,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_InnameAntwoord_bROID">BRO-ID</item>
                      </item>
-                     <item/>
+                     <item>TODO</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
@@ -244,7 +244,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_InnameAntwoord_objectIDBronhouder">object-ID bronhouder</item>
                      </item>
-                     <item/>
+                     <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Tekst200">Tekst200</item>
                      </item>
@@ -255,7 +255,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_InnameAntwoord_tijdstipVanAcceptatie">tijdstip van acceptatie</item>
                      </item>
-                     <item/>
+                     <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</item>
                      </item>
@@ -266,7 +266,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_InnameAntwoord_tijdstipVanVerwerking">tijdstip van verwerking</item>
                      </item>
-                     <item/>
+                     <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</item>
                      </item>
@@ -1475,6 +1475,10 @@ De opbouw is als volgt:
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
@@ -1521,6 +1525,10 @@ De opbouw is als volgt:
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -1569,6 +1577,10 @@ De opbouw is als volgt:
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
@@ -1616,6 +1628,10 @@ De opbouw is als volgt:
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
@@ -1662,6 +1678,10 @@ De opbouw is als volgt:
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
