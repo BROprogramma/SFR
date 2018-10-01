@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel - Copy" door Imvertor 1.47.2 op October 1, 2018 at 11:05:13.
+   "SPR conceptueel - Copy" door Imvertor 1.47.2 op October 1, 2018 at 13:45:10.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-Copy-0.1-0-20180831-20181001-130515"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-Copy-0.1-0-20180831-20181001-154512"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -785,8 +785,8 @@
    </section>
    <section id="">
       <h4>Primitieve datatypen </h4>
-      <a class="anchor" name="graph_EAID_60EFE9A2_98DF_4a28_A0D0_AB11E854E15D"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_AantalN"></a><section id="global_class_DomeinmodelBROCommon_AantalN">
-         <h5>Primitief datatype AantalN</h5>
+      <a class="anchor" name="graph_EAID_D7114781_1999_4b60_A215_CB1888579E76"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Aantal4"></a><section id="global_class_DomeinmodelBROCommon_Aantal4">
+         <h5>Primitief datatype Aantal4</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -794,7 +794,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>AantalN</td>
+                  <td>Aantal4</td>
                </tr>
                <tr>
                   <th>Definitie</th>
@@ -808,8 +808,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="graph_EAID_D7114781_1999_4b60_A215_CB1888579E76"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Aantal4"></a><section id="global_class_DomeinmodelBROCommon_Aantal4">
-         <h5>Primitief datatype Aantal4</h5>
+      <a class="anchor" name="graph_EAID_60EFE9A2_98DF_4a28_A0D0_AB11E854E15D"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_AantalN"></a><section id="global_class_DomeinmodelBROCommon_AantalN">
+         <h5>Primitief datatype AantalN</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -817,7 +817,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Aantal4</td>
+                  <td>AantalN</td>
                </tr>
                <tr>
                   <th>Definitie</th>
@@ -905,6 +905,44 @@
                <tr>
                   <th>Patroon</th>
                   <td>NNNNNNNN</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_D4E0604F_138B_42da_9B55_C70E57A9F32A"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="global_class_DomeinmodelBROCommon_Meetwaarde">
+         <h5>Primitief datatype Meetwaarde</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
+                     die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
+                     hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
+                     uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
+                     de eenheid dimensieloos.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
+                     Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
+                     is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+                     Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
+                     verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
+                     de maximale waarde aan die een attribuut kan hebben.
+                     Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
+                     eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
+                     N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
+                     achter het scheidingsteken.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4701,7 +4739,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_bewortelbareDiepte"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_bewortelbareDiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> bewortelbare diepte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4709,7 +4747,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>bewortelbare diepte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4717,12 +4755,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De diepte in de bodem tot waar beworteling mogelijk is.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4730,17 +4763,45 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <td>Het landgebruik bepaalt naar welke soort begroeiing er wordt gekeken. In bossen gaat
+                        het om de wortels van bomen, terwijl bij akkers naar de wortels van gewassen wordt
+                        gekeken.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt
+                        gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De bewortelbare diepte
+                        is niet groter dan de einddiepte wand van de entiteit wandontsluiting. 
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
@@ -4816,7 +4877,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_gemiddeldHoogsteGrondwaterstand"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_gemiddeldHoogsteGrondwaterstand"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> gemiddeld hoogste grondwaterstand</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4824,7 +4885,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>gemiddeld hoogste grondwaterstand</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4832,12 +4893,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De gemiddeld hoogste grondwaterstand bepaald in het wandprofiel.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4845,23 +4901,50 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <td>De diepte van het niveau wordt geschat op basis van aspecten als kleur, de aanwezigheid
+                        van ijzervlekken of concreties. De terreintoestand en het al dan niet aanwezig zijn
+                        van bepaalde planten kunnen bijdragen aan de bepaling.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand
+                        bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. 
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_gemiddeldLaagsteGrondwaterstand"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_gemiddeldLaagsteGrondwaterstand"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> gemiddeld laagste grondwaterstand</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4869,7 +4952,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>gemiddeld laagste grondwaterstand</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4877,12 +4960,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De gemiddeld laagste grondwaterstand bepaald in het wandprofiel.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4890,17 +4968,44 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <td>De diepte van het niveau wordt geschat op basis van aspecten als kleur en aanwezigheid
+                        van ijzervlekken of concreties. Waarnemingen over de terreintoestand en het al dan
+                        niet aanwezig zijn van bepaalde planten kunnen bijdragen aan de bepaling.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand
+                        bereikt aanwezig is. In andere gevallen ontbreekt het gegeven. etc
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
@@ -4974,7 +5079,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_begindiepteVerdichting"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_begindiepteVerdichting"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> begindiepte verdichting</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4982,7 +5087,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>begindiepte verdichting</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4990,36 +5095,51 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De diepte waarop de verdichting begint.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk
+                        is aan ja. In andere gevallen ontbreekt het gegeven. 
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_einddiepteVerdichting"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_einddiepteVerdichting"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> einddiepte verdichting</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -5027,7 +5147,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>einddiepte verdichting</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -5035,30 +5155,46 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De diepte waarop de verdichting eindigt.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk
+                        is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte verdichting is
+                        groter dan de begindiepte verdichting van het interval. 
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
@@ -5130,7 +5266,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_begindiepteWortelzakken"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_begindiepteWortelzakken"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> begindiepte wortelzakken</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -5138,7 +5274,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>begindiepte wortelzakken</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -5146,36 +5282,51 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De diepte vanaf waar de bovenste wortelzak begint.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut wortelzakken aanwezig
+                        gelijk is aan ja. In andere gevallen ontbreekt het gegeven. 
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_einddiepteWortelzakken"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_einddiepteWortelzakken"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> einddiepte wortelzakken</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -5183,7 +5334,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>einddiepte wortelzakken</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -5191,30 +5342,46 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De diepte tot waar de diepste wortelzak reikt.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut wortelzakken aanwezig
+                        gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte wortelzakken
+                        is niet groter dan de einddiepte wand van de entiteit wandontsluiting.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
@@ -5407,7 +5574,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_Meetwaarde"></a><section id="detail_class_DomeinmodelBROCommon_Meetwaarde"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> Meetwaarde</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_einddiepteIngreep"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_einddiepteIngreep"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> einddiepte ingreep</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -5415,7 +5582,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Meetwaarde</td>
+                     <td>einddiepte ingreep</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -5423,30 +5590,46 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
-                        die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal
-                        hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes
-                        uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is
-                        de eenheid dimensieloos.
-                     </td>
+                     <td>De diepte waarop de ingreep eindigt.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken.
-                        Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken
-                        is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-                        Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein
-                        verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en
-                        de maximale waarde aan die een attribuut kan hebben.
-                        Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de
-                        eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als
-                        N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers
-                        achter het scheidingsteken.
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut ingreep opbouw gelijk
+                        is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte ingreep is niet
+                        groter dan de einddiepte wand van de entiteit wandontsluiting.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
