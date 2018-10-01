@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_2A1B0615_25D6_4ac5_B400_0ACC5A017C98"
       generator-version="1.47.2"
-      generator-date="2018-09-27T08:02:19Z">
+      generator-date="2018-10-01T11:05:13Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -91,7 +91,7 @@
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -102,7 +102,7 @@
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Tekst200">Tekst200</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -113,7 +113,7 @@
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -123,7 +123,7 @@
                      <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
                      <item>
                         <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                              idref="global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -201,7 +201,7 @@
                      <item>TODO</item>
                      <item>
                         <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_BerichttypeBevestigingVanVerzending">Berichttype bevestiging van verzending</item>
+                              idref="global_class_DomeinmodelBROCommon_BerichttypeBevestigingVanRegistratie">Berichttype bevestiging van registratie</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -237,7 +237,7 @@
                         <item type="global"
                               idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -248,7 +248,7 @@
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Tekst200">Tekst200</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -259,7 +259,7 @@
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -270,7 +270,7 @@
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -352,7 +352,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing">Tijdstip van afwijzing</item>
+                              idref="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending">Tijdstip van verzending</item>
                      </item>
                      <item>TODO</item>
                      <item>
@@ -374,101 +374,11 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending">Tijdstip van verzending</item>
+                              idref="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing">Tijdstip van afwijzing</item>
                      </item>
                      <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
-         <section name="Correctieverzoek"
-                  type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROCommon_Correctieverzoek"
-                  uuid="EAID_BDBD5E16_D201_43b8_BB3C_37C788C0A90B">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Correctieverzoek</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>TODO</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_verzoekkenmerk">verzoekkenmerk</item>
-                     </item>
-                     <item>Todo</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Tekst200">Tekst200</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bronhouder">bronhouder</item>
-                     </item>
-                     <item>Todo</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bROID">BRO-ID</item>
-                     </item>
-                     <item>Todo</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_kwaliteitsregime">kwaliteitsregime</item>
-                     </item>
-                     <item>Todo</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_onderVoorrecht">onder voorrecht</item>
-                     </item>
-                     <item>Todo</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -661,7 +571,7 @@ toegankelijk.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -735,7 +645,7 @@ toegankelijk.</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_VoidReason">VoidReason</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_RedenGeenWaarde">RedenGeenWaarde</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -743,58 +653,7 @@ toegankelijk.</item>
             </section>
          </section>
       </section>
-      <section type="OVERVIEW-STRUCTUREDDATATYPE">
-         <section name="Coördinatenpaar"
-                  type="STRUCTUREDDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_CoRdinatenpaar"
-                  uuid="EAID_AE95B810_A1A3_4468_A580_01FDF0CF16D0">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Coördinatenpaar</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2).</item>
-               </part>
-            </content>
-            <section type="SHORT-DATAELEMENTS">
-               <content>
-                  <itemtype/>
-                  <itemtype type="DATAELEMENT-NAME"/>
-                  <itemtype type="DATAELEMENT-DEFINITION"/>
-                  <itemtype type="DATAELEMENT-FORMAT"/>
-                  <itemtype type="DATAELEMENT-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1">coördinaat1</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">REAL</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2">coördinaat2</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">REAL</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
-      </section>
+      <!--removed empty content-->
       <section type="OVERVIEW-PRIMITIVEDATATYPE">
          <section name="AantalN"
                   type="PRIMITIVEDATATYPE"
@@ -1062,9 +921,9 @@ De opbouw is als volgt:
                <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
-               <item id="global_class_DomeinmodelBROCommon_VoidReason"
+               <item id="global_class_DomeinmodelBROCommon_RedenGeenWaarde"
                      uuid="EAID_08C54B00_816A_41df_9BDE_447623BEAD29"
-                     idref="detail_class_DomeinmodelBROCommon_VoidReason">VoidReason</item>
+                     idref="detail_class_DomeinmodelBROCommon_RedenGeenWaarde">RedenGeenWaarde</item>
                <item>TODO</item>
             </part>
             <part>
@@ -1178,7 +1037,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1233,7 +1092,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1288,7 +1147,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1351,7 +1210,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNeeOnbekend</item>
+                        <item>Kwaliteitsregime</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1407,7 +1266,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Berichttype bevestiging van verzending</item>
+                        <item>Berichttype bevestiging van registratie</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1552,7 +1411,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1603,7 +1462,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1654,7 +1513,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1705,7 +1564,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -1930,14 +1789,14 @@ De opbouw is als volgt:
                      </part>
                   </content>
                </section>
-               <section name="Tijdstip van afwijzing"
+               <section name="Tijdstip van verzending"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing"
-                        id-global="global_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing">
+                        id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending"
+                        id-global="global_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Tijdstip van afwijzing</item>
+                        <item>Tijdstip van verzending</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -2032,14 +1891,14 @@ De opbouw is als volgt:
                      </part>
                   </content>
                </section>
-               <section name="Tijdstip van verzending"
+               <section name="Tijdstip van afwijzing"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending"
-                        id-global="global_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending">
+                        id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing"
+                        id-global="global_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Tijdstip van verzending</item>
+                        <item>Tijdstip van afwijzing</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -2076,266 +1935,6 @@ De opbouw is als volgt:
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-            <section name="Correctieverzoek"
-                     type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROCommon_Correctieverzoek"
-                     id-global="global_class_DomeinmodelBROCommon_Correctieverzoek">
-               <section name="verzoekkenmerk"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_verzoekkenmerk"
-                        id-global="global_attribute_DomeinmodelBROCommon_Correctieverzoek_verzoekkenmerk">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>verzoekkenmerk</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Todo</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Tekst200</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="bronhouder"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bronhouder"
-                        id-global="global_attribute_DomeinmodelBROCommon_Correctieverzoek_bronhouder">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bronhouder</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Todo</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>KvK-nummer</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="BRO-ID"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bROID"
-                        id-global="global_attribute_DomeinmodelBROCommon_Correctieverzoek_bROID">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRO-ID</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Todo</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Registratieobjectcode</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="kwaliteitsregime"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_kwaliteitsregime"
-                        id-global="global_attribute_DomeinmodelBROCommon_Correctieverzoek_kwaliteitsregime">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>kwaliteitsregime</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Todo</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Kwaliteitsregime</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="onder voorrecht"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_onderVoorrecht"
-                        id-global="global_attribute_DomeinmodelBROCommon_Correctieverzoek_onderVoorrecht">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>onder voorrecht</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Todo</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2682,7 +2281,7 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2775,65 +2374,13 @@ De opbouw is als volgt:
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>VoidReason</item>
+                        <item>RedenGeenWaarde</item>
                      </part>
                   </content>
                </section>
             </section>
          </section>
-         <section type="DETAILS-STRUCTUREDDATATYPE">
-            <section name="Coördinatenpaar"
-                     type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"
-                     id-global="global_class_DomeinmodelBROCommon_CoRdinatenpaar">
-               <section name="coördinaat1"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"
-                        id-global="global_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>coördinaat1</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>REAL</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="coördinaat2"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"
-                        id-global="global_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>coördinaat2</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>REAL</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
+         <!--removed empty content-->
          <!--removed empty content-->
          <section type="DETAILS-CODELIST">
             <section name="Coördinaattransformatie"
@@ -3030,10 +2577,10 @@ De opbouw is als volgt:
                   </part>
                </content>
             </section>
-            <section name="VoidReason"
+            <section name="RedenGeenWaarde"
                      type="DETAIL-ENUMERATION"
-                     id="detail_class_DomeinmodelBROCommon_VoidReason"
-                     id-global="global_class_DomeinmodelBROCommon_VoidReason"
+                     id="detail_class_DomeinmodelBROCommon_RedenGeenWaarde"
+                     id-global="global_class_DomeinmodelBROCommon_RedenGeenWaarde"
                      uuid="EAID_08C54B00_816A_41df_9BDE_447623BEAD29">
                <content>
                   <part>

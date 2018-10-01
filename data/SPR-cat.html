@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel - Copy" door Imvertor 1.47.2 op September 27, 2018 at 08:02:19.
+   "SPR conceptueel - Copy" door Imvertor 1.47.2 op October 1, 2018 at 11:05:13.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-Copy-0.1-0-20180831-20180927-100221"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-Copy-0.1-0-20180831-20181001-130515"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -125,7 +125,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -140,7 +140,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -154,7 +154,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -163,7 +163,7 @@
                   </td>
                   <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a>
                      
                   </td>
                   <td>1</td>
@@ -246,7 +246,7 @@
                   </td>
                   <td>TODO</td>
                   <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_BerichttypeBevestigingVanVerzending">Berichttype bevestiging van verzending</a>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_BerichttypeBevestigingVanRegistratie">Berichttype bevestiging van registratie</a>
                      
                   </td>
                   <td>1</td>
@@ -285,7 +285,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -297,7 +297,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -309,7 +309,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -321,7 +321,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -418,7 +418,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing">Tijdstip van afwijzing</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending">Tijdstip van verzending</a>
                      
                   </td>
                   <td>TODO</td>
@@ -442,117 +442,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending">Tijdstip van verzending</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing">Tijdstip van afwijzing</a>
                      
                   </td>
                   <td>TODO</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-      </section>
-      <a class="anchor" name="graph_EAID_BDBD5E16_D201_43b8_BB3C_37C788C0A90B"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_Correctieverzoek"></a><section id="global_class_DomeinmodelBROCommon_Correctieverzoek">
-         <h5>Objecttype Correctieverzoek</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Correctieverzoek</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>TODO</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <h6>Overzicht attributen</h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Attribuutnaam</th>
-                  <th>Definitie</th>
-                  <th>Formaat</th>
-                  <th>Card</th>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Correctieverzoek_verzoekkenmerk">verzoekkenmerk</a>
-                     
-                  </td>
-                  <td>Todo</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bronhouder">bronhouder</a>
-                     
-                  </td>
-                  <td>Todo</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bROID">BRO-ID</a>
-                     
-                  </td>
-                  <td>Todo</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Correctieverzoek_kwaliteitsregime">kwaliteitsregime</a>
-                     
-                  </td>
-                  <td>Todo</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Correctieverzoek_onderVoorrecht">onder voorrecht</a>
-                     
-                  </td>
-                  <td>Todo</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -782,7 +677,7 @@
                      <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -875,82 +770,7 @@
                      </td>
                      <td></td>
                      <td>
-                        <a class="link" href="#global_class_DomeinmodelBROCommon_VoidReason">VoidReason</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      
-   </section>
-   <section id="">
-      <h4>Gestruktureerde datatypen </h4>
-      <a class="anchor" name="graph_EAID_AE95B810_A1A3_4468_A580_01FDF0CF16D0"></a><a class="anchor" name="global_class_DomeinmodelBROCommon_CoRdinatenpaar"></a><section id="global_class_DomeinmodelBROCommon_CoRdinatenpaar">
-         <h5>Gestructureerd datatype Coördinatenpaar</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Coördinatenpaar</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak
-                     vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt
-                     in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie
-                     voor het paar is (coördinaat 1, coördinaat 2).
-                  </td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1">coördinaat1</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        REAL
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2">coördinaat2</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        REAL
+                        <a class="link" href="#global_class_DomeinmodelBROCommon_RedenGeenWaarde">RedenGeenWaarde</a>
                         
                      </td>
                      <td>1</td>
@@ -1344,7 +1164,7 @@
                </td>
             </tr>
             <tr>
-               <th><a class="anchor" name="global_class_DomeinmodelBROCommon_VoidReason"></a><a class="link" href="#detail_class_DomeinmodelBROCommon_VoidReason">VoidReason</a></th>
+               <th><a class="anchor" name="global_class_DomeinmodelBROCommon_RedenGeenWaarde"></a><a class="link" href="#detail_class_DomeinmodelBROCommon_RedenGeenWaarde">RedenGeenWaarde</a></th>
                <td>TODO</td>
             </tr>
             <tr>
@@ -1460,7 +1280,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1524,7 +1344,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1586,7 +1406,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1652,7 +1472,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>IndicatieJaNeeOnbekend</td>
+                     <td>Kwaliteitsregime</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -1710,7 +1530,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Berichttype bevestiging van verzending</td>
+                     <td>Berichttype bevestiging van registratie</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -1864,7 +1684,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1918,7 +1738,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1972,7 +1792,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2026,7 +1846,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2264,7 +2084,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing"></a><section id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_BerichtVanVerzendingGegevens">Bericht van verzending gegevens</a> Tijdstip van afwijzing</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending"></a><section id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_BerichtVanVerzendingGegevens">Bericht van verzending gegevens</a> Tijdstip van verzending</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -2272,7 +2092,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Tijdstip van afwijzing</td>
+                     <td>Tijdstip van verzending</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -2372,7 +2192,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending"></a><section id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanVerzending"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_BerichtVanVerzendingGegevens">Bericht van verzending gegevens</a> Tijdstip van verzending</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing"></a><section id="detail_attribute_DomeinmodelBROCommon_BerichtVanVerzendingGegevens_tijdstipVanAfwijzing"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_BerichtVanVerzendingGegevens">Bericht van verzending gegevens</a> Tijdstip van afwijzing</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -2380,7 +2200,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Tijdstip van verzending</td>
+                     <td>Tijdstip van afwijzing</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -2417,280 +2237,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROCommon_Correctieverzoek"></a><section id="detail_class_DomeinmodelBROCommon_Correctieverzoek">
-         <h6>Objecttype Correctieverzoek</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_verzoekkenmerk"></a><section id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_verzoekkenmerk"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Correctieverzoek">Correctieverzoek</a> verzoekkenmerk</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>verzoekkenmerk</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Todo</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst200</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bronhouder"></a><section id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Correctieverzoek">Correctieverzoek</a> bronhouder</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>bronhouder</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Todo</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KvK-nummer</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bROID"></a><section id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_bROID"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Correctieverzoek">Correctieverzoek</a> BRO-ID</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>BRO-ID</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Todo</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Registratieobjectcode</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_kwaliteitsregime"></a><section id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_kwaliteitsregime"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Correctieverzoek">Correctieverzoek</a> kwaliteitsregime</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>kwaliteitsregime</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Todo</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Kwaliteitsregime</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_onderVoorrecht"></a><section id="detail_attribute_DomeinmodelBROCommon_Correctieverzoek_onderVoorrecht"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Correctieverzoek">Correctieverzoek</a> onder voorrecht</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>onder voorrecht</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Todo</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNeeOnbekend</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3064,7 +2610,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -3168,7 +2714,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>VoidReason</td>
+                     <td>RedenGeenWaarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3177,63 +2723,6 @@
          
       </section>
       
-      
-      <a class="anchor" name="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"></a><section id="detail_class_DomeinmodelBROCommon_CoRdinatenpaar">
-         <h6>Gestructureerd datatype Coördinatenpaar</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"></a><section id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"><strong>Data element details <a href="#global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</a> coördinaat1</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>coördinaat1</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>REAL</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"></a><section id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"><strong>Data element details <a href="#global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</a> coördinaat2</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>coördinaat2</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>REAL</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       
       
       
@@ -3537,8 +3026,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="graph_EAID_08C54B00_816A_41df_9BDE_447623BEAD29"></a><a class="anchor" name="detail_class_DomeinmodelBROCommon_VoidReason"></a><section id="detail_class_DomeinmodelBROCommon_VoidReason">
-         <h6>Enumeratie details <a href="#"></a> VoidReason
+      <a class="anchor" name="graph_EAID_08C54B00_816A_41df_9BDE_447623BEAD29"></a><a class="anchor" name="detail_class_DomeinmodelBROCommon_RedenGeenWaarde"></a><section id="detail_class_DomeinmodelBROCommon_RedenGeenWaarde">
+         <h6>Enumeratie details <a href="#"></a> RedenGeenWaarde
          </h6>
          
          <table>
@@ -3660,7 +3149,6 @@
 </section><a class="anchor" name="global_package_DomeinmodelBROSPR"></a><section id="global_package_DomeinmodelBROSPR">
    <h3>Domein Domeinmodel BRO SPR</h3>
    <div class="imageinfo overview"><img src="data/Images/EAID_DA11A7B4_75E1_4f35_BB67_F6BB1D919141.png" usemap="#imagemap-EAID_DA11A7B4_75E1_4f35_BB67_F6BB1D919141"><map name="imagemap-EAID_DA11A7B4_75E1_4f35_BB67_F6BB1D919141">
-         <area shape="rect" coords="25,136,304,35" alt="" href="#graph_EAID_BDBD5E16_D201_43b8_BB3C_37C788C0A90B">
          <area shape="rect" coords="407,288,635,200" alt="" href="#graph_EAID_79B792D4_3390_429f_8B40_8ACDC17C6A54">
          <area shape="rect" coords="407,130,635,50" alt="" href="#graph_EAID_67A391FF_130A_40a2_A80E_A580D39D424C">
          <area shape="rect" coords="377,808,667,538" alt="" href="#graph_EAID_3229F8DD_C903_450d_9D3B_742B3AC0E1C7">
