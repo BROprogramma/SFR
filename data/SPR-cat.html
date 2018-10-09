@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door Imvertor 1.47.2 op October 8, 2018 at 12:47:40.
+   "SPR conceptueel" door Imvertor 1.47.2 op October 9, 2018 at 15:53:46.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181008-144742"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181009-175348"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -1869,6 +1869,7 @@
 </section><a class="anchor" name="global_package_DomeinmodelBROSPR"></a><section id="global_package_DomeinmodelBROSPR">
    <h3>Domein Domeinmodel BRO SPR</h3>
    <div class="imageinfo overview"><img src="data/Images/EAID_4968FCD8_1F02_446b_8736_2FECA525BBCF.png" usemap="#imagemap-EAID_4968FCD8_1F02_446b_8736_2FECA525BBCF"><map name="imagemap-EAID_4968FCD8_1F02_446b_8736_2FECA525BBCF">
+         <area shape="rect" coords="158,1846,248,1776" alt="" href="#graph_EAID_40B71A7F_12AC_4ad4_9398_037829DEF151">
          <area shape="rect" coords="563,1445,862,1357" alt="" href="#graph_EAID_0EB5B848_80BA_4dad_AFBB_88523BA215FA">
          <area shape="rect" coords="1094,969,1392,867" alt="" href="#graph_EAID_7439D539_C3B4_41d7_884C_4892DACE8616">
          <area shape="rect" coords="10,1685,326,1583" alt="" href="#graph_EAID_723B9E70_C415_406e_AFDD_5B4B8162F99B">
@@ -4066,6 +4067,21 @@
                      <a class="link" href="#detail_association_DomeinmodelBROSPR_GrondNOGUITWERKEN">heeft</a>
                      
                      
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Aggregaat">Aggregaat</a>
+                     
+                     [ 0 .. 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Grond (NOG UITWERKEN)
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_GrondNOGUITWERKEN">heeft</a>
+                     
+                     
                      <a class="link" href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a>
                      
                      [ 0 .. 1 ]
@@ -4899,6 +4915,89 @@
                      
                      Wandfoto (BUITEN SCOPE)
                      [ 0 .. * ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_40B71A7F_12AC_4ad4_9398_037829DEF151"></a><a class="anchor" name="global_class_DomeinmodelBROSPR_Aggregaat"></a><section id="global_class_DomeinmodelBROSPR_Aggregaat">
+         <h5>Objecttype Aggregaat</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Aggregaat</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Aggregaat_vorm">Vorm</a>
+                     
+                  </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Vorm">Vorm</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_GrondNOGUITWERKEN">Grond (NOG UITWERKEN)</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_GrondNOGUITWERKEN">heeft</a>
+                     
+                     Aggregaat
+                     [ 0 .. 1 ]
                      
                   </td>
                   <td></td>
@@ -6377,6 +6476,14 @@
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Bodemgebruik"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Bodemgebruik">Bodemgebruik</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Bijzonderheid"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Bijzonderheid">bijzonderheid</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Vorm"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Vorm">Vorm</a></th>
                <td></td>
             </tr>
             <tr>
@@ -12442,6 +12549,56 @@
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Gerelateerd objecttype</th>
+                     <td>
+                        <a class="link" href="#global_class_DomeinmodelBROSPR_Aggregaat">Aggregaat</a>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_association_DomeinmodelBROSPR_GrondNOGUITWERKEN"></a><section id="detail_association_DomeinmodelBROSPR_GrondNOGUITWERKEN"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_GrondNOGUITWERKEN">Grond (NOG UITWERKEN)</a> heeft</strong>
+            
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>heeft</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
                      <td>Ja</td>
                   </tr>
                   <tr>
@@ -13929,6 +14086,60 @@
          
       </section>
       
+      <a class="anchor" name="detail_class_DomeinmodelBROSPR_Aggregaat"></a><section id="detail_class_DomeinmodelBROSPR_Aggregaat">
+         <h6>Objecttype Aggregaat</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Aggregaat_vorm"></a><section id="detail_attribute_DomeinmodelBROSPR_Aggregaat_vorm"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Aggregaat">Aggregaat</a> Vorm</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>Vorm</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Vorm</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
       <a class="anchor" name="detail_class_DomeinmodelBROSPR_Vlek"></a><section id="detail_class_DomeinmodelBROSPR_Vlek">
          <h6>Objecttype Vlek</h6>
          <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Vlek_vlekkleur"></a><section id="detail_attribute_DomeinmodelBROSPR_Vlek_vlekkleur"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Vlek">Vlek</a> vlekkleur</strong>
@@ -18012,6 +18223,58 @@
       </section>
       <a class="anchor" name="graph_EAID_83A1E9F6_C466_472d_AE50_F355EE950337"></a><a class="anchor" name="detail_class_DomeinmodelBROSPR_Bodemgebruik"></a><section id="detail_class_DomeinmodelBROSPR_Bodemgebruik">
          <h6>Codelijst details <a href="#"></a> Bodemgebruik
+         </h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_8427EEDC_0E1A_4bb8_9A0D_D0CE91ABE77E"></a><a class="anchor" name="detail_class_DomeinmodelBROSPR_Bijzonderheid"></a><section id="detail_class_DomeinmodelBROSPR_Bijzonderheid">
+         <h6>Codelijst details <a href="#"></a> bijzonderheid
+         </h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_8C47B2ED_938D_4d11_8F45_383FE38C0F7A"></a><a class="anchor" name="detail_class_DomeinmodelBROSPR_Vorm"></a><section id="detail_class_DomeinmodelBROSPR_Vorm">
+         <h6>Codelijst details <a href="#"></a> Vorm
          </h6>
          
          <table>
