@@ -3,8 +3,8 @@
       subpath="Conceptual model/SPR conceptueel/20180831"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
-      generator-version="1.47.3"
-      generator-date="2018-10-16T13:38:40Z">
+      generator-version="1.47.5"
+      generator-date="2018-10-17T18:15:16Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -17798,6 +17798,21 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>blok</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>plaat</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>prisma</item>
+                     <item/>
+                  </part>
                </content>
             </section>
             <section name="ScherpteOndergrens"
