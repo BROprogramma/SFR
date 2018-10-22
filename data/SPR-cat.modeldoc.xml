@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.5"
-      generator-date="2018-10-19T11:28:31Z">
+      generator-date="2018-10-22T12:20:52Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -4239,22 +4239,22 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_gesteentesoort">gesteentesoort</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_horizontcode">horizontcode</item>
                      </item>
-                     <item>De naam van het geconsolideerde gesteente.</item>
+                     <item>De code van de horizon waartoe het geconsolideerd gesteente volgens de Nederlandse classificatie wordt gerekend.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Gesteentesoort">Gesteentesoort</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_Horizontcode">Horizontcode</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_horizontcode">horizontcode</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_gesteentesoort">gesteentesoort</item>
                      </item>
-                     <item>De code van de horizon waartoe het geconsolideerd gesteente volgens de Nederlandse classificatie wordt gerekend.</item>
+                     <item>De naam van het geconsolideerde gesteente.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Horizontcode">Horizontcode</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_Gesteentesoort">Gesteentesoort</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -13253,57 +13253,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </part>
                   </content>
                </section>
-               <section name="gesteentesoort"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_gesteentesoort"
-                        id-global="global_attribute_DomeinmodelBROSPR_VastGesteentelaag_gesteentesoort">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>gesteentesoort</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De naam van het geconsolideerde gesteente.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Gesteentesoort</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="horizontcode"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_horizontcode"
@@ -13348,6 +13297,57 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Horizontcode</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="gesteentesoort"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_VastGesteentelaag_gesteentesoort"
+                        id-global="global_attribute_DomeinmodelBROSPR_VastGesteentelaag_gesteentesoort">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>gesteentesoort</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De naam van het geconsolideerde gesteente.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Gesteentesoort</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
