@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-10-29T10:55:58Z">
+      generator-date="2018-10-29T11:14:04Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -4319,7 +4319,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse">rijpingsklasse</item>
                      </item>
-                     <item>De graad van rijping van klei- en leemhoudende grond uitgedrukt in klassen.</item>
+                     <item>De graad van rijping van klei- en leemhoudende grond uitgedrukt in een klasse.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Rijpingsklasse">Rijpingsklasse</item>
                      </item>
@@ -13667,7 +13667,7 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De graad van rijping van klei- en leemhoudende grond uitgedrukt in klassen.</item>
+                        <item>De graad van rijping van klei- en leemhoudende grond uitgedrukt in een klasse.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
