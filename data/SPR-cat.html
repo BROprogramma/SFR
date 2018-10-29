@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door Imvertor 1.47.6 op October 29, 2018 at 09:04:43.
+   "SPR conceptueel" door Imvertor 1.47.6 op October 29, 2018 at 10:55:58.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181029-100445"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181029-115600"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -4460,7 +4460,7 @@
                      <a class="link" href="#detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</a>
                      
                      
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grond">Grond</a>
                      
                      [ 1 ]
                      
@@ -4487,8 +4487,8 @@
          
          
       </section>
-      <a class="anchor" name="graph_EAID_7B5A7FB0_C5D5_4250_9478_49C85B05CE75"></a><a class="anchor" name="global_class_DomeinmodelBROSPR_Grondsoort"></a><section id="global_class_DomeinmodelBROSPR_Grondsoort">
-         <h5>Objecttype Grondsoort</h5>
+      <a class="anchor" name="graph_EAID_7B5A7FB0_C5D5_4250_9478_49C85B05CE75"></a><a class="anchor" name="global_class_DomeinmodelBROSPR_Grond"></a><section id="global_class_DomeinmodelBROSPR_Grond">
+         <h5>Objecttype Grond</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -4496,7 +4496,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Grondsoort</td>
+                  <td>Grond</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -4509,6 +4509,13 @@
                <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De samenstelling van de grond wordt in de bodemkunde beschreven op basis van de STIBOKA-classificatie.
+                     Om die informatie meer toegankelijk te maken voor gebruikers uit andere vakgebieden
+                     wordt, waar mogelijk, ook de naam gegeven die op de NEN 5104 is gebaseerd.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4529,7 +4536,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_nEN5104Grondsoort">NEN 5104 grondsoort</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_nEN5104Grondsoort">NEN 5104 grondsoort</a>
                      
                   </td>
                   <td>De naam van de grondsoort volgens de classificatie die in Nederland als standaard
@@ -4539,11 +4546,11 @@
                      <a class="link" href="#global_class_DomeinmodelBROSPR_NEN5104Grondsoort">NEN5104Grondsoort</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_grondsoortVolgensLeemdriehoek">grondsoort volgens leemdriehoek</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_grondsoortVolgensLeemdriehoek">grondsoort volgens leemdriehoek</a>
                      
                   </td>
                   <td>De aanduiding die aangeeft of de bodemkundige naam van de grondsoort is gebaseerd
@@ -4557,7 +4564,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_bodemkundigeGrondsoort">bodemkundige grondsoort</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_bodemkundigeGrondsoort">bodemkundige grondsoort</a>
                      
                   </td>
                   <td>De naam van de grondsoort volgens de Nederlandse bodemkundige classificatie.</td>
@@ -4569,10 +4576,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_bijzonderBestanddeel">bijzonder bestanddeel</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_bijzonderBestanddeel">bijzonder bestanddeel</a>
                      
                   </td>
-                  <td></td>
+                  <td>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend
+                     en met, wanneer relevant, aanduiding van de relatieve hoeveelheid ervan.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_BijzonderBestanddeel">BijzonderBestanddeel</a>
                      
@@ -4581,10 +4590,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_kleur">kleur</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_kleur">kleur</a>
                      
                   </td>
-                  <td></td>
+                  <td>De kleur van de grond.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Kleur">Kleur</a>
                      
@@ -4593,19 +4602,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_metVlekken">met vlekken</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_organischeStofgehalteklasse">organische stofgehalteklasse</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse">organische stofgehalteklasse</a>
                      
                   </td>
                   <td>Het gehalte aan organische stof uitgedrukt in een klasse volgens de classificatie
@@ -4619,10 +4616,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_zandverkitting">zandverkitting</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_zandverkitting">zandverkitting</a>
                      
                   </td>
-                  <td></td>
+                  <td>De mate van verkitting van zandkorrels, uitgedrukt in een klasse.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Zandverkitting">Zandverkitting</a>
                      
@@ -4631,7 +4628,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_zanddichtheid">zanddichtheid</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid">zanddichtheid</a>
                      
                   </td>
                   <td></td>
@@ -4643,7 +4640,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_zandmediaan">zandmediaan</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_geschatteZandmediaan">geschatte zandmediaan</a>
                      
                   </td>
                   <td>De mediaan van de zandfractie.</td>
@@ -4655,7 +4652,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_veensoort">veensoort</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_veensoort">veensoort</a>
                      
                   </td>
                   <td>Een nadere typering van het als veen omschreven bestanddeel van grond.</td>
@@ -4667,7 +4664,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_kalkgehalteklasse">kalkgehalteklasse</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_kalkgehalteklasse">kalkgehalteklasse</a>
                      
                   </td>
                   <td>Het gehalte aan koolzure kalk uitgedrukt in een klasse.</td>
@@ -4679,7 +4676,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_rijpingsklasse">rijpingsklasse</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse">rijpingsklasse</a>
                      
                   </td>
                   <td>De graad van rijping van klei- en leemhoudende grond uitgedrukt in klassen.</td>
@@ -4691,10 +4688,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_knip">knip</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_knip">knip</a>
                      
                   </td>
-                  <td></td>
+                  <td>To Do</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -4703,7 +4700,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_grindhoudend">grindhoudend</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_grindhoudend">grindhoudend</a>
                      
                   </td>
                   <td>De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</td>
@@ -4715,7 +4712,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_grindgehalteklasse">grindgehalteklasse</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_grindgehalteklasse">grindgehalteklasse</a>
                      
                   </td>
                   <td>Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt
@@ -4729,7 +4726,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalhoudend">schelpmateriaalhoudend</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalhoudend">schelpmateriaalhoudend</a>
                      
                   </td>
                   <td>De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal
@@ -4743,7 +4740,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalgehalteklasse">schelpmateriaalgehalteklasse</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalgehalteklasse">schelpmateriaalgehalteklasse</a>
                      
                   </td>
                   <td>Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal
@@ -4757,10 +4754,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_watergehalteklasse">watergehalteklasse</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_vochtigheidstoestand">vochtigheidstoestand</a>
                      
                   </td>
-                  <td></td>
+                  <td>De gegevens over de toestand van de vochtigheid van de grond tijdens het onderzoek.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Watergehalteklasse">Watergehalteklasse</a>
                      
@@ -4769,10 +4766,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_gelaagdeInhomogeniteit">gelaagde inhomogeniteit</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_gelaagdeInhomogeniteit">gelaagde inhomogeniteit</a>
                      
                   </td>
-                  <td></td>
+                  <td>De afwijkende laagjes in een samengestelde laag getypeerd naar soort grond.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_GelaagdeInhomogeniteit">GelaagdeInhomogeniteit</a>
                      
@@ -4781,10 +4778,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grondsoort_disperseInhomogeniteit">disperse inhomogeniteit</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_disperseInhomogeniteit">disperse inhomogeniteit</a>
                      
                   </td>
-                  <td></td>
+                  <td>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende
+                     grond naar hoeveelheid en materiaal.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_DisperseInhomogeniteit">DisperseInhomogeniteit</a>
                      
@@ -4808,10 +4807,10 @@
                </tr>
                <tr>
                   <td>
-                     Grondsoort
+                     Grond
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Vlek">Vlek</a>
@@ -4823,10 +4822,10 @@
                </tr>
                <tr>
                   <td>
-                     Grondsoort
+                     Grond
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Aggregaat">Aggregaat</a>
@@ -4838,10 +4837,10 @@
                </tr>
                <tr>
                   <td>
-                     Grondsoort
+                     Grond
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      
                      <a class="link" href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a>
@@ -4853,10 +4852,10 @@
                </tr>
                <tr>
                   <td>
-                     Grondsoort
+                     Grond
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a>
@@ -4875,7 +4874,7 @@
                      
                      <a class="link" href="#detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</a>
                      
-                     Grondsoort
+                     Grond
                      [ 1 ]
                      
                   </td>
@@ -4976,11 +4975,11 @@
                <tr>
                   <td>
                      
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grond">Grond</a>
                      
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      Vlek
                      [ 0 .. 3 ]
@@ -5131,11 +5130,11 @@
                <tr>
                   <td>
                      
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grond">Grond</a>
                      
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      Aggregaat
                      [ 0 .. 1 ]
@@ -5273,11 +5272,11 @@
                <tr>
                   <td>
                      
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grond">Grond</a>
                      
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      Fractieverdeling
                      [ 0 .. 1 ]
@@ -5505,11 +5504,11 @@
                <tr>
                   <td>
                      
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Grond">Grond</a>
                      
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grondsoort">heeft</a>
+                     <a class="link" href="#detail_association_DomeinmodelBROSPR_Grond">heeft</a>
                      
                      Onvolledige fractiespecificatie
                      [ 0 .. 1 ]
@@ -13494,7 +13493,7 @@
                   <tr>
                      <th>Gerelateerd objecttype</th>
                      <td>
-                        <a class="link" href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a>
+                        <a class="link" href="#global_class_DomeinmodelBROSPR_Grond">Grond</a>
                         
                      </td>
                   </tr>
@@ -13504,9 +13503,9 @@
          </section>
          
       </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROSPR_Grondsoort"></a><section id="detail_class_DomeinmodelBROSPR_Grondsoort">
-         <h6>Objecttype Grondsoort</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_nEN5104Grondsoort"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_nEN5104Grondsoort"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> NEN 5104 grondsoort</strong>
+      <a class="anchor" name="detail_class_DomeinmodelBROSPR_Grond"></a><section id="detail_class_DomeinmodelBROSPR_Grond">
+         <h6>Objecttype Grond</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_nEN5104Grondsoort"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_nEN5104Grondsoort"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> NEN 5104 grondsoort</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13531,6 +13530,13 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>De naam is afgeleid uit de waarden voor de fractieverdeling. De namen zijn, zolang
+                        de NEN-EN-ISO 14688-norm niet is omgezet naar standaardnamen, maar naar de NEN 5104
+                        norm, voorlopig.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -13544,11 +13550,18 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>De waarde nietBepaald is alleen toegestaan onder IMBRO/A en alleen wanneer de waarde
+                        van het attribuut fractieverdeling bepaald van de entiteit Wandbeschrijving gelijk
+                        is aan nee.
+                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -13562,7 +13575,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_grondsoortVolgensLeemdriehoek"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_grondsoortVolgensLeemdriehoek"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> grondsoort volgens leemdriehoek</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_grondsoortVolgensLeemdriehoek"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_grondsoortVolgensLeemdriehoek"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> grondsoort volgens leemdriehoek</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13585,6 +13598,14 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>In de bodemkunde zijn voor de grondsoort eigenlijk twee classificatiesystemen naast
+                        elkaar in gebruik. Het verschil tussen de twee is dat in het ene geval de zgn. kleidriehoek
+                        en in het andere de zgn. leemdriehoek wordt gebruikt. De uitvoerder bepaalt op basis
+                        van zijn kennis van de geologische context welke van de twee driehoeken wordt gebruikt.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -13618,7 +13639,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_bodemkundigeGrondsoort"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_bodemkundigeGrondsoort"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> bodemkundige grondsoort</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_bodemkundigeGrondsoort"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_bodemkundigeGrondsoort"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> bodemkundige grondsoort</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13641,6 +13662,13 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het organische-stofgehalte bepaalt of de bodemkundige grondsoort bepaald wordt op
+                        basis van de veendriehoek, en de afzettingskarakteristiek bepaalt vervolgens of de
+                        leemdriehoek of de kleidriehoek wordt gebruikt.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -13661,6 +13689,14 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Wanneer de waarde van het attribuut grondsoort volgens leemdriehoek gelijk is aan
+                        ja, zijn alleen de waarden zandigeLeem, siltigeLeem, leemarmZand, zwakLemigZand, sterkLemigZand
+                        en zeerSterkLemigZand toegestaan. In het andere geval zijn die waarden juist niet
+                        toegestaan.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>BodemkundigeGrondsoort</td>
                   </tr>
@@ -13672,7 +13708,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_bijzonderBestanddeel"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_bijzonderBestanddeel"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> bijzonder bestanddeel</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_bijzonderBestanddeel"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_bijzonderBestanddeel"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> bijzonder bestanddeel</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13687,8 +13723,22 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend
+                        en met, wanneer relevant, aanduiding van de relatieve hoeveelheid ervan.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Bijzondere bestanddelen moeten worden beschreven wanneer ze belangrijk zijn voor het
+                        herleiden van de oorsprong van de grond. Bijzondere bestanddelen hebben gewoonlijk
+                        of een natuurlijke of een antropogene herkomst maar in enkele gevallen is beide mogelijk.
+                        In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen vastgelegd.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -13722,7 +13772,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_kleur"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_kleur"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> kleur</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_kleur"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_kleur"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> kleur</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13737,8 +13787,22 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De kleur van de grond.</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het bepalen van kleur kent een zekere mate van subjectiviteit als dat gebeurt zonder
+                        gebruik te maken van hulpmiddelen. Een kleurenkaart kan helpen de consistentie van
+                        de door verschillende personen en bij verschillende lichtsterkte uitgevoerde beschrijvingen
+                        te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik
+                        van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell
+                        kleurenkaart opgenomen in de codelijst.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -13772,57 +13836,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_metVlekken"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_metVlekken"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> met vlekken</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>met vlekken</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_organischeStofgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_organischeStofgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> organische stofgehalteklasse</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> organische stofgehalteklasse</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13847,6 +13861,14 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>De organische stofklasse wordt niet bepaald als de grondsoort al aangeeft dat de grond
+                        in belangrijke mate uit organische stof bestaat. Voor bodemkunde is het gegeven redundant
+                        wanneer de fractieverdeling bekend is. Het wordt toch systematisch opgenomen om de
+                        informatie beter toegankelijk te maken voor gebruikers uit andere vakgebieden.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -13867,6 +13889,13 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven ontbreekt wanneer de waarde van de bodemkundige grondsoort gelijk is aan
+                        veen, kleiigVeen, venigeKlei, zandigVeen of venigZand. In andere gevallen is het gegeven
+                        aanwezig.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>OrganischeStofgehalteklasse</td>
                   </tr>
@@ -13878,7 +13907,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandverkitting"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandverkitting"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> zandverkitting</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_zandverkitting"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_zandverkitting"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> zandverkitting</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13891,6 +13920,10 @@
                   <tr>
                      <th>Herkomst</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De mate van verkitting van zandkorrels, uitgedrukt in een klasse.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -13917,6 +13950,13 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op
+                        Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig
+                        zijn.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Zandverkitting</td>
                   </tr>
@@ -13928,7 +13968,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_zanddichtheid"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_zanddichtheid"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> zanddichtheid</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> zanddichtheid</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13978,7 +14018,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandmediaan"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandmediaan"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> zandmediaan</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_geschatteZandmediaan"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_geschatteZandmediaan"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> geschatte zandmediaan</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -13986,7 +14026,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>zandmediaan</td>
+                     <td>geschatte zandmediaan</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -13999,6 +14039,14 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De zandfractie is voor het vakgebied bodemkunde de fractie 50-2000 µm van het minerale
+                        bestanddeel van de grond. Wanneer de beschrijver met zijn vingers voelt dat er zand
+                        in het monster voorkomt, schat hij de zandmediaan. Het gegeven is van belang voor
+                        het beoordelen van de bruikbaarheid van de grond voor landbouw.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -14021,6 +14069,13 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op
+                        Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig
+                        zijn.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde</td>
                   </tr>
@@ -14032,7 +14087,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_veensoort"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_veensoort"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> veensoort</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_veensoort"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_veensoort"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> veensoort</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14055,6 +14110,12 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het hangt van de aard van de opdracht en de keuzen die de uitvoerder heeft gemaakt
+                        af of het gegeven is vastgelegd.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -14075,6 +14136,13 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut bodemkundige grondsoort
+                        gelijk is aan veen, kleiigVeen, venigeKlei, zandigVeen of venigZand. In andere gevallen
+                        ontbreekt het gegeven.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Veensoort</td>
                   </tr>
@@ -14086,7 +14154,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_kalkgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_kalkgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> kalkgehalteklasse</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_kalkgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_kalkgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> kalkgehalteklasse</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14107,6 +14175,10 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De kalklasse wordt geschat aan de mate van opbruisen met verdund zoutzuur (10% HCl).</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -14140,7 +14212,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_rijpingsklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_rijpingsklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> rijpingsklasse</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> rijpingsklasse</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14183,6 +14255,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op
+                        Silt, Zavel, Klei (behalve venigeKlei) of Leem. In andere gevallen ontbreekt het gegeven.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Rijpingsklasse</td>
                   </tr>
@@ -14194,7 +14272,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_knip"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_knip"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> knip</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_knip"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_knip"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> knip</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14209,8 +14287,18 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>To Do</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>de term Knip (fries) Knik (Gronings) en pik (Noordhollands)
+                        Zie: http://www.bodems.nl/nbv/lustrum/nominaties/NL%20Bodem%20-%20knipkleigronden%20Ebbing%20Kiestra.pdf
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -14233,6 +14321,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>alleen indien van toepassing bij zeeklei. koppeling met bodemkundige grondsoort nog
+                        maken.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
                   </tr>
@@ -14244,7 +14338,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindhoudend"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindhoudend"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> grindhoudend</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_grindhoudend"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_grindhoudend"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> grindhoudend</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14287,6 +14381,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort
+                        gelijk is aan grind. In andere gevallen is het gegeven aanwezig.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
                   </tr>
@@ -14298,7 +14398,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> grindgehalteklasse</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_grindgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_grindgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> grindgehalteklasse</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14323,6 +14423,13 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen
+                        met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek. van
+                        de BRO.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -14343,6 +14450,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
+                        attribuut grindhoudend.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Grindgehalteklasse</td>
                   </tr>
@@ -14354,7 +14467,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalhoudend"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalhoudend"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> schelpmateriaalhoudend</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalhoudend"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalhoudend"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> schelpmateriaalhoudend</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14399,6 +14512,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven ontbreekt wanneer de bodemkundige grondsoort gelijk is aan schelpmateriaal.
+                        In andere gevallen is het gegeven aanwezig.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
                   </tr>
@@ -14410,7 +14529,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> schelpmateriaalgehalteklasse</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> schelpmateriaalgehalteklasse</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14435,6 +14554,12 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen
+                        met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -14455,6 +14580,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
+                        attribuut schelpmateriaalhoudend.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Schelpmateriaalgehalteklasse</td>
                   </tr>
@@ -14466,7 +14597,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_watergehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_watergehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> watergehalteklasse</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_vochtigheidstoestand"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_vochtigheidstoestand"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> vochtigheidstoestand</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14474,11 +14605,15 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>watergehalteklasse</td>
+                     <td>vochtigheidstoestand</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De gegevens over de toestand van de vochtigheid van de grond tijdens het onderzoek.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -14516,7 +14651,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_gelaagdeInhomogeniteit"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_gelaagdeInhomogeniteit"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> gelaagde inhomogeniteit</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_gelaagdeInhomogeniteit"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_gelaagdeInhomogeniteit"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> gelaagde inhomogeniteit</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14529,6 +14664,10 @@
                   <tr>
                      <th>Herkomst</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De afwijkende laagjes in een samengestelde laag getypeerd naar soort grond.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -14555,6 +14694,13 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut inhomogeen gelaagd gelijk
+                        is aan ja en de waarde van het attribuut samengesteld gelijk is aan ja.
+                        In andere gevallen ontbreekt het gegeven.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>GelaagdeInhomogeniteit</td>
                   </tr>
@@ -14566,7 +14712,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grondsoort_disperseInhomogeniteit"></a><section id="detail_attribute_DomeinmodelBROSPR_Grondsoort_disperseInhomogeniteit"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> disperse inhomogeniteit</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_disperseInhomogeniteit"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_disperseInhomogeniteit"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> disperse inhomogeniteit</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -14581,8 +14727,24 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende
+                        grond naar hoeveelheid en materiaal.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Hoe het voorkomen van brokjes van afwijkende grondsoorten, moet worden geïnterpreteerd
+                        hangt af van de type ingreep uit de entiteit wandprofiel. Wanneer het profiel geen
+                        verstoringen heeft, mag men ervan uitgaan dat de inhomogeniteit een in-situ eigenschap
+                        is. In het geval er een type ingreep of er meerdere laagcomponenten zijn is dat niet
+                        altijd het geval en zal het voorkomen van afwijkende materialen veelal de expressie
+                        zijn van vermenging van lagen met een andere samenstelling.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -14616,7 +14778,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grondsoort"></a><section id="detail_association_DomeinmodelBROSPR_Grondsoort"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> heeft</strong>
+         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grond"></a><section id="detail_association_DomeinmodelBROSPR_Grond"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> heeft</strong>
             
             
             <table>
@@ -14666,7 +14828,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grondsoort"></a><section id="detail_association_DomeinmodelBROSPR_Grondsoort"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> heeft</strong>
+         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grond"></a><section id="detail_association_DomeinmodelBROSPR_Grond"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> heeft</strong>
             
             
             <table>
@@ -14716,7 +14878,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grondsoort"></a><section id="detail_association_DomeinmodelBROSPR_Grondsoort"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> heeft</strong>
+         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grond"></a><section id="detail_association_DomeinmodelBROSPR_Grond"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> heeft</strong>
             
             
             <table>
@@ -14766,7 +14928,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grondsoort"></a><section id="detail_association_DomeinmodelBROSPR_Grondsoort"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</a> heeft</strong>
+         <a class="anchor" name="detail_association_DomeinmodelBROSPR_Grond"></a><section id="detail_association_DomeinmodelBROSPR_Grond"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> heeft</strong>
             
             
             <table>

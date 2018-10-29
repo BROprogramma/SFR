@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-10-29T09:04:43Z">
+      generator-date="2018-10-29T10:55:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -4101,7 +4101,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                                  idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
@@ -4135,7 +4135,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                                  idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
@@ -4158,14 +4158,14 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                </content>
             </section>
          </section>
-         <section name="Grondsoort"
+         <section name="Grond"
                   type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROSPR_Grondsoort"
+                  id="global_class_DomeinmodelBROSPR_Grond"
                   uuid="EAID_7B5A7FB0_C5D5_4250_9478_49C85B05CE75">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Grondsoort</item>
+                  <item>Grond</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -4179,6 +4179,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De samenstelling van de grond wordt in de bodemkunde beschreven op basis van de STIBOKA-classificatie. Om die informatie meer toegankelijk te maken voor gebruikers uit andere vakgebieden wordt, waar mogelijk, ook de naam gegeven die op de NEN 5104 is gebaseerd.</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -4190,18 +4194,18 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_nEN5104Grondsoort">NEN 5104 grondsoort</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_nEN5104Grondsoort">NEN 5104 grondsoort</item>
                      </item>
                      <item>De naam van de grondsoort volgens de classificatie die in Nederland als standaard geldt.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_NEN5104Grondsoort">NEN5104Grondsoort</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_grondsoortVolgensLeemdriehoek">grondsoort volgens leemdriehoek</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_grondsoortVolgensLeemdriehoek">grondsoort volgens leemdriehoek</item>
                      </item>
                      <item>De aanduiding die aangeeft of de bodemkundige naam van de grondsoort is gebaseerd op de leemdriehoek.</item>
                      <item>
@@ -4212,7 +4216,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_bodemkundigeGrondsoort">bodemkundige grondsoort</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_bodemkundigeGrondsoort">bodemkundige grondsoort</item>
                      </item>
                      <item>De naam van de grondsoort volgens de Nederlandse bodemkundige classificatie.</item>
                      <item>
@@ -4224,9 +4228,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_bijzonderBestanddeel">bijzonder bestanddeel</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_bijzonderBestanddeel">bijzonder bestanddeel</item>
                      </item>
-                     <item/>
+                     <item>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend en met, wanneer relevant, aanduiding van de relatieve hoeveelheid ervan.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSPR_BijzonderBestanddeel">BijzonderBestanddeel</item>
@@ -4235,10 +4239,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_kleur">kleur</item>
+                        <item type="detail" idref="detail_attribute_DomeinmodelBROSPR_Grond_kleur">kleur</item>
                      </item>
-                     <item/>
+                     <item>De kleur van de grond.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Kleur">Kleur</item>
                      </item>
@@ -4247,18 +4250,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_metVlekken">met vlekken</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_organischeStofgehalteklasse">organische stofgehalteklasse</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse">organische stofgehalteklasse</item>
                      </item>
                      <item>Het gehalte aan organische stof uitgedrukt in een klasse volgens de classificatie die in Nederland als standaard geldt.</item>
                      <item>
@@ -4270,9 +4262,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandverkitting">zandverkitting</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_zandverkitting">zandverkitting</item>
                      </item>
-                     <item/>
+                     <item>De mate van verkitting van zandkorrels, uitgedrukt in een klasse.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Zandverkitting">Zandverkitting</item>
                      </item>
@@ -4281,7 +4273,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_zanddichtheid">zanddichtheid</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid">zanddichtheid</item>
                      </item>
                      <item/>
                      <item>
@@ -4292,7 +4284,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandmediaan">zandmediaan</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_geschatteZandmediaan">geschatte zandmediaan</item>
                      </item>
                      <item>De mediaan van de zandfractie.</item>
                      <item>
@@ -4303,7 +4295,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_veensoort">veensoort</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_veensoort">veensoort</item>
                      </item>
                      <item>Een nadere typering van het als veen omschreven bestanddeel van grond.</item>
                      <item>
@@ -4314,7 +4306,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_kalkgehalteklasse">kalkgehalteklasse</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_kalkgehalteklasse">kalkgehalteklasse</item>
                      </item>
                      <item>Het gehalte aan koolzure kalk uitgedrukt in een klasse.</item>
                      <item>
@@ -4325,7 +4317,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_rijpingsklasse">rijpingsklasse</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse">rijpingsklasse</item>
                      </item>
                      <item>De graad van rijping van klei- en leemhoudende grond uitgedrukt in klassen.</item>
                      <item>
@@ -4335,10 +4327,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_knip">knip</item>
+                        <item type="detail" idref="detail_attribute_DomeinmodelBROSPR_Grond_knip">knip</item>
                      </item>
-                     <item/>
+                     <item>To Do</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -4347,7 +4338,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindhoudend">grindhoudend</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_grindhoudend">grindhoudend</item>
                      </item>
                      <item>De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</item>
                      <item>
@@ -4358,7 +4349,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindgehalteklasse">grindgehalteklasse</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_grindgehalteklasse">grindgehalteklasse</item>
                      </item>
                      <item>Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt in een klasse.</item>
                      <item>
@@ -4369,7 +4360,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalhoudend">schelpmateriaalhoudend</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalhoudend">schelpmateriaalhoudend</item>
                      </item>
                      <item>De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</item>
                      <item>
@@ -4380,9 +4371,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalgehalteklasse">schelpmateriaalgehalteklasse</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalgehalteklasse">schelpmateriaalgehalteklasse</item>
                      </item>
-                     <item>Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal bevat, uitgedrukt in een klasse.</item>
+                     <item>Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal
+bevat, uitgedrukt in een klasse.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSPR_Schelpmateriaalgehalteklasse">Schelpmateriaalgehalteklasse</item>
@@ -4392,9 +4384,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_watergehalteklasse">watergehalteklasse</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_vochtigheidstoestand">vochtigheidstoestand</item>
                      </item>
-                     <item/>
+                     <item>De gegevens over de toestand van de vochtigheid van de grond tijdens het onderzoek.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Watergehalteklasse">Watergehalteklasse</item>
                      </item>
@@ -4403,9 +4395,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_gelaagdeInhomogeniteit">gelaagde inhomogeniteit</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_gelaagdeInhomogeniteit">gelaagde inhomogeniteit</item>
                      </item>
-                     <item/>
+                     <item>De afwijkende laagjes in een samengestelde laag getypeerd naar soort grond.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSPR_GelaagdeInhomogeniteit">GelaagdeInhomogeniteit</item>
@@ -4415,9 +4407,9 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grondsoort_disperseInhomogeniteit">disperse inhomogeniteit</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_disperseInhomogeniteit">disperse inhomogeniteit</item>
                      </item>
-                     <item/>
+                     <item>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende grond naar hoeveelheid en materiaal.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSPR_DisperseInhomogeniteit">DisperseInhomogeniteit</item>
@@ -4433,10 +4425,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Vlek">Vlek</item>
@@ -4447,10 +4439,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Aggregaat">Aggregaat</item>
@@ -4461,10 +4453,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global"
@@ -4476,10 +4468,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</item>
@@ -4498,7 +4490,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                            <item type="detail"
                                  idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
                         </item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                      </item>
                      <item/>
@@ -4510,10 +4502,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Vlek">Vlek</item>
@@ -4524,10 +4516,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Aggregaat">Aggregaat</item>
@@ -4538,10 +4530,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global"
@@ -4553,10 +4545,10 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   </part>
                   <part>
                      <item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</item>
@@ -4575,7 +4567,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                            <item type="detail"
                                  idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
                         </item>
-                        <item>Grondsoort</item>
+                        <item>Grond</item>
                         <item>[ 1 ]</item>
                      </item>
                      <item/>
@@ -4650,11 +4642,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Vlek</item>
                         <item>[ 0 .. 3 ]</item>
@@ -4669,11 +4661,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Vlek</item>
                         <item>[ 0 .. 3 ]</item>
@@ -4795,11 +4787,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Aggregaat</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4814,11 +4806,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Aggregaat</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4927,11 +4919,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Fractieverdeling</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4962,11 +4954,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Fractieverdeling</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5162,11 +5154,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Onvolledige fractiespecificatie</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5181,11 +5173,11 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grondsoort">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Grond">heeft</item>
                         </item>
                         <item>Onvolledige fractiespecificatie</item>
                         <item>[ 0 .. 1 ]</item>
@@ -12992,7 +12984,7 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                      </part>
                   </content>
@@ -13032,20 +13024,20 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grondsoort">Grondsoort</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                      </part>
                   </content>
                </section>
             </section>
-            <section name="Grondsoort"
+            <section name="Grond"
                      type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROSPR_Grondsoort"
-                     id-global="global_class_DomeinmodelBROSPR_Grondsoort">
+                     id="detail_class_DomeinmodelBROSPR_Grond"
+                     id-global="global_class_DomeinmodelBROSPR_Grond">
                <section name="NEN 5104 grondsoort"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_nEN5104Grondsoort"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_nEN5104Grondsoort">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_nEN5104Grondsoort"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_nEN5104Grondsoort">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13063,6 +13055,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De naam is afgeleid uit de waarden voor de fractieverdeling. De namen zijn, zolang de NEN-EN-ISO 14688-norm niet is omgezet naar standaardnamen, maar naar de NEN 5104 norm, voorlopig.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -13077,11 +13073,15 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>De waarde nietBepaald is alleen toegestaan onder IMBRO/A en alleen wanneer de waarde van het attribuut fractieverdeling bepaald van de entiteit Wandbeschrijving gelijk is aan nee.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -13095,8 +13095,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="grondsoort volgens leemdriehoek"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_grondsoortVolgensLeemdriehoek"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_grondsoortVolgensLeemdriehoek">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_grondsoortVolgensLeemdriehoek"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_grondsoortVolgensLeemdriehoek">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13113,6 +13113,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>In de bodemkunde zijn voor de grondsoort eigenlijk twee classificatiesystemen naast elkaar in gebruik. Het verschil tussen de twee is dat in het ene geval de zgn. kleidriehoek en in het andere de zgn. leemdriehoek wordt gebruikt. De uitvoerder bepaalt op basis van zijn kennis van de geologische context welke van de twee driehoeken wordt gebruikt.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13146,8 +13150,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="bodemkundige grondsoort"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_bodemkundigeGrondsoort"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_bodemkundigeGrondsoort">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_bodemkundigeGrondsoort"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_bodemkundigeGrondsoort">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13164,6 +13168,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het organische-stofgehalte bepaalt of de bodemkundige grondsoort bepaald wordt op basis van de veendriehoek, en de afzettingskarakteristiek bepaalt vervolgens of de leemdriehoek of de kleidriehoek wordt gebruikt.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13185,6 +13193,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Wanneer de waarde van het attribuut grondsoort volgens leemdriehoek gelijk is aan ja, zijn alleen de waarden zandigeLeem, siltigeLeem, leemarmZand, zwakLemigZand, sterkLemigZand en zeerSterkLemigZand toegestaan. In het andere geval zijn die waarden juist niet toegestaan.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>BodemkundigeGrondsoort</item>
@@ -13197,8 +13209,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="bijzonder bestanddeel"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_bijzonderBestanddeel"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_bijzonderBestanddeel">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_bijzonderBestanddeel"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_bijzonderBestanddeel">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13208,9 +13220,18 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend en met, wanneer relevant, aanduiding van de relatieve hoeveelheid ervan.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Bijzondere bestanddelen moeten worden beschreven wanneer ze belangrijk zijn voor het herleiden van de oorsprong van de grond. Bijzondere bestanddelen hebben gewoonlijk of een natuurlijke of een antropogene herkomst maar in enkele gevallen is beide mogelijk.
+In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen vastgelegd.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13244,8 +13265,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="kleur"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_kleur"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_kleur">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_kleur"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_kleur">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13255,9 +13276,17 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De kleur van de grond.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het bepalen van kleur kent een zekere mate van subjectiviteit als dat gebeurt zonder gebruik te maken van hulpmiddelen. Een kleurenkaart kan helpen de consistentie van de door verschillende personen en bij verschillende lichtsterkte uitgevoerde beschrijvingen te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell kleurenkaart opgenomen in de codelijst.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13289,57 +13318,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      </part>
                   </content>
                </section>
-               <section name="met vlekken"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_metVlekken"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_metVlekken">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>met vlekken</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="organische stofgehalteklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_organischeStofgehalteklasse"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_organischeStofgehalteklasse">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13357,6 +13339,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De organische stofklasse wordt niet bepaald als de grondsoort al aangeeft dat de grond in belangrijke mate uit organische stof bestaat. Voor bodemkunde is het gegeven redundant wanneer de fractieverdeling bekend is. Het wordt toch systematisch opgenomen om de informatie beter toegankelijk te maken voor gebruikers uit andere vakgebieden.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -13377,6 +13363,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven ontbreekt wanneer de waarde van de bodemkundige grondsoort gelijk is aan veen, kleiigVeen, venigeKlei, zandigVeen of venigZand. In andere gevallen is het gegeven aanwezig.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>OrganischeStofgehalteklasse</item>
@@ -13389,8 +13379,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="zandverkitting"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandverkitting"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_zandverkitting">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_zandverkitting"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_zandverkitting">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13399,6 +13389,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De mate van verkitting van zandkorrels, uitgedrukt in een klasse.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -13424,6 +13418,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Zandverkitting</item>
@@ -13436,8 +13434,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="zanddichtheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_zanddichtheid"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_zanddichtheid">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_zanddichtheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13481,14 +13479,14 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      </part>
                   </content>
                </section>
-               <section name="zandmediaan"
+               <section name="geschatte zandmediaan"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_zandmediaan"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_zandmediaan">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_geschatteZandmediaan"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_geschatteZandmediaan">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>zandmediaan</item>
+                        <item>geschatte zandmediaan</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -13501,6 +13499,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De zandfractie is voor het vakgebied bodemkunde de fractie 50-2000 µm van het minerale bestanddeel van de grond. Wanneer de beschrijver met zijn vingers voelt dat er zand in het monster voorkomt, schat hij de zandmediaan. Het gegeven is van belang voor het beoordelen van de bruikbaarheid van de grond voor landbouw.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13522,6 +13524,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -13534,8 +13540,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="veensoort"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_veensoort"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_veensoort">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_veensoort"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_veensoort">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13553,6 +13559,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het hangt van de aard van de opdracht en de keuzen die de uitvoerder heeft gemaakt af of het gegeven is vastgelegd.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -13573,6 +13583,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan veen, kleiigVeen, venigeKlei, zandigVeen of venigZand. In andere gevallen ontbreekt het gegeven.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Veensoort</item>
@@ -13585,8 +13599,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="kalkgehalteklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_kalkgehalteklasse"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_kalkgehalteklasse">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_kalkgehalteklasse"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_kalkgehalteklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13603,6 +13617,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De kalklasse wordt geschat aan de mate van opbruisen met verdund zoutzuur (10% HCl).</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13636,8 +13654,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="rijpingsklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_rijpingsklasse"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_rijpingsklasse">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_rijpingsklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13675,6 +13693,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op Silt, Zavel, Klei (behalve venigeKlei) of Leem. In andere gevallen ontbreekt het gegeven.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Rijpingsklasse</item>
@@ -13687,8 +13709,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="knip"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_knip"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_knip">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_knip"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_knip">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13698,9 +13720,18 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>To Do</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>de term Knip (fries) Knik (Gronings) en pik (Noordhollands)
+Zie: http://www.bodems.nl/nbv/lustrum/nominaties/NL%20Bodem%20-%20knipkleigronden%20Ebbing%20Kiestra.pdf</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13722,6 +13753,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>alleen indien van toepassing bij zeeklei. koppeling met bodemkundige grondsoort nog maken.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -13734,8 +13769,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="grindhoudend"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindhoudend"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_grindhoudend">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_grindhoudend"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_grindhoudend">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13773,6 +13808,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan grind. In andere gevallen is het gegeven aanwezig.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -13785,8 +13824,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="grindgehalteklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_grindgehalteklasse"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_grindgehalteklasse">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_grindgehalteklasse"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_grindgehalteklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13803,6 +13842,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek. van de BRO.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13824,6 +13867,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut grindhoudend.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Grindgehalteklasse</item>
@@ -13836,8 +13883,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="schelpmateriaalhoudend"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalhoudend"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalhoudend">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalhoudend"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalhoudend">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13875,6 +13922,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven ontbreekt wanneer de bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -13887,8 +13938,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="schelpmateriaalgehalteklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalgehalteklasse"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_schelpmateriaalgehalteklasse">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalgehalteklasse"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_schelpmateriaalgehalteklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13900,11 +13951,16 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal bevat, uitgedrukt in een klasse.</item>
+                        <item>Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal
+bevat, uitgedrukt in een klasse.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13926,6 +13982,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut schelpmateriaalhoudend.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Schelpmateriaalgehalteklasse</item>
@@ -13936,18 +13996,22 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      </part>
                   </content>
                </section>
-               <section name="watergehalteklasse"
+               <section name="vochtigheidstoestand"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_watergehalteklasse"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_watergehalteklasse">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_vochtigheidstoestand"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_vochtigheidstoestand">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>watergehalteklasse</item>
+                        <item>vochtigheidstoestand</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De gegevens over de toestand van de vochtigheid van de grond tijdens het onderzoek.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -13985,8 +14049,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="gelaagde inhomogeniteit"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_gelaagdeInhomogeniteit"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_gelaagdeInhomogeniteit">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_gelaagdeInhomogeniteit"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_gelaagdeInhomogeniteit">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -13995,6 +14059,10 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De afwijkende laagjes in een samengestelde laag getypeerd naar soort grond.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -14020,6 +14088,11 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut inhomogeen gelaagd gelijk is aan ja en de waarde van het attribuut samengesteld gelijk is aan ja.
+In andere gevallen ontbreekt het gegeven.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>GelaagdeInhomogeniteit</item>
@@ -14032,8 +14105,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="disperse inhomogeniteit"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grondsoort_disperseInhomogeniteit"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grondsoort_disperseInhomogeniteit">
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_disperseInhomogeniteit"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_disperseInhomogeniteit">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -14043,9 +14116,17 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende grond naar hoeveelheid en materiaal.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Hoe het voorkomen van brokjes van afwijkende grondsoorten, moet worden geïnterpreteerd hangt af van de type ingreep uit de entiteit wandprofiel. Wanneer het profiel geen verstoringen heeft, mag men ervan uitgaan dat de inhomogeniteit een in-situ eigenschap is. In het geval er een type ingreep of er meerdere laagcomponenten zijn is dat niet altijd het geval en zal het voorkomen van afwijkende materialen veelal de expressie zijn van vermenging van lagen met een andere samenstelling.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14079,8 +14160,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_Grondsoort"
-                        id-global="global_association_DomeinmodelBROSPR_Grondsoort">
+                        id="detail_association_DomeinmodelBROSPR_Grond"
+                        id-global="global_association_DomeinmodelBROSPR_Grond">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -14140,8 +14221,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_Grondsoort"
-                        id-global="global_association_DomeinmodelBROSPR_Grondsoort">
+                        id="detail_association_DomeinmodelBROSPR_Grond"
+                        id-global="global_association_DomeinmodelBROSPR_Grond">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -14201,8 +14282,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_Grondsoort"
-                        id-global="global_association_DomeinmodelBROSPR_Grondsoort">
+                        id="detail_association_DomeinmodelBROSPR_Grond"
+                        id-global="global_association_DomeinmodelBROSPR_Grond">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -14264,8 +14345,8 @@ Bouwvoorbewerkingen vallen hier niet onder, dit zijn ondiepe mechanische bewerki
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_Grondsoort"
-                        id-global="global_association_DomeinmodelBROSPR_Grondsoort">
+                        id="detail_association_DomeinmodelBROSPR_Grond"
+                        id-global="global_association_DomeinmodelBROSPR_Grond">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
