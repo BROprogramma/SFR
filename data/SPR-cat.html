@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door Imvertor 1.47.6 op October 31, 2018 at 09:02:22.
+   "SPR conceptueel" door Imvertor 1.47.6 op November 1, 2018 at 08:58:31.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181031-100224"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181101-095833"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -4602,6 +4602,18 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_geschatteVolumiekeMassa">geschatte volumieke massa</a>
+                     
+                  </td>
+                  <td>De geschatte volumieke massa van grond in g/cm3.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse">organische stofgehalteklasse</a>
                      
                   </td>
@@ -4622,18 +4634,6 @@
                   <td>De mate van verkitting van zandkorrels, uitgedrukt in een klasse.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Zandverkitting">Zandverkitting</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid">zanddichtheid</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_Zanddichtheid">Zanddichtheid</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -5191,10 +5191,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_grindgehalte">grindgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGrindgehalte">geschat grindgehalte</a>
                      
                   </td>
-                  <td>Het gehalte aan grind.</td>
+                  <td>Het geschatte gehalte aan grind.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5203,10 +5203,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_schelpmateriaalgehalte">schelpmateriaalgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatSchelpmateriaalgehalte">geschat schelpmateriaalgehalte</a>
                      
                   </td>
-                  <td>Het gehalte aan schelpmateriaal.</td>
+                  <td>Het geschatte gehalte aan schelpmateriaal.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5215,10 +5215,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_organischeStofgehalte">organische stofgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatOrganischeStofgehalte">geschat organische stofgehalte</a>
                      
                   </td>
-                  <td>Het gehalte aan organische stof.</td>
+                  <td>Het geschatte gehalte aan organische stof.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5227,11 +5227,11 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_gehalteFijneFractie">gehalte fijne fractie</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGehalteFijneFractie">geschat gehalte fijne fractie</a>
                      
                   </td>
-                  <td>Het gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan
-                     2 mm.
+                  <td>Het geschatte gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner
+                     dan 2 mm.
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
@@ -5333,10 +5333,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_lutumgehalte">lutumgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatLutumgehalte">geschat lutumgehalte</a>
                      
                   </td>
-                  <td>Het gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</td>
+                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5345,10 +5345,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_siltgehalte">siltgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatSiltgehalte">geschat siltgehalte</a>
                      
                   </td>
-                  <td>Het gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</td>
+                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5357,10 +5357,10 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_zandgehalte">zandgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte">geschat zandgehalte</a>
                      
                   </td>
-                  <td>Het gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
+                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5440,7 +5440,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_organischestofgehalte">organischestofgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatOrganischestofgehalte">geschat organischestofgehalte</a>
                      
                   </td>
                   <td></td>
@@ -5452,7 +5452,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_lutumgehalte">lutumgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatLutumgehalte">geschat lutumgehalte</a>
                      
                   </td>
                   <td></td>
@@ -5464,7 +5464,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_siltgehalte">siltgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatSiltgehalte">geschat siltgehalte</a>
                      
                   </td>
                   <td></td>
@@ -5476,7 +5476,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_zandgehalte">zandgehalte</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte">geschat zandgehalte</a>
                      
                   </td>
                   <td></td>
@@ -13836,6 +13836,66 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_geschatteVolumiekeMassa"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_geschatteVolumiekeMassa"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> geschatte volumieke massa</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>geschatte volumieke massa</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De geschatte volumieke massa van grond in g/cm3.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Een geoefend wandbeschrijver kan op 0,1 g/cm3 nauwkeurig de volumieke massa van de
+                        grond schatten.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> organische stofgehalteklasse</strong>
             
             <table>
@@ -13959,56 +14019,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Zandverkitting</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid"></a><section id="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Grond">Grond</a> zanddichtheid</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>zanddichtheid</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Zanddichtheid</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -15490,7 +15500,7 @@
       </section>
       <a class="anchor" name="detail_class_DomeinmodelBROSPR_Fractieverdeling"></a><section id="detail_class_DomeinmodelBROSPR_Fractieverdeling">
          <h6>Objecttype Fractieverdeling</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_grindgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_grindgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> grindgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGrindgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGrindgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> geschat grindgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15498,7 +15508,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>grindgehalte</td>
+                     <td>geschat grindgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15506,7 +15516,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan grind.</td>
+                     <td>Het geschatte gehalte aan grind.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -15544,7 +15554,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_schelpmateriaalgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_schelpmateriaalgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> schelpmateriaalgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatSchelpmateriaalgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatSchelpmateriaalgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> geschat schelpmateriaalgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15552,7 +15562,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>schelpmateriaalgehalte</td>
+                     <td>geschat schelpmateriaalgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15560,7 +15570,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan schelpmateriaal.</td>
+                     <td>Het geschatte gehalte aan schelpmateriaal.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -15598,7 +15608,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_organischeStofgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_organischeStofgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> organische stofgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatOrganischeStofgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatOrganischeStofgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> geschat organische stofgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15606,7 +15616,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>organische stofgehalte</td>
+                     <td>geschat organische stofgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15614,7 +15624,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan organische stof.</td>
+                     <td>Het geschatte gehalte aan organische stof.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -15652,7 +15662,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_gehalteFijneFractie"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_gehalteFijneFractie"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> gehalte fijne fractie</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGehalteFijneFractie"></a><section id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGehalteFijneFractie"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Fractieverdeling">Fractieverdeling</a> geschat gehalte fijne fractie</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15660,7 +15670,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>gehalte fijne fractie</td>
+                     <td>geschat gehalte fijne fractie</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15668,8 +15678,8 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan
-                        2 mm.
+                     <td>Het geschatte gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner
+                        dan 2 mm.
                      </td>
                   </tr>
                   <tr>
@@ -15762,7 +15772,7 @@
       </section>
       <a class="anchor" name="detail_class_DomeinmodelBROSPR_VerdelingFijneFractie"></a><section id="detail_class_DomeinmodelBROSPR_VerdelingFijneFractie">
          <h6>Objecttype Verdeling fijne fractie</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_lutumgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_lutumgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_VerdelingFijneFractie">Verdeling fijne fractie</a> lutumgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatLutumgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatLutumgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_VerdelingFijneFractie">Verdeling fijne fractie</a> geschat lutumgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15770,7 +15780,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>lutumgehalte</td>
+                     <td>geschat lutumgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15778,7 +15788,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</td>
+                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -15816,7 +15826,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_siltgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_siltgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_VerdelingFijneFractie">Verdeling fijne fractie</a> siltgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatSiltgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatSiltgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_VerdelingFijneFractie">Verdeling fijne fractie</a> geschat siltgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15824,7 +15834,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>siltgehalte</td>
+                     <td>geschat siltgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15832,7 +15842,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</td>
+                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -15870,7 +15880,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_zandgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_zandgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_VerdelingFijneFractie">Verdeling fijne fractie</a> zandgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_VerdelingFijneFractie">Verdeling fijne fractie</a> geschat zandgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15878,7 +15888,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>zandgehalte</td>
+                     <td>geschat zandgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15886,7 +15896,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
+                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -15928,7 +15938,7 @@
       </section>
       <a class="anchor" name="detail_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie"></a><section id="detail_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">
          <h6>Objecttype Onvolledige fractiespecificatie</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_organischestofgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_organischestofgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> organischestofgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatOrganischestofgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatOrganischestofgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> geschat organischestofgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15936,7 +15946,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>organischestofgehalte</td>
+                     <td>geschat organischestofgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -15978,7 +15988,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_lutumgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_lutumgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> lutumgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatLutumgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatLutumgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> geschat lutumgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -15986,7 +15996,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>lutumgehalte</td>
+                     <td>geschat lutumgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -16028,7 +16038,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_siltgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_siltgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> siltgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatSiltgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatSiltgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> geschat siltgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -16036,7 +16046,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>siltgehalte</td>
+                     <td>geschat siltgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -16078,7 +16088,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_zandgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_zandgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> zandgehalte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte"></a><section id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">Onvolledige fractiespecificatie</a> geschat zandgehalte</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -16086,7 +16096,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>zandgehalte</td>
+                     <td>geschat zandgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>

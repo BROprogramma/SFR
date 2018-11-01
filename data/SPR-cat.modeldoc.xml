@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-10-31T09:02:22Z">
+      generator-date="2018-11-01T08:58:31Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -4250,6 +4250,17 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_Grond_geschatteVolumiekeMassa">geschatte volumieke massa</item>
+                     </item>
+                     <item>De geschatte volumieke massa van grond in g/cm3.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse">organische stofgehalteklasse</item>
                      </item>
                      <item>Het gehalte aan organische stof uitgedrukt in een klasse volgens de classificatie die in Nederland als standaard geldt.</item>
@@ -4267,17 +4278,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      <item>De mate van verkitting van zandkorrels, uitgedrukt in een klasse.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Zandverkitting">Zandverkitting</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid">zanddichtheid</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Zanddichtheid">Zanddichtheid</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -4852,9 +4852,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_grindgehalte">grindgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGrindgehalte">geschat grindgehalte</item>
                      </item>
-                     <item>Het gehalte aan grind.</item>
+                     <item>Het geschatte gehalte aan grind.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -4863,9 +4863,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_schelpmateriaalgehalte">schelpmateriaalgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatSchelpmateriaalgehalte">geschat schelpmateriaalgehalte</item>
                      </item>
-                     <item>Het gehalte aan schelpmateriaal.</item>
+                     <item>Het geschatte gehalte aan schelpmateriaal.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -4874,9 +4874,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_organischeStofgehalte">organische stofgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatOrganischeStofgehalte">geschat organische stofgehalte</item>
                      </item>
-                     <item>Het gehalte aan organische stof.</item>
+                     <item>Het geschatte gehalte aan organische stof.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -4885,9 +4885,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_gehalteFijneFractie">gehalte fijne fractie</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGehalteFijneFractie">geschat gehalte fijne fractie</item>
                      </item>
-                     <item>Het gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan 2 mm.</item>
+                     <item>Het geschatte gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan 2 mm.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5000,9 +5000,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_lutumgehalte">lutumgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatLutumgehalte">geschat lutumgehalte</item>
                      </item>
-                     <item>Het gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</item>
+                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5011,9 +5011,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_siltgehalte">siltgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatSiltgehalte">geschat siltgehalte</item>
                      </item>
-                     <item>Het gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</item>
+                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5022,9 +5022,9 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_zandgehalte">zandgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte">geschat zandgehalte</item>
                      </item>
-                     <item>Het gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
+                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5103,7 +5103,7 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_organischestofgehalte">organischestofgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatOrganischestofgehalte">geschat organischestofgehalte</item>
                      </item>
                      <item/>
                      <item>
@@ -5114,7 +5114,7 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_lutumgehalte">lutumgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatLutumgehalte">geschat lutumgehalte</item>
                      </item>
                      <item/>
                      <item>
@@ -5125,7 +5125,7 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_siltgehalte">siltgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatSiltgehalte">geschat siltgehalte</item>
                      </item>
                      <item/>
                      <item>
@@ -5136,7 +5136,7 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_zandgehalte">zandgehalte</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte">geschat zandgehalte</item>
                      </item>
                      <item/>
                      <item>
@@ -13318,6 +13318,61 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                   </content>
                </section>
+               <section name="geschatte volumieke massa"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_Grond_geschatteVolumiekeMassa"
+                        id-global="global_attribute_DomeinmodelBROSPR_Grond_geschatteVolumiekeMassa">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geschatte volumieke massa</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De geschatte volumieke massa van grond in g/cm3.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een geoefend wandbeschrijver kan op 0,1 g/cm3 nauwkeurig de volumieke massa van de grond schatten.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
                <section name="organische stofgehalteklasse"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_Grond_organischeStofgehalteklasse"
@@ -13425,53 +13480,6 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Zandverkitting</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="zanddichtheid"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Grond_zanddichtheid"
-                        id-global="global_attribute_DomeinmodelBROSPR_Grond_zanddichtheid">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>zanddichtheid</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Zanddichtheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -14889,14 +14897,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      type="OBJECTTYPE"
                      id="detail_class_DomeinmodelBROSPR_Fractieverdeling"
                      id-global="global_class_DomeinmodelBROSPR_Fractieverdeling">
-               <section name="grindgehalte"
+               <section name="geschat grindgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_grindgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_grindgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGrindgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGrindgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>grindgehalte</item>
+                        <item>geschat grindgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -14904,7 +14912,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan grind.</item>
+                        <item>Het geschatte gehalte aan grind.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -14940,14 +14948,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="schelpmateriaalgehalte"
+               <section name="geschat schelpmateriaalgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_schelpmateriaalgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_schelpmateriaalgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatSchelpmateriaalgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatSchelpmateriaalgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>schelpmateriaalgehalte</item>
+                        <item>geschat schelpmateriaalgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -14955,7 +14963,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan schelpmateriaal.</item>
+                        <item>Het geschatte gehalte aan schelpmateriaal.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -14991,14 +14999,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="organische stofgehalte"
+               <section name="geschat organische stofgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_organischeStofgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_organischeStofgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatOrganischeStofgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatOrganischeStofgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>organische stofgehalte</item>
+                        <item>geschat organische stofgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15006,7 +15014,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan organische stof.</item>
+                        <item>Het geschatte gehalte aan organische stof.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -15042,14 +15050,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="gehalte fijne fractie"
+               <section name="geschat gehalte fijne fractie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_gehalteFijneFractie"
-                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_gehalteFijneFractie">
+                        id="detail_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGehalteFijneFractie"
+                        id-global="global_attribute_DomeinmodelBROSPR_Fractieverdeling_geschatGehalteFijneFractie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>gehalte fijne fractie</item>
+                        <item>geschat gehalte fijne fractie</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15057,7 +15065,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan 2 mm.</item>
+                        <item>Het geschatte gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan 2 mm.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -15161,14 +15169,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      type="OBJECTTYPE"
                      id="detail_class_DomeinmodelBROSPR_VerdelingFijneFractie"
                      id-global="global_class_DomeinmodelBROSPR_VerdelingFijneFractie">
-               <section name="lutumgehalte"
+               <section name="geschat lutumgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_lutumgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_lutumgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatLutumgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatLutumgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>lutumgehalte</item>
+                        <item>geschat lutumgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15176,7 +15184,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</item>
+                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -15212,14 +15220,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="siltgehalte"
+               <section name="geschat siltgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_siltgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_siltgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatSiltgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatSiltgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>siltgehalte</item>
+                        <item>geschat siltgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15227,7 +15235,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</item>
+                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -15263,14 +15271,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="zandgehalte"
+               <section name="geschat zandgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_zandgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_zandgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>zandgehalte</item>
+                        <item>geschat zandgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15278,7 +15286,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
+                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -15319,14 +15327,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      type="OBJECTTYPE"
                      id="detail_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie"
                      id-global="global_class_DomeinmodelBROSPR_OnvolledigeFractiespecificatie">
-               <section name="organischestofgehalte"
+               <section name="geschat organischestofgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_organischestofgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_organischestofgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatOrganischestofgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatOrganischestofgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>organischestofgehalte</item>
+                        <item>geschat organischestofgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15366,14 +15374,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="lutumgehalte"
+               <section name="geschat lutumgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_lutumgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_lutumgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatLutumgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatLutumgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>lutumgehalte</item>
+                        <item>geschat lutumgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15413,14 +15421,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="siltgehalte"
+               <section name="geschat siltgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_siltgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_siltgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatSiltgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatSiltgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>siltgehalte</item>
+                        <item>geschat siltgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -15460,14 +15468,14 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="zandgehalte"
+               <section name="geschat zandgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_zandgehalte"
-                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_zandgehalte">
+                        id="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte"
+                        id-global="global_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>zandgehalte</item>
+                        <item>geschat zandgehalte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
