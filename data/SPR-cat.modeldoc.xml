@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-11-01T09:05:10Z">
+      generator-date="2018-11-02T12:58:04Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -1802,6 +1802,22 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>
                            <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Wandonderzoek</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global"
                                  idref="global_class_DomeinmodelBROSPR_WandmonsteranalyseBUITENSCOPE">Wandmonsteranalyse (BUITEN SCOPE)</item>
                         </item>
                         <item>[ 0 .. 1 ]</item>
@@ -1900,22 +1916,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                                  idref="global_class_DomeinmodelBROSPR_TerreintoestandNOGUITWERKEN">Terreintoestand (NOG UITWERKEN)</item>
                         </item>
                         <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Wandonderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
-                        </item>
-                        <item>[ 0 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -1959,6 +1959,22 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>
                            <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Wandonderzoek</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global"
                                  idref="global_class_DomeinmodelBROSPR_WandmonsteranalyseBUITENSCOPE">Wandmonsteranalyse (BUITEN SCOPE)</item>
                         </item>
                         <item>[ 0 .. 1 ]</item>
@@ -2057,22 +2073,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                                  idref="global_class_DomeinmodelBROSPR_TerreintoestandNOGUITWERKEN">Terreintoestand (NOG UITWERKEN)</item>
                         </item>
                         <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Wandonderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
-                        </item>
-                        <item>[ 0 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -5775,67 +5775,6 @@ bevat, uitgedrukt in een klasse.</item>
                </content>
             </section>
          </section>
-         <section name="Wandfoto (BUITEN SCOPE)"
-                  type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE"
-                  uuid="EAID_3449CAA3_09A0_41dc_B5F7_D1860A1F4F83">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Wandfoto (BUITEN SCOPE)</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
-               </part>
-            </content>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
-                        </item>
-                        <item>Wandfoto (BUITEN SCOPE)</item>
-                        <item>[ 0 .. * ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
-                        </item>
-                        <item>Wandfoto (BUITEN SCOPE)</item>
-                        <item>[ 0 .. * ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
          <section name="Wandmonsteranalyse (BUITEN SCOPE)"
                   type="OBJECTTYPE"
                   id="global_class_DomeinmodelBROSPR_WandmonsteranalyseBUITENSCOPE"
@@ -5891,6 +5830,67 @@ bevat, uitgedrukt in een klasse.</item>
                         </item>
                         <item>Wandmonsteranalyse (BUITEN SCOPE)</item>
                         <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Wandfoto (BUITEN SCOPE)"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE"
+                  uuid="EAID_9B84479A_BEFF_4633_9406_1237EB9B42C1">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Wandfoto (BUITEN SCOPE)</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
+                        </item>
+                        <item>Wandfoto (BUITEN SCOPE)</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Wandonderzoek">Wandonderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Wandonderzoek">heeft</item>
+                        </item>
+                        <item>Wandfoto (BUITEN SCOPE)</item>
+                        <item>[ 0 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -7207,6 +7207,69 @@ bevat, uitgedrukt in een klasse.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="heeft"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_DomeinmodelBROSPR_Wandonderzoek"
+                        id-global="global_association_DomeinmodelBROSPR_Wandonderzoek">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
                         <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
@@ -7631,69 +7694,6 @@ bevat, uitgedrukt in een klasse.</item>
                         <item>
                            <item type="global"
                                  idref="global_class_DomeinmodelBROSPR_TerreintoestandNOGUITWERKEN">Terreintoestand (NOG UITWERKEN)</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-               <section name="heeft"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_Wandonderzoek"
-                        id-global="global_association_DomeinmodelBROSPR_Wandonderzoek">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. *</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. *</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROSPR_WandfotoBUITENSCOPE">Wandfoto (BUITEN SCOPE)</item>
                         </item>
                      </part>
                   </content>
@@ -13504,7 +13504,7 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De zandfractie is voor het vakgebied bodemkunde de fractie 50-2000 µm van het minerale bestanddeel van de grond. Wanneer de beschrijver met zijn vingers voelt dat er zand in het monster voorkomt, schat hij de zandmediaan. Het gegeven is van belang voor het beoordelen van de bruikbaarheid van de grond voor landbouw.</item>
+                        <item>De zandfractie is voor het vakgebied bodemkunde de fractie 50-2000 µm van het minerale bestanddeel van de grond. Wanneer de beschrijver met zijn vingers voelt dat er zand in het monster voorkomt, schat hij de zandmediaan. Het gegeven is van belang voor het beoordelen van de bruikbaarheid van de grond voor landbouw. Dit wordt op 5 micrometer nauwkeurig geschat.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
