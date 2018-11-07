@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-11-07T14:11:01Z">
+      generator-date="2018-11-07T14:59:43Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -17055,6 +17055,26 @@ In andere gevallen ontbreekt het gegeven.</item>
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>weinig</item>
+                     <item>0-2% van het oppervlak.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>matig</item>
+                     <item>2-20% van het oppervlak</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>veel</item>
+                     <item>meer dan 20% van het oppervlak</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>0-2% van het oppervlak.</item>
+                  </part>
                </content>
             </section>
             <section name="HoeveelheidWortels"
@@ -17773,6 +17793,21 @@ In andere gevallen ontbreekt het gegeven.</item>
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>gelijkmatig</item>
+                     <item>Vlekken komen gelijkmatig verdeeld over de wand voor.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>ongelijkmatig</item>
+                     <item>Vlekken komen ongelijkmatig verdeeld over de wand voor.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>Onbekend.</item>
+                  </part>
                </content>
             </section>
             <section name="Vlekkleur"
@@ -17793,32 +17828,32 @@ In andere gevallen ontbreekt het gegeven.</item>
                   <part>
                      <item/>
                      <item>geel</item>
-                     <item/>
+                     <item>Sulfaten als in katteklei bijv. botten. zie ook horizontcode Cj.</item>
                   </part>
                   <part>
                      <item/>
                      <item>paars</item>
-                     <item/>
+                     <item>Mangaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>grijs</item>
-                     <item/>
+                     <item>roest</item>
                   </part>
                   <part>
                      <item/>
                      <item>bruin</item>
-                     <item/>
+                     <item>Humus.</item>
                   </part>
                   <part>
                      <item/>
                      <item>rood</item>
-                     <item/>
+                     <item>roest. Komt ook terug in de horizonten.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item/>
+                     <item>roest. Komt ook terug in de horizonten.</item>
                   </part>
                </content>
             </section>
