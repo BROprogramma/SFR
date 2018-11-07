@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-11-02T12:58:04Z">
+      generator-date="2018-11-07T14:11:01Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -3375,7 +3375,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holenAanwezig">holen aanwezig</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holteAanwezig">holte aanwezig</item>
                      </item>
                      <item>De aanduiding die aangeeft of onderaardse gangen en verblijven van gewervelde dieren en reptielen in het profiel aanwezig zijn.</item>
                      <item>
@@ -4588,9 +4588,17 @@ bevat, uitgedrukt in een klasse.</item>
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De kleur van de grond is niet overal hetzelfde en er komen vlekken met een andere kleur voor.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling van de grond na afzetting van het sediment.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -6161,12 +6169,6 @@ bevat, uitgedrukt in een klasse.</item>
                <item id="global_class_DomeinmodelBROSPR_Vlekkleur"
                      uuid="EAID_6B37F4A6_7BF5_45ae_B8FB_9DE7CF8E4EB8"
                      idref="detail_class_DomeinmodelBROSPR_Vlekkleur">Vlekkleur</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_DomeinmodelBROSPR_Vleksoort"
-                     uuid="EAID_6B70A4C7_013E_4851_9363_9F5577FD142B"
-                     idref="detail_class_DomeinmodelBROSPR_Vleksoort">Vleksoort</item>
                <item/>
             </part>
             <part>
@@ -11029,14 +11031,14 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                      </part>
                   </content>
                </section>
-               <section name="holen aanwezig"
+               <section name="holte aanwezig"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holenAanwezig"
-                        id-global="global_attribute_DomeinmodelBROSPR_Wandprofiel_holenAanwezig">
+                        id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holteAanwezig"
+                        id-global="global_attribute_DomeinmodelBROSPR_Wandprofiel_holteAanwezig">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>holen aanwezig</item>
+                        <item>holte aanwezig</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -11052,7 +11054,7 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Holen ontstaan bovenin de ondergrond, maar dit is niet altijd zichtbaar in het wandprofiel. Alleen de zichtbare holen in het wandprofiel zijn relevant.</item>
+                        <item>Holen ontstaan bovenin de ondergrond, maar dit is niet altijd zichtbaar in het wandprofiel. Alleen de zichtbare holtes in het wandprofiel zijn relevant.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17788,23 +17790,36 @@ In andere gevallen ontbreekt het gegeven.</item>
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="Vleksoort"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROSPR_Vleksoort"
-                     id-global="global_class_DomeinmodelBROSPR_Vleksoort"
-                     uuid="EAID_6B70A4C7_013E_4851_9363_9F5577FD142B">
-               <content>
                   <part>
-                     <item>Definitie</item>
+                     <item/>
+                     <item>geel</item>
                      <item/>
                   </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>paars</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>grijs</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>bruin</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>rood</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item/>
+                  </part>
                </content>
             </section>
             <section name="Vorm"

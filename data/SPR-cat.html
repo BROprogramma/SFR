@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SPR conceptueel" door Imvertor 1.47.6 op November 2, 2018 at 12:58:04.
+   "SPR conceptueel" door Imvertor 1.47.6 op November 7, 2018 at 14:11:01.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181102-135806"</i> door. 
+   <i>"Conceptualmodel-SPRconceptueel-0.1-0-20180831-20181107-151103"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -3727,7 +3727,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Wandprofiel_holenAanwezig">holen aanwezig</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Wandprofiel_holteAanwezig">holte aanwezig</a>
                      
                   </td>
                   <td>De aanduiding die aangeeft of onderaardse gangen en verblijven van gewervelde dieren
@@ -4901,8 +4901,20 @@
                   <td>BRO</td>
                </tr>
                <tr>
+                  <th>Definitie</th>
+                  <td>De kleur van de grond is niet overal hetzelfde en er komen vlekken met een andere
+                     kleur voor.
+                  </td>
+               </tr>
+               <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling
+                     van de grond na afzetting van het sediment.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -6432,10 +6444,6 @@
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Vlekkleur"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Vlekkleur">Vlekkleur</a></th>
-               <td></td>
-            </tr>
-            <tr>
-               <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Vleksoort"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Vleksoort">Vleksoort</a></th>
                <td></td>
             </tr>
             <tr>
@@ -11443,7 +11451,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holenAanwezig"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holenAanwezig"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> holen aanwezig</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holteAanwezig"></a><section id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_holteAanwezig"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</a> holte aanwezig</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -11451,7 +11459,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>holen aanwezig</td>
+                     <td>holte aanwezig</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -11470,7 +11478,7 @@
                   <tr>
                      <th>Toelichting</th>
                      <td>Holen ontstaan bovenin de ondergrond, maar dit is niet altijd zichtbaar in het wandprofiel.
-                        Alleen de zichtbare holen in het wandprofiel zijn relevant.
+                        Alleen de zichtbare holtes in het wandprofiel zijn relevant.
                      </td>
                   </tr>
                   <tr>
@@ -18895,36 +18903,44 @@
          </table>
          
          <table>
-            <tbody>
-               <tr>
-                  <th>Code</th>
-                  <th>Naam</th>
-                  <th>Definitie</th>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_6B70A4C7_013E_4851_9363_9F5577FD142B"></a><a class="anchor" name="detail_class_DomeinmodelBROSPR_Vleksoort"></a><section id="detail_class_DomeinmodelBROSPR_Vleksoort">
-         <h6>Codelijst details Vleksoort</h6>
-         
-         <table>
-            <colgroup width="40%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="30%"></colgroup>
             <colgroup width="60%"></colgroup>
             <tbody>
                <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <table>
-            <tbody>
-               <tr>
                   <th>Code</th>
                   <th>Naam</th>
                   <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>geel</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>paars</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>grijs</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>bruin</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>rood</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>onbekend</td>
+                  <td></td>
                </tr>
             </tbody>
          </table>
