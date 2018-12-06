@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.47.6"
-      generator-date="2018-12-05T16:45:31Z">
+      generator-date="2018-12-06T15:22:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -2927,7 +2927,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </item>
                      <item>De aanduiding die aangeeft of het terrein tijdens het beschrijven van de wand is gedraineerd.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_DrainageToestand">DrainageToestand</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -2940,6 +2940,28 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSPR_LiggingOpGrondlichaam">LiggingOpGrondlichaam</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_maaiveldVeranderd">maaiveld veranderd</item>
+                     </item>
+                     <item>-Definitie</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_MaaiveldVeranderd">MaaiveldVeranderd</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_wroetsporenAanwezig">wroetsporen aanwezig</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -2979,28 +3001,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_actueelProces">actueel proces</item>
-                     </item>
-                     <item>-Definitie</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_ActueelProces">ActueelProces</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_wroetsporenAanwezig">wroetsporen aanwezig</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_landschapselement">landschapselement</item>
                      </item>
                      <item>De omschrijving van een kenmerkend element in het landschap.</item>
@@ -3012,13 +3012,13 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_maaiveldVeranderd">maaiveld veranderd</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_actueelProces">actueel proces</item>
                      </item>
                      <item>-Definitie</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_MaaiveldVeranderd">MaaiveldVeranderd</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_ActueelProces">ActueelProces</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -3315,7 +3315,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Microrelief">Microrelief</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -3430,17 +3430,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Wandprofiel_metGekeerdeBodemlaag">met gekeerde bodemlaag</item>
-                     </item>
-                     <item>to do</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Wandprofiel_opbouwVerstoord">opbouw verstoord</item>
                      </item>
                      <item>to do</item>
@@ -3493,20 +3482,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_VastGesteentelaag">Vast gesteentelaag</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Wandprofiel</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Wandprofiel">omvat</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">Gekeerde bodemlaag</item>
                         </item>
                         <item>[ 0 .. 1 ]</item>
                      </item>
@@ -3583,20 +3558,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_VastGesteentelaag">Vast gesteentelaag</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Wandprofiel</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Wandprofiel">omvat</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">Gekeerde bodemlaag</item>
                         </item>
                         <item>[ 0 .. 1 ]</item>
                      </item>
@@ -3909,28 +3870,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_antropogeen">antropogeen</item>
-                     </item>
-                     <item>De aanduiding die aangeeft of de laag grotendeels of geheel bestaat uit door de mens van elders aangevoerd materiaal, of door de mens bewerkt is.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_gemengd">gemengd</item>
-                     </item>
-                     <item>To Do</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_bodemleven">bodemleven</item>
                      </item>
                      <item/>
@@ -3953,18 +3892,6 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_hoeveelheidsklasseWortels">hoeveelheidsklasse wortels</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROSPR_HoeveelheidsklasseWortels">HoeveelheidsklasseWortels</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_wortelverdeling">wortelverdeling</item>
                      </item>
                      <item/>
@@ -3976,33 +3903,12 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_bijzonderMateriaal">bijzonder materiaal</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_hoeveelheidsklasseWortels">hoeveelheidsklasse wortels</item>
                      </item>
-                     <item>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.</item>
+                     <item/>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_BijzonderMateriaal">BijzonderMateriaal</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_horizontcode">horizontcode</item>
-                     </item>
-                     <item>De code van de horizont waartoe het deel van de bodem volgens de Nederlandse classificatie wordt gerekend.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Horizontcode">Horizontcode</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_gesteentesoort">gesteentesoort</item>
-                     </item>
-                     <item>De naam van het geconsolideerde gesteente.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Gesteentesoort">Gesteentesoort</item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROSPR_HoeveelheidsklasseWortels">HoeveelheidsklasseWortels</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -4020,25 +3926,13 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_bodemkundigeAfzettingskarakteristiek">bodemkundige afzettingskarakteristiek</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_gekeerd">gekeerd</item>
                      </item>
-                     <item>De geologische typering van het sediment waaruit de bodem bestaat naar periode en milieu van afzetting.</item>
+                     <item/>
                      <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROSPR_BodemkundigeAfzettingskarakteristiek">BodemkundigeAfzettingskarakteristiek</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Bodemlaag_geschatteVerzadigdeDoorlatendheid">geschatte verzadigde doorlatendheid</item>
-                     </item>
-                     <item>De snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
-                     </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                </content>
             </section>
@@ -4055,9 +3949,23 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                            <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
                         </item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Bodemlaag</item>
                         <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_HomogeenMateriaal">homogeen materiaal</item>
+                        </item>
+                        <item>[ 0 .. 1 ]</item>
                      </item>
                      <item/>
                   </part>
@@ -4088,9 +3996,23 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                            <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
                         </item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Bodemlaag</item>
                         <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_HomogeenMateriaal">homogeen materiaal</item>
+                        </item>
+                        <item>[ 0 .. 1 ]</item>
                      </item>
                      <item/>
                   </part>
@@ -4206,15 +4128,14 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">Gekeerde bodemlaag</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemlaag">Bodemlaag</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_GekeerdeBodemlaag">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
                         </item>
                         <item>Laagcomponent</item>
-                        <item>[ 2 .. * ]</item>
+                        <item>[ 0 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -4241,15 +4162,14 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">Gekeerde bodemlaag</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemlaag">Bodemlaag</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_GekeerdeBodemlaag">heeft</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
                         </item>
                         <item>Laagcomponent</item>
-                        <item>[ 2 .. * ]</item>
+                        <item>[ 0 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -4617,11 +4537,12 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemlaag">Bodemlaag</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
                         </item>
                         <item>Grond</item>
                         <item>[ 1 ]</item>
@@ -4631,12 +4552,12 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_HomogeenMateriaal">homogeen materiaal</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
+                                 idref="detail_association_DomeinmodelBROSPR_HomogeenMateriaal">heeft</item>
                         </item>
                         <item>Grond</item>
                         <item>[ 1 ]</item>
@@ -4722,11 +4643,12 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemlaag">Bodemlaag</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
                         </item>
                         <item>Grond</item>
                         <item>[ 1 ]</item>
@@ -4736,12 +4658,12 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_HomogeenMateriaal">homogeen materiaal</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_Laagcomponent">heeft</item>
+                                 idref="detail_association_DomeinmodelBROSPR_HomogeenMateriaal">heeft</item>
                         </item>
                         <item>Grond</item>
                         <item>[ 1 ]</item>
@@ -5542,6 +5464,17 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_VerstoordInterval_einddiepteBereikt">einddiepte bereikt</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_VerstoordInterval_einddiepte">einddiepte</item>
                      </item>
                      <item/>
@@ -6036,14 +5969,14 @@ bevat, uitgedrukt in een klasse.</item>
                </content>
             </section>
          </section>
-         <section name="Gekeerde bodemlaag"
+         <section name="homogeen materiaal"
                   type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag"
+                  id="global_class_DomeinmodelBROSPR_HomogeenMateriaal"
                   uuid="EAID_4EE91A56_4317_423e_A81B_41FD3A55413F">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Gekeerde bodemlaag</item>
+                  <item>homogeen materiaal</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -6068,76 +6001,42 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bovengrens">bovengrens</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_bijzonderMateriaal">bijzonder materiaal</item>
                      </item>
-                     <item/>
+                     <item>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_BijzonderMateriaal">BijzonderMateriaal</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bepalingBovengrens">bepaling bovengrens</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_horizontcode">horizontcode</item>
                      </item>
-                     <item>## De manier waarop de ondergrens van de laag is bepaald, met een aanduiding van hoe scherp de grens is.</item>
+                     <item>De code van de horizont waartoe het deel van de bodem volgens de Nederlandse classificatie wordt gerekend.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Grensbepaling">Grensbepaling</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_Horizontcode">Horizontcode</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_ondergrens">ondergrens</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gesteentesoort">gesteentesoort</item>
                      </item>
-                     <item/>
+                     <item>De naam van het geconsolideerde gesteente.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_Gesteentesoort">Gesteentesoort</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bepalingOndergrens">bepaling ondergrens</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_antropogeen">antropogeen</item>
                      </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Grensbepaling">Grensbepaling</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_onregelmatigeOndergrens">onregelmatige ondergrens</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_OnregelmatigeOndergrens">OnregelmatigeOndergrens</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bodemleven">bodemleven</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemleven">Bodemleven</item>
-                     </item>
-                     <item>1 .. 3</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_metWortels">met wortels</item>
-                     </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft of de laag grotendeels of geheel bestaat uit door de mens van elders aangevoerd materiaal, of door de mens bewerkt is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -6146,36 +6045,36 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_hoeveelheidsklasseWortels">hoeveelheidsklasse wortels</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gemengd">gemengd</item>
                      </item>
-                     <item/>
+                     <item>To Do</item>
                      <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROSPR_HoeveelheidsklasseWortels">HoeveelheidsklasseWortels</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_wortelverdeling">wortelverdeling</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Wortelverdeling">Wortelverdeling</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_aantalLaagcomponenten">aantal laagcomponenten</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_Aantal1">Aantal1</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
                      <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_bodemkundigeAfzettingskarakteristiek">bodemkundige afzettingskarakteristiek</item>
+                     </item>
+                     <item>De geologische typering van het sediment waaruit de bodem bestaat naar periode en milieu van afzetting.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROSPR_BodemkundigeAfzettingskarakteristiek">BodemkundigeAfzettingskarakteristiek</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_geschatteVerzadigdeDoorlatendheid">geschatte verzadigde doorlatendheid</item>
+                     </item>
+                     <item>De snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -6186,29 +6085,29 @@ bevat, uitgedrukt in een klasse.</item>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Gekeerde bodemlaag</item>
+                        <item>homogeen materiaal</item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_GekeerdeBodemlaag">heeft</item>
+                                 idref="detail_association_DomeinmodelBROSPR_HomogeenMateriaal">heeft</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
-                        <item>[ 2 .. * ]</item>
+                        <item>[ 1 ]</item>
                      </item>
                      <item/>
                   </part>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemlaag">Bodemlaag</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Wandprofiel">omvat</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
                         </item>
-                        <item>Gekeerde bodemlaag</item>
+                        <item>homogeen materiaal</item>
                         <item>[ 0 .. 1 ]</item>
                      </item>
                      <item/>
@@ -6220,29 +6119,29 @@ bevat, uitgedrukt in een klasse.</item>
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Gekeerde bodemlaag</item>
+                        <item>homogeen materiaal</item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROSPR_GekeerdeBodemlaag">heeft</item>
+                                 idref="detail_association_DomeinmodelBROSPR_HomogeenMateriaal">heeft</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
-                        <item>[ 2 .. * ]</item>
+                        <item>[ 1 ]</item>
                      </item>
                      <item/>
                   </part>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Wandprofiel">Wandprofiel</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Bodemlaag">Bodemlaag</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Wandprofiel">omvat</item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROSPR_Bodemlaag">heeft</item>
                         </item>
-                        <item>Gekeerde bodemlaag</item>
+                        <item>homogeen materiaal</item>
                         <item>[ 0 .. 1 ]</item>
                      </item>
                      <item/>
@@ -10052,7 +9951,7 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>DrainageToestand</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10108,6 +10007,108 @@ De identificatie die de organisatie die voor de bronhouder geldt als verantwoord
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>LiggingOpGrondlichaam</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="maaiveld veranderd"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_maaiveldVeranderd"
+                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_maaiveldVeranderd">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>maaiveld veranderd</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>-Definitie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>MaaiveldVeranderd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="wroetsporen aanwezig"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_wroetsporenAanwezig"
+                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_wroetsporenAanwezig">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>wroetsporen aanwezig</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10261,108 +10262,6 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                      </part>
                   </content>
                </section>
-               <section name="actueel proces"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_actueelProces"
-                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_actueelProces">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>actueel proces</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>-Definitie</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>ActueelProces</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>BRO</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="wroetsporen aanwezig"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_wroetsporenAanwezig"
-                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_wroetsporenAanwezig">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>wroetsporen aanwezig</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="landschapselement"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_landschapselement"
@@ -10419,14 +10318,14 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                      </part>
                   </content>
                </section>
-               <section name="maaiveld veranderd"
+               <section name="actueel proces"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_maaiveldVeranderd"
-                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_maaiveldVeranderd">
+                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_actueelProces"
+                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_actueelProces">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>maaiveld veranderd</item>
+                        <item>actueel proces</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -10454,7 +10353,7 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -10462,7 +10361,7 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>MaaiveldVeranderd</item>
+                        <item>ActueelProces</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10978,7 +10877,7 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -11553,61 +11452,6 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                      </part>
                   </content>
                </section>
-               <section name="met gekeerde bodemlaag"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_metGekeerdeBodemlaag"
-                        id-global="global_attribute_DomeinmodelBROSPR_Wandprofiel_metGekeerdeBodemlaag">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>met gekeerde bodemlaag</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>to do</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>to do</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="opbouw verstoord"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_Wandprofiel_opbouwVerstoord"
@@ -11842,67 +11686,6 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_VastGesteentelaag">Vast gesteentelaag</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-               <section name="omvat"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_Wandprofiel"
-                        id-global="global_association_DomeinmodelBROSPR_Wandprofiel">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>omvat</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">Gekeerde bodemlaag</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>omvat</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">Gekeerde bodemlaag</item>
                         </item>
                      </part>
                   </content>
@@ -12731,108 +12514,6 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                      </part>
                   </content>
                </section>
-               <section name="antropogeen"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_antropogeen"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_antropogeen">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>antropogeen</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of de laag grotendeels of geheel bestaat uit door de mens van elders aangevoerd materiaal, of door de mens bewerkt is.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="gemengd"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_gemengd"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_gemengd">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>gemengd</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>To Do</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="bodemleven"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_bodemleven"
@@ -12927,53 +12608,6 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                      </part>
                   </content>
                </section>
-               <section name="hoeveelheidsklasse wortels"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_hoeveelheidsklasseWortels"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_hoeveelheidsklasseWortels">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>hoeveelheidsklasse wortels</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>HoeveelheidsklasseWortels</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="wortelverdeling"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_wortelverdeling"
@@ -13021,78 +12655,18 @@ De verdichting van bodem is een vorm van bodemdegradatie waarbij de bodemstructu
                      </part>
                   </content>
                </section>
-               <section name="bijzonder materiaal"
+               <section name="hoeveelheidsklasse wortels"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_bijzonderMateriaal"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_bijzonderMateriaal">
+                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_hoeveelheidsklasseWortels"
+                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_hoeveelheidsklasseWortels">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bijzonder materiaal</item>
+                        <item>hoeveelheidsklasse wortels</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Een laag bestaat uit bijzonder materiaal wanneer meer dan 50% van de massa bijzonder materiaal is. Dat materiaal kan zowel natuurlijk als antropogeen van aard zijn.
-Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan een laag die uit grond bestaat.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>BijzonderMateriaal</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="horizontcode"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_horizontcode"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_horizontcode">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>horizontcode</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De code van de horizont waartoe het deel van de bodem volgens de Nederlandse classificatie wordt gerekend.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -13120,58 +12694,7 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Horizontcode</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="gesteentesoort"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_gesteentesoort"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_gesteentesoort">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>gesteentesoort</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De naam van het geconsolideerde gesteente.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Gesteentesoort</item>
+                        <item>HoeveelheidsklasseWortels</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -13226,22 +12749,18 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                   </content>
                </section>
-               <section name="bodemkundige afzettingskarakteristiek"
+               <section name="gekeerd"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_bodemkundigeAfzettingskarakteristiek"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_bodemkundigeAfzettingskarakteristiek">
+                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_gekeerd"
+                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_gekeerd">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bodemkundige afzettingskarakteristiek</item>
+                        <item>gekeerd</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De geologische typering van het sediment waaruit de bodem bestaat naar periode en milieu van afzetting.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -13261,7 +12780,7 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -13269,58 +12788,7 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>BodemkundigeAfzettingskarakteristiek</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="geschatte verzadigde doorlatendheid"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Bodemlaag_geschatteVerzadigdeDoorlatendheid"
-                        id-global="global_attribute_DomeinmodelBROSPR_Bodemlaag_geschatteVerzadigdeDoorlatendheid">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>geschatte verzadigde doorlatendheid</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Meetwaarde</item>
+                        <item>IndicatieJaNee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -13339,12 +12807,12 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
                         </item>
                      </part>
                   </content>
@@ -13375,7 +12843,7 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. *</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -13384,7 +12852,68 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="heeft"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_DomeinmodelBROSPR_Bodemlaag"
+                        id-global="global_association_DomeinmodelBROSPR_Bodemlaag">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_HomogeenMateriaal">homogeen materiaal</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_HomogeenMateriaal">homogeen materiaal</item>
                         </item>
                      </part>
                   </content>
@@ -16638,6 +16167,53 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
+               <section name="einddiepte bereikt"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_VerstoordInterval_einddiepteBereikt"
+                        id-global="global_attribute_DomeinmodelBROSPR_VerstoordInterval_einddiepteBereikt">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>einddiepte bereikt</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
                <section name="einddiepte"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSPR_VerstoordInterval_einddiepte"
@@ -17674,69 +17250,18 @@ In andere gevallen ontbreekt het gegeven.</item>
                </section>
             </section>
             <!--removed empty content-->
-            <section name="Gekeerde bodemlaag"
+            <section name="homogeen materiaal"
                      type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROSPR_GekeerdeBodemlaag"
-                     id-global="global_class_DomeinmodelBROSPR_GekeerdeBodemlaag">
-               <section name="bovengrens"
+                     id="detail_class_DomeinmodelBROSPR_HomogeenMateriaal"
+                     id-global="global_class_DomeinmodelBROSPR_HomogeenMateriaal">
+               <section name="bijzonder materiaal"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bovengrens"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bovengrens">
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_bijzonderMateriaal"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_bijzonderMateriaal">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bovengrens</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Meetwaarde</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>BRO</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="bepaling bovengrens"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bepalingBovengrens"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bepalingBovengrens">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bepaling bovengrens</item>
+                        <item>bijzonder materiaal</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -17744,7 +17269,63 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>## De manier waarop de ondergrens van de laag is bepaald, met een aanduiding van hoe scherp de grens is.</item>
+                        <item>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een laag bestaat uit bijzonder materiaal wanneer meer dan 50% van de massa bijzonder materiaal is. Dat materiaal kan zowel natuurlijk als antropogeen van aard zijn.
+Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan een laag die uit grond bestaat.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>BijzonderMateriaal</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="horizontcode"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_horizontcode"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_horizontcode">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>horizontcode</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De code van de horizont waartoe het deel van de bodem volgens de Nederlandse classificatie wordt gerekend.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -17764,7 +17345,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -17772,7 +17353,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Grensbepaling</item>
+                        <item>Horizontcode</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -17780,18 +17361,22 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="ondergrens"
+               <section name="gesteentesoort"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_ondergrens"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_ondergrens">
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gesteentesoort"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gesteentesoort">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>ondergrens</item>
+                        <item>gesteentesoort</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De naam van het geconsolideerde gesteente.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -17811,7 +17396,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -17819,58 +17404,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>BRO</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="bepaling ondergrens"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bepalingOndergrens"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bepalingOndergrens">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bepaling ondergrens</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Grensbepaling</item>
+                        <item>Gesteentesoort</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -17878,112 +17412,22 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="onregelmatige ondergrens"
+               <section name="antropogeen"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_onregelmatigeOndergrens"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_onregelmatigeOndergrens">
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_antropogeen"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_antropogeen">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>onregelmatige ondergrens</item>
+                        <item>antropogeen</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>OnregelmatigeOndergrens</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="bodemleven"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bodemleven"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_bodemleven">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bodemleven</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1 .. 3</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Bodemleven</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="met wortels"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_metWortels"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_metWortels">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>met wortels</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of de laag grotendeels of geheel bestaat uit door de mens van elders aangevoerd materiaal, of door de mens bewerkt is.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -18019,112 +17463,22 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                   </content>
                </section>
-               <section name="hoeveelheidsklasse wortels"
+               <section name="gemengd"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_hoeveelheidsklasseWortels"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_hoeveelheidsklasseWortels">
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gemengd"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gemengd">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>hoeveelheidsklasse wortels</item>
+                        <item>gemengd</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>HoeveelheidsklasseWortels</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="wortelverdeling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_wortelverdeling"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_wortelverdeling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>wortelverdeling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Wortelverdeling</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="aantal laagcomponenten"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_aantalLaagcomponenten"
-                        id-global="global_attribute_DomeinmodelBROSPR_GekeerdeBodemlaag_aantalLaagcomponenten">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>aantal laagcomponenten</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>To Do</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -18152,7 +17506,109 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Aantal1</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bodemkundige afzettingskarakteristiek"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_bodemkundigeAfzettingskarakteristiek"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_bodemkundigeAfzettingskarakteristiek">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bodemkundige afzettingskarakteristiek</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De geologische typering van het sediment waaruit de bodem bestaat naar periode en milieu van afzetting.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>BodemkundigeAfzettingskarakteristiek</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geschatte verzadigde doorlatendheid"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_geschatteVerzadigdeDoorlatendheid"
+                        id-global="global_attribute_DomeinmodelBROSPR_HomogeenMateriaal_geschatteVerzadigdeDoorlatendheid">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geschatte verzadigde doorlatendheid</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -18162,8 +17618,8 @@ In andere gevallen ontbreekt het gegeven.</item>
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROSPR_GekeerdeBodemlaag"
-                        id-global="global_association_DomeinmodelBROSPR_GekeerdeBodemlaag">
+                        id="detail_association_DomeinmodelBROSPR_HomogeenMateriaal"
+                        id-global="global_association_DomeinmodelBROSPR_HomogeenMateriaal">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -18171,12 +17627,12 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>2 .. *</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                      </part>
                   </content>
@@ -18207,7 +17663,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>2 .. *</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -18216,7 +17672,7 @@ In andere gevallen ontbreekt het gegeven.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_DomeinmodelBROSPR_Laagcomponent">Laagcomponent</item>
+                           <item type="global" idref="global_class_DomeinmodelBROSPR_Grond">Grond</item>
                         </item>
                      </part>
                   </content>
