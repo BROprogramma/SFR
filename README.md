@@ -1,9 +1,16 @@
-# Bodemkundig profielkuilonderzoek (Soil pit research/SPR)
+# Bodemkundig profielkuilonderzoek (Soil face research/SFR)
 
-Repository voor het ontwikkelen van de gegevenscatalogus SPR. Deze werkversie van deze gegevenscatalogus gepresenteerd op 30 augustus 2018 bij de sprintreview 10 van het domein bodem en grond en is hier te bekijken:
+Repository voor het ontwikkelen van de gegevenscatalogus SFR. 
 
-https://github.com/BROprogramma/SPR/blob/gh-pages/20180829%20Catalogus%20Wandonderzoek%20bodemkundig_profielwand%20werkversie.pdf
+## Publieke Consultatie
+Van 24 december tot 11 februari loopt de consultatie over de catalogus “[Wandonderzoek -bodemkundige wandbeschrijving][1]". 
 
-Reacties op de inhoud zijn welkom, bij voorkeur door het aanmaken van of reageren op een issue in dit repository. (Hiervoor heeft u een github account nodig).
+[Instructies voor de publieke consultatie][2]
 
-Als er een consultatieversie beschikbaar komt, zal die in deze repository gepubliceerd worden.
+De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor meer achtergrondinformatie, zie ook [Inleiding Catalogus][3]. 
+
+[1]: https://github.com/BROprogramma/SFR/blob/gh-pages/
+[2]: https://github.com/BROprogramma/SFR/blob/gh-pages/consultatie-instructie.md
+[3]: https://github.com/BROprogramma/SFR/blob/
+
+
