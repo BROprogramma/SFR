@@ -1,9 +1,9 @@
-# Bodemkundig profielkuilonderzoek (Soil face research/SFR)
+# Wandonderzoek - bodemkundige wandbeschrijving (Soil face research/SFR)
 
-Repository voor het ontwikkelen van de gegevenscatalogus SFR. 
+Repository voor het ontwikkelen van de gegevenscatalogus Wandonderzoek - bodemkundige wandbeschrijving. 
 
 ## Publieke Consultatie
-Van 24 december tot 11 februari loopt de consultatie over de catalogus “[Wandonderzoek -bodemkundige wandbeschrijving][1]". 
+Van 24 december tot 11 februari loopt de consultatie over de catalogus “[Wandonderzoek - bodemkundige wandbeschrijving][1]". 
 
 [Instructies voor de publieke consultatie][2]
 
