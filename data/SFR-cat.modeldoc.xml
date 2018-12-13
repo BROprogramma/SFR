@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.49.0"
-      generator-date="2018-12-13T14:47:40Z">
+      generator-date="2018-12-13T14:52:07Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -5167,7 +5167,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling van de grond na afzetting van het sediment. (ook al bij gevlekt neer gezet..)</item>
+                  <item>Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling van de grond na afzetting van het sediment. (dubbel met toelichting van gevlekt)</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -19879,17 +19879,17 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                   <part>
                      <item/>
                      <item>gelijkmatig</item>
-                     <item>Vlekken komen gelijkmatig verdeeld over de wand voor.</item>
+                     <item>Vlekken komen gelijkmatig verdeeld over de grond voor.</item>
                   </part>
                   <part>
                      <item/>
                      <item>ongelijkmatig</item>
-                     <item>Vlekken komen ongelijkmatig verdeeld over de wand voor.</item>
+                     <item>Vlekken komen ongelijkmatig verdeeld over de grond voor.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Onbekend.</item>
+                     <item>Het is niet bekend of de vlek verdeling bepaald is.</item>
                   </part>
                </content>
             </section>
