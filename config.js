@@ -14,9 +14,9 @@ var respecConfig = {
       url: "https://www.geonovum.nl", 
     },  
   ],
-  shortName: "bro-spr",
+  shortName: "bro-sfr",
   pubDomain: "bro",
-  github: "https://github.com/BROprogramma/SPR",
+  github: "https://github.com/BROprogramma/SFR",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
