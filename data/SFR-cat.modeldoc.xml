@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.49.1"
-      generator-date="2018-12-17T13:29:34Z">
+      generator-date="2018-12-17T16:24:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -1181,8 +1181,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland of zijn Exclusieve Economische Zone een wand te ontsluiten en de monsters die daarmee uit de ondergrond zijn verkregen te beschrijven en eventueel te onderzoeken en/of in het boorgat zelf metingen aan de ondergrond uit te voeren.
-Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)</item>
+                  <item>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland een wand in de bodem te maken, de wand te beschrijven, of te bemonsteren en de monsters te onderzoeken.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -1190,8 +1189,7 @@ Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>De populatie wandonderzoeken in de registratie ondergrond omvat alle onderzoeken met uitzondering van onderzoek dat onder het regime van de Mijnbouwwet valt en onderzoek dat met het oog op de beoordeling van de bodemmilieukwaliteit of vanuit de archeologie wordt uitgevoerd.
-De huidige gegevensdefinitie beschrijft alleen het bodumkundige wandonderzoek en beperkt zich verder tot de wandbeschrijving.</item>
+                  <item>De populatie wandonderzoeken in de registratie ondergrond omvat alleen de onderzoeken die vanuit het vakgebied van de bodemkunde worden uitgevoerd. De huidige gegevensdefinitie beperkt zich tot de wandbeschrijving.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -1415,8 +1413,7 @@ De huidige gegevensdefinitie beschrijft alleen het bodumkundige wandonderzoek en
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland of zijn Exclusieve Economische Zone een wand te ontsluiten en de monsters die daarmee uit de ondergrond zijn verkregen te beschrijven en eventueel te onderzoeken en/of in het boorgat zelf metingen aan de ondergrond uit te voeren.
-Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)</item>
+                     <item>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland een wand in de bodem te maken, de wand te beschrijven, of te bemonsteren en de monsters te onderzoeken.</item>
                   </part>
                   <part>
                      <item>
@@ -1572,8 +1569,7 @@ Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)</item>
                            <item type="global" idref="global_class_DomeinmodelBROSPR_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland of zijn Exclusieve Economische Zone een wand te ontsluiten en de monsters die daarmee uit de ondergrond zijn verkregen te beschrijven en eventueel te onderzoeken en/of in het boorgat zelf metingen aan de ondergrond uit te voeren.
-Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)</item>
+                     <item>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland een wand in de bodem te maken, de wand te beschrijven, of te bemonsteren en de monsters te onderzoeken.</item>
                   </part>
                   <part>
                      <item>
@@ -2463,6 +2459,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De entiteit omvat nu slechts de gegevens die voor het vakgebied bodemkunde van betekenis zijn.</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -2496,11 +2496,11 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainageToestand">drainage toestand</item>
+                              idref="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainagetoestand">drainagetoestand</item>
                      </item>
-                     <item>De toestand van de drainage van het terrein tijdens het beschrijven van de wand.</item>
+                     <item>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</item>
                      <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSPR_DrainageToestand">DrainageToestand</item>
+                        <item type="global" idref="global_class_DomeinmodelBROSPR_Drainagetoestand">Drainagetoestand</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3349,7 +3349,7 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een interval(?) in het wandprofiel die als een bodemlaag met een bepaalde inhoud beschreven is.</item>
+                  <item>Een interval in het wandprofiel die als een bodemlaag met een bepaalde inhoud beschreven is.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -3677,7 +3677,7 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gesteentesoort">gesteentesoort</item>
                      </item>
-                     <item>De naam van het geconsolideerde gesteente. (to do)</item>
+                     <item>De naam van het geconsolideerde gesteente.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSPR_Gesteentesoort">Gesteentesoort</item>
                      </item>
@@ -4480,7 +4480,7 @@ bevat, uitgedrukt in een klasse.</item>
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte">geschat zandgehalte</item>
                      </item>
-                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
+                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -4603,7 +4603,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte">geschat zandgehalte</item>
                      </item>
-                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
+                     <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5905,9 +5905,9 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                <item/>
             </part>
             <part>
-               <item id="global_class_DomeinmodelBROSPR_DrainageToestand"
+               <item id="global_class_DomeinmodelBROSPR_Drainagetoestand"
                      uuid="EAID_13EC82AB_829D_437a_B312_BD21D12E3AD8"
-                     idref="detail_class_DomeinmodelBROSPR_DrainageToestand">DrainageToestand</item>
+                     idref="detail_class_DomeinmodelBROSPR_Drainagetoestand">Drainagetoestand</item>
                <item/>
             </part>
             <part>
@@ -6629,7 +6629,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Onderzoek wordt normaliter projectmatig uitgevoerd.</item>
+                        <item>Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor het onderzoek is uitgevoerd of preciseert de taak.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -6794,8 +6794,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Het veldwerk wordt gewoonlijk in een dag uitgevoerd. In het geval het meer dagen in beslag neemt, geldt de datum waarop het veldwerk is beëindigd.
-Het veldwerk heeft betrekking op het vastleggen van de aangeleverde locatie, het doen van de wandbeschrijving, vastleggen van de terreintoestand, eventueel het maken van wandfotos, het nemen van wandmonsters en het uitvoeren van bepaalde veldproeven.</item>
+                        <item>Het veldwerk wordt gewoonlijk in een dag uitgevoerd. In het geval het meer dagen in beslag neemt, geldt de datum waarop het veldwerk is beëindigd.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -8560,7 +8559,7 @@ Het veldwerk heeft betrekking op het vastleggen van de aangeleverde locatie, het
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
+                        <item>Basisgegeven</item>
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
@@ -8573,6 +8572,10 @@ Het veldwerk heeft betrekking op het vastleggen van de aangeleverde locatie, het
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -9536,14 +9539,14 @@ Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn; in dat geval en all
                      </part>
                   </content>
                </section>
-               <section name="drainage toestand"
+               <section name="drainagetoestand"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainageToestand"
-                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_drainageToestand">
+                        id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainagetoestand"
+                        id-global="global_attribute_DomeinmodelBROSPR_Terreintoestand_drainagetoestand">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>drainage toestand</item>
+                        <item>drainagetoestand</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -9551,7 +9554,7 @@ Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn; in dat geval en all
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De toestand van de drainage van het terrein tijdens het beschrijven van de wand.</item>
+                        <item>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -9583,7 +9586,7 @@ Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn; in dat geval en all
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>DrainageToestand</item>
+                        <item>Drainagetoestand</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10656,6 +10659,10 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="vorm bovengrens"
@@ -10771,6 +10778,10 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="bewortelbare diepte"
@@ -10822,10 +10833,6 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                         <item>Regels</item>
                         <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut bewortelbare diepte bereikt.
 De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandontsluiting.</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>1.2</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -10890,10 +10897,6 @@ De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandon
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit gelijk is aan hoog. In andere gevallen mag het gegeven ontbreken.</item>
-                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -10901,6 +10904,10 @@ De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandon
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -10953,10 +10960,6 @@ De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandon
                         <item>Regels</item>
                         <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven.
 De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>1.2</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11029,10 +11032,6 @@ De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van d
                         <item>Regels</item>
                         <item>Het gegeven kan alleen aanwezig zijn wanneer het attribuut gemiddeld hoogste waterstand een waarde heeft. In andere gevallen ontbreekt het gegeven.
 De waarde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste grondwaterstand. De waarde mag niet groter zijn dan de einddiepte wand van de entiteit wandontsluiting.</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>1.2</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11111,6 +11110,10 @@ Dat is een vorm van bodemdegradatie omdat het plantengroei belemmert, omdat rege
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="begindiepte verdichting"
@@ -11157,10 +11160,6 @@ Dat is een vorm van bodemdegradatie omdat het plantengroei belemmert, omdat rege
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
                         <item>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk is aan ja. In andere gevallen ontbreekt het gegeven.</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>1.2</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11234,10 +11233,6 @@ Dat is een vorm van bodemdegradatie omdat het plantengroei belemmert, omdat rege
                         <item>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk is aan ja. In andere gevallen ontbreekt het gegeven.
 De einddiepte verdichting is groter dan de begindiepte verdichting.
 De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit wandontsluiting.</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>1.2</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11313,6 +11308,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -11427,6 +11426,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -11641,7 +11644,7 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Bepaald op de beschrijflijn.</item>
+                        <item>Het gegeven wordt bepaald op de beschrijflijn.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -11663,6 +11666,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Voor iedere andere laag is de waarde steeds gelijk aan de waarde van de ondergrens van de laag erboven.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -11670,6 +11677,18 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m (meter)</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>-0.5</item>
+                     </part>
+                     <part type="CFG-DOC-MAXIMUMVALUE">
+                        <item>Maximumwaarde</item>
+                        <item>0</item>
                      </part>
                   </content>
                </section>
@@ -11784,6 +11803,18 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m (meter)</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>-0.5</item>
+                     </part>
+                     <part type="CFG-DOC-MAXIMUMVALUE">
+                        <item>Maximumwaarde</item>
+                        <item>0</item>
                      </part>
                   </content>
                </section>
@@ -11989,6 +12020,11 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het waardenbereik is beperkt tot codes die beginnen met de letter O.
+--Toelichting</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Horizontcode</item>
@@ -12103,6 +12139,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
             </section>
@@ -12133,7 +12173,7 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Bepaald op de beschrijflijn.</item>
+                        <item>Het gegeven wordt bepaald op de beschrijflijn.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -12154,6 +12194,11 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Voor de bovenste laag in het profiel is de waarde gelijk aan 0.00.
+Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag erboven.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -12259,7 +12304,7 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Bepaald op de beschrijflijn.</item>
+                        <item>Het gegeven wordt bepaald op de beschrijflijn.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -12280,6 +12325,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>De waarde is groter dan de waarde van de bovengrens van de laag. De waarde van de onderste laag is gelijk aan het attribuut einddiepte wand van de entiteit Wandontsluiting.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -13122,7 +13171,8 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>De horizontcode is alleen gevuld als het attribuut bijzonder materiaal is gevuld.</item>
+                        <item>De horizontcode is alleen gevuld als het attribuut bijzonder materiaal niet is gevuld.
+Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -13149,7 +13199,7 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De naam van het geconsolideerde gesteente. (to do)</item>
+                        <item>De naam van het geconsolideerde gesteente.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -13417,6 +13467,10 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan hoog. In het andere geval mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-REGELS-IMBROA">
                         <item>Regels IMBRO/A</item>
@@ -13704,7 +13758,7 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan hoog, heeft het gegeven een waarde. In alle andere gevallen mag het gegeven een waarde hebben.</item>
+                        <item>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -13763,7 +13817,8 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Wanneer de waarde van het attribuut bodemkundige grondsoort ongelijk is aan veen, kleiigVeen, venigeKlei,venigZand of zandigVeen is het gegeven aanwezig. Wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan hoog, heeft het gegeven een waarde. In alle andere gevallen mag het gegeven een waarde hebben.</item>
+                        <item>Wanneer de waarde van het attribuut bodemkundige grondsoort ongelijk is aan veen, kleiigVeen, venigeKlei,venigZand of zandigVeen is het gegeven aanwezig.
+Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -13822,7 +13877,7 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>beschrijfkwaliteit hoog</item>
+                        <item>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -13952,8 +14007,8 @@ In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>beschrijfkwaliteit hoog
-Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig zijn.</item>
+                        <item>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.
+Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort gelijk is aan kleiarmZand, kleiigZand, leemarmZand, sterkLemigZand, zeerSterkLemigZand, zwakLemigZand. In andere gevallen mag het gegeven aanwezig zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -14012,7 +14067,7 @@ Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig zijn.</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort gelijk is aan kleiarmZand, kleiigZand, leemarmZand, sterkLemigZand, zeerSterkLemigZand, zwakLemigZand. In andere gevallen mag het gegeven aanwezig zijn.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -14462,7 +14517,7 @@ bevat, uitgedrukt in een klasse.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek.</item>
+                        <item>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in het domein bodem en grond van de basisregistratie ondergrond.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -15478,7 +15533,7 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
+                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -15751,7 +15806,7 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</item>
+                        <item>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -16666,6 +16721,10 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O of R.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Horizontcode</item>
@@ -16724,6 +16783,18 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>% (procent)</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-MAXIMUMVALUE">
+                        <item>Maximumwaarde</item>
+                        <item>99</item>
                      </part>
                   </content>
                </section>
@@ -20417,10 +20488,10 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </part>
                </content>
             </section>
-            <section name="DrainageToestand"
+            <section name="Drainagetoestand"
                      type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROSPR_DrainageToestand"
-                     id-global="global_class_DomeinmodelBROSPR_DrainageToestand"
+                     id="detail_class_DomeinmodelBROSPR_Drainagetoestand"
+                     id-global="global_class_DomeinmodelBROSPR_Drainagetoestand"
                      uuid="EAID_13EC82AB_829D_437a_B312_BD21D12E3AD8">
                <content>
                   <part>

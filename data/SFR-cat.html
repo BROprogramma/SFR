@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SFR conceptueel" door Imvertor 1.49.1 op December 17, 2018 at 13:29:34.
+   "SFR conceptueel" door Imvertor 1.49.1 op December 17, 2018 at 16:24:58.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SFRconceptueel-0.1-0-20180831-20181217-142936"</i> door. 
+   <i>"Conceptualmodel-SFRconceptueel-0.1-0-20180831-20181217-172500"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -1499,10 +1499,8 @@
                   <th>Definitie</th>
                   <td>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde
                      opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland
-                     of zijn Exclusieve Economische Zone een wand te ontsluiten en de monsters die daarmee
-                     uit de ondergrond zijn verkregen te beschrijven en eventueel te onderzoeken en/of
-                     in het boorgat zelf metingen aan de ondergrond uit te voeren.
-                     Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)
+                     een wand in de bodem te maken, de wand te beschrijven, of te bemonsteren en de monsters
+                     te onderzoeken.
                   </td>
                </tr>
                <tr>
@@ -1511,12 +1509,9 @@
                </tr>
                <tr>
                   <th>Toelichting</th>
-                  <td>De populatie wandonderzoeken in de registratie ondergrond omvat alle onderzoeken met
-                     uitzondering van onderzoek dat onder het regime van de Mijnbouwwet valt en onderzoek
-                     dat met het oog op de beoordeling van de bodemmilieukwaliteit of vanuit de archeologie
-                     wordt uitgevoerd.
-                     De huidige gegevensdefinitie beschrijft alleen het bodumkundige wandonderzoek en beperkt
-                     zich verder tot de wandbeschrijving.
+                  <td>De populatie wandonderzoeken in de registratie ondergrond omvat alleen de onderzoeken
+                     die vanuit het vakgebied van de bodemkunde worden uitgevoerd. De huidige gegevensdefinitie
+                     beperkt zich tot de wandbeschrijving.
                   </td>
                </tr>
             </tbody>
@@ -1813,10 +1808,8 @@
                   </td>
                   <td>Het geheel van gegevens dat betrekking heeft op een wandonderzoek dat vanuit een bepaalde
                      opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland
-                     of zijn Exclusieve Economische Zone een wand te ontsluiten en de monsters die daarmee
-                     uit de ondergrond zijn verkregen te beschrijven en eventueel te onderzoeken en/of
-                     in het boorgat zelf metingen aan de ondergrond uit te voeren.
-                     Open punt: Code: SPR of SFR (Soil Pit Research of Soil Face Research)
+                     een wand in de bodem te maken, de wand te beschrijven, of te bemonsteren en de monsters
+                     te onderzoeken.
                   </td>
                </tr>
                <tr>
@@ -2790,6 +2783,12 @@
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
                </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De entiteit omvat nu slechts de gegevens die voor het vakgebied bodemkunde van betekenis
+                     zijn.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -2835,12 +2834,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainageToestand">drainage toestand</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainagetoestand">drainagetoestand</a>
                      
                   </td>
-                  <td>De toestand van de drainage van het terrein tijdens het beschrijven van de wand.</td>
+                  <td>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</td>
                   <td>
-                     <a class="link" href="#global_class_DomeinmodelBROSPR_DrainageToestand">DrainageToestand</a>
+                     <a class="link" href="#global_class_DomeinmodelBROSPR_Drainagetoestand">Drainagetoestand</a>
                      
                   </td>
                   <td>1</td>
@@ -3703,7 +3702,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Een interval(?) in het wandprofiel die als een bodemlaag met een bepaalde inhoud beschreven
+                  <td>Een interval in het wandprofiel die als een bodemlaag met een bepaalde inhoud beschreven
                      is.
                   </td>
                </tr>
@@ -4054,7 +4053,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_gesteentesoort">gesteentesoort</a>
                      
                   </td>
-                  <td>De naam van het geconsolideerde gesteente. (to do)</td>
+                  <td>De naam van het geconsolideerde gesteente.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSPR_Gesteentesoort">Gesteentesoort</a>
                      
@@ -4804,7 +4803,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_VerdelingFijneFractie_geschatZandgehalte">geschat zandgehalte</a>
                      
                   </td>
-                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
+                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -4940,7 +4939,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_OnvolledigeFractiespecificatie_geschatZandgehalte">geschat zandgehalte</a>
                      
                   </td>
-                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
+                  <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -6258,7 +6257,7 @@
                <td></td>
             </tr>
             <tr>
-               <th><a class="anchor" name="global_class_DomeinmodelBROSPR_DrainageToestand"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_DrainageToestand">DrainageToestand</a></th>
+               <th><a class="anchor" name="global_class_DomeinmodelBROSPR_Drainagetoestand"></a><a class="link" href="#detail_class_DomeinmodelBROSPR_Drainagetoestand">Drainagetoestand</a></th>
                <td></td>
             </tr>
             <tr>
@@ -6911,7 +6910,10 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Onderzoek wordt normaliter projectmatig uitgevoerd.</td>
+                     <td>Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden
+                        is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor
+                        het onderzoek is uitgevoerd of preciseert de taak.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -7092,9 +7094,6 @@
                      <th>Toelichting</th>
                      <td>Het veldwerk wordt gewoonlijk in een dag uitgevoerd. In het geval het meer dagen in
                         beslag neemt, geldt de datum waarop het veldwerk is beëindigd.
-                        Het veldwerk heeft betrekking op het vastleggen van de aangeleverde locatie, het doen
-                        van de wandbeschrijving, vastleggen van de terreintoestand, eventueel het maken van
-                        wandfotos, het nemen van wandmonsters en het uitvoeren van bepaalde veldproeven.
                      </td>
                   </tr>
                   <tr>
@@ -8876,7 +8875,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
+                     <td>Basisgegeven</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -8891,6 +8890,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -9972,7 +9975,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainageToestand"></a><section id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainageToestand"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Terreintoestand">Terreintoestand</a> drainage toestand</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainagetoestand"></a><section id="detail_attribute_DomeinmodelBROSPR_Terreintoestand_drainagetoestand"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROSPR_Terreintoestand">Terreintoestand</a> drainagetoestand</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -9980,7 +9983,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>drainage toestand</td>
+                     <td>drainagetoestand</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -9988,7 +9991,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De toestand van de drainage van het terrein tijdens het beschrijven van de wand.</td>
+                     <td>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -10020,7 +10023,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>DrainageToestand</td>
+                     <td>Drainagetoestand</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -11202,6 +11205,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -11326,6 +11333,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -11385,10 +11396,6 @@
                         attribuut bewortelbare diepte bereikt.
                         De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandontsluiting.
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>1.2</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -11459,18 +11466,16 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
-                     <th>Regels</th>
-                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit gelijk
-                        is aan hoog. In andere gevallen mag het gegeven ontbreken.
-                     </td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -11532,10 +11537,6 @@
                         De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de
                         entiteit wandontsluiting.
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>1.2</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -11617,10 +11618,6 @@
                         De waarde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste grondwaterstand.
                         De waarde mag niet groter zijn dan de einddiepte wand van de entiteit wandontsluiting.
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>1.2</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -11710,6 +11707,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -11761,10 +11762,6 @@
                      <td>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk
                         is aan ja. In andere gevallen ontbreekt het gegeven.
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>1.2</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -11845,10 +11842,6 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Patroon</th>
-                     <td>1.2</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde</td>
                   </tr>
@@ -11925,6 +11918,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -12052,6 +12049,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -12235,7 +12236,7 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Bepaald op de beschrijflijn.</td>
+                     <td>Het gegeven wordt bepaald op de beschrijflijn.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -12258,12 +12259,30 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Voor iedere andere laag is de waarde steeds gelijk aan de waarde van de ondergrens
+                        van de laag erboven.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>m (meter)</td>
+                  </tr>
+                  <tr>
+                     <th>Minimumwaarde</th>
+                     <td>-0.5</td>
+                  </tr>
+                  <tr>
+                     <th>Maximumwaarde</th>
+                     <td>0</td>
                   </tr>
                </tbody>
             </table>
@@ -12391,6 +12410,18 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>m (meter)</td>
+                  </tr>
+                  <tr>
+                     <th>Minimumwaarde</th>
+                     <td>-0.5</td>
+                  </tr>
+                  <tr>
+                     <th>Maximumwaarde</th>
+                     <td>0</td>
                   </tr>
                </tbody>
             </table>
@@ -12614,6 +12645,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het waardenbereik is beperkt tot codes die beginnen met de letter O.
+                        --Toelichting
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Horizontcode</td>
                   </tr>
@@ -12735,6 +12772,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -12767,7 +12808,7 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Bepaald op de beschrijflijn.</td>
+                     <td>Het gegeven wordt bepaald op de beschrijflijn.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -12788,6 +12829,12 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Voor de bovenste laag in het profiel is de waarde gelijk aan 0.00.
+                        Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag erboven.
+                     </td>
                   </tr>
                   <tr>
                      <th>Patroon</th>
@@ -12905,7 +12952,7 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Bepaald op de beschrijflijn.</td>
+                     <td>Het gegeven wordt bepaald op de beschrijflijn.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -12926,6 +12973,12 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>De waarde is groter dan de waarde van de bovengrens van de laag. De waarde van de
+                        onderste laag is gelijk aan het attribuut einddiepte wand van de entiteit Wandontsluiting.
+                     </td>
                   </tr>
                   <tr>
                      <th>Patroon</th>
@@ -13804,7 +13857,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>De horizontcode is alleen gevuld als het attribuut bijzonder materiaal is gevuld.</td>
+                     <td>De horizontcode is alleen gevuld als het attribuut bijzonder materiaal niet is gevuld.
+                        Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.
+                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -13834,7 +13889,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De naam van het geconsolideerde gesteente. (to do)</td>
+                     <td>De naam van het geconsolideerde gesteente.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -14121,6 +14176,13 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de
+                        entiteit Wandbeschrijving gelijk is aan hoog. In het andere geval mag het gegeven
+                        ontbreken.
+                     </td>
                   </tr>
                   <tr>
                      <th>Regels IMBRO/A</th>
@@ -14453,9 +14515,8 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Wanneer de waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving
-                        gelijk is aan hoog, heeft het gegeven een waarde. In alle andere gevallen mag het
-                        gegeven een waarde hebben.
+                     <td>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de
+                        entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.
                      </td>
                   </tr>
                   <tr>
@@ -14521,10 +14582,9 @@
                   <tr>
                      <th>Regels</th>
                      <td>Wanneer de waarde van het attribuut bodemkundige grondsoort ongelijk is aan veen,
-                        kleiigVeen, venigeKlei,venigZand of zandigVeen is het gegeven aanwezig. Wanneer de
-                        waarde van het attribuut beschrijfkwaliteit van de entiteit Wandbeschrijving gelijk
-                        is aan hoog, heeft het gegeven een waarde. In alle andere gevallen mag het gegeven
-                        een waarde hebben.
+                        kleiigVeen, venigeKlei,venigZand of zandigVeen is het gegeven aanwezig.
+                        Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de
+                        entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.
                      </td>
                   </tr>
                   <tr>
@@ -14589,7 +14649,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>beschrijfkwaliteit hoog</td>
+                     <td>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de
+                        entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.
+                     </td>
                   </tr>
                   <tr>
                      <th>Patroon</th>
@@ -14734,10 +14796,11 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>beschrijfkwaliteit hoog
-                        Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op
-                        Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig
-                        zijn.
+                     <td>Het geven is aanwezig wanneer de waarde van het attribuut beschrijfkwaliteit van de
+                        entiteit Wandbeschrijving gelijk is aan ja. In het andere geval mag het gegeven ontbreken.
+                        Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort gelijk is
+                        aan kleiarmZand, kleiigZand, leemarmZand, sterkLemigZand, zeerSterkLemigZand, zwakLemigZand.
+                        In andere gevallen mag het gegeven aanwezig zijn.
                      </td>
                   </tr>
                   <tr>
@@ -14805,9 +14868,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort eindigt op
-                        Zand en niet gelijk is aan venigZand. In andere gevallen kan het gegeven aanwezig
-                        zijn.
+                     <td>Het gegeven is aanwezig wanneer de waarde van de bodemkundige grondsoort gelijk is
+                        aan kleiarmZand, kleiigZand, leemarmZand, sterkLemigZand, zeerSterkLemigZand, zwakLemigZand.
+                        In andere gevallen mag het gegeven aanwezig zijn.
                      </td>
                   </tr>
                   <tr>
@@ -15307,7 +15370,8 @@
                   <tr>
                      <th>Toelichting</th>
                      <td>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen
-                        met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek.
+                        met het oog op de standaardisatie van de grondsoortbenaming in het domein bodem en
+                        grond van de basisregistratie ondergrond.
                      </td>
                   </tr>
                   <tr>
@@ -16306,7 +16370,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
+                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -16590,7 +16654,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 µm en 2 mm.</td>
+                     <td>Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -17561,6 +17625,10 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O of R.</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Horizontcode</td>
                   </tr>
@@ -17621,6 +17689,18 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>% (procent)</td>
+                  </tr>
+                  <tr>
+                     <th>Minimumwaarde</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Maximumwaarde</th>
+                     <td>99</td>
                   </tr>
                </tbody>
             </table>
@@ -21954,8 +22034,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="graph_EAID_13EC82AB_829D_437a_B312_BD21D12E3AD8"></a><a class="anchor" name="detail_class_DomeinmodelBROSPR_DrainageToestand"></a><section id="detail_class_DomeinmodelBROSPR_DrainageToestand">
-         <h6>Codelijst details DrainageToestand</h6>
+      <a class="anchor" name="graph_EAID_13EC82AB_829D_437a_B312_BD21D12E3AD8"></a><a class="anchor" name="detail_class_DomeinmodelBROSPR_Drainagetoestand"></a><section id="detail_class_DomeinmodelBROSPR_Drainagetoestand">
+         <h6>Codelijst details Drainagetoestand</h6>
          
          <table>
             <colgroup width="40%"></colgroup>
