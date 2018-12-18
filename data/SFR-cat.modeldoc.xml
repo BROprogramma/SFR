@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.49.1"
-      generator-date="2018-12-17T16:24:58Z">
+      generator-date="2018-12-18T18:07:01Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -3700,7 +3700,7 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_geschatteVerzadigdeDoorlatendheid">geschatte verzadigde doorlatendheid</item>
                      </item>
-                     <item>De snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
+                     <item>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5053,7 +5053,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>Iets met kerend, heterogeen etc.?</item>
+                  <item>Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal 2.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -5079,7 +5079,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Laagcomponent_geschatteVolumepercentage">geschatte volumepercentage</item>
                      </item>
-                     <item>Het aandeel van de component in het volume van de laag.</item>
+                     <item>Het geschatte aandeel van de component in het volume van de laag.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5102,7 +5102,7 @@ De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verl
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSPR_Laagcomponent_geschatteVerzadigdeDoorlatendheid">geschatte verzadigde doorlatendheid</item>
                      </item>
-                     <item>De snelheid waarmee water door de met water verzadigde grond kan stromen. To do: Aanpassen aan geschat !</item>
+                     <item>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -10711,10 +10711,6 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven mag ontbreken. Vrijheid blijheid</item>
-                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>VormGrens</item>
@@ -10831,8 +10827,7 @@ In alle andere gevallen mag het gegeven ontbreken.</item>
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut bewortelbare diepte bereikt.
-De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandontsluiting.</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt gelijk is aan ja. De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandontsluiting.  </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -10958,8 +10953,7 @@ De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandon
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven.
-De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.  </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11030,8 +11024,7 @@ De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van d
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven kan alleen aanwezig zijn wanneer het attribuut gemiddeld hoogste waterstand een waarde heeft. In andere gevallen ontbreekt het gegeven.
-De waarde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste grondwaterstand. De waarde mag niet groter zijn dan de einddiepte wand van de entiteit wandontsluiting.</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.  </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11670,6 +11663,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Regels</item>
                         <item>Voor iedere andere laag is de waarde steeds gelijk aan de waarde van de ondergrens van de laag erboven.</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>1.2</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -11745,6 +11742,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="ondergrens"
@@ -11795,6 +11796,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
                         <item>De waarde is groter dan de waarde van de bovengrens van de laag. De waarde van de ondergrens van de onderste strooisellaag is 0.00.</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>1.2</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -11871,6 +11876,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="vorm ondergrens"
@@ -11918,6 +11927,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>VormGrens</item>
@@ -11925,6 +11938,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -11977,6 +11994,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="horizontcode"
@@ -12022,7 +12043,7 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het waardenbereik is beperkt tot codes die beginnen met de letter O.
+                        <item>Het waardenbereik omvat alleen de volgende codes: Of, Oh, Ol, Ou, of O.
 --Toelichting</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
@@ -12032,6 +12053,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12084,6 +12109,10 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="geschat gehalte organische stof"
@@ -12129,7 +12158,11 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      </part>
                      <part type="CFG-DOC-REGELS-IMBROA">
                         <item>Regels IMBRO/A</item>
-                        <item>Voor IMBRO/A-gegevens kan het organische stofgehalte niet bepaald zijn; in dat geval en alleen in dat geval heeft het gegeven geen waarde.</item>
+                        <item>Voor IMBRO/A gegevens kan het geschat gehalte organische stof niet bepaald zijn, alleen in dat geval heeft het gegeven geen waarde.</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>3.1</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -12141,7 +12174,15 @@ De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit 
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>% (procent)</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>0</item>
+                     </part>
+                     <part type="CFG-DOC-MAXIMUMVALUE">
+                        <item>Maximumwaarde</item>
+                        <item>100</item>
                      </part>
                   </content>
                </section>
@@ -12279,6 +12320,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="ondergrens"
@@ -12409,6 +12454,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="vorm ondergrens"
@@ -12456,6 +12505,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>VormGrens</item>
@@ -12463,6 +12516,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12514,6 +12571,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12570,6 +12631,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="beworteld"
@@ -12592,10 +12657,6 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>To Do</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -12624,6 +12685,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12672,6 +12737,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Regels</item>
                         <item>Het gegeven is aanwezig wanneer de waarde van het attribuut beworteld gelijk is aan ja. In andere gevallen ontbreekt het gegeven.</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Wortelverdeling</item>
@@ -12679,6 +12748,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12727,6 +12800,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Regels</item>
                         <item>Het gegeven is aanwezig wanneer de waarde van het attribuut beworteld gelijk is aan ja. In andere gevallen ontbreekt het gegeven.</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>HoeveelheidsklasseWortels</item>
@@ -12734,6 +12811,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12790,6 +12871,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="antropogeen"
@@ -12841,6 +12926,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="gemengd"
@@ -12884,6 +12973,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut antropogeen gelijk is aan ja. In andere gevallen ontbreekt het gegeven.  </item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -12891,6 +12984,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -12935,6 +13032,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut antropogeen gelijk is aan ja. In andere gevallen ontbreekt het gegeven.  </item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -12942,6 +13043,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -13118,6 +13223,10 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A-gegevens ontbreekt het gegeven.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>BijzonderMateriaal</item>
@@ -13125,6 +13234,10 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -13171,8 +13284,8 @@ Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>De horizontcode is alleen gevuld als het attribuut bijzonder materiaal niet is gevuld.
-Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item>
+                        <item>Het gegeven ontbreekt wanneer het attribuut bijzonder materiaal aanwezig is. In het andere geval is het gegeven aanwezig.
+Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -13181,6 +13294,10 @@ Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -13236,6 +13353,10 @@ Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -13313,7 +13434,7 @@ Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
+                        <item>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -13343,6 +13464,10 @@ Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>1.2</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -13353,7 +13478,15 @@ Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.</item
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m/24h (meters per etmaal)</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>0</item>
+                     </part>
+                     <part type="CFG-DOC-MAXIMUMVALUE">
+                        <item>Maximumwaarde</item>
+                        <item>10</item>
                      </part>
                   </content>
                </section>
@@ -16723,7 +16856,7 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O of R.</item>
+                        <item>Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, O of Ru.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -16732,6 +16865,10 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -16750,7 +16887,7 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het aandeel van de component in het volume van de laag.</item>
+                        <item>Het geschatte aandeel van de component in het volume van de laag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -16775,6 +16912,10 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>2.0</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -16847,6 +16988,10 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="geschatte verzadigde doorlatendheid"
@@ -16864,11 +17009,15 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De snelheid waarmee water door de met water verzadigde grond kan stromen. To do: Aanpassen aan geschat !</item>
+                        <item>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is alleen aanwezig wanneer de opdrachtgever daarom heeft gevraagd of wanneer de uitvoerder dat op eigen initiatief heeft vastgelegd. De waarde wordt op basis van expertkennis en op het oog geschat aan de hand van met name de grondsoort. Een warade groer dan 0,49 wordt als een veelvoud van 0,10 genoteerd om schijnnauwkeurigheid te vermijden.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -16890,6 +17039,10 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>1.2</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -16897,6 +17050,18 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m/24h (meters per etmaal)</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>0</item>
+                     </part>
+                     <part type="CFG-DOC-MAXIMUMVALUE">
+                        <item>Maximumwaarde</item>
+                        <item>10</item>
                      </part>
                   </content>
                </section>
@@ -17007,6 +17172,10 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -17111,7 +17280,7 @@ Bij Laagcompoonent is dit gegeven afwezig.</item>
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Dit gegeven is alleen aanwezig als einddiepte bereikt gelijk is aan ja.</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut einddiepte bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven.  </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -20572,6 +20741,11 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </part>
                   <part>
                      <item/>
+                     <item>woelspoor</item>
+                     <item>Een antropogeen fenomeen veroorzaakt door de mens: Een in het bodemprofiel herkenbare strook of spoor bestaande uit losgetrokken grond door een cultivator beitel, door zijn specifieke vorm ook wel ganzevoet genoemd.</item>
+                  </part>
+                  <part>
+                     <item/>
                      <item>onbekend</item>
                      <item>Het is niet bekend of er een fenomeen bepaald is.</item>
                   </part>
@@ -23709,8 +23883,118 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
-                     <item>schrikvegetatie</item>
+                     <item>afwezig</item>
+                     <item>Er is geen spontane vegetatie in het bos aanwezig. In de classificatie van Bannink et al. heeft het de code 0.</item>
+                  </part>
+                  <part>
                      <item/>
+                     <item>donkerBosKantmosKlauwtjesmos</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Kantmos en Klauwtjesmos. In de classificatie van Bannink et al. heeft het de code I.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>donkerBosKronkelsteeltjeGewoonSterremos</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Kronkelsteeltje en Gewoon sterremos. In de classificatie van Bannink et al. heeft het de code II.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>donkerBosKronkelsteeltjeWildeLijsterbesKnikkendWilgeroosje</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Kronkelsteeltje, Wilde lijsterbes en Knikkend wilgeroosje. In de classificatie van Bannink et al. heeft het de code III.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>donkerBosStekelvarenLiggendWalstro</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Stekelvaren en Liggend walstro. In de classificatie van Bannink et al. heeft het de code IV.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>donkerBosWildeKamperfoelieStekelvarenDrienerfmuur</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Wilde kamperfoelie, Stekelvaren en Drienerfmuur. In de classificatie van Bannink et al. heeft het de code V.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>donkerBosRankendeHelmbloemWitteKlaverzuringStekelvarenBraam</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Rankende helmbloem, Witte klaverzuring, Stekelvaren en Braam. In de classificatie van Bannink et al. heeft het de code VI.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>donkerBosWitteKlaverzuringDauwbraamRobertskruidSpeenkruid</item>
+                     <item>Donkere bossen met vegetatie in gezelschap van Witte klaverzuring, Dauwbraam, Robertskruid en Speenkruid. In de classificatie van Bannink et al. heeft het de waarde VII.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosZandzeggeRuigHaarmos</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Zandzegge en Ruig Haarmos (veel open zand). In de classificatie van Bannink et al. heeft het de code A0.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosRendiermosZandGaffeltand</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Rendiermos en Zand-Gaffeltand. In de classificatie van Bannink et al. heeft het de code A1.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosRendiermosKlauwtjesmos</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Rendiermos en Klauwtjesmos. In de classificatie van Bannink et al. heeft het de code A2.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosBronsmosKlauwtjesmosGewoonGaffeltandmos</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Bronsmos, Klauwtjesmos en Gewoon Gaffeltandmos. In de classificatie van Bannink et al. heeft het de code H1.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosBronsmosGrootLaddermos</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Bronsmos en Groot Laddermos. In de classificatie van Bannink et al. heeft het de code H2.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosBronsmosBochtigeSmeleStruisgassen</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Bronsmos, Bochtige smele en Struisgassen.In de classificatie van Bannink et al. heeft het de code R1.1.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosBronsmosWildeLijsterbes</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Bronsmos en Wilde lijsterbes. In de classificatie van Bannink et al. heeft het de code R1.2.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosBraamStekelvarenGrootLaddermos</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Braam, Stekelvaren en Groot Laddermos. In de classificatie van Bannink et al. heeft het de waarde R2.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosGladdeWitbolValseSalieBraam</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Gladde witbol, Valse salie en Braam. In de classificatie van Bannink et al. heeft het de code R3.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosFramboosBraam</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Framboos en Braam. In de classificatie van Bannink et al. heeft het de code R4.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosDuinrietZandzegge</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Duinriet en Zandzegge (veel open zand). In de classificatie van Bannink et al. heeft het de code K0.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosWitteKlaverzuringHazelaarDrienerfmuur</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Witte Klaverzuring, Hazelaar en Drienerfmuur. In de classificatie van Bannink et al. heeft het de code Z.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosGroteBrandnetelStekelvaren</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Grote brandnetel en Stekelvaren. In de classificatie van Bannink et al. heeft het de code K1.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosDauwbraamVlasbekjeHondstong</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Dauwbraam, Vlasbekje en Hondstong. In de classificatie van Bannink et al. heeft het de code K2.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>lichtBosDauwbraamRobertskruid</item>
+                     <item>Lichte bossen met vegetatie in gezelschap van Dauwbraam en Robertskruid. In de classificatie van Bannink et al. heeft het de code K3.</item>
                   </part>
                </content>
             </section>

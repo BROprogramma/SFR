@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SFR conceptueel" door Imvertor 1.49.1 op December 17, 2018 at 16:24:58.
+   "SFR conceptueel" door Imvertor 1.49.1 op December 18, 2018 at 18:07:01.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SFRconceptueel-0.1-0-20180831-20181217-172500"</i> door. 
+   <i>"Conceptualmodel-SFRconceptueel-0.1-0-20180831-20181218-190703"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -4079,7 +4079,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_HomogeenMateriaal_geschatteVerzadigdeDoorlatendheid">geschatte verzadigde doorlatendheid</a>
                      
                   </td>
-                  <td>De snelheid waarmee water door de met water verzadigde grond kan stromen.</td>
+                  <td>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5419,7 +5419,7 @@
                </tr>
                <tr>
                   <th>Toelichting</th>
-                  <td>Iets met kerend, heterogeen etc.?</td>
+                  <td>Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal 2.</td>
                </tr>
             </tbody>
          </table>
@@ -5457,7 +5457,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Laagcomponent_geschatteVolumepercentage">geschatte volumepercentage</a>
                      
                   </td>
-                  <td>Het aandeel van de component in het volume van de laag.</td>
+                  <td>Het geschatte aandeel van de component in het volume van de laag.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -5483,9 +5483,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSPR_Laagcomponent_geschatteVerzadigdeDoorlatendheid">geschatte verzadigde doorlatendheid</a>
                      
                   </td>
-                  <td>De snelheid waarmee water door de met water verzadigde grond kan stromen. To do: Aanpassen
-                     aan geschat !
-                  </td>
+                  <td>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
@@ -11264,10 +11262,6 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
-                     <th>Regels</th>
-                     <td>Het gegeven mag ontbreken. Vrijheid blijheid</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>VormGrens</td>
                   </tr>
@@ -11392,9 +11386,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
-                        attribuut bewortelbare diepte bereikt.
-                        De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de wandontsluiting.
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt
+                        gelijk is aan ja. De bewortelbare diepte mag niet groter zijn dan de einddiepte wand
+                        van de wandontsluiting. &nbsp;
                      </td>
                   </tr>
                   <tr>
@@ -11532,10 +11526,10 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste waterstand
-                        bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven.
-                        De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de
-                        entiteit wandontsluiting.
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand
+                        bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste
+                        grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.
+                        &nbsp;
                      </td>
                   </tr>
                   <tr>
@@ -11613,10 +11607,10 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het gegeven kan alleen aanwezig zijn wanneer het attribuut gemiddeld hoogste waterstand
-                        een waarde heeft. In andere gevallen ontbreekt het gegeven.
-                        De waarde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste grondwaterstand.
-                        De waarde mag niet groter zijn dan de einddiepte wand van de entiteit wandontsluiting.
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand
+                        bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste
+                        grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.
+                        &nbsp;
                      </td>
                   </tr>
                   <tr>
@@ -12265,6 +12259,10 @@
                      </td>
                   </tr>
                   <tr>
+                     <th>Patroon</th>
+                     <td>1.2</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde</td>
                   </tr>
@@ -12347,6 +12345,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -12402,6 +12404,10 @@
                      <td>De waarde is groter dan de waarde van de bovengrens van de laag. De waarde van de
                         ondergrens van de onderste strooisellaag is 0.00.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>1.2</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -12484,6 +12490,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -12535,12 +12545,20 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>VormGrens</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -12596,6 +12614,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -12646,7 +12668,7 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het waardenbereik is beperkt tot codes die beginnen met de letter O.
+                     <td>Het waardenbereik omvat alleen de volgende codes: Of, Oh, Ol, Ou, of O.
                         --Toelichting
                      </td>
                   </tr>
@@ -12657,6 +12679,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -12712,6 +12738,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -12760,9 +12790,13 @@
                   </tr>
                   <tr>
                      <th>Regels IMBRO/A</th>
-                     <td>Voor IMBRO/A-gegevens kan het organische stofgehalte niet bepaald zijn; in dat geval
-                        en alleen in dat geval heeft het gegeven geen waarde.
+                     <td>Voor IMBRO/A gegevens kan het geschat gehalte organische stof niet bepaald zijn, alleen
+                        in dat geval heeft het gegeven geen waarde.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>3.1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -12774,7 +12808,15 @@
                   </tr>
                   <tr>
                      <th>Meeteenheid</th>
-                     <td>BRO</td>
+                     <td>% (procent)</td>
+                  </tr>
+                  <tr>
+                     <th>Minimumwaarde</th>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <th>Maximumwaarde</th>
+                     <td>100</td>
                   </tr>
                </tbody>
             </table>
@@ -12924,6 +12966,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -13065,6 +13111,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -13116,12 +13166,20 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>VormGrens</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13176,6 +13234,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13235,6 +13297,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -13260,10 +13326,6 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>To Do</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -13292,6 +13354,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13346,12 +13412,20 @@
                      </td>
                   </tr>
                   <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Wortelverdeling</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13406,12 +13480,20 @@
                      </td>
                   </tr>
                   <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>HoeveelheidsklasseWortels</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13475,6 +13557,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -13531,6 +13617,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -13578,12 +13668,22 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut antropogeen gelijk is
+                        aan ja. In andere gevallen ontbreekt het gegeven. &nbsp;
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13632,12 +13732,22 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut antropogeen gelijk is
+                        aan ja. In andere gevallen ontbreekt het gegeven. &nbsp;
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13800,12 +13910,20 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Voor IMBRO/A-gegevens ontbreekt het gegeven.</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>BijzonderMateriaal</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13857,8 +13975,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>De horizontcode is alleen gevuld als het attribuut bijzonder materiaal niet is gevuld.
-                        Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O.
+                     <td>Het gegeven ontbreekt wanneer het attribuut bijzonder materiaal aanwezig is. In het
+                        andere geval is het gegeven aanwezig.
+                        Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O.
                      </td>
                   </tr>
                   <tr>
@@ -13868,6 +13987,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -13928,6 +14051,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -14021,7 +14148,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De snelheid waarmee water door de met water verzadigde grond kan stromen.</td>
+                     <td>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -14057,6 +14184,10 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Patroon</th>
+                     <td>1.2</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde</td>
                   </tr>
@@ -14066,7 +14197,15 @@
                   </tr>
                   <tr>
                      <th>Meeteenheid</th>
-                     <td>BRO</td>
+                     <td>m/24h (meters per etmaal)</td>
+                  </tr>
+                  <tr>
+                     <th>Minimumwaarde</th>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <th>Maximumwaarde</th>
+                     <td>10</td>
                   </tr>
                </tbody>
             </table>
@@ -17626,7 +17765,7 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het waardenbereik omvat alle codes die niet beginnen met de hoofdletter O of R.</td>
+                     <td>Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, O of Ru.</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -17635,6 +17774,10 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -17656,7 +17799,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het aandeel van de component in het volume van de laag.</td>
+                     <td>Het geschatte aandeel van de component in het volume van de laag.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -17681,6 +17824,10 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>2.0</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -17758,6 +17905,10 @@
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
                   </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
                </tbody>
             </table>
             
@@ -17778,13 +17929,20 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De snelheid waarmee water door de met water verzadigde grond kan stromen. To do: Aanpassen
-                        aan geschat !
-                     </td>
+                     <td>De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig wanneer de opdrachtgever daarom heeft gevraagd of wanneer
+                        de uitvoerder dat op eigen initiatief heeft vastgelegd. De waarde wordt op basis van
+                        expertkennis en op het oog geschat aan de hand van met name de grondsoort. Een warade
+                        groer dan 0,49 wordt als een veelvoud van 0,10 genoteerd om schijnnauwkeurigheid te
+                        vermijden.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -17807,12 +17965,28 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Patroon</th>
+                     <td>1.2</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>m/24h (meters per etmaal)</td>
+                  </tr>
+                  <tr>
+                     <th>Minimumwaarde</th>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <th>Maximumwaarde</th>
+                     <td>10</td>
                   </tr>
                </tbody>
             </table>
@@ -17913,6 +18087,10 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -18026,7 +18204,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Dit gegeven is alleen aanwezig als einddiepte bereikt gelijk is aan ja.</td>
+                     <td>Het gegeven is aanwezig wanneer de waarde van het attribuut einddiepte bereikt gelijk
+                        is aan ja. In andere gevallen ontbreekt het gegeven. &nbsp;
+                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -22149,6 +22329,14 @@
                   <td>vorstwig</td>
                   <td>Een natuurlijke fenomeen veroorzaakt door een fysisch proces: een scheur in de grond
                      die is gevormd door langdurige bevriezing. Dit is een bijzonder vorm van kroyturbatie.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>woelspoor</td>
+                  <td>Een antropogeen fenomeen veroorzaakt door de mens: Een in het bodemprofiel herkenbare
+                     strook of spoor bestaande uit losgetrokken grond door een cultivator beitel, door
+                     zijn specifieke vorm ook wel ganzevoet genoemd.
                   </td>
                </tr>
                <tr>
@@ -26364,8 +26552,164 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>schrikvegetatie</td>
+                  <td>afwezig</td>
+                  <td>Er is geen spontane vegetatie in het bos aanwezig. In de classificatie van Bannink
+                     et al. heeft het de code 0.
+                  </td>
+               </tr>
+               <tr>
                   <td></td>
+                  <td>donkerBosKantmosKlauwtjesmos</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Kantmos en Klauwtjesmos. In de classificatie
+                     van Bannink et al. heeft het de code I.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>donkerBosKronkelsteeltjeGewoonSterremos</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Kronkelsteeltje en Gewoon sterremos.
+                     In de classificatie van Bannink et al. heeft het de code II.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>donkerBosKronkelsteeltjeWildeLijsterbesKnikkendWilgeroosje</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Kronkelsteeltje, Wilde lijsterbes en
+                     Knikkend wilgeroosje. In de classificatie van Bannink et al. heeft het de code III.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>donkerBosStekelvarenLiggendWalstro</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Stekelvaren en Liggend walstro. In
+                     de classificatie van Bannink et al. heeft het de code IV.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>donkerBosWildeKamperfoelieStekelvarenDrienerfmuur</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Wilde kamperfoelie, Stekelvaren en
+                     Drienerfmuur. In de classificatie van Bannink et al. heeft het de code V.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>donkerBosRankendeHelmbloemWitteKlaverzuringStekelvarenBraam</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Rankende helmbloem, Witte klaverzuring,
+                     Stekelvaren en Braam. In de classificatie van Bannink et al. heeft het de code VI.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>donkerBosWitteKlaverzuringDauwbraamRobertskruidSpeenkruid</td>
+                  <td>Donkere bossen met vegetatie in gezelschap van Witte klaverzuring, Dauwbraam, Robertskruid
+                     en Speenkruid. In de classificatie van Bannink et al. heeft het de waarde VII.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosZandzeggeRuigHaarmos</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Zandzegge en Ruig Haarmos (veel open
+                     zand). In de classificatie van Bannink et al. heeft het de code A0.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosRendiermosZandGaffeltand</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Rendiermos en Zand-Gaffeltand. In de
+                     classificatie van Bannink et al. heeft het de code A1.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosRendiermosKlauwtjesmos</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Rendiermos en Klauwtjesmos. In de classificatie
+                     van Bannink et al. heeft het de code A2.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosBronsmosKlauwtjesmosGewoonGaffeltandmos</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Bronsmos, Klauwtjesmos en Gewoon Gaffeltandmos.
+                     In de classificatie van Bannink et al. heeft het de code H1.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosBronsmosGrootLaddermos</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Bronsmos en Groot Laddermos. In de classificatie
+                     van Bannink et al. heeft het de code H2.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosBronsmosBochtigeSmeleStruisgassen</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Bronsmos, Bochtige smele en Struisgassen.In
+                     de classificatie van Bannink et al. heeft het de code R1.1.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosBronsmosWildeLijsterbes</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Bronsmos en Wilde lijsterbes. In de
+                     classificatie van Bannink et al. heeft het de code R1.2.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosBraamStekelvarenGrootLaddermos</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Braam, Stekelvaren en Groot Laddermos.
+                     In de classificatie van Bannink et al. heeft het de waarde R2.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosGladdeWitbolValseSalieBraam</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Gladde witbol, Valse salie en Braam.
+                     In de classificatie van Bannink et al. heeft het de code R3.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosFramboosBraam</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Framboos en Braam. In de classificatie
+                     van Bannink et al. heeft het de code R4.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosDuinrietZandzegge</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Duinriet en Zandzegge (veel open zand).
+                     In de classificatie van Bannink et al. heeft het de code K0.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosWitteKlaverzuringHazelaarDrienerfmuur</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Witte Klaverzuring, Hazelaar en Drienerfmuur.
+                     In de classificatie van Bannink et al. heeft het de code Z.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosGroteBrandnetelStekelvaren</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Grote brandnetel en Stekelvaren. In
+                     de classificatie van Bannink et al. heeft het de code K1.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosDauwbraamVlasbekjeHondstong</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Dauwbraam, Vlasbekje en Hondstong. In
+                     de classificatie van Bannink et al. heeft het de code K2.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>lichtBosDauwbraamRobertskruid</td>
+                  <td>Lichte bossen met vegetatie in gezelschap van Dauwbraam en Robertskruid. In de classificatie
+                     van Bannink et al. heeft het de code K3.
+                  </td>
                </tr>
             </tbody>
          </table>
