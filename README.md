@@ -12,6 +12,6 @@ De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor m
 
 [1]: https://github.com/BROprogramma/SFR/blob/gh-pages/20181221%20Catalogus%20Bodemkundig%20Wandonderzoek.pdf
 [2]: https://github.com/BROprogramma/SFR/blob/gh-pages/consultatie-instructie.md
-[3]: https://github.com/BROprogramma/SFR/blob/gh-pages/tekst Github PC 20181224.pdf
+[3]: https://github.com/BROprogramma/SFR/blob/gh-pages/201812211%20Wand%20inleiding.pdf
 
 
