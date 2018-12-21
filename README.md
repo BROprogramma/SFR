@@ -10,7 +10,7 @@ In een later stadium zal de gegevenscatalogus worden uitgebreid met het deelonde
 
 De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor meer achtergrondinformatie, zie ook [Inleiding Catalogus][3]. 
 
-[1]: https://github.com/BROprogramma/SFR/blob/gh-pages/
+[1]: https://github.com/BROprogramma/SFR/blob/gh-pages/20181221%20Catalogus%20Bodemkundig%20Wandonderzoek.pdf
 [2]: https://github.com/BROprogramma/SFR/blob/gh-pages/consultatie-instructie.md
 [3]: https://github.com/BROprogramma/SFR/blob/gh-pages/tekst Github PC 20181224.pdf
 
