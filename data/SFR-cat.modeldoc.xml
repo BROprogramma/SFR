@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.49.1"
-      generator-date="2019-01-14T15:55:01Z">
+      generator-date="2019-01-14T16:09:01Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -150,7 +150,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>To Do: goede definitie eraan hangen</item>
+                  <item>To do</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -186,6 +186,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>To do</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -232,6 +236,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>To do</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -358,13 +366,13 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_DomeinmodelBROCommon_IndicatieJaNee"
                      uuid="EAID_844C593C_DAA9_4a32_A60D_5FB14C87257A"
                      idref="detail_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-               <item/>
+               <item>To do</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROCommon_Kwaliteitsregime"
                      uuid="EAID_25D0A2C0_1CEE_40f0_A59A_D7A0BC18A6AE"
                      idref="detail_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</item>
-               <item/>
+               <item>To do</item>
             </part>
          </content>
       </section>
@@ -721,7 +729,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>To do</item>
                   </part>
                </content>
                <content>
@@ -748,7 +756,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>To do</item>
                   </part>
                </content>
                <content>
@@ -5350,6 +5358,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>To do</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
@@ -5410,6 +5422,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>To do</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
