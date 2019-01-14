@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.49.1"
-      generator-date="2019-01-14T16:09:01Z">
+      generator-date="2019-01-14T16:18:49Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -22,6 +22,10 @@
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>To do</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -35,7 +39,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1">coördinaat1</item>
                      </item>
-                     <item/>
+                     <item>To do</item>
                      <item>
                         <item type="global">REAL</item>
                      </item>
@@ -46,7 +50,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2">coördinaat2</item>
                      </item>
-                     <item/>
+                     <item>To do</item>
                      <item>
                         <item type="global">REAL</item>
                      </item>
@@ -395,6 +399,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>To do</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -417,6 +425,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>To do</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
