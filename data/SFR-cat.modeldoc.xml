@@ -3,8 +3,8 @@
       subpath="Conceptual model/SFR conceptueel/20180831"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
-      generator-version="1.49.1"
-      generator-date="2019-01-15T07:57:31Z">
+      generator-version="1.50.1"
+      generator-date="2019-01-15T14:50:59Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -5511,7 +5511,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <item id="global_class_DomeinmodelBROSFR_Aggregaatlengteklasse"
                      uuid="EAID_6A5D02CD_6982_4d1e_97FA_27E557485F54"
                      idref="detail_class_DomeinmodelBROSFR_Aggregaatlengteklasse">Aggregaatlengteklasse</item>
-               <item>De lengte van het aggregaat uitgedrukt in een klasse.</item>
+               <item>To do</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROSFR_Aggregaatvorm"
@@ -18368,7 +18368,7 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item>De lengte van het aggregaat uitgedrukt in een klasse.</item>
+                     <item>To do</item>
                   </part>
                </content>
                <content>
