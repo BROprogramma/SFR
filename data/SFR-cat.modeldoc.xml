@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.50.1"
-      generator-date="2019-01-15T14:50:59Z">
+      generator-date="2019-01-16T16:40:04Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -7391,7 +7391,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Authentiek</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
