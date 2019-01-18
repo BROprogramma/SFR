@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.50.1"
-      generator-date="2019-01-18T09:21:13Z">
+      generator-date="2019-01-18T15:53:28Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -18416,8 +18416,8 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   </part>
                   <part>
                      <item/>
-                     <item>UiterstLang</item>
-                     <item>De verticale as is groter dan 500 mm. Dit worden ook wel kluiten genoemd.</item>
+                     <item>uiterstLang</item>
+                     <item>De verticale as is groter dan 500 mm.</item>
                   </part>
                </content>
             </section>
@@ -18439,17 +18439,17 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   <part>
                      <item/>
                      <item>blok</item>
-                     <item>De gemiddelde aggregaat heeft assen die in alle richtingen ongeveer even lang zijn.</item>
+                     <item>Het gemiddelde aggregaat is in alle richtingen ongeveer even lang.</item>
                   </part>
                   <part>
                      <item/>
                      <item>plaat</item>
-                     <item>De gemiddelde aggregaat heeft een verticale as die even lang is als één van de andere assen. De derde as is veel langer dan de verticale as.</item>
+                     <item>Het gemiddelde aggregaat is in twee van de drie richtingen ongeveer even lang, maar in de derde veel korter.</item>
                   </part>
                   <part>
                      <item/>
                      <item>prisma</item>
-                     <item>De gemiddelde aggregaat heeft een verticale as die veel langer is dan de overige assen. De overige assen zijn ongeveer even lang.</item>
+                     <item>Het gemiddelde aggregaat is in twee van de drie richtingen ongeveer even lang, maar in de derde veel langer.</item>
                   </part>
                </content>
             </section>
@@ -18471,12 +18471,12 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   <part>
                      <item/>
                      <item>standaard</item>
-                     <item>De grond is beschreven volgens lagere eisen gesteld aan wandonderzoek. Het gaat hier om projectkarteringen die gebruik maken van bestaande ontsluitingen.</item>
+                     <item>De beschrijving van de opbouw van de bodem voldoet aan de minimum eisen. Deze kwaliteit dekt alle historische beschrijvingen en volstaat ook na 2019 voor veel projectkarteringen, met name wanneer daarin gebruik wordt gemaakt van bestaande ontsluitingen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>hoog</item>
-                     <item>De grond is beschreven volgens de hoogste eisen gesteld aan wandonderzoek. Dit onderzoek impliceert veelal het graven van een profielkuil en wordt uitgevoerd wanneer de behoefte bestaat een nieuwe kaarteenheid te definiëren of voor onderzoek van wetenschappelijk aard of voor educatieve doeleinden.</item>
+                     <item>De beschrijving van de opbouw van de bodem voldoet aan de eisen die vanaf 2019 gelden voor het definiëren van nieuwe kaarteenheden. Dit type onderzoek impliceert veelal het graven van een profielkuil.</item>
                   </part>
                </content>
             </section>
@@ -18539,11 +18539,6 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   </part>
                   <part>
                      <item/>
-                     <item>vivianiet</item>
-                     <item>Een natuurlijk bestanddeel: blauwe, groenige of kleurloze korrels die uit vivianiet bestaan.</item>
-                  </part>
-                  <part>
-                     <item/>
                      <item>glimmer</item>
                      <item>Een natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Synoniem is mica.</item>
                   </part>
@@ -18594,8 +18589,23 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   </part>
                   <part>
                      <item/>
+                     <item>vivianiet</item>
+                     <item>Een natuurlijk bestanddeel: blauwe, groenige of kleurloze korrels die uit vivianiet bestaan.</item>
+                  </part>
+                  <part>
+                     <item/>
                      <item>vuursteen</item>
                      <item>Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>verbrandingsresten</item>
+                     <item>Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&amp;lt;63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>wegverhardingsmateriaal</item>
+                     <item>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</item>
                   </part>
                </content>
             </section>
@@ -18616,13 +18626,13 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
-                     <item>bolster</item>
-                     <item>Bolster, beginnend binnen 40 cm en ten minste 20 cm dik (code "j"). Van toepassing bij veengronden en moerige gronden.</item>
+                     <item>geen</item>
+                     <item>Geen bijzonderheden in het lagere deel van het profiel geconstateerd.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>geen</item>
-                     <item>Geen bijzonderheden in het lagere deel van het profiel geconstateerd.</item>
+                     <item>bolster</item>
+                     <item>Bolster, beginnend binnen 40 cm en ten minste 20 cm dik (code "j"). Van toepassing bij veengronden en moerige gronden.</item>
                   </part>
                   <part>
                      <item/>
@@ -19005,6 +19015,11 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
+                     <item>geen</item>
+                     <item>Geen bijzonderheden.</item>
+                  </part>
+                  <part>
+                     <item/>
                      <item>dal</item>
                      <item>Bodem in een dal, in de nabijheid van een helling (code "d"). Van toepassing alleen in Zuid-Limburg, bij leemgronden, brikgronden en kleigronden.</item>
                   </part>
@@ -19017,11 +19032,6 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                      <item/>
                      <item>hellingvoet</item>
                      <item>Bodem aan de voet van een helling (code "c"). Van toepassing alleen in Zuid-Limburg, bij, leemgronden, brikgronden en kleigronden.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>geen</item>
-                     <item>Geen bijzonderheden.</item>
                   </part>
                </content>
             </section>
@@ -20549,27 +20559,27 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>geen</item>
-                     <item>Er is geen bodemleven aanwezig.</item>
+                     <item>Er zijn geen (sporen van) organismen waargenomen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>insecten</item>
-                     <item>Er zijn larven en/of volwassen insecten aanwezig.</item>
+                     <item>Er zijn larven of volwassen insecten waargenomen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>schimmeldraden</item>
-                     <item>Er zijn schimmeldraden aanwezig.</item>
+                     <item>Er zijn schimmeldraden waargenomen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>wormen</item>
-                     <item>Er zijn wormen aanwezig.</item>
+                     <item>Er zijn (sporen van) wormen waargenomen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of het bodemleven bepaald is.</item>
+                     <item>Het is niet bekend of er (sporen van) organismen zijn waargenomen.</item>
                   </part>
                </content>
             </section>
@@ -20653,47 +20663,47 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>geen</item>
-                     <item>Geen disperse inhomogeniteiten.</item>
+                     <item>De grond bevat geen brokjes van en andere grondsoort of van gesteente.</item>
                   </part>
                   <part>
                      <item/>
                      <item>gipsbrokjes</item>
-                     <item>Gipsbrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes gips.</item>
                   </part>
                   <part>
                      <item/>
                      <item>kalksteenbrokjes</item>
-                     <item>Kalksteenbrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes kalksteen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>kleibrokjes</item>
-                     <item>Kleibrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes klei.</item>
                   </part>
                   <part>
                      <item/>
                      <item>kleisteenbrokjes</item>
-                     <item>Kleisteenbrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes kleisteen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>leembrokjes</item>
-                     <item>Leembrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes leem.</item>
                   </part>
                   <part>
                      <item/>
                      <item>steenkoolbrokjes</item>
-                     <item>Steenkoolbrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes steenkool.</item>
                   </part>
                   <part>
                      <item/>
                      <item>veenbrokjes</item>
-                     <item>Veenbrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes veen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>zandsteenbrokjes</item>
-                     <item>Zandsteenbrokjes maken minder dan 10% van het volume uit.</item>
+                     <item>De grond bevat brokjes zandsteen.</item>
                   </part>
                </content>
             </section>
@@ -20730,7 +20740,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>drainageOnbekend</item>
-                     <item>Het is niet bekend of de drainage toestand op het terrein bepaald is.</item>
+                     <item>Het is niet bekend wat de drainage toestand van het terrein is..</item>
                   </part>
                </content>
             </section>
@@ -20849,7 +20859,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de gesteentesoort is bepaald.</item>
+                     <item>De gesteentesoort is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -20886,7 +20896,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>voorbepaald</item>
-                     <item>De grens is niet gebaseerd op een verandering maar is kunstmatig bepaald; het begrip scherpte is niet van toepassing. Dit geldt bijna altijd alleen voor de laatste laag van de wandbeschrijving.</item>
+                     <item>De grens is niet gebaseerd op een verandering maar is kunstmatig bepaald; het begrip scherpte is niet van toepassing.</item>
                   </part>
                   <part>
                      <item/>
@@ -20928,7 +20938,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de grindgehalteklasse bepaald is.</item>
+                     <item>De grindgehalteklasse is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -21197,7 +21207,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de grondwatertrap bepaald is.</item>
+                     <item>De grondwatertrap is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -21219,12 +21229,12 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>afgerond</item>
-                     <item>Alle hoeken of randen zijn kleiner dan 90 graden.</item>
+                     <item>De aggregaten hebben geen scherpe hoeken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>scherp</item>
-                     <item>Geen afgeronde hoeken of randen. Alle hoeken zijn groter of gelijk aan 90 graden.</item>
+                     <item>De aggregaten hebben scherpe hoeken.</item>
                   </part>
                </content>
             </section>
@@ -21246,22 +21256,22 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>geen</item>
-                     <item>Er zijn geen porien zichtbaar.</item>
+                     <item>Er zijn geen poriën zichtbaar.</item>
                   </part>
                   <part>
                      <item/>
                      <item>weinig</item>
-                     <item>Op het oppervlakte van de aggregaat is minder dan 0.5% porien zichtbaar.</item>
+                     <item>Poriën zijn aanwezig en beslaan minder dan 0.5% procent van het oppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>matig</item>
-                     <item>Op het oppervlakte van de aggregaat is tussen de 0.5 en 5% porien zichtbaar.</item>
+                     <item>Poriën beslaan tussen 0.5 en 5 procent van het oppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>veel</item>
-                     <item>Op het oppervlakte is meer dan &amp;gt;5% porien zichtbaar.</item>
+                     <item>Poriën beslaan meer dan 5 procent van het oppervlak.</item>
                   </part>
                </content>
             </section>
@@ -21283,22 +21293,22 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>weinig</item>
-                     <item>De vlekken beslaan tussen de 0 en 2% van het oppervlak van de grond.</item>
+                     <item>De vlekken beslaan tussen de 0 en 2% van het oppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>matig</item>
-                     <item>De vlekken beslaan tussen de 2 en 20% van het oppervlak van de grond.</item>
+                     <item>De vlekken beslaan tussen de 2 en 20% van het oppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>veel</item>
-                     <item>De vlekken beslaan meer dan 20% van het oppervlak van de grond.</item>
+                     <item>De vlekken beslaan meer dan 20% van het oppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de hoeveelheidsklasse van vlekken bepaald is.</item>
+                     <item>De hoeveelheid vlekken is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -21320,22 +21330,27 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>zeerWeinig</item>
-                     <item>1 tot 5 wortels per dm2 zijn zichtbaar.</item>
+                     <item>Het aantal wortels per vierkante decimeter ligt tussen 1 en 5.</item>
                   </part>
                   <part>
                      <item/>
                      <item>weinig</item>
-                     <item>5 tot 10 wortels per dm2 zijn zichtbaar.</item>
+                     <item>Het aantal wortels per vierkante decimeter ligt tussen 5 en 10.</item>
                   </part>
                   <part>
                      <item/>
                      <item>veel</item>
-                     <item>10 tot 15 wortels per dm2 zijn zichtbaar.</item>
+                     <item>Het aantal wortels per vierkante decimeter ligt tussen 10 en 15.</item>
                   </part>
                   <part>
                      <item/>
                      <item>zeerVeel</item>
-                     <item>15 of meer wortels per dm2 zijn zichtbaar.</item>
+                     <item>Het aantal wortels per vierkante decimeter is groter dan 15.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>De hoeveelheidsklasse van wortels is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -21504,7 +21519,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Aab</item>
-                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21514,7 +21529,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Aagb</item>
-                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven', met roestvlekken.</item>
+                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven', met roestvlekken.</item>
                   </part>
                   <part>
                      <item/>
@@ -21534,7 +21549,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Ahb</item>
-                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21544,7 +21559,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Ahgb</item>
-                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven', met roestvlekken.</item>
+                     <item>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven', met roestvlekken.</item>
                   </part>
                   <part>
                      <item/>
@@ -21649,7 +21664,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Bheb</item>
-                     <item>Een minerale (soms moerige) horizont met ingespoelde humus en kenmerken van ontijzering, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een minerale (soms moerige) horizont met ingespoelde humus en kenmerken van ontijzering, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21659,7 +21674,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Bhgb</item>
-                     <item>Een minerale (soms moerige) horizont met ingespoelde humus en roestvlekken, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een minerale (soms moerige) horizont met ingespoelde humus en roestvlekken, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21669,7 +21684,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Bhsb</item>
-                     <item>Een minerale (soms moerige) horizont met ingespoelde humus en sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een minerale (soms moerige) horizont met ingespoelde humus en sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21689,7 +21704,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Btb</item>
-                     <item>Een minerale horizont met ingespoelde lutum, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een minerale horizont met ingespoelde lutum, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21704,7 +21719,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Bwb</item>
-                     <item>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21714,7 +21729,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Bwgb</item>
-                     <item>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur en roestvlekken, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur en roestvlekken, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21724,7 +21739,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Bwsb</item>
-                     <item>Gehomogeniseerde B-horizont met vrijgekomen en ingespoelde sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Gehomogeniseerde B-horizont met vrijgekomen en ingespoelde sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -21849,7 +21864,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>Eb</item>
-                     <item>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Meestal heeft de E-horizont een lager humusgehalte dan de erboven liggende horizont. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont, na de bodemvorming met een sediment, sedentaat of een dik (&amp;amp;gt;50 cm) antropogeen dek 'begraven'.</item>
+                     <item>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Meestal heeft de E-horizont een lager humusgehalte dan de erboven liggende horizont. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont, na de bodemvorming met een sediment, sedentaat of een dik (&amp;gt;50 cm) antropogeen dek 'begraven'.</item>
                   </part>
                   <part>
                      <item/>
@@ -22007,18 +22022,18 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </part>
                   <part>
                      <item/>
+                     <item>educatie</item>
+                     <item>Bodemkundig onderzoek met als doel educatie.</item>
+                  </part>
+                  <part>
+                     <item/>
                      <item>gebiedsinrichting</item>
                      <item>Bodemkundig onderzoek in verband met de herinrichting van een gebied (o.a. landinrichting).</item>
                   </part>
                   <part>
                      <item/>
                      <item>hydrologischOnderzoek</item>
-                     <item>Bodemkunidg onderzoek met als doel de hydrologische eigenschappen van de ondergrond te verkennen.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>educatie</item>
-                     <item>Bodemkundig onderzoek met als doel educatie.</item>
+                     <item>Bodemkundig onderzoek met als doel de hydrologische eigenschappen van de ondergrond te verkennen.</item>
                   </part>
                   <part>
                      <item/>
@@ -22060,7 +22075,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de kalkgehalteklasse bepaald is.</item>
+                     <item>De kalkgehalteklasse is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -22111,7 +22126,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de kalkverloopklasse bepaald is.</item>
+                     <item>De kalkverloopklasse is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -22677,7 +22692,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>geen</item>
-                     <item>Er is geen ligging op het grondlichaam.</item>
+                     <item>Niet op een grondlichaam.</item>
                   </part>
                   <part>
                      <item/>
@@ -22735,23 +22750,23 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
-                     <item>geegaliseerd</item>
-                     <item>Gronden waarbij door een cultuurtechnische ingreep het natuurlijke reliëf is genivelleerd, vereffend (code "E").</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>opgehoogd</item>
-                     <item>Gronden die door de aanvoer van bodemmateriaal van elders zijn opgehoogd (code "H").</item>
-                  </part>
-                  <part>
-                     <item/>
                      <item>geen</item>
-                     <item>Geen maaiveld verandering geconstateerd.</item>
+                     <item>De positie van het maaiveld is niet zichtbaar veranderd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>afgegraven</item>
-                     <item>Gronden waarbij door afgraving een deel van het oorspronkelijke bodemprofiel is verwijderd (code "G").</item>
+                     <item>Het maaiveld is door afgraving verlaagd.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>geegaliseerd</item>
+                     <item>Het natuurlijke reliëf is door egalisatie verdwenen.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>opgehoogd</item>
+                     <item>Het maaiveld is opgehoogd met materiaal van elders.</item>
                   </part>
                </content>
             </section>
@@ -23109,7 +23124,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de rijpingsklasse bepaald is.</item>
+                     <item>De rijpingsklasse is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -23158,22 +23173,22 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>zwakSchelphoudend</item>
-                     <item>Zwak schelphoudend, 0% &amp;amp;lt; schelpen &amp;amp;lt; 1%.</item>
+                     <item>Zwak schelphoudend, 0% &amp;lt; schelpen &amp;lt; 1%.</item>
                   </part>
                   <part>
                      <item/>
                      <item>schelphoudend</item>
-                     <item>Schelphoudend, 1% &amp;amp;lt;= schelpen &amp;amp;lt; 10%.</item>
+                     <item>Schelphoudend, 1% = schelpen &amp;lt; 10%.</item>
                   </part>
                   <part>
                      <item/>
                      <item>sterkSchelphoudend</item>
-                     <item>Sterk schelphoudend, 10% &amp;amp;lt;= schelpen &amp;amp;lt; 30%.</item>
+                     <item>Sterk schelphoudend, 10% = schelpen &amp;lt; 30%.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is onbekend of de schelpmateriaalgehalteklasse bepaald is.</item>
+                     <item>De schelpmateriaalgehalteklasse is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -23195,27 +23210,27 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>einddoel</item>
-                     <item>Het vooraf gestelde doel van het onderzoek is bereikt; vaak is dat de beoogde einddiepte.</item>
+                     <item>De beoogde einddiepte is bereikt.</item>
                   </part>
                   <part>
                      <item/>
                      <item>obstakelGrindStenen</item>
-                     <item>Het onderzoek is voortijdig gestopt omdat op grind, zeer grove grond of stenen is gestuit.</item>
+                     <item>Het graven is voortijdig gestopt omdat op grind, zeer grove grond of stenen is gestuit.</item>
                   </part>
                   <part>
                      <item/>
                      <item>obstakelIJzervloer</item>
-                     <item>Het onderzoek is voortijdig gestopt omdat op een ijzervloer is gestuit.</item>
+                     <item>Het graven is voortijdig gestopt omdat op een ijzervloer is gestuit.</item>
                   </part>
                   <part>
                      <item/>
                      <item>obstakelPuin</item>
-                     <item>Het onderzoek is voortijdig gestopt omdat op puin is gestuit.</item>
+                     <item>Het graven is voortijdig gestopt omdat op puin is gestuit.</item>
                   </part>
                   <part>
                      <item/>
                      <item>obstakelVastGesteente</item>
-                     <item>Het onderzoek is voortijdig gestopt omdat het vast gesteente is bereikt.</item>
+                     <item>Het graven is voortijdig gestopt omdat het vast gesteente is bereikt.</item>
                   </part>
                   <part>
                      <item/>
@@ -23225,17 +23240,17 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>risicoGrondwaterdruk</item>
-                     <item>Het onderzoek is voortijdig gestopt omdat de grondwaterdruk te hoog is om veilig verder te kunnen graven.</item>
+                     <item>Het graven is voortijdig gestopt omdat de grondwaterdruk te hoog is om veilig verder te kunnen graven.</item>
                   </part>
                   <part>
                      <item/>
                      <item>risico</item>
-                     <item>Het onderzoek is voortijdig gestopt omdat er niet veilig verder gegraven kan worden vanwege een niet nader omschreven risico.</item>
+                     <item>Het graven is voortijdig gestopt omdat er niet veilig verder gegraven kan worden vanwege een niet nader omschreven risico.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>De reden waarom de uitvoerder van de wandontsluiting met graven is opgehouden is niet bekend.</item>
+                     <item>De reden waarom de uitvoerder van de profielkuil met graven is opgehouden is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -23257,22 +23272,22 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>geen</item>
-                     <item>Er is geen fenomeen waargenomen in de wand.</item>
+                     <item>Er is geen storend fenomeen waargenomen in de wand.</item>
                   </part>
                   <part>
                      <item/>
                      <item>gang</item>
-                     <item>Een natuurlijk fenomeen veroorzaakt door een biologisch proces: gewervelde dieren hebben gangen gmaakt in de bodem en die zijn later grotendeels weer met grond opgevuld. De gangen strekken zich in alle richtingen uit.</item>
+                     <item>Een natuurlijk fenomeen veroorzaakt door een biologisch proces: gewervelde dieren hebben gangen gemaakt in de bodem en die zijn later grotendeels weer met grond opgevuld. De gangen strekken zich in alle richtingen uit.</item>
                   </part>
                   <part>
                      <item/>
                      <item>hol</item>
-                     <item>Een natuurlijk fenomeen veroorzaakt door een biologisch proces: gewervelde dieren hebben gangen gmaakt in de bodem. Deze kunnen in alle richtingen van de wand voorkomen en zijn niet opgevuld.</item>
+                     <item>Een natuurlijk fenomeen veroorzaakt door een biologisch proces: gewervelde dieren hebben holen gemaakt in de bodem. Deze kunnen in alle richtingen van de wand voorkomen en zijn niet opgevuld.</item>
                   </part>
                   <part>
                      <item/>
                      <item>krimpscheur</item>
-                     <item>Een natuurlijk fenomeen veroorzaakt door een fysisch proces. de grond is vanaf het maaiveld uitgedroogd en er hebben zich tot een zeker diepte scheuren gevormd die later grotendeels met grond en ander materiaal zijn opgevuld. Dit komt voor op klei en zavel gronden.</item>
+                     <item>Een natuurlijk fenomeen veroorzaakt door een fysisch proces. de grond is vanaf het maaiveld uitgedroogd en er hebben zich tot een zekere diepte scheuren gevormd die later grotendeels met grond en ander materiaal zijn opgevuld. Dit komt voor op klei- en zavelgronden.</item>
                   </part>
                   <part>
                      <item/>
@@ -23282,7 +23297,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>vorstwig</item>
-                     <item>Een natuurlijke fenomeen veroorzaakt door een fysisch proces: een scheur in de grond die is gevormd door langdurige bevriezing. Dit is een bijzonder vorm van kroyturbatie.</item>
+                     <item>Een natuurlijke fenomeen veroorzaakt door een fysisch proces: een scheur in de grond die is gevormd door langdurige bevriezing. Dit is een bijzonder vorm van kryoturbatie.</item>
                   </part>
                   <part>
                      <item/>
@@ -23292,7 +23307,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of er een fenomeen bepaald is.</item>
+                     <item>Het is niet bekend of er storende fenomenen zijn waargenomen.</item>
                   </part>
                </content>
             </section>
@@ -23324,7 +23339,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de strooiselsoort bepaald is.</item>
+                     <item>De strooiselsoort is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -23346,57 +23361,57 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>aggregatenZwak</item>
-                     <item>De grond bestaat voor &amp;lt;30% uit structuurelementen, die zich slechts bij openbreken laten isoleren. De grond bevat geen laagjes, wel aggregaten en wel macroporien.</item>
+                     <item>De grond vertoont geen gelaagdheid en heeft een zwak ontwikkelde aggregaatstructuur: aggregaten maken minder dan 30 procent van het grondvolume uit. De aggregaten tonen zich alleen wanneer de grond wordt opengebroken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>aggregatenMatig</item>
-                     <item>De grond bestaat voor 30-70% uit structuurelementen, die zich gedeeltelijk bij lossteken en verder bij openbreken laten isoleren. De grond bevat geen laagjes, wel aggregaten en wel macroporien.</item>
+                     <item>De grond vertoont geen gelaagdheid en heeft een matig ontwikkelde aggregaatstructuur: aggregaten maken voor 30 tot 70 procent van het grondvolume uit. De aggregaten tonen zich wanneer de grond wordt opengebroken of gedeltelijk wordt losgestoken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>aggregatenSterk</item>
-                     <item>De grond bestaat voor &amp;gt;70% uit structuurelementen, die zich meestal bij lossteken laten isoleren. De grond bevat geen laagjes, wel aggregaten en wel macroporien.</item>
+                     <item>De grond vertoont geen gelaagdheid en heeft een zwak ontwikkelde aggregaatstructuur: aggregaten maken meer dan 70 procent van het grondvolume uit. De aggregaten tonen zich wanneer de grond wordt losgestoken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>enkelkorrel</item>
-                     <item>De structuur van de grond bevat enkelkorrelstructuur. De grond bevat geen laagjes, geen aggregaten, maar wel macroporien.</item>
+                     <item>De grond bestaat uit korrels en vertoont geen gelaagdheid.</item>
                   </part>
                   <part>
                      <item/>
                      <item>gangenstructuur</item>
-                     <item>De structuur van de grond heeft porienverloop een met een duidelijk verticaal verloop, de holten zijn onderling zelden verbonden. De grond bevat geen laagjes, geen aggregaten, geen korrels en wel macroporien.</item>
+                     <item>De grond vertoont vertoont geen gelaagdheid, maar een gatenstructuur; de gaten (poriën)verlopen verticaal en zijn onderling niet of zelden verbonden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>massief</item>
-                     <item>De grond bevat geen laagjes, geen aggregaten en geen macroporien.</item>
+                     <item>De grond vertoont geen gelaagdheid, aggregaten of gaten (poriën).</item>
                   </part>
                   <part>
                      <item/>
                      <item>sedimentairGelaagdWeinigVerstoord</item>
-                     <item>De mate van verstoring van de gelaagdheid, gemeten op een horizontaalvalk is &amp;lt;10%. De grond bevat wel laagjes, geen aggregaten en geen macroporien.</item>
+                     <item>De grond vertoont gelaagdheid en de gelaagdheid is voor minder dan 10 procent verstoord.</item>
                   </part>
                   <part>
                      <item/>
                      <item>sedimentairGelaagdMatigVerstoord</item>
-                     <item>De mate van verstoring van de gelaagdheid, gemeten op een horizontaalvalk is tussen de 10% - 70%. De grond bevat wel laagjes, geen aggregaten en geen macroporien.</item>
+                     <item>De grond vertoont gelaagdheid en de gelaagdheid is voor 10 tot 70 procent verstoord.</item>
                   </part>
                   <part>
                      <item/>
                      <item>sedimentairGelaagdSterkVerstoord</item>
-                     <item>De mate van verstoring van de gelaagdheid, gemeten op een horizontaalvalk is &amp;gt;70%. De grond bevat wel laagjes, geen aggregaten en geen macroporien.</item>
+                     <item>De grond vertoont gelaagdheid en de gelaagdheid is voor meer dan 70 procent verstoord.</item>
                   </part>
                   <part>
                      <item/>
                      <item>sponsstructuur</item>
-                     <item>De structuur van de grond heeft in alle richtingen lopende macroporien, die onderling verbonden zijn. De grond bevat geen laagjes, geen aggregaten, geen korrels en wel macroporien.</item>
+                     <item>De grond vertoont vertoont geen gelaagdheid, maar een gatenstructuur; de gaten (poriën) lopen in alle richtingen en zijn onderling verbonden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de structuurtype bepaald is.</item>
+                     <item>Het structuurtype is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -23635,37 +23650,37 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>afgraving</item>
-                     <item>Een stuk land waarvan grond afgegraven is.</item>
+                     <item>De bodem is ontsloten doordat er grond was weggegraven voor de start van het onderzoek en voor een ander doel.</item>
                   </part>
                   <part>
                      <item/>
                      <item>bouwput</item>
-                     <item>Voor de start van het onderzoek was de ondergrond ten behoeve van bouwwerkzaamheden uitgegraven.</item>
+                     <item>De bodem is ontsloten doordat er grond was uitgegraven ten behoeve van bouwwerkzaamheden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>groeve</item>
-                     <item>De kuil waar een delfstof wordt gewonnen.</item>
+                     <item>De bodem is ontsloten doordat er een groeve was gemaakt om delfstoffen te winnen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>profielkuil</item>
-                     <item>De kuil die ten behoeve van het doen van wandonderzoek is gegraven.</item>
+                     <item>De bodem is ontsloten doordat er ten behoeve van het doen van wandonderzoek een kuil is gegraven.</item>
                   </part>
                   <part>
                      <item/>
                      <item>sleuf</item>
-                     <item>De uitgegraven of uitgehakte langwerpige smalle opening van de bodem.</item>
+                     <item>De bodem is ontsloten doordat de grond over een aanzienlijke lengte is weggehaald, bijvoorbeeld ten behoeve van de aanleg van kabels en leidingen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>slootwand</item>
-                     <item>De insnijding die is gemaakt bij een sloot.</item>
+                     <item>De bodem is ontsloten in de wand van een sloot.</item>
                   </part>
                   <part>
                      <item/>
                      <item>weginsijding</item>
-                     <item>De insnijding die is gemaakt bij een weg.</item>
+                     <item>De bodem is ontsloten in de kant vaneen weg.</item>
                   </part>
                   <part>
                      <item/>
@@ -24056,11 +24071,6 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </part>
                   <part>
                      <item/>
-                     <item>wortelzakvorming</item>
-                     <item>Een natuurlijke verstoring veroorzaakt door een biologisch proces: wortels doen de podzol-B-horizont profiel uitzakken.</item>
-                  </part>
-                  <part>
-                     <item/>
                      <item>doorgraving</item>
                      <item>Een natuurlijke verstoring veroorzaakt door een fysisch proces: gewervelde dieren hebben gangen gemaakt in de bodem en die zijn later grotendeels weer met grond opgevuld. De gangen strekken zich in alle richtingen uit.</item>
                   </part>
@@ -24072,7 +24082,12 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>scheurvorming</item>
-                     <item>Een natuurlijke verstoring veroorzaakt door een fysisch proces: de grond is vanaf het maaiveld uitgedroogd en er hebben zich tot een zeker diepte scheuren gevormd die later grotendeels met grond en ander materiaal zijn opgevuld.Dit vind vooral plaats in klei en zavel gronden.</item>
+                     <item>Een natuurlijke verstoring veroorzaakt door een fysisch proces: de grond is vanaf het maaiveld uitgedroogd en er hebben zich tot een zeker diepte scheuren gevormd die later grotendeels met grond en ander materiaal zijn opgevuld. Dit vind vooral plaats in klei en zavel gronden.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>wortelzakvorming</item>
+                     <item>Een natuurlijke verstoring veroorzaakt door een biologisch proces: wortels doen de podzol-B-horizont profiel uitzakken.</item>
                   </part>
                </content>
             </section>
@@ -24115,38 +24130,38 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
-                     <item>vlekkenBruinTotBijnaZwart</item>
-                     <item>De vlekken zijn bruin tot bijna zwart. De aanwezigheid van bruine tot bijna zwarte vlekken kan wijzen op humus, bijvoorbeeld veroorzaakt mollinia spikkels, ook wel de grassoort pijpestrootje.</item>
+                     <item>bruinTotBijnaZwart</item>
+                     <item>De vlekken zijn bruin tot bijna zwart. Bruine tot bijna zwarte vlekken wijzen op concentraties van humus. Een voorbeeld zijn de zgn. Molinia-spikkels.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>vlekkenDonkerbruinTotPaars</item>
-                     <item>De vlekken zijn donkerbruin tot paars. De aanwezigheid van donkerbruine tot paarse vlekken kan wijzen op mangaan.</item>
+                     <item>donkerbruinTotPaars</item>
+                     <item>De vlekken zijn donkerbruin tot paars. Donderbruin tot paarse vlekken wijzen op concentraties van mangaanverbindingen.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>vlekkenDonkergeelTotOkergeel</item>
-                     <item>De vlekken zijn donkergeel tot okergeel. De aanwezigheid van donkergele tot okergele vlekken kan wijzen op fosfor, bijvoorbeeld aanwezig in botten.</item>
+                     <item>donkergeelTotOkergeel</item>
+                     <item>De vlekken zijn donkergeel tot okergeel. Donker- tot okergele vlekken wijzen op concentraties van fosforverbindingen diehet gevolg zijn van de omzetting van botresten.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>vlekkenGeelTotLichtgeel</item>
-                     <item>De vlekken zijn geel tot lichtgeel. De aanwezigheid van gele tot lichtgele vlekken kan wijzen op sulfaten, bijvoorbeeld aanwezig in kattenklei. Dit is ook zichtbaar in de horizontcode Cj.</item>
+                     <item>geelTotLichtgeel</item>
+                     <item>De vlekken zijn geel tot lichtgeel. Gelige vlekken wijzen op concentraties op sulfaten, zoals in kattenklei.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>vlekkenGrijs</item>
-                     <item>De vlekken zijn grijs. De aanwezigheid van grijze vlekken kan wijzen op ijzerreductie. Dit is zichtbaar in zuurstofarme en/of zuurstofloze grond. Dit is ook zichtbaar in de horizontcode Cr.</item>
+                     <item>grijs</item>
+                     <item>De vlekken zijn grijs. Grijze vlekken wijzen op reducerende omstandigheden.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>vlekkenRood</item>
-                     <item>De vlekken zijn rood. De aanwezigheid van rode vlekken kan wijzen op ijzeroxidatie, vaak in de vorm van roest. Dit is zichtbaar in zuurstofhoudende grond.</item>
+                     <item>rood</item>
+                     <item>De vlekken zijn rood. Rode vlekken wijzen op oxiderende omstandigheden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de vlekkleur bepaald is.</item>
+                     <item>De kleur is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -24168,17 +24183,17 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>gelijkmatig</item>
-                     <item>De vlekken hebben grotendeels dezelfde grootte. Dit wordt ook wel omschreven als homogeen.</item>
+                     <item>De vlekken zijn van ongeveer dezelfde grootte.</item>
                   </part>
                   <part>
                      <item/>
                      <item>ongelijkmatig</item>
-                     <item>De vlekken zijn van verschillende grootte. Dit wordt ook wel omschreven als bont.</item>
+                     <item>De vlekken zijn van verschillende grootte.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de vlek verdeling bepaald is.</item>
+                     <item>De mate van variatie in grootte is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -24215,7 +24230,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de vochtigheidstoestand bepaald is.</item>
+                     <item>De vochtigheidstoestand is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -24236,33 +24251,8 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
-                     <item>kwelBrak</item>
-                     <item>Het terrein is zo gelegen dat brak grondwater via kwel continu of periodiek de wortelzone kan bereiken.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>kwelZoetNormaal</item>
-                     <item>Het terrein is zo gelegen dat zoet grondwater via kwel continu of periodiek de wortelzone kan bereiken en er gelden geen bijzondere omstandigheden.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>kwelZoetWijst</item>
-                     <item>Het terrein is zo gelegen dat zoet grondwater via kwel continu of periodiek de wortelzone kan bereiken. Het omhoogkomen van zoet grondwater is direct geassocieerd met een breuk in de ondergrond.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>kwelZoetSpreng</item>
-                     <item>Het terrein is zo gelegen dat plaatselijk zoet grondwater wordt afgetapt en in een speciaal aangelegde beek kan vloeien doordat de mens ter plaatse de afdekkende grondlaag heeft verwijderd.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>inundatieZoetGrondwater</item>
-                     <item>Het terrein is zo gelegen dat het continu of periodiek onder water staat door het omhoogkomen van zoet grondwater (kwel).</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>inudatieZeewater</item>
-                     <item>Het terrein is zo gelegen dat het periodiek onder water komt te staan door het binnendringen van zeewater.</item>
+                     <item>inundatieRegenwater</item>
+                     <item>Het terrein is zo gelegen dat het periodiek onder water komt te staan doordat de afvoer van regenwater stagneert.</item>
                   </part>
                   <part>
                      <item/>
@@ -24271,13 +24261,33 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </part>
                   <part>
                      <item/>
-                     <item>inundatieRegenwater</item>
-                     <item>Het terrein is zo gelegen dat het periodiek onder water komt te staan doordat de afvoer van regenwater stagneert.</item>
+                     <item>inudatieZeewater</item>
+                     <item>Het terrein is zo gelegen dat het periodiek onder water komt te staan door het binnendringen van zeewater.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>regenwaterOppervlakkigeAfvoer</item>
-                     <item>Het terrein is zo gelegen dat het regenwater vooral oppervlakkig wordt afgevoerd.</item>
+                     <item>inundatieZoetGrondwater</item>
+                     <item>Het terrein is zo gelegen dat het periodiek onder water staat door het omhoogkomen van zoet grondwater (kwel).</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>kwelBrak</item>
+                     <item>Het terrein is zo gelegen dat brak grondwater via kwel de wortelzone kan bereiken.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>kwelZoetNormaal</item>
+                     <item>Het terrein is zo gelegen dat zoet grondwater via kwel de wortelzone kan bereiken en er gelden geen bijzondere omstandigheden.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>kwelZoetWijst</item>
+                     <item>Het terrein is zo gelegen dat zoet grondwater via kwel de wortelzone kan bereiken. Het omhoogkomen van zoet grondwater is direct geassocieerd met een breuk in de ondergrond.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>kwelZoetSpreng</item>
+                     <item>Het terrein is zo gelegen dat plaatselijk zoet grondwater wordt afgetapt en in een speciaal aangelegde beek kan vloeien doordat de mens ter plaatse de afdekkende grondlaag heeft verwijderd.</item>
                   </part>
                   <part>
                      <item/>
@@ -24286,8 +24296,18 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </part>
                   <part>
                      <item/>
+                     <item>regenwaterOppervlakkigeAfvoer</item>
+                     <item>Het terrein is zo gelegen dat het regenwater vooral oppervlakkig wordt afgevoerd.</item>
+                  </part>
+                  <part>
+                     <item/>
                      <item>nietBepaald</item>
                      <item>De vochtigheidstoestand van het terrein is niet bepaald.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>De vochtigheidstoestand van het terrein is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -24309,32 +24329,32 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>onregelmatig</item>
-                     <item>De begrenzing heeft zakken die dunner zijn dan de gemiddelde dikte van de laag erboven.</item>
+                     <item>De grens is grillig en vertoont uitstulpingen naar beneden, zakken; de breedte van de zakken is kleiner dan de dikte van de laag.</item>
                   </part>
                   <part>
                      <item/>
                      <item>regelmatigGolvend</item>
-                     <item>De begrenzing heeft regelmatige locale hoogteverschillen. Deze waarde is alleen van toepassing op het attribuut vorm bovengrens.</item>
+                     <item>De grens toont zich als een golvende lijn. Deze waarde geldt alleen voor de bovengrens van het profiel.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>regelmatigVlak</item>
-                     <item>De begrenzing heeft weinig locale hoogteverschillen. Deze waarde is alleen van toepassing op het attribuut vorm bovengrens.</item>
+                     <item>regelmatigRecht</item>
+                     <item>De grens toont zich als een min of meer rechte lijn; deze waarde geldt alleen voor de bovengrens van het profiel.</item>
                   </part>
                   <part>
                      <item/>
                      <item>regelmatigNietGespecificeerd</item>
-                     <item>De begrenzing heeft de afstand tussen de toppen van de begrenzing is groter dan de afstand tussen de toppen en het laagste punt. Deze waarde is alleen van toepassing op het attribuut vorm ondergrens.</item>
+                     <item>De grens is niet grillig en toont zich als een lijn zonder uitstulpingen; de afstand tussen tweetoppen is groter dan het verschil in hoogte over die afstand; deze waarde geldt alleen voor de ondergrens.</item>
                   </part>
                   <part>
                      <item/>
                      <item>zeerOnregelmatig</item>
-                     <item>De begrenzing heeft zakken die veel dikker zijn dan de gemiddelde dikte van de laag. Bijvoorbeeld bij de aanwezigheid van pijpenstrooisel.</item>
+                     <item>De grens is grillig en vertoont grote uitstulpingen naar beneden, zakken; de breedte van de zakken is groter dan de dikte van de laag.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de vorm van de grens bepaald is.</item>
+                     <item>De vorm van de grens is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -24460,22 +24480,22 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <part>
                      <item/>
                      <item>matigVerkit</item>
-                     <item>De grond is gemakkelijk met de hand te breken.</item>
+                     <item>De grond is verkit en gemakkelijk met de hand te breken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>sterkVerkit</item>
-                     <item>De grond is moeilijk met de hand te breken.</item>
+                     <item>De grond is verkit en moeilijk met de hand te breken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>zeerSterkVerkit</item>
-                     <item>De grond is niet met de hand te breken.</item>
+                     <item>De grond is verkit en niet met de hand te breken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het is niet bekend of de zandverkitting bepaald is.</item>
+                     <item>De mate waarin het zand verkit is, is niet bekend.</item>
                   </part>
                </content>
             </section>
@@ -24523,11 +24543,6 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                      <item/>
                      <item>8</item>
                      <item>De waarde van de Chroma is 8.</item>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>geen</item>
-                     <item>De waarde van de Chroma is niet aanwezig. Dit kan alleen bij specifieke waarde van de HUE voorkomen.</item>
                   </part>
                </content>
             </section>
