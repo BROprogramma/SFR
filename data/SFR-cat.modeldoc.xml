@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.50.1"
-      generator-date="2019-01-17T10:51:13Z">
+      generator-date="2019-01-18T09:21:13Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -18312,23 +18312,23 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                   <itemtype type="DEFINITION"/>
                   <part>
                      <item/>
-                     <item>verstuiving</item>
-                     <item>Levend stuifzand in terrein en heel verandelijk. Zodra het waait verandert het terrein.</item>
-                  </part>
-                  <part>
-                     <item/>
                      <item>geulvorming</item>
-                     <item>levende bodemerosie. Het gaat om de actuele dynamiek.</item>
+                     <item>Er komen actieve erosiegeulen voor.</item>
                   </part>
                   <part>
                      <item/>
                      <item>piping</item>
-                     <item>To Do: alleen in de buurt van het grondlichaam. Piping is heel tijdelijk.</item>
+                     <item>Water stroomt onder een dijk of ander grondlichaam door om daarnaast aan het oppervlak te komen.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>geen</item>
-                     <item>Er is geen actueel proces aanwezig.</item>
+                     <item>verstuiving</item>
+                     <item>Er vindt verstuiving plaats wanneer het hard waait (levend stuifzand).</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>Het is niet bekend of er een actueel proces is.</item>
                   </part>
                </content>
             </section>
