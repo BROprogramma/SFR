@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.50.1"
-      generator-date="2019-01-28T13:12:16Z">
+      generator-date="2019-01-28T13:47:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -1029,9 +1029,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandmonstersGeanalyseerd">wandmonsters geanalyseerd</item>
+                              idref="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandGefotografeerd">wand gefotografeerd</item>
                      </item>
-                     <item>De aanduiding die aangeeft of het analyseren van wandmonsters onderdeel van het onderzoek is.</item>
+                     <item>De aanduiding die aangeeft of het maken van foto's van de wand onderdeel van het onderzoek is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -1040,9 +1040,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandGefotografeerd">wand gefotografeerd</item>
+                              idref="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandmonstersGeanalyseerd">wandmonsters geanalyseerd</item>
                      </item>
-                     <item>De aanduiding die aangeeft of het maken van foto's van de wand onderdeel van het onderzoek is.</item>
+                     <item>De aanduiding die aangeeft of het analyseren van wandmonsters onderdeel van het onderzoek is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -3580,39 +3580,6 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSFR_Grond_grindhoudend">grindhoudend</item>
-                     </item>
-                     <item>De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSFR_Grond_grindgehalteklasse">grindgehalteklasse</item>
-                     </item>
-                     <item>Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt in een klasse.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROSFR_Grindgehalteklasse">Grindgehalteklasse</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">schelpmateriaalhoudend</item>
-                     </item>
-                     <item>De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalgehalteklasse">schelpmateriaalgehalteklasse</item>
                      </item>
                      <item>Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal
@@ -3620,6 +3587,17 @@ bevat, uitgedrukt in een klasse.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSFR_Schelpmateriaalgehalteklasse">Schelpmateriaalgehalteklasse</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSFR_Grond_grindhoudend">grindhoudend</item>
+                     </item>
+                     <item>De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -3650,12 +3628,34 @@ bevat, uitgedrukt in een klasse.</item>
                   <part>
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSFR_Grond_grindgehalteklasse">grindgehalteklasse</item>
+                     </item>
+                     <item>Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt in een klasse.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROSFR_Grindgehalteklasse">Grindgehalteklasse</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSFR_Grond_disperseInhomogeniteit">disperse inhomogeniteit</item>
                      </item>
                      <item>De willekeurig verspreid voorkomende brokjes die uit ander materiaal dan de grondsoort bestaan, getypeerd naar materiaal.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROSFR_DisperseInhomogeniteit">DisperseInhomogeniteit</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">schelpmateriaalhoudend</item>
+                     </item>
+                     <item>De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -6666,6 +6666,65 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      </part>
                   </content>
                </section>
+               <section name="wand gefotografeerd"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandGefotografeerd"
+                        id-global="global_attribute_DomeinmodelBROSFR_Wandonderzoek_wandGefotografeerd">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>wand gefotografeerd</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of het maken van foto's van de wand onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Bij de registratie van een bodemkundige wandbeschrijving wordt direct vastgelegd of het fotograferen van de wand ook onderdeel is geweest van het wandonderzoek. De resultaten van die activiteit zullen in een latere fase van de totstandkoming van de basisregistratie ondergrond aan de wandbeschrijving worden toegevoegd.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
                <section name="wandmonsters geanalyseerd"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandmonstersGeanalyseerd"
@@ -6773,65 +6832,6 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="wand gefotografeerd"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSFR_Wandonderzoek_wandGefotografeerd"
-                        id-global="global_attribute_DomeinmodelBROSFR_Wandonderzoek_wandGefotografeerd">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>wand gefotografeerd</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of het maken van foto's van de wand onderdeel van het onderzoek is.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Bij de registratie van een bodemkundige wandbeschrijving wordt direct vastgelegd of het fotograferen van de wand ook onderdeel is geweest van het wandonderzoek. De resultaten van die activiteit zullen in een latere fase van de totstandkoming van de basisregistratie ondergrond aan de wandbeschrijving worden toegevoegd.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -14361,226 +14361,6 @@ Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O.</item>
                      </part>
                   </content>
                </section>
-               <section name="grindhoudend"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSFR_Grond_grindhoudend"
-                        id-global="global_attribute_DomeinmodelBROSFR_Grond_grindhoudend">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>grindhoudend</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan grind. In andere gevallen is het gegeven aanwezig.</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="grindgehalteklasse"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSFR_Grond_grindgehalteklasse"
-                        id-global="global_attribute_DomeinmodelBROSFR_Grond_grindgehalteklasse">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>grindgehalteklasse</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt in een klasse.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek. van de BRO.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut grindhoudend gelijk is aan ja. In andere gevallen ontbreekt het gegeven.</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Grindgehalteklasse</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="schelpmateriaalhoudend"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend"
-                        id-global="global_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>schelpmateriaalhoudend</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.  </item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="fractieverdeling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSFR_Grond_fractieverdeling"
-                        id-global="global_attribute_DomeinmodelBROSFR_Grond_fractieverdeling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>fractieverdeling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>n.v.t.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Fractieverdeling</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="schelpmateriaalgehalteklasse"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalgehalteklasse"
@@ -14641,14 +14421,14 @@ bevat, uitgedrukt in een klasse.</item>
                      </part>
                   </content>
                </section>
-               <section name="onvolledige fractiespecificatie"
+               <section name="grindhoudend"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROSFR_Grond_onvolledigeFractiespecificatie"
-                        id-global="global_attribute_DomeinmodelBROSFR_Grond_onvolledigeFractiespecificatie">
+                        id="detail_attribute_DomeinmodelBROSFR_Grond_grindhoudend"
+                        id-global="global_attribute_DomeinmodelBROSFR_Grond_grindhoudend">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>onvolledige fractiespecificatie</item>
+                        <item>grindhoudend</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -14656,7 +14436,7 @@ bevat, uitgedrukt in een klasse.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>n.v.t.</item>
+                        <item>De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -14682,9 +14462,13 @@ bevat, uitgedrukt in een klasse.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan grind. In andere gevallen is het gegeven aanwezig.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Onvolledige fractiespecificatie</item>
+                        <item>IndicatieJaNee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -14806,6 +14590,65 @@ bevat, uitgedrukt in een klasse.</item>
                      </part>
                   </content>
                </section>
+               <section name="grindgehalteklasse"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Grond_grindgehalteklasse"
+                        id-global="global_attribute_DomeinmodelBROSFR_Grond_grindgehalteklasse">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>grindgehalteklasse</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt in een klasse.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek. van de BRO.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut grindhoudend gelijk is aan ja. In andere gevallen ontbreekt het gegeven.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Grindgehalteklasse</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
                <section name="disperse inhomogeniteit"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROSFR_Grond_disperseInhomogeniteit"
@@ -14862,6 +14705,214 @@ bevat, uitgedrukt in een klasse.</item>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>DisperseInhomogeniteit</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="schelpmateriaalhoudend"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend"
+                        id-global="global_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>schelpmateriaalhoudend</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.  </item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="fractieverdeling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Grond_fractieverdeling"
+                        id-global="global_attribute_DomeinmodelBROSFR_Grond_fractieverdeling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>fractieverdeling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>n.v.t.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Fractieverdeling</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="onvolledige fractiespecificatie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Grond_onvolledigeFractiespecificatie"
+                        id-global="global_attribute_DomeinmodelBROSFR_Grond_onvolledigeFractiespecificatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>onvolledige fractiespecificatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>n.v.t.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Onvolledige fractiespecificatie</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="munsellkleur"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Grond_munsellkleur"
+                        id-global="global_attribute_DomeinmodelBROSFR_Grond_munsellkleur">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>munsellkleur</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>n.v.t.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Munsellkleur</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -18217,6 +18268,57 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</it
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>BijzonderheidLocatie</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bijzonderheid onderin"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROSFR_Bodemclassificatie_bijzonderheidOnderin"
+                        id-global="global_attribute_DomeinmodelBROSFR_Bodemclassificatie_bijzonderheidOnderin">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bijzonderheid onderin</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>n.v.t.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Bijzonderheid onderin</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
