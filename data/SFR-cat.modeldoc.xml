@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.50.1"
-      generator-date="2019-01-18T15:53:28Z">
+      generator-date="2019-01-28T09:52:19Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content--><!--removed empty content--><!--removed empty content--><!--removed empty content-->
@@ -283,6 +283,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>De code voor het identificeren van een object dat in de registratie ondergrond is opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.</item>
+               </part>
+               <part type="CFG-DOC-PATROON">
+                  <item>Patroon</item>
+                  <item>SFRNNNNNNNNNNNN</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -1376,11 +1380,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>To do</item>
+                  <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie ondergrond gegenereerd.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -2144,7 +2152,7 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSFR_Terreintoestand_drainagetoestand">drainagetoestand</item>
                      </item>
-                     <item>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</item>
+                     <item>De omstandigheden die op de ontwatering van het terrein betrekking hebben</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROSFR_Drainagetoestand">Drainagetoestand</item>
                      </item>
@@ -2200,7 +2208,7 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</item>
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROSFR_Terreintoestand_gemiddeldLaagsteGrondwaterspiegel">gemiddeld laagste grondwaterspiegel</item>
                      </item>
-                     <item>Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie van het booronderzoek.</item>
+                     <item>Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie van het wandonderzoek.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -5987,6 +5995,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>SFRNNNNNNNNNNNN</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Registratieobjectcode </item>
@@ -6687,6 +6699,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Wandonderzoek omvat bijna altijd een wandbeschrijving, maar het onderzoek kan zich beperken tot het analyseren van monsters. Dat is met name het geval wanneer er in een onderzoek gebruik wordt gemaakt van monsters die voor een ander onderzoek zijn genomen.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -7541,6 +7557,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is alleen aanwezig wanneer na de registratie van een deelonderzoek ander deelonderzoek is vastgelegd.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -7596,6 +7616,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd. Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden. Wel kunnen fouten in de registratie worden verbeterd.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -7615,6 +7639,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het gegeven is alleen aanwezig wanneer de registratiestatus de waarde voltooid heeft.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -7726,6 +7754,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut gecorrigeerd.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>DatumTijd</item>
@@ -7760,6 +7792,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter gaat hieraan een melding van derden vooraf.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -7836,6 +7872,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut in onderzoek.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>DatumTijd</item>
@@ -7870,6 +7910,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier. De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen en alleen na akkoord van de bronhouder. Aan de beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot uitdrukking in de regel dat een object slechts een keer uit registratie kan worden genomen.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -7946,6 +7990,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut uit registratie genomen.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>DatumTijd</item>
@@ -7980,6 +8028,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan hij eenmalig ongedaan maken. Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -8055,6 +8107,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het attribuut weer in registratie genomen.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -8507,6 +8563,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <item>Meeteenheid</item>
                         <item>m (meters)</item>
                      </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>niet gespecificeerd </item>
+                     </part>
                      <part type="CFG-DOC-MAXIMUMVALUE">
                         <item>Maximumwaarde</item>
                         <item>niet gespecificeerd</item>
@@ -8625,7 +8685,8 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-REGELS-IMBROA">
                         <item>Regels IMBRO/A</item>
-                        <item>Wanneer de waarde van het attribuut de rapportagedatum onderzoek van de entiteit Wandonderzoek gelijk is aan onbekend, is de waarde van dit gegeven ook onbekend. Voor IMBRO/A-gegevens kan de datum verticale positiebepaling niet bepaald zijn; In dat geval heeft het gegeven geen waarde.  </item>
+                        <item>Wanneer de waarde van het attribuut de rapportagedatum onderzoek van de entiteit Wandonderzoek gelijk is aan onbekend, is de waarde van dit gegeven ook onbekend. Voor IMBRO/A-gegevens kan de datum verticale positiebepaling niet bepaald zijn; In dat geval heeft het gegeven geen waarde.
+ </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -9316,7 +9377,7 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Het gegeven wordt vastgelegd omdat het inzicht geeft in de natuurlijke bodemvruchtbaarheid. Het vraagt bijzondere expertise om het vast te leggen en dat wordt alleen gedaan wanneer de opdrachtgever erom vraag.</item>
+                        <item>Het gegeven wordt vastgelegd omdat het inzicht geeft in de natuurlijke bodemvruchtbaarheid. Het vraagt bijzondere expertise om het vast te leggen en dat wordt alleen gedaan wanneer de opdrachtgever erom vraagt.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -9367,7 +9428,7 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</item>
+                        <item>De omstandigheden die op de ontwatering van het terrein betrekking hebben</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -9666,7 +9727,7 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie van het booronderzoek.</item>
+                        <item>Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie van het wandonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -9896,10 +9957,6 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -10538,7 +10595,8 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De bovenkant van het profiel valt samen met de bovenkant van het strooisel of met het maaiveld. Het oppervlak kan op de schaal van enkele vierkante meters verschillen in hoogte vertonen op de schaal van decimeters (microreliëf). Dat reliëf is van invloed op de processen in de bodem. Het hangt van de opdracht af of het gegeven aanwezig is.</item>
+                        <item>De bovenkant van het profiel volgt de vorm van het terreinoppervlak, het maaiveld of de laag strooisel die daarop ligt. Dat oppervlak kan microreliëf vertonen en dat wil zeggen dat er binnen een meter afstand hoogteverschillen zijn die in de orde van enkele decimeters kunnen liggen. Microreliëf is van invloed op de processen in de bodem.
+Het hangt van de opdracht af of het gegeven aanwezig is.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -10676,7 +10734,7 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt gelijk is aan ja. De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de entiteit wandontsluiting.  </item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt gelijk is aan ja. De bewortelbare diepte mag niet groter zijn dan de einddiepte wand van de entiteit Wandontsluiting.  </item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -10806,7 +10864,7 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.  </item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste grondwaterstand is niet groter dan de einddiepte wand van de entiteit Wandontsluiting.  </item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -10881,7 +10939,7 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven kan allen aanwezig zijn wanneer het attribuut gemiddeld hoogste grondwaterstand aanwezig is. De warde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste grondwaterstand. De waarde mag niet groter zijn dan de einddiepte van de wand.</item>
+                        <item>Het gegeven kan alleen aanwezig zijn wanneer het attribuut gemiddeld hoogste grondwaterstand aanwezig is. De waarde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste grondwaterstand. De waarde mag niet groter zijn dan de einddiepte van de wand.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -11087,9 +11145,7 @@ Door verdichting worden het aandeel van de met water en lucht gevulde ruimten in
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk is aan ja. In andere gevallen ontbreekt het gegeven.
-De einddiepte verdichting is groter dan de begindiepte verdichting.
-De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit wandontsluiting.</item>
+                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte verdichting is groter dan de begindiepte verdichting. De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit Wandontsluiting.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>

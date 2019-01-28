@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SFR conceptueel" door Imvertor 1.50.1 op January 18, 2019 at 15:53:28.
+   "SFR conceptueel" door Imvertor 1.50.1 op January 28, 2019 at 09:52:19.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SFRconceptueel-0.1-0-20180831-20190118-165330"</i> door. 
+   <i>"Conceptualmodel-SFRconceptueel-0.1-0-20180831-20190128-105220"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -390,6 +390,10 @@
                   <td>De code voor het identificeren van een object dat in de registratie ondergrond is
                      opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.
                   </td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td>SFRNNNNNNNNNNNN</td>
                </tr>
             </tbody>
          </table>
@@ -1555,11 +1559,17 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>To do</td>
+                  <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie
+                     ondergrond gegenereerd.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -2417,7 +2427,7 @@
                      <a class="link" href="#detail_attribute_DomeinmodelBROSFR_Terreintoestand_drainagetoestand">drainagetoestand</a>
                      
                   </td>
-                  <td>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</td>
+                  <td>De omstandigheden die op de ontwatering van het terrein betrekking hebben</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROSFR_Drainagetoestand">Drainagetoestand</a>
                      
@@ -2484,7 +2494,7 @@
                      
                   </td>
                   <td>Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie
-                     van het booronderzoek.
+                     van het wandonderzoek.
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
@@ -6139,6 +6149,10 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Patroon</th>
+                     <td>SFRNNNNNNNNNNNN</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>Registratieobjectcode </td>
                   </tr>
@@ -6921,6 +6935,14 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Wandonderzoek omvat bijna altijd een wandbeschrijving, maar het onderzoek kan zich
+                        beperken tot het analyseren van monsters. Dat is met name het geval wanneer er in
+                        een onderzoek gebruik wordt gemaakt van monsters die voor een ander onderzoek zijn
+                        genomen.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -7693,6 +7715,12 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig wanneer na de registratie van een deelonderzoek ander
+                        deelonderzoek is vastgelegd.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -7753,6 +7781,13 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
+                        Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
+                        Wel kunnen fouten in de registratie worden verbeterd.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -7771,6 +7806,10 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is alleen aanwezig wanneer de registratiestatus de waarde voltooid heeft.</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -7893,6 +7932,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
+                        attribuut gecorrigeerd.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>DatumTijd</td>
                   </tr>
@@ -7931,6 +7976,14 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder
+                        gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er
+                        een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter
+                        gaat hieraan een melding van derden vooraf.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -8013,6 +8066,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
+                        attribuut in onderzoek.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>DatumTijd</td>
                   </tr>
@@ -8051,6 +8110,16 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens
+                        niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier. De
+                        registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen
+                        en alleen na akkoord van de bronhouder. Aan de beslissing gaat een proces van zorgvuldige
+                        afweging vooraf en dat komt tot uitdrukking in de regel dat een object slechts een
+                        keer uit registratie kan worden genomen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -8131,6 +8200,12 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
+                        attribuut uit registratie genomen.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>DatumTijd</td>
                   </tr>
@@ -8169,6 +8244,13 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan
+                        hij eenmalig ongedaan maken. Ook hiervoor geldt dat akkoord van de bronhouder vereist
+                        is.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -8249,6 +8331,12 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het al dan niet aanwezig zijn van het gegeven wordt bepaald door de waarde van het
+                        attribuut weer in registratie genomen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -8750,6 +8838,10 @@
                      <td>m (meters)</td>
                   </tr>
                   <tr>
+                     <th>Minimumwaarde</th>
+                     <td>niet gespecificeerd </td>
+                  </tr>
+                  <tr>
                      <th>Maximumwaarde</th>
                      <td>niet gespecificeerd</td>
                   </tr>
@@ -8882,7 +8974,7 @@
                      <td>Wanneer de waarde van het attribuut de rapportagedatum onderzoek van de entiteit Wandonderzoek
                         gelijk is aan onbekend, is de waarde van dit gegeven ook onbekend. Voor IMBRO/A-gegevens
                         kan de datum verticale positiebepaling niet bepaald zijn; In dat geval heeft het gegeven
-                        geen waarde. &nbsp;
+                        geen waarde.<br>&nbsp;
                      </td>
                   </tr>
                   <tr>
@@ -9643,7 +9735,7 @@
                      <th>Toelichting</th>
                      <td>Het gegeven wordt vastgelegd omdat het inzicht geeft in de natuurlijke bodemvruchtbaarheid.
                         Het vraagt bijzondere expertise om het vast te leggen en dat wordt alleen gedaan wanneer
-                        de opdrachtgever erom vraag.
+                        de opdrachtgever erom vraagt.
                      </td>
                   </tr>
                   <tr>
@@ -9700,7 +9792,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De omstandigheden die op de ontwatering van het terrein betrekking hebben.</td>
+                     <td>De omstandigheden die op de ontwatering van het terrein betrekking hebben</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -10036,7 +10128,7 @@
                   <tr>
                      <th>Definitie</th>
                      <td>Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie
-                        van het booronderzoek.
+                        van het wandonderzoek.
                      </td>
                   </tr>
                   <tr>
@@ -10296,10 +10388,6 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Meeteenheid</th>
-                     <td>BRO</td>
                   </tr>
                </tbody>
             </table>
@@ -10978,11 +11066,11 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>De bovenkant van het profiel valt samen met de bovenkant van het strooisel of met
-                        het maaiveld. Het oppervlak kan op de schaal van enkele vierkante meters verschillen
-                        in hoogte vertonen op de schaal van decimeters (microreliëf). Dat reliëf is van invloed
-                        op de processen in de bodem. Het hangt van de opdracht af of het gegeven aanwezig
-                        is.
+                     <td>De bovenkant van het profiel volgt de vorm van het terreinoppervlak, het maaiveld
+                        of de laag strooisel die daarop ligt. Dat oppervlak kan microreliëf vertonen en dat
+                        wil zeggen dat er binnen een meter afstand hoogteverschillen zijn die in de orde van
+                        enkele decimeters kunnen liggen. Microreliëf is van invloed op de processen in de
+                        bodem.<br>Het hangt van de opdracht af of het gegeven aanwezig is.
                      </td>
                   </tr>
                   <tr>
@@ -11132,7 +11220,7 @@
                      <th>Regels</th>
                      <td>Het gegeven is aanwezig wanneer de waarde van het attribuut bewortelbare diepte bereikt
                         gelijk is aan ja. De bewortelbare diepte mag niet groter zijn dan de einddiepte wand
-                        van de entiteit wandontsluiting. &nbsp;
+                        van de entiteit Wandontsluiting. &nbsp;
                      </td>
                   </tr>
                   <tr>
@@ -11276,7 +11364,7 @@
                      <th>Regels</th>
                      <td>Het gegeven is aanwezig wanneer de waarde van het attribuut gemiddeld hoogste grondwaterstand
                         bereikt gelijk is aan ja. In andere gevallen ontbreekt het gegeven. De gemiddeld hoogste
-                        grondwaterstand is niet groter dan de einddiepte wand van de entiteit wandontsluiting.
+                        grondwaterstand is niet groter dan de einddiepte wand van de entiteit Wandontsluiting.
                         &nbsp;
                      </td>
                   </tr>
@@ -11359,8 +11447,8 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het gegeven kan allen aanwezig zijn wanneer het attribuut gemiddeld hoogste grondwaterstand
-                        aanwezig is. De warde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste
+                     <td>Het gegeven kan alleen aanwezig zijn wanneer het attribuut gemiddeld hoogste grondwaterstand
+                        aanwezig is. De waarde mag niet kleiner zijn dan de waarde van de gemiddeld hoogste
                         grondwaterstand. De waarde mag niet groter zijn dan de einddiepte van de wand.
                      </td>
                   </tr>
@@ -11587,7 +11675,9 @@
                   <tr>
                      <th>Regels</th>
                      <td>Het gegeven is aanwezig wanneer de waarde van het attribuut verdichting aanwezig gelijk
-                        is aan ja. In andere gevallen ontbreekt het gegeven.<br>De einddiepte verdichting is groter dan de begindiepte verdichting.<br>De einddiepte verdichting is niet groter dan de einddiepte wand van de entiteit wandontsluiting.
+                        is aan ja. In andere gevallen ontbreekt het gegeven. De einddiepte verdichting is
+                        groter dan de begindiepte verdichting. De einddiepte verdichting is niet groter dan
+                        de einddiepte wand van de entiteit Wandontsluiting.
                      </td>
                   </tr>
                   <tr>
