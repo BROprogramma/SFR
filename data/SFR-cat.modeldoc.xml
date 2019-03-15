@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.52.1"
-      generator-date="2019-03-15T16:35:40Z">
+      generator-date="2019-03-15T16:39:16Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -1479,7 +1479,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_Rapportagegeschiedenis">rapportagegeschiedenis</item>
                         </item>
-                        <item/>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">To do</p>
+                        </item>
                         <item/>
                         <item>1</item>
                      </part>
@@ -1488,7 +1492,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item type="detail"
                                  idref="detail_attribute_DomeinmodelBROSFR_Rapportagegeschiedenis_startdatumRapportage">startdatum rapportage</item>
                         </item>
-                        <item/>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
                         </item>
@@ -1499,7 +1507,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item type="detail"
                                  idref="detail_attribute_DomeinmodelBROSFR_Rapportagegeschiedenis_einddatumRapportage">einddatum rapportage</item>
                         </item>
-                        <item/>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
                         </item>
@@ -7874,6 +7886,14 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Herkomst</item>
                            <item>BRO</item>
                         </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">To do</p>
+                           </item>
+                        </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
@@ -7899,6 +7919,14 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <part type="CFG-DOC-HERKOMST">
                               <item>Herkomst</item>
                               <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                              </item>
                            </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
@@ -7947,6 +7975,14 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                               <item>Herkomst</item>
                               <item>BRO</item>
                            </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                              </item>
+                           </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
@@ -7990,6 +8026,14 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                               <item>Herkomst</item>
                               <item>BRO</item>
                            </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                              </item>
+                           </part>
                            <part type="CFG-DOC-HERKOMSTDEFINITIE">
                               <item>Herkomst definitie</item>
                               <item>BRO</item>
@@ -8015,6 +8059,14 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                               <part type="CFG-DOC-HERKOMST">
                                  <item>Herkomst</item>
                                  <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-DEFINITIE">
+                                 <item>Definitie</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">to edo</p>
+                                 </item>
                               </part>
                               <part type="CFG-DOC-HERKOMSTDEFINITIE">
                                  <item>Herkomst definitie</item>
@@ -8062,6 +8114,14 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                               <part type="CFG-DOC-HERKOMST">
                                  <item>Herkomst</item>
                                  <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-DEFINITIE">
+                                 <item>Definitie</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                                 </item>
                               </part>
                               <part type="CFG-DOC-HERKOMSTDEFINITIE">
                                  <item>Herkomst definitie</item>
