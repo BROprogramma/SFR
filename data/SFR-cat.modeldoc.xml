@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.52.1"
-      generator-date="2019-03-15T14:32:49Z">
+      generator-date="2019-03-15T14:59:52Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -3863,6 +3863,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <item>Herkomst</item>
                      <item>BRO</item>
                   </part>
+                  <part type="CFG-DOC-DEFINITIE">
+                     <item>Definitie</item>
+                     <item>
+                        <p xmlns="http://www.w3.org/1999/xhtml"
+                           xmlns:html="http://www.w3.org/1999/xhtml"
+                           xmlns:imvert="http://www.imvertor.org/schema/system">To do</p>
+                     </item>
+                  </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
                      <item>BRO</item>
@@ -4658,9 +4666,9 @@ De classificatie is gebaseerd op het boorprofiel en sluit aanvullende observatie
                   </item>
                </part>
                <part>
-                  <item id="global_class_DomeinmodelBROSFR_Brokjes"
+                  <item id="global_class_DomeinmodelBROSFR_Brokje"
                         uuid="EAID_DCE52BE1_ED89_4d93_889C_8639F3771DC9"
-                        idref="detail_class_DomeinmodelBROSFR_Brokjes">Brokjes</item>
+                        idref="detail_class_DomeinmodelBROSFR_Brokje">Brokje</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
@@ -14834,17 +14842,17 @@ bevat, uitgedrukt in een klasse.</p>
                               </part>
                            </content>
                         </section>
-                        <section name="brokjes"
+                        <section name="brokje"
                                  type="DETAIL-COMPOSITE-ATTRIBUTE"
-                                 id="detail_attribute_DomeinmodelBROSFR_Grond_brokjes"
-                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_brokjes">
+                                 id="detail_attribute_DomeinmodelBROSFR_Grond_brokje"
+                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_brokje">
                            <content>
                               <part type="COMPOSER">
                                  <item type="global" idref="global_class_DomeinmodelBROSFR_Grond">Grond</item>
                               </part>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
-                                 <item>brokjes</item>
+                                 <item>brokje</item>
                               </part>
                               <part type="CFG-DOC-HERKOMST">
                                  <item>Herkomst</item>
@@ -14908,7 +14916,7 @@ bevat, uitgedrukt in een klasse.</p>
                               </part>
                               <part type="CFG-DOC-FORMAAT">
                                  <item>Formaat</item>
-                                 <item>Brokjes</item>
+                                 <item>Brokje</item>
                               </part>
                            </content>
                         </section>
@@ -18594,17 +18602,17 @@ bevat, uitgedrukt in een klasse.</p>
                               </part>
                            </content>
                         </section>
-                        <section name="brokjes"
+                        <section name="brokje"
                                  type="DETAIL-COMPOSITE-ATTRIBUTE"
-                                 id="detail_attribute_DomeinmodelBROSFR_Grond_brokjes"
-                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_brokjes">
+                                 id="detail_attribute_DomeinmodelBROSFR_Grond_brokje"
+                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_brokje">
                            <content>
                               <part type="COMPOSER">
                                  <item type="global" idref="global_class_DomeinmodelBROSFR_Grond">Grond</item>
                               </part>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
-                                 <item>brokjes</item>
+                                 <item>brokje</item>
                               </part>
                               <part type="CFG-DOC-HERKOMST">
                                  <item>Herkomst</item>
@@ -18668,7 +18676,7 @@ bevat, uitgedrukt in een klasse.</p>
                               </part>
                               <part type="CFG-DOC-FORMAAT">
                                  <item>Formaat</item>
-                                 <item>Brokjes</item>
+                                 <item>Brokje</item>
                               </part>
                            </content>
                         </section>
@@ -26922,10 +26930,10 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                </part>
             </content>
          </section>
-         <section name="Brokjes"
+         <section name="Brokje"
                   type="DETAIL-CODELIST"
-                  id="detail_class_DomeinmodelBROSFR_Brokjes"
-                  id-global="global_class_DomeinmodelBROSFR_Brokjes"
+                  id="detail_class_DomeinmodelBROSFR_Brokje"
+                  id-global="global_class_DomeinmodelBROSFR_Brokje"
                   uuid="EAID_DCE52BE1_ED89_4d93_889C_8639F3771DC9">
             <content>
                <part>
