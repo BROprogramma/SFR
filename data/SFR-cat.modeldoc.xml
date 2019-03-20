@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.52.1"
-      generator-date="2019-03-20T07:26:56Z">
+      generator-date="2019-03-20T07:31:10Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -31534,6 +31534,16 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBRO"/>
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
+               <part>
+                  <item>test</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                  </item>
+               </part>
             </content>
          </section>
          <section name="OndergrensZandfractie"
