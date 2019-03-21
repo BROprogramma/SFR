@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.52.1"
-      generator-date="2019-03-21T10:14:04Z">
+      generator-date="2019-03-21T10:24:22Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -748,6 +748,24 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       <section type="DOMAIN"
                name="Domeinmodel BRO SFR"
                id="global_package_DomeinmodelBROSFR">
+         <section type="IMAGEMAPS"
+                  name="Domeinmodel BRO SFR-imagemap"
+                  id="imagemap_package_DomeinmodelBROSFR">
+            <section type="IMAGEMAP"
+                     name="Domeinmodel BRO Wandonderzoek - overzicht"
+                     id="EAID_91EE1D4C_A1DD_4aa9_BE79_BFBB5A2B6CCC">
+               <content>
+                  <part type="CFG-DOC-NAAM">
+                     <item>Naam</item>
+                     <item>Domeinmodel BRO Wandonderzoek - overzicht</item>
+                  </part>
+                  <part type="CFG-DOC-DESCRIPTION">
+                     <item>Omschrijving</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
          <section type="OVERVIEW-OBJECTTYPE">
             <section name="Registratieobject"
                      type="OBJECTTYPE"
