@@ -3,8 +3,8 @@
       subpath="Conceptual model/SFR conceptueel/20180831"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
-      generator-version="1.52.2"
-      generator-date="2019-03-28T12:38:46Z">
+      generator-version="1.52.4"
+      generator-date="2019-04-15T10:30:04Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -747,7 +747,25 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       </section>
       <section type="DOMAIN"
                name="Domeinmodel BRO SFR"
-               id="global_package_DomeinmodelBROSFR"><!--removed empty content-->
+               id="global_package_DomeinmodelBROSFR">
+         <section type="IMAGEMAPS"
+                  name="Domeinmodel BRO SFR-imagemap"
+                  id="imagemap_package_DomeinmodelBROSFR">
+            <section type="IMAGEMAP"
+                     name="Domeinmodel BRO Wandonderzoek - overzicht"
+                     id="EAID_91EE1D4C_A1DD_4aa9_BE79_BFBB5A2B6CCC">
+               <content>
+                  <part type="CFG-DOC-NAAM">
+                     <item>Naam</item>
+                     <item>Domeinmodel BRO Wandonderzoek - overzicht</item>
+                  </part>
+                  <part type="CFG-DOC-DESCRIPTION">
+                     <item>Omschrijving</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
          <section type="OVERVIEW-OBJECTTYPE">
             <section name="Registratieobject"
                      type="OBJECTTYPE"
@@ -1009,9 +1027,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
+                        <item uuid="EAID_400892B5_96AA_4642_B647_4E98C58668A0">
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROSFR_AangeleverdeLocatie">aangeleverde locatie</item>
+                                 idref="detail_class_DomeinmodelBROSFR_AangeleverdeLocatie">aangeleverde locatie (Aangeleverde locatie)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -1098,9 +1116,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
+                        <item uuid="EAID_28DB2023_6218_4f0c_84B9_E807C3FDFD39">
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROSFR_AangeleverdeVerticalePositie">aangeleverde verticale positie</item>
+                                 idref="detail_class_DomeinmodelBROSFR_AangeleverdeVerticalePositie">aangeleverde verticale positie (Aangeleverde verticale positie)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -1204,9 +1222,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
+                        <item uuid="EAID_0588B737_B790_42ac_B52B_EABEF0C7FE5E">
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROSFR_Registratiegeschiedenis">registratiegeschiedenis</item>
+                                 idref="detail_class_DomeinmodelBROSFR_Registratiegeschiedenis">registratiegeschiedenis (Registratiegeschiedenis)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -1398,9 +1416,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
+                        <item uuid="EAID_0DD8CCEC_BCE7_469e_8650_19F6C00C614C">
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROSFR_GestandaardiseerdeLocatie">gestandaardiseerde locatie</item>
+                                 idref="detail_class_DomeinmodelBROSFR_GestandaardiseerdeLocatie">gestandaardiseerde locatie (Gestandaardiseerde locatie)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -1457,9 +1475,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
+                        <item uuid="EAID_282D13CA_6C57_4da6_9A44_AF6E361D5F1D">
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROSFR_Rapportagegeschiedenis">rapportagegeschiedenis</item>
+                                 idref="detail_class_DomeinmodelBROSFR_Rapportagegeschiedenis">rapportagegeschiedenis (Rapportagegeschiedenis)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -3389,8 +3407,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
-                           <item type="detail" idref="detail_class_DomeinmodelBROSFR_HomogeenMateriaal">homogeen materiaal</item>
+                        <item uuid="EAID_4EE91A56_4317_423e_A81B_41FD3A55413F">
+                           <item type="detail" idref="detail_class_DomeinmodelBROSFR_HomogeenMateriaal">homogeen materiaal (Homogeen materiaal)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -3499,8 +3517,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
-                           <item type="detail" idref="detail_class_DomeinmodelBROSFR_Laagcomponent">laagcomponent</item>
+                        <item uuid="EAID_0EB5B848_80BA_4dad_AFBB_88523BA215FA">
+                           <item type="detail" idref="detail_class_DomeinmodelBROSFR_Laagcomponent">laagcomponent (Laagcomponent)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -4224,9 +4242,9 @@ De classificatie is gebaseerd op het boorprofiel en sluit aanvullende observatie
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item>
+                        <item uuid="EAID_7439D539_C3B4_41d7_884C_4892DACE8616">
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROSFR_BijzonderheidOnderin">bijzonderheid onderin</item>
+                                 idref="detail_class_DomeinmodelBROSFR_BijzonderheidOnderin">bijzonderheid onderin (Bijzonderheid onderin)</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
@@ -6089,6 +6107,10 @@ De classificatie is gebaseerd op het boorprofiel en sluit aanvullende observatie
 Het punt dat wordt opgenomen is het punt waar de beschrijflijn van de wand is gedefinieerd. </p>
                            </item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                      </content>
                      <section name="coördinaten"
                               type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -6455,6 +6477,10 @@ Het punt dat wordt opgenomen is het punt waar de beschrijflijn van de wand is ge
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                      </content>
                      <section name="lokaal verticaal referentiepunt"
@@ -6915,6 +6941,10 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                                  xmlns:html="http://www.w3.org/1999/xhtml"
                                  xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie ondergrond gegenereerd. </p>
                            </item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                      </content>
                      <section name="tijdstip registratie object"
@@ -7692,6 +7722,10 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
 De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            </item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                      </content>
                      <section name="coördinaten"
                               type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -7888,6 +7922,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                      </content>
                      <section name="startdatum rapportage"
                               type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -8028,6 +8066,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                               <item>Indicatie kardinaliteit</item>
                               <item>0 .. *</item>
                            </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Authentiek</item>
+                           </part>
                         </content>
                         <section name="naam gebeurtenis"
                                  type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -8153,6 +8195,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                               <item>Indicatie kardinaliteit</item>
                               <item>0 .. *</item>
                            </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Authentiek</item>
+                           </part>
                         </content>
                      </section>
                   </section>
@@ -8168,6 +8214,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -8229,6 +8279,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. *</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -8293,6 +8347,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -8356,6 +8414,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -8418,6 +8480,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -8490,6 +8556,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -8552,6 +8622,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -8616,6 +8690,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -8679,6 +8757,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -8739,6 +8821,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -10449,6 +10535,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -10509,6 +10599,10 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -11352,6 +11446,10 @@ Door verdichting worden het aandeel van de met water en lucht gevulde ruimten in
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. *</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -11412,6 +11510,10 @@ Door verdichting worden het aandeel van de met water en lucht gevulde ruimten in
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. *</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -11474,6 +11576,10 @@ Door verdichting worden het aandeel van de met water en lucht gevulde ruimten in
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
                            <item>
@@ -11534,6 +11640,10 @@ Door verdichting worden het aandeel van de met water en lucht gevulde ruimten in
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1 .. *</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -13255,6 +13365,10 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                                  xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is gewoonlijk beschreven als grond, soms als bijzonder materiaal of gesteente. Een laag die uit bijzonder materiaal of gesteente bestaat wordt veel minder uitgebreid beschreven dan een laag die uit grond bestaat.</p>
                            </item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                         <part type="CFG-DOC-REGELS">
                            <item>Regels</item>
                            <item>
@@ -13495,6 +13609,10 @@ Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O. </p>
                            <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                               <item>Indicatie kardinaliteit</item>
                               <item>1</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Authentiek</item>
                            </part>
                            <part type="CFG-DOC-REGELS">
                               <item>Regels</item>
@@ -15061,6 +15179,10 @@ bevat, uitgedrukt in een klasse.</p>
                                        xmlns:imvert="http://www.imvertor.org/schema/system">De aanvullende regel die voor IMBRO/A geldt moet als volgt begrepen worden: in het verleden is het voorgekomen dat de fractieverdeling van alle lagen bepaald had moeten worden, maar dat de resultaten niet van alle lagen (of laagcomponenten) zijn vastgelegd. </p>
                                  </item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
                                  <item>
@@ -15360,6 +15482,10 @@ De som van de fracties is gelijk aan 100.0.</p>
                                     <item>Herkomst definitie</item>
                                     <item>BRO</item>
                                  </part>
+                                 <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                    <item>Indicatie authentiek</item>
+                                    <item>Authentiek</item>
+                                 </part>
                                  <part type="CFG-DOC-REGELS">
                                     <item>Regels</item>
                                     <item>
@@ -15561,6 +15687,10 @@ De som van de samenstellende bestanddelen is 100.</p>
                                     <item>Indicatie kardinaliteit</item>
                                     <item>0 .. 1</item>
                                  </part>
+                                 <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                    <item>Indicatie authentiek</item>
+                                    <item>Authentiek</item>
+                                 </part>
                               </content>
                            </section>
                         </section>
@@ -15597,6 +15727,10 @@ De som van de samenstellende bestanddelen is 100.</p>
                                        xmlns:imvert="http://www.imvertor.org/schema/system">In de jaren vóór 2010 heeft Wageningen Environmental Research de fractieverdeling niet systematisch vastgelegd. In aanvulling op de bodemkundige naam van de grondsoort werd alleen de relatieve hoeveelheid vastgelegd van de fracties die voor de bodemkundige relevant waren. Welke fracties dat waren hing af van de grondsoort en de geologische context. Zo werd van veen het geschat organische stofgehalte vastgelegd en van löss het geschat siltgehalte. 
 De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verlies van informatie te voorkomen. Vanwege dat uitzonderlijke karakter, zijn de gegevens niet authentiek. </p>
                                  </item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
@@ -15878,6 +16012,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Het Munsell systeem baseert zich op een bij benadering bolvormige kleurenruimte en classificeert kleur aan de hand van drie aspecten. Dat zijn in het Engels hue (hoofdkleur) chroma (zuiverheid) en value (witheid). De hue geeft de plaats van de kleur op een cirkel die de kleuren van de regenboog beschrijft. De chroma geeft de zuiverheid van de kleur en is de afstand in het horizontale vlak van de plaats op de cirkel tot het middelpunt, en de value geeft de mate van witheid en wordt bepaald langs de verticale as. De systematiek is ontworpen door Albert H. Munsell en dateert uit het begin van de 20ste eeuw. Sinds de jaren 1930 is het bij het United States Department of Agriculture (USDA) als standaard in gebruik. In de jaren 1950 is het geleidelijk ingevoerd in de bodemkunde in Nederland. Voor de toepassing worden kleurkaarten gebruikt. </p>
                                  </item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                            <section name="munsell hoofdkleur"
                                     type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -16082,6 +16220,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling van de grond na afzetting van het sediment. </p>
                                  </item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
@@ -16295,6 +16437,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <part type="CFG-DOC-HERKOMSTDEFINITIE">
                                  <item>Herkomst definitie</item>
                                  <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
@@ -16729,6 +16875,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 3</item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                         </section>
                         <section name="heeft"
@@ -16743,6 +16893,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                            </content>
                         </section>
@@ -16759,6 +16913,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                         </section>
                         <section name="heeft"
@@ -16774,6 +16932,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                         </section>
                         <section name="heeft"
@@ -16788,6 +16950,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                            </content>
                         </section>
@@ -16933,6 +17099,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <item>Indicatie kardinaliteit</item>
                               <item>0 .. 1</item>
                            </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Authentiek</item>
+                           </part>
                         </content>
                      </section>
                   </section>
@@ -16960,6 +17130,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-REGELS">
                            <item>Regels</item>
@@ -17256,6 +17430,10 @@ Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal
                               <item>Indicatie kardinaliteit</item>
                               <item>1</item>
                            </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Authentiek</item>
+                           </part>
                            <part type="CFG-DOC-REGELS">
                               <item>Regels</item>
                               <item>
@@ -18821,6 +18999,10 @@ bevat, uitgedrukt in een klasse.</p>
                                        xmlns:imvert="http://www.imvertor.org/schema/system">De aanvullende regel die voor IMBRO/A geldt moet als volgt begrepen worden: in het verleden is het voorgekomen dat de fractieverdeling van alle lagen bepaald had moeten worden, maar dat de resultaten niet van alle lagen (of laagcomponenten) zijn vastgelegd. </p>
                                  </item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
                                  <item>
@@ -19120,6 +19302,10 @@ De som van de fracties is gelijk aan 100.0.</p>
                                     <item>Herkomst definitie</item>
                                     <item>BRO</item>
                                  </part>
+                                 <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                    <item>Indicatie authentiek</item>
+                                    <item>Authentiek</item>
+                                 </part>
                                  <part type="CFG-DOC-REGELS">
                                     <item>Regels</item>
                                     <item>
@@ -19321,6 +19507,10 @@ De som van de samenstellende bestanddelen is 100.</p>
                                     <item>Indicatie kardinaliteit</item>
                                     <item>0 .. 1</item>
                                  </part>
+                                 <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                    <item>Indicatie authentiek</item>
+                                    <item>Authentiek</item>
+                                 </part>
                               </content>
                            </section>
                         </section>
@@ -19357,6 +19547,10 @@ De som van de samenstellende bestanddelen is 100.</p>
                                        xmlns:imvert="http://www.imvertor.org/schema/system">In de jaren vóór 2010 heeft Wageningen Environmental Research de fractieverdeling niet systematisch vastgelegd. In aanvulling op de bodemkundige naam van de grondsoort werd alleen de relatieve hoeveelheid vastgelegd van de fracties die voor de bodemkundige relevant waren. Welke fracties dat waren hing af van de grondsoort en de geologische context. Zo werd van veen het geschat organische stofgehalte vastgelegd en van löss het geschat siltgehalte. 
 De beschikbare gegevens zijn in de basisregistratie ondergrond opgenomen om verlies van informatie te voorkomen. Vanwege dat uitzonderlijke karakter, zijn de gegevens niet authentiek. </p>
                                  </item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
@@ -19638,6 +19832,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Het Munsell systeem baseert zich op een bij benadering bolvormige kleurenruimte en classificeert kleur aan de hand van drie aspecten. Dat zijn in het Engels hue (hoofdkleur) chroma (zuiverheid) en value (witheid). De hue geeft de plaats van de kleur op een cirkel die de kleuren van de regenboog beschrijft. De chroma geeft de zuiverheid van de kleur en is de afstand in het horizontale vlak van de plaats op de cirkel tot het middelpunt, en de value geeft de mate van witheid en wordt bepaald langs de verticale as. De systematiek is ontworpen door Albert H. Munsell en dateert uit het begin van de 20ste eeuw. Sinds de jaren 1930 is het bij het United States Department of Agriculture (USDA) als standaard in gebruik. In de jaren 1950 is het geleidelijk ingevoerd in de bodemkunde in Nederland. Voor de toepassing worden kleurkaarten gebruikt. </p>
                                  </item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                            <section name="munsell hoofdkleur"
                                     type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -19842,6 +20040,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling van de grond na afzetting van het sediment. </p>
                                  </item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
@@ -20055,6 +20257,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <part type="CFG-DOC-HERKOMSTDEFINITIE">
                                  <item>Herkomst definitie</item>
                                  <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                               <part type="CFG-DOC-REGELS">
                                  <item>Regels</item>
@@ -20489,6 +20695,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 3</item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                         </section>
                         <section name="heeft"
@@ -20503,6 +20713,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                            </content>
                         </section>
@@ -20519,6 +20733,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                         </section>
                         <section name="heeft"
@@ -20534,6 +20752,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
                               </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
                            </content>
                         </section>
                         <section name="heeft"
@@ -20548,6 +20770,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                                  <item>Indicatie kardinaliteit</item>
                                  <item>0 .. 1</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
                               </part>
                            </content>
                         </section>
@@ -20565,6 +20791,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                               <item>Indicatie kardinaliteit</item>
                               <item>1</item>
                            </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Authentiek</item>
+                           </part>
                         </content>
                      </section>
                   </section>
@@ -20580,6 +20810,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. *</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -20641,6 +20875,10 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -22226,6 +22464,10 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</p>
 Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de standaardpuntencode opgenomen.</p>
                            </item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
                      </content>
                      <section name="bijzonderheid"
                               type="DETAIL-COMPOSITE-ATTRIBUTE"
@@ -22362,6 +22604,10 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1 .. *</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                            <item>Gerelateerd objecttype</item>
@@ -22666,7 +22912,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>uiterstKort0tot2</item>
+                  <item>uiterstKort</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22676,7 +22922,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>zeerKort2tot5</item>
+                  <item>zeerKort</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22686,7 +22932,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>kort5tot10</item>
+                  <item>kort</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22696,7 +22942,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>matigKort10tot20</item>
+                  <item>matigKort</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22706,7 +22952,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>matigLang20tot50</item>
+                  <item>matigLang</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22716,7 +22962,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>lang50tot200</item>
+                  <item>lang</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22726,7 +22972,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>zeerLang200tot500</item>
+                  <item>zeerLang</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22736,7 +22982,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>uiterstLangMeerDan500</item>
+                  <item>uiterstLang</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22826,7 +23072,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De beschrijving van de opbouw van de bodem voldoet aan de minimum eisen. Deze kwaliteit dekt alle historische beschrijvingen en volstaat ook na 2019 voor veel projectkarteringen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De beschrijving van de opbouw van de bodem voldoet aan de minimum eisen. Deze kwaliteit dekt alle historische beschrijvingen en volstaat ook na 2019 voor veel projectkarteringen, met name wanneer daarin gebruik wordt gemaakt van bestaande ontsluitingen.</p>
                   </item>
                </part>
                <part>
@@ -22862,33 +23108,13 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>AlterraTD19Av1995</item>
+                  <item>AlterraTD19A</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Technisch Document 19 A van DLO Staring Centrum, nu Wageningen Environmental Research.</p>
-                  </item>
-               </part>
-               <part>
-                  <item>AlterraTD19Av2020</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Technisch Document 19 A van DLO Staring Centrum, nu Wageningen Environmental Research.</p>
-                  </item>
-               </part>
-               <part>
-                  <item>K85-PB1</item>
-                  <item/>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">K85-PB1 is de technische code van een standaard invulformulier gebruikt voor 1995. Dit is de voorloper van de TD19A. Alle wandbeschrijvingen voor 1995 zijn met behulp van deze formulieren gemaakt. Dit document heeft geen officiële bijgaande literatuur, maar Invulinstructies van dit formulier zaten in een veldboekje (later ringbandmapje) voor karteerders. </p>
                   </item>
                </part>
             </content>
@@ -22934,7 +23160,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>veel20tot50</item>
+                  <item>veel</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22950,7 +23176,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De bedekkingsgraad is niet bekend. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid vlekken is niet bekend. </p>
                   </item>
                </part>
             </content>
@@ -23142,7 +23368,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&lt;63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
                   </item>
                </part>
                <part>
@@ -24040,7 +24266,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&lt;63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
                   </item>
                </part>
                <part>
@@ -27455,7 +27681,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>waargenomenScherp0tot2</item>
+                  <item>waargenomenScherp0tot2cm</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27465,7 +27691,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>waargenomenDuidelijk2tot10</item>
+                  <item>waargenomenDuidelijk2tot10cm</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27475,7 +27701,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>waargenomenGeleidelijkMeerDan10</item>
+                  <item>waargenomenGeleidelijk10cm</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27527,7 +27753,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>zwakGrindig0tot5</item>
+                  <item>zwakGrindig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27537,7 +27763,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>grindig5tot15</item>
+                  <item>grindig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27547,7 +27773,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sterkGrindig15tot30</item>
+                  <item>sterkGrindig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28155,7 +28381,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>weinig0tot0.5</item>
+                  <item>weinig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28165,7 +28391,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>matig0.5tot5</item>
+                  <item>matig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28175,7 +28401,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>veelMeerDan5</item>
+                  <item>veel</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28207,7 +28433,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>zeerWeinig1tot5</item>
+                  <item>zeerWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28217,7 +28443,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>weinig5tot10</item>
+                  <item>weinig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28227,7 +28453,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>veel10tot15</item>
+                  <item>veel</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28237,7 +28463,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>zeerVeelMeerDan15</item>
+                  <item>zeerVeel</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -30830,12 +31056,6 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                         xmlns:imvert="http://www.imvertor.org/schema/system">De overgang van het talud naar het maaiveld, niet nader gespecificeerd naar binnen- of buitenkant.</p>
                   </item>
                </part>
-               <part>
-                  <item>onbekend</item>
-                  <item/>
-                  <item>✔</item>
-                  <item/>
-               </part>
             </content>
          </section>
          <section name="LokaalVerticaalReferentiepunt"
@@ -31193,7 +31413,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de hoofdkleur is N. Dit staat voor de kleur neutraal  (Neutral).</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de hoofdekleur is N. Dit staat voor de kleur neutraal  (Neutral).</p>
                   </item>
                </part>
                <part>
@@ -31335,7 +31555,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 2. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 2. </p>
                   </item>
                </part>
                <part>
@@ -31345,7 +31565,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 2,5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 2,5. </p>
                   </item>
                </part>
                <part>
@@ -31355,7 +31575,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 3. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 3. </p>
                   </item>
                </part>
                <part>
@@ -31365,7 +31585,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 4. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 4. </p>
                   </item>
                </part>
                <part>
@@ -31375,7 +31595,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 5. </p>
                   </item>
                </part>
                <part>
@@ -31385,7 +31605,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 6. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 6. </p>
                   </item>
                </part>
                <part>
@@ -31395,7 +31615,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 7. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 7. </p>
                   </item>
                </part>
                <part>
@@ -31405,7 +31625,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 8. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 8. </p>
                   </item>
                </part>
                <part>
@@ -31415,7 +31635,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 8,5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 8,5. </p>
                   </item>
                </part>
                <part>
@@ -31425,7 +31645,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 9. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 9. </p>
                   </item>
                </part>
                <part>
@@ -31435,7 +31655,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 9,5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 9,5. </p>
                   </item>
                </part>
             </content>
@@ -31467,7 +31687,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 1. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 1. </p>
                   </item>
                </part>
                <part>
@@ -31477,7 +31697,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 2. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 2. </p>
                   </item>
                </part>
                <part>
@@ -31487,7 +31707,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 3. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 3. </p>
                   </item>
                </part>
                <part>
@@ -31497,7 +31717,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 4. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 4. </p>
                   </item>
                </part>
                <part>
@@ -31507,7 +31727,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 6. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 6. </p>
                   </item>
                </part>
                <part>
@@ -31517,7 +31737,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 8. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 8. </p>
                   </item>
                </part>
             </content>
@@ -31751,13 +31971,13 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>matigHumeus</item>
+                  <item>humeus</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Matig humeus. Organische stof maakt tussen 2,5 en 8 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 procent bedragen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humeus. Organische stof maakt tussen 2,5 en 8 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 procent bedragen.</p>
                   </item>
                </part>
                <part>
@@ -32173,33 +32393,33 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>zwakSchelphoudend0tot1</item>
+                  <item>zwakSchelphoudend</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Zwak schelphoudend, schelpen maken tussen de 0 en 1 procent van de massa uit.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zwak schelphoudend, 0% &lt; schelpen &lt; 1%.</p>
                   </item>
                </part>
                <part>
-                  <item>schelphoudend1tot10</item>
+                  <item>schelphoudend</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelphoudend, schelpen maken tussen de 1 en 10 procent van de massa uit.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelphoudend, 1% = schelpen &lt; 10%.</p>
                   </item>
                </part>
                <part>
-                  <item>sterkSchelphoudend10tot30</item>
+                  <item>sterkSchelphoudend</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Sterk schelphoudend, schelpen maken tussen de 10 en 30 procent van de massa uit.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Sterk schelphoudend, 10% = schelpen &lt; 30%.</p>
                   </item>
                </part>
                <part>
@@ -32399,7 +32619,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>aggregatenZwak0tot30</item>
+                  <item>aggregatenZwak</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32409,7 +32629,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>aggregatenMatig30tot70</item>
+                  <item>aggregatenMatig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32419,7 +32639,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>aggregatenSterkMeerDan70</item>
+                  <item>aggregatenSterk</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32459,7 +32679,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sedimentairGelaagdWeinigVerstoord0tot10</item>
+                  <item>sedimentairGelaagdWeinigVerstoord</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32469,7 +32689,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sedimentairGelaagdMatigVerstoord10tot70</item>
+                  <item>sedimentairGelaagdMatigVerstoord</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32479,7 +32699,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sedimentairGelaagdSterkVerstoordMeerDan70</item>
+                  <item>sedimentairGelaagdSterkVerstoord</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -33846,7 +34066,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn donkergeel tot okergeel. Donker- tot okergele vlekken wijzen op concentraties van fosforverbindingen die het gevolg zijn van de omzetting van botresten. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn donkergeel tot okergeel. Donker- tot okergele vlekken wijzen op concentraties van fosforverbindingen diehet gevolg zijn van de omzetting van botresten. </p>
                   </item>
                </part>
                <part>
@@ -33876,7 +34096,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn oranjerood tot roodbruin, roestkleurig. Roestkleurige vlekken wijzen op oxiderende omstandigheden.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn oranjerood tot roodbruin, roestkleurig. oestkleurige vlekken wijzen op oxiderende omstandigheden.</p>
                   </item>
                </part>
             </content>
