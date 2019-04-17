@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book name="SFR conceptueel"
-      subpath="Conceptual model/SFR conceptueel/20180831"
+<book name="Bodemkundig wandonderzoek (SFR)"
+      subpath="Conceptual model/Bodemkundig wandonderzoek (SFR)/20180831"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.52.4"
-      generator-date="2019-04-15T10:30:04Z">
+      generator-date="2019-04-17T12:31:16Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -747,25 +747,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       </section>
       <section type="DOMAIN"
                name="Domeinmodel BRO SFR"
-               id="global_package_DomeinmodelBROSFR">
-         <section type="IMAGEMAPS"
-                  name="Domeinmodel BRO SFR-imagemap"
-                  id="imagemap_package_DomeinmodelBROSFR">
-            <section type="IMAGEMAP"
-                     name="Domeinmodel BRO Wandonderzoek - overzicht"
-                     id="EAID_91EE1D4C_A1DD_4aa9_BE79_BFBB5A2B6CCC">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Domeinmodel BRO Wandonderzoek - overzicht</item>
-                  </part>
-                  <part type="CFG-DOC-DESCRIPTION">
-                     <item>Omschrijving</item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
+               id="global_package_DomeinmodelBROSFR"><!--removed empty content-->
          <section type="OVERVIEW-OBJECTTYPE">
             <section name="Registratieobject"
                      type="OBJECTTYPE"
@@ -1027,7 +1009,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_400892B5_96AA_4642_B647_4E98C58668A0">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_AangeleverdeLocatie">aangeleverde locatie (Aangeleverde locatie)</item>
                         </item>
@@ -1116,7 +1098,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_28DB2023_6218_4f0c_84B9_E807C3FDFD39">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_AangeleverdeVerticalePositie">aangeleverde verticale positie (Aangeleverde verticale positie)</item>
                         </item>
@@ -1222,7 +1204,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_0588B737_B790_42ac_B52B_EABEF0C7FE5E">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_Registratiegeschiedenis">registratiegeschiedenis (Registratiegeschiedenis)</item>
                         </item>
@@ -1416,7 +1398,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_0DD8CCEC_BCE7_469e_8650_19F6C00C614C">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_GestandaardiseerdeLocatie">gestandaardiseerde locatie (Gestandaardiseerde locatie)</item>
                         </item>
@@ -1475,7 +1457,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_282D13CA_6C57_4da6_9A44_AF6E361D5F1D">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_Rapportagegeschiedenis">rapportagegeschiedenis (Rapportagegeschiedenis)</item>
                         </item>
@@ -3407,7 +3389,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_4EE91A56_4317_423e_A81B_41FD3A55413F">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROSFR_HomogeenMateriaal">homogeen materiaal (Homogeen materiaal)</item>
                         </item>
                         <item>
@@ -3517,7 +3499,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_0EB5B848_80BA_4dad_AFBB_88523BA215FA">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROSFR_Laagcomponent">laagcomponent (Laagcomponent)</item>
                         </item>
                         <item>
@@ -3908,7 +3890,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                         </item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
                      <part>
                         <item>
@@ -3923,7 +3905,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                         </item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
                   </content>
                </section>
@@ -4242,7 +4224,7 @@ De classificatie is gebaseerd op het boorprofiel en sluit aanvullende observatie
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_7439D539_C3B4_41d7_884C_4892DACE8616">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROSFR_BijzonderheidOnderin">bijzonderheid onderin (Bijzonderheid onderin)</item>
                         </item>
@@ -6076,7 +6058,8 @@ De classificatie is gebaseerd op het boorprofiel en sluit aanvullende observatie
                   <section name="Aangeleverde locatie"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_AangeleverdeLocatie"
-                           id-global="global_class_DomeinmodelBROSFR_AangeleverdeLocatie">
+                           id-global="global_class_DomeinmodelBROSFR_AangeleverdeLocatie"
+                           uuid="EAID_400892B5_96AA_4642_B647_4E98C58668A0">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -6456,7 +6439,8 @@ Het punt dat wordt opgenomen is het punt waar de beschrijflijn van de wand is ge
                   <section name="Aangeleverde verticale positie"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_AangeleverdeVerticalePositie"
-                           id-global="global_class_DomeinmodelBROSFR_AangeleverdeVerticalePositie">
+                           id-global="global_class_DomeinmodelBROSFR_AangeleverdeVerticalePositie"
+                           uuid="EAID_28DB2023_6218_4f0c_84B9_E807C3FDFD39">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -6912,7 +6896,8 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                   <section name="Registratiegeschiedenis"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_Registratiegeschiedenis"
-                           id-global="global_class_DomeinmodelBROSFR_Registratiegeschiedenis">
+                           id-global="global_class_DomeinmodelBROSFR_Registratiegeschiedenis"
+                           uuid="EAID_0588B737_B790_42ac_B52B_EABEF0C7FE5E">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -7691,7 +7676,8 @@ De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij
                   <section name="Gestandaardiseerde locatie"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_GestandaardiseerdeLocatie"
-                           id-global="global_class_DomeinmodelBROSFR_GestandaardiseerdeLocatie">
+                           id-global="global_class_DomeinmodelBROSFR_GestandaardiseerdeLocatie"
+                           uuid="EAID_0DD8CCEC_BCE7_469e_8650_19F6C00C614C">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -7896,7 +7882,8 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                   <section name="Rapportagegeschiedenis"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_Rapportagegeschiedenis"
-                           id-global="global_class_DomeinmodelBROSFR_Rapportagegeschiedenis">
+                           id-global="global_class_DomeinmodelBROSFR_Rapportagegeschiedenis"
+                           uuid="EAID_282D13CA_6C57_4da6_9A44_AF6E361D5F1D">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -8040,7 +8027,8 @@ De locatie van wandonderzoek is gedefinieerd als een punt.</p>
                      <section name="Tussentijdse gebeurtenis"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROSFR_TussentijdseGebeurtenis"
-                              id-global="global_class_DomeinmodelBROSFR_TussentijdseGebeurtenis">
+                              id-global="global_class_DomeinmodelBROSFR_TussentijdseGebeurtenis"
+                              uuid="EAID_1127872D_BF1E_4a96_BC42_E187B994F8D3">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -13335,7 +13323,8 @@ Voor iedere andere laag is de waarde steeds gelijk aan de ondergrens van de laag
                   <section name="Homogeen materiaal"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_HomogeenMateriaal"
-                           id-global="global_class_DomeinmodelBROSFR_HomogeenMateriaal">
+                           id-global="global_class_DomeinmodelBROSFR_HomogeenMateriaal"
+                           uuid="EAID_4EE91A56_4317_423e_A81B_41FD3A55413F">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -13576,7 +13565,8 @@ Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O. </p>
                      <section name="Grond"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROSFR_Grond"
-                              id-global="global_class_DomeinmodelBROSFR_Grond">
+                              id-global="global_class_DomeinmodelBROSFR_Grond"
+                              uuid="EAID_7B5A7FB0_C5D5_4250_9478_49C85B05CE75">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -14539,68 +14529,6 @@ Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O. </p>
                               </part>
                            </content>
                         </section>
-                        <section name="schelpmateriaalhoudend"
-                                 type="DETAIL-COMPOSITE-ATTRIBUTE"
-                                 id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend"
-                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">
-                           <content>
-                              <part type="COMPOSER">
-                                 <item type="global" idref="global_class_DomeinmodelBROSFR_Grond">Grond</item>
-                              </part>
-                              <part type="CFG-DOC-NAAM">
-                                 <item>Naam</item>
-                                 <item>schelpmateriaalhoudend</item>
-                              </part>
-                              <part type="CFG-DOC-HERKOMST">
-                                 <item>Herkomst</item>
-                                 <item>BRO</item>
-                              </part>
-                              <part type="CFG-DOC-DEFINITIE">
-                                 <item>Definitie</item>
-                                 <item>
-                                    <p xmlns="http://www.w3.org/1999/xhtml"
-                                       xmlns:html="http://www.w3.org/1999/xhtml"
-                                       xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</p>
-                                 </item>
-                              </part>
-                              <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                                 <item>Herkomst definitie</item>
-                                 <item>BRO</item>
-                              </part>
-                              <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                                 <item>Mogelijk geen waarde</item>
-                                 <item>Nee</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                                 <item>Indicatie materiële historie</item>
-                                 <item>Nee</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                                 <item>Indicatie formele historie</item>
-                                 <item>Nee</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                                 <item>Indicatie kardinaliteit</item>
-                                 <item>0 .. 1</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                                 <item>Indicatie authentiek</item>
-                                 <item>Authentiek</item>
-                              </part>
-                              <part type="CFG-DOC-REGELS">
-                                 <item>Regels</item>
-                                 <item>
-                                    <p xmlns="http://www.w3.org/1999/xhtml"
-                                       xmlns:html="http://www.w3.org/1999/xhtml"
-                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.  </p>
-                                 </item>
-                              </part>
-                              <part type="CFG-DOC-FORMAAT">
-                                 <item>Formaat</item>
-                                 <item>IndicatieJaNee</item>
-                              </part>
-                           </content>
-                        </section>
                         <section name="rijpingsklasse"
                                  type="DETAIL-COMPOSITE-ATTRIBUTE"
                                  id="detail_attribute_DomeinmodelBROSFR_Grond_rijpingsklasse"
@@ -14725,6 +14653,68 @@ Het waardenbereik omvat niet de volgende codes: Of, Oh, Ol, Ou, of O. </p>
                                     <p xmlns="http://www.w3.org/1999/xhtml"
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan is aan venigeKlei, lichteKlei, matigZwareKlei of zeerZwareKlei. In andere gevallen ontbreekt het gegeven.</p>
+                                 </item>
+                              </part>
+                              <part type="CFG-DOC-FORMAAT">
+                                 <item>Formaat</item>
+                                 <item>IndicatieJaNee</item>
+                              </part>
+                           </content>
+                        </section>
+                        <section name="schelpmateriaalhoudend"
+                                 type="DETAIL-COMPOSITE-ATTRIBUTE"
+                                 id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend"
+                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">
+                           <content>
+                              <part type="COMPOSER">
+                                 <item type="global" idref="global_class_DomeinmodelBROSFR_Grond">Grond</item>
+                              </part>
+                              <part type="CFG-DOC-NAAM">
+                                 <item>Naam</item>
+                                 <item>schelpmateriaalhoudend</item>
+                              </part>
+                              <part type="CFG-DOC-HERKOMST">
+                                 <item>Herkomst</item>
+                                 <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-DEFINITIE">
+                                 <item>Definitie</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</p>
+                                 </item>
+                              </part>
+                              <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                                 <item>Herkomst definitie</item>
+                                 <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                                 <item>Mogelijk geen waarde</item>
+                                 <item>Nee</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                                 <item>Indicatie materiële historie</item>
+                                 <item>Nee</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                                 <item>Indicatie formele historie</item>
+                                 <item>Nee</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                                 <item>Indicatie kardinaliteit</item>
+                                 <item>0 .. 1</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
+                              <part type="CFG-DOC-REGELS">
+                                 <item>Regels</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.  </p>
                                  </item>
                               </part>
                               <part type="CFG-DOC-FORMAAT">
@@ -15149,7 +15139,8 @@ bevat, uitgedrukt in een klasse.</p>
                         <section name="Fractieverdeling"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Fractieverdeling"
-                                 id-global="global_class_DomeinmodelBROSFR_Fractieverdeling">
+                                 id-global="global_class_DomeinmodelBROSFR_Fractieverdeling"
+                                 uuid="EAID_4B7B29C7_E8CB_405b_9362_93C15A7341C5">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -15460,7 +15451,8 @@ De som van de fracties is gelijk aan 100.0.</p>
                            <section name="Verdeling fijne fractie"
                                     type="DETAIL-COMPOSITE"
                                     id="detail_class_DomeinmodelBROSFR_VerdelingFijneFractie"
-                                    id-global="global_class_DomeinmodelBROSFR_VerdelingFijneFractie">
+                                    id-global="global_class_DomeinmodelBROSFR_VerdelingFijneFractie"
+                                    uuid="EAID_0C200D10_24C8_4a4f_A671_2EA1E0044C4A">
                               <content>
                                  <part type="CFG-DOC-NAAM">
                                     <item>Naam</item>
@@ -15697,7 +15689,8 @@ De som van de samenstellende bestanddelen is 100.</p>
                         <section name="Onvolledige fractiespecificatie"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_OnvolledigeFractiespecificatie"
-                                 id-global="global_class_DomeinmodelBROSFR_OnvolledigeFractiespecificatie">
+                                 id-global="global_class_DomeinmodelBROSFR_OnvolledigeFractiespecificatie"
+                                 uuid="EAID_2669D9E9_5412_45cc_AB9E_996A4EAC2268">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -15982,7 +15975,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <section name="Munsellkleur"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Munsellkleur"
-                                 id-global="global_class_DomeinmodelBROSFR_Munsellkleur">
+                                 id-global="global_class_DomeinmodelBROSFR_Munsellkleur"
+                                 uuid="EAID_6868BC87_48EE_46a3_A03E_C9F6CB557B4B">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -16191,7 +16185,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <section name="Vlek"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Vlek"
-                                 id-global="global_class_DomeinmodelBROSFR_Vlek">
+                                 id-global="global_class_DomeinmodelBROSFR_Vlek"
+                                 uuid="EAID_723B9E70_C415_406e_AFDD_5B4B8162F99B">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -16416,7 +16411,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <section name="Bodemaggregaat"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Bodemaggregaat"
-                                 id-global="global_class_DomeinmodelBROSFR_Bodemaggregaat">
+                                 id-global="global_class_DomeinmodelBROSFR_Bodemaggregaat"
+                                 uuid="EAID_40B71A7F_12AC_4ad4_9398_037829DEF151">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -17109,7 +17105,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                   <section name="Laagcomponent"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_Laagcomponent"
-                           id-global="global_class_DomeinmodelBROSFR_Laagcomponent">
+                           id-global="global_class_DomeinmodelBROSFR_Laagcomponent"
+                           uuid="EAID_0EB5B848_80BA_4dad_AFBB_88523BA215FA">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -17396,7 +17393,8 @@ Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal
                      <section name="Grond"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROSFR_Grond"
-                              id-global="global_class_DomeinmodelBROSFR_Grond">
+                              id-global="global_class_DomeinmodelBROSFR_Grond"
+                              uuid="EAID_7B5A7FB0_C5D5_4250_9478_49C85B05CE75">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -18359,68 +18357,6 @@ Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal
                               </part>
                            </content>
                         </section>
-                        <section name="schelpmateriaalhoudend"
-                                 type="DETAIL-COMPOSITE-ATTRIBUTE"
-                                 id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend"
-                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">
-                           <content>
-                              <part type="COMPOSER">
-                                 <item type="global" idref="global_class_DomeinmodelBROSFR_Grond">Grond</item>
-                              </part>
-                              <part type="CFG-DOC-NAAM">
-                                 <item>Naam</item>
-                                 <item>schelpmateriaalhoudend</item>
-                              </part>
-                              <part type="CFG-DOC-HERKOMST">
-                                 <item>Herkomst</item>
-                                 <item>BRO</item>
-                              </part>
-                              <part type="CFG-DOC-DEFINITIE">
-                                 <item>Definitie</item>
-                                 <item>
-                                    <p xmlns="http://www.w3.org/1999/xhtml"
-                                       xmlns:html="http://www.w3.org/1999/xhtml"
-                                       xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</p>
-                                 </item>
-                              </part>
-                              <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                                 <item>Herkomst definitie</item>
-                                 <item>BRO</item>
-                              </part>
-                              <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                                 <item>Mogelijk geen waarde</item>
-                                 <item>Nee</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                                 <item>Indicatie materiële historie</item>
-                                 <item>Nee</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                                 <item>Indicatie formele historie</item>
-                                 <item>Nee</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                                 <item>Indicatie kardinaliteit</item>
-                                 <item>0 .. 1</item>
-                              </part>
-                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                                 <item>Indicatie authentiek</item>
-                                 <item>Authentiek</item>
-                              </part>
-                              <part type="CFG-DOC-REGELS">
-                                 <item>Regels</item>
-                                 <item>
-                                    <p xmlns="http://www.w3.org/1999/xhtml"
-                                       xmlns:html="http://www.w3.org/1999/xhtml"
-                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.  </p>
-                                 </item>
-                              </part>
-                              <part type="CFG-DOC-FORMAAT">
-                                 <item>Formaat</item>
-                                 <item>IndicatieJaNee</item>
-                              </part>
-                           </content>
-                        </section>
                         <section name="rijpingsklasse"
                                  type="DETAIL-COMPOSITE-ATTRIBUTE"
                                  id="detail_attribute_DomeinmodelBROSFR_Grond_rijpingsklasse"
@@ -18545,6 +18481,68 @@ Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal
                                     <p xmlns="http://www.w3.org/1999/xhtml"
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan is aan venigeKlei, lichteKlei, matigZwareKlei of zeerZwareKlei. In andere gevallen ontbreekt het gegeven.</p>
+                                 </item>
+                              </part>
+                              <part type="CFG-DOC-FORMAAT">
+                                 <item>Formaat</item>
+                                 <item>IndicatieJaNee</item>
+                              </part>
+                           </content>
+                        </section>
+                        <section name="schelpmateriaalhoudend"
+                                 type="DETAIL-COMPOSITE-ATTRIBUTE"
+                                 id="detail_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend"
+                                 id-global="global_attribute_DomeinmodelBROSFR_Grond_schelpmateriaalhoudend">
+                           <content>
+                              <part type="COMPOSER">
+                                 <item type="global" idref="global_class_DomeinmodelBROSFR_Grond">Grond</item>
+                              </part>
+                              <part type="CFG-DOC-NAAM">
+                                 <item>Naam</item>
+                                 <item>schelpmateriaalhoudend</item>
+                              </part>
+                              <part type="CFG-DOC-HERKOMST">
+                                 <item>Herkomst</item>
+                                 <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-DEFINITIE">
+                                 <item>Definitie</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</p>
+                                 </item>
+                              </part>
+                              <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                                 <item>Herkomst definitie</item>
+                                 <item>BRO</item>
+                              </part>
+                              <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                                 <item>Mogelijk geen waarde</item>
+                                 <item>Nee</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                                 <item>Indicatie materiële historie</item>
+                                 <item>Nee</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                                 <item>Indicatie formele historie</item>
+                                 <item>Nee</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                                 <item>Indicatie kardinaliteit</item>
+                                 <item>0 .. 1</item>
+                              </part>
+                              <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                                 <item>Indicatie authentiek</item>
+                                 <item>Authentiek</item>
+                              </part>
+                              <part type="CFG-DOC-REGELS">
+                                 <item>Regels</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut bodemkundige grondsoort gelijk is aan schelpmateriaal. In andere gevallen is het gegeven aanwezig.  </p>
                                  </item>
                               </part>
                               <part type="CFG-DOC-FORMAAT">
@@ -18969,7 +18967,8 @@ bevat, uitgedrukt in een klasse.</p>
                         <section name="Fractieverdeling"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Fractieverdeling"
-                                 id-global="global_class_DomeinmodelBROSFR_Fractieverdeling">
+                                 id-global="global_class_DomeinmodelBROSFR_Fractieverdeling"
+                                 uuid="EAID_4B7B29C7_E8CB_405b_9362_93C15A7341C5">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -19280,7 +19279,8 @@ De som van de fracties is gelijk aan 100.0.</p>
                            <section name="Verdeling fijne fractie"
                                     type="DETAIL-COMPOSITE"
                                     id="detail_class_DomeinmodelBROSFR_VerdelingFijneFractie"
-                                    id-global="global_class_DomeinmodelBROSFR_VerdelingFijneFractie">
+                                    id-global="global_class_DomeinmodelBROSFR_VerdelingFijneFractie"
+                                    uuid="EAID_0C200D10_24C8_4a4f_A671_2EA1E0044C4A">
                               <content>
                                  <part type="CFG-DOC-NAAM">
                                     <item>Naam</item>
@@ -19517,7 +19517,8 @@ De som van de samenstellende bestanddelen is 100.</p>
                         <section name="Onvolledige fractiespecificatie"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_OnvolledigeFractiespecificatie"
-                                 id-global="global_class_DomeinmodelBROSFR_OnvolledigeFractiespecificatie">
+                                 id-global="global_class_DomeinmodelBROSFR_OnvolledigeFractiespecificatie"
+                                 uuid="EAID_2669D9E9_5412_45cc_AB9E_996A4EAC2268">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -19802,7 +19803,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <section name="Munsellkleur"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Munsellkleur"
-                                 id-global="global_class_DomeinmodelBROSFR_Munsellkleur">
+                                 id-global="global_class_DomeinmodelBROSFR_Munsellkleur"
+                                 uuid="EAID_6868BC87_48EE_46a3_A03E_C9F6CB557B4B">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -20011,7 +20013,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <section name="Vlek"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Vlek"
-                                 id-global="global_class_DomeinmodelBROSFR_Vlek">
+                                 id-global="global_class_DomeinmodelBROSFR_Vlek"
+                                 uuid="EAID_723B9E70_C415_406e_AFDD_5B4B8162F99B">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -20236,7 +20239,8 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         <section name="Bodemaggregaat"
                                  type="DETAIL-COMPOSITE"
                                  id="detail_class_DomeinmodelBROSFR_Bodemaggregaat"
-                                 id-global="global_class_DomeinmodelBROSFR_Bodemaggregaat">
+                                 id-global="global_class_DomeinmodelBROSFR_Bodemaggregaat"
+                                 uuid="EAID_40B71A7F_12AC_4ad4_9398_037829DEF151">
                            <content>
                               <part type="CFG-DOC-NAAM">
                                  <item>Naam</item>
@@ -21253,7 +21257,7 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         </part>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
+                           <item>1</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
@@ -21340,7 +21344,7 @@ Ten minste één van de gegevens geschat gehalte organische stof, geschat lutumg
                         </part>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
+                           <item>1</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
@@ -22433,7 +22437,8 @@ Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</p>
                   <section name="Bijzonderheid onderin"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROSFR_BijzonderheidOnderin"
-                           id-global="global_class_DomeinmodelBROSFR_BijzonderheidOnderin">
+                           id-global="global_class_DomeinmodelBROSFR_BijzonderheidOnderin"
+                           uuid="EAID_7439D539_C3B4_41d7_884C_4892DACE8616">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -22798,13 +22803,25 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
+                  <item>geulverlegging</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er komen lateraal migrerende geulen voor.<br clear="none"/>
+                              </p>
+                  </item>
+               </part>
+               <part>
                   <item>geulvorming</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Er komen actieve erosiegeulen voor.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er komen lateraal migrerende geulen voor.<br clear="none"/>
+                              </p>
                   </item>
                </part>
                <part>
@@ -22814,7 +22831,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Water stroomt onder een dijk of ander grondlichaam door om daarnaast aan het oppervlak te komen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Water stroomt onder een dijk of ander grondlichaam door om buitendijks aan het oppervlak te komen.</p>
                   </item>
                </part>
                <part>
@@ -22912,7 +22929,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>uiterstKort</item>
+                  <item>uiterstKort0tot2</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22922,7 +22939,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>zeerKort</item>
+                  <item>zeerKort2tot5</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22932,7 +22949,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>kort</item>
+                  <item>kort5tot10</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22942,7 +22959,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>matigKort</item>
+                  <item>matigKort10tot20</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22952,7 +22969,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>matigLang</item>
+                  <item>matigLang20tot50</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22962,7 +22979,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>lang</item>
+                  <item>lang50tot200</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22972,7 +22989,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>zeerLang</item>
+                  <item>zeerLang200tot500</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -22982,7 +22999,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>uiterstLang</item>
+                  <item>uiterstLangMeerDan500</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -23072,7 +23089,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De beschrijving van de opbouw van de bodem voldoet aan de minimum eisen. Deze kwaliteit dekt alle historische beschrijvingen en volstaat ook na 2019 voor veel projectkarteringen, met name wanneer daarin gebruik wordt gemaakt van bestaande ontsluitingen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De beschrijving van de opbouw van de bodem voldoet aan de minimum eisen. Deze kwaliteit dekt alle historische beschrijvingen en volstaat ook na 2019 voor veel projectkarteringen.</p>
                   </item>
                </part>
                <part>
@@ -23108,13 +23125,33 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>AlterraTD19A</item>
+                  <item>AlterraTD19Av1995</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Technisch Document 19 A van DLO Staring Centrum, nu Wageningen Environmental Research.</p>
+                  </item>
+               </part>
+               <part>
+                  <item>AlterraTD19Av2020</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Technisch Document 19 A van DLO Staring Centrum, nu Wageningen Environmental Research.</p>
+                  </item>
+               </part>
+               <part>
+                  <item>K85-PB1</item>
+                  <item/>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">K85-PB1 is de technische code van een standaard invulformulier gebruikt voor 1995. Dit is de voorloper van de TD19A. Alle wandbeschrijvingen voor 1995 zijn met behulp van deze formulieren gemaakt. Dit document heeft geen officiële bijgaande literatuur, maar Invulinstructies van dit formulier zaten in een veldboekje (later ringbandmapje) voor karteerders. </p>
                   </item>
                </part>
             </content>
@@ -23160,7 +23197,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>veel</item>
+                  <item>veel20tot50</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -23176,7 +23213,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid vlekken is niet bekend. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bedekkingsgraad is niet bekend. </p>
                   </item>
                </part>
             </content>
@@ -23368,7 +23405,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&lt;63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
                   </item>
                </part>
                <part>
@@ -24266,7 +24303,7 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&lt;63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63µm), veelal vliegas genoemd. Of met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd. Of met een diameter groter dan 2mm; veelal slakken genoemd.</p>
                   </item>
                </part>
                <part>
@@ -24342,13 +24379,13 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>akkerKaalBraak</item>
+                  <item>akkerKaal</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw. Kaal land, niet herkenbaar welk gewas gezaaid of gepoot is, of welk gewas er heeft gestaan (zoals bij geploegd land).</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw waarvan niet bepaald kan worden welk gewas gezaaid of gepoot is, of welk gewas er heeft gestaan (zoals bij geploegd land).</p>
                   </item>
                </part>
                <part>
@@ -24372,13 +24409,13 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>bosGemengd</item>
+                  <item>gemengdBos</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied dat bedekt is met bos, zijnde gemengd bos. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied dat bedekt is met bos, zijnde gemengd bos.</p>
                   </item>
                </part>
                <part>
@@ -24512,13 +24549,13 @@ Het gegeven, of de reeks van gegevens, is in toevoegingen achteraan van de stand
                   </item>
                </part>
                <part>
-                  <item>tuinbouwGlas</item>
+                  <item>glastuinbouw</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik als tuinbouw onder glas. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik voor tuinbouw onder glas.</p>
                   </item>
                </part>
                <part>
@@ -27681,7 +27718,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>waargenomenScherp0tot2cm</item>
+                  <item>waargenomenScherp0tot2</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27691,7 +27728,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>waargenomenDuidelijk2tot10cm</item>
+                  <item>waargenomenDuidelijk2tot10</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27701,7 +27738,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>waargenomenGeleidelijk10cm</item>
+                  <item>waargenomenGeleidelijkMeerDan10</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27753,7 +27790,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>zwakGrindig</item>
+                  <item>zwakGrindig0tot5</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27763,7 +27800,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>grindig</item>
+                  <item>grindig5tot15</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -27773,7 +27810,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sterkGrindig</item>
+                  <item>sterkGrindig15tot30</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28381,7 +28418,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>weinig</item>
+                  <item>weinig0tot0.5</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28391,7 +28428,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>matig</item>
+                  <item>matig0.5tot5</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28401,7 +28438,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>veel</item>
+                  <item>veelMeerDan5</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28433,7 +28470,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>zeerWeinig</item>
+                  <item>zeerWeinig1tot5</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28443,7 +28480,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>weinig</item>
+                  <item>weinig5tot10</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28453,7 +28490,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>veel</item>
+                  <item>veel10tot15</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -28463,7 +28500,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>zeerVeel</item>
+                  <item>zeerVeelMeerDan15</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -30785,16 +30822,6 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>donk</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Voormalige rivierduin die uitsteekt boven de omgeving.</p>
-                  </item>
-               </part>
-               <part>
                   <item>eenmanses</item>
                   <item>✔</item>
                   <item>✔</item>
@@ -30822,26 +30849,6 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Menselijk landschapselement. Onregelmatig hobbelig, terrein onstaan door delving van zout veen. De ontstane putten werden daarna gedempt met uitgegraven klei. </p>
-                  </item>
-               </part>
-               <part>
-                  <item>geulActief</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Lijnvormige laagte gevormd door insnijding of erosie van een actieve kreek of rivier.</p>
-                  </item>
-               </part>
-               <part>
-                  <item>geulRestbedding</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Lijnvormig ontstaan door onvolledige opvulling van een kreekrug of rivier.</p>
                   </item>
                </part>
                <part>
@@ -30955,23 +30962,23 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>schor</item>
+                  <item>getijdeplaat</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Bij laagwater droogvallende plaat in een getijdengebied. </p>
+                  </item>
+               </part>
+               <part>
+                  <item>kwelder</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Begroeide buitendijkse landaanwas die bij een gemiddeld hoogwater niet meer onderloopt.</p>
-                  </item>
-               </part>
-               <part>
-                  <item>slik</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Droogvallende plaat in een getijdengebied. Slikken vallen droog bij laagwater en lopen onder bij hoogwater. </p>
                   </item>
                </part>
                <part>
@@ -30985,6 +30992,16 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
+                  <item>restgeulDroog</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Lijnvormige laagte ontstaan door opvulling van een kreekrug of rivier. </p>
+                  </item>
+               </part>
+               <part>
                   <item>zetwal</item>
                   <item>✔</item>
                   <item>✔</item>
@@ -30992,6 +31009,26 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Menselijk landschapselement. Vaak smalle, langerekte strook grond in het veengebied, waar het uitgebaggerde veen op te drogen werd gelegd om er turven van te maken. </p>
+                  </item>
+               </part>
+               <part>
+                  <item>rivierduinBegraven</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Voormalig rivierduin dat overdekt is door later gevormde grond en uitsteekt boven de omgeving.</p>
+                  </item>
+               </part>
+               <part>
+                  <item>rivierduinNietBegraven</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk landschapselement. Voormalig rivierduin dat overdekt is door later gevormde grond en uitsteekt boven de omgeving.</p>
                   </item>
                </part>
             </content>
@@ -31055,6 +31092,12 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">De overgang van het talud naar het maaiveld, niet nader gespecificeerd naar binnen- of buitenkant.</p>
                   </item>
+               </part>
+               <part>
+                  <item>onbekend</item>
+                  <item/>
+                  <item>✔</item>
+                  <item/>
                </part>
             </content>
          </section>
@@ -31413,7 +31456,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de hoofdekleur is N. Dit staat voor de kleur neutraal  (Neutral).</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de hoofdkleur is N. Dit staat voor de kleur neutraal  (Neutral).</p>
                   </item>
                </part>
                <part>
@@ -31555,7 +31598,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 2. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 2. </p>
                   </item>
                </part>
                <part>
@@ -31565,7 +31608,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 2,5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 2,5. </p>
                   </item>
                </part>
                <part>
@@ -31575,7 +31618,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 3. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 3. </p>
                   </item>
                </part>
                <part>
@@ -31585,7 +31628,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 4. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 4. </p>
                   </item>
                </part>
                <part>
@@ -31595,7 +31638,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 5. </p>
                   </item>
                </part>
                <part>
@@ -31605,7 +31648,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 6. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 6. </p>
                   </item>
                </part>
                <part>
@@ -31615,7 +31658,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 7. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 7. </p>
                   </item>
                </part>
                <part>
@@ -31625,7 +31668,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 8. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 8. </p>
                   </item>
                </part>
                <part>
@@ -31635,7 +31678,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 8,5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 8,5. </p>
                   </item>
                </part>
                <part>
@@ -31645,7 +31688,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 9. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 9. </p>
                   </item>
                </part>
                <part>
@@ -31655,7 +31698,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Value is 9,5. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de witheid is 9,5. </p>
                   </item>
                </part>
             </content>
@@ -31687,7 +31730,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 1. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 1. </p>
                   </item>
                </part>
                <part>
@@ -31697,7 +31740,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 2. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 2. </p>
                   </item>
                </part>
                <part>
@@ -31707,7 +31750,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 3. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 3. </p>
                   </item>
                </part>
                <part>
@@ -31717,7 +31760,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 4. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 4. </p>
                   </item>
                </part>
                <part>
@@ -31727,7 +31770,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 6. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 6. </p>
                   </item>
                </part>
                <part>
@@ -31737,7 +31780,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de Chroma is 8. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van de zuiverheid is 8. </p>
                   </item>
                </part>
             </content>
@@ -31971,13 +32014,13 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>humeus</item>
+                  <item>matigHumeus</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Humeus. Organische stof maakt tussen 2,5 en 8 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 procent bedragen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Matig humeus. Organische stof maakt tussen 2,5 en 8 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 procent bedragen.</p>
                   </item>
                </part>
                <part>
@@ -32393,33 +32436,33 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>zwakSchelphoudend</item>
+                  <item>zwakSchelphoudend0tot1</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Zwak schelphoudend, 0% &lt; schelpen &lt; 1%.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zwak schelphoudend, schelpen maken tussen de 0 en 1 procent van de massa uit.</p>
                   </item>
                </part>
                <part>
-                  <item>schelphoudend</item>
+                  <item>schelphoudend1tot10</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelphoudend, 1% = schelpen &lt; 10%.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelphoudend, schelpen maken tussen de 1 en 10 procent van de massa uit.</p>
                   </item>
                </part>
                <part>
-                  <item>sterkSchelphoudend</item>
+                  <item>sterkSchelphoudend10tot30</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Sterk schelphoudend, 10% = schelpen &lt; 30%.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Sterk schelphoudend, schelpen maken tussen de 10 en 30 procent van de massa uit.</p>
                   </item>
                </part>
                <part>
@@ -32619,7 +32662,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>aggregatenZwak</item>
+                  <item>aggregatenZwak0tot30</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32629,7 +32672,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>aggregatenMatig</item>
+                  <item>aggregatenMatig30tot70</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32639,7 +32682,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>aggregatenSterk</item>
+                  <item>aggregatenSterkMeerDan70</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32679,7 +32722,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sedimentairGelaagdWeinigVerstoord</item>
+                  <item>sedimentairGelaagdWeinigVerstoord0tot10</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32689,7 +32732,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sedimentairGelaagdMatigVerstoord</item>
+                  <item>sedimentairGelaagdMatigVerstoord10tot70</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -32699,7 +32742,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   </item>
                </part>
                <part>
-                  <item>sedimentairGelaagdSterkVerstoord</item>
+                  <item>sedimentairGelaagdSterkVerstoordMeerDan70</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -34066,7 +34109,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn donkergeel tot okergeel. Donker- tot okergele vlekken wijzen op concentraties van fosforverbindingen diehet gevolg zijn van de omzetting van botresten. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn donkergeel tot okergeel. Donker- tot okergele vlekken wijzen op concentraties van fosforverbindingen die het gevolg zijn van de omzetting van botresten. </p>
                   </item>
                </part>
                <part>
@@ -34096,7 +34139,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn oranjerood tot roodbruin, roestkleurig. oestkleurige vlekken wijzen op oxiderende omstandigheden.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vlekken zijn oranjerood tot roodbruin, roestkleurig. Roestkleurige vlekken wijzen op oxiderende omstandigheden.</p>
                   </item>
                </part>
             </content>
