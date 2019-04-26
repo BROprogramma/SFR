@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book name="Bodemkundig wandonderzoek (SFR)"
-      subpath="Conceptual model/Bodemkundig wandonderzoek (SFR)/20180831"
+<book name="SFR conceptueel"
+      subpath="Conceptual model/SFR conceptueel/20180831"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.52.4"
-      generator-date="2019-04-17T12:31:16Z">
+      generator-date="2019-04-26T12:06:55Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
