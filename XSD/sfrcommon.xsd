@@ -1,0 +1,2990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:sfrcommon="http://www.broservices.nl/xsd/sfrcommon/0.1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           targetNamespace="http://www.broservices.nl/xsd/sfrcommon/0.1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.1.0">
+
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+
+   <xs:element name="CompactedInterval"
+               type="sfrcommon:CompactedIntervalType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: To do</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CompactedIntervalType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="beginDepth" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop de verdichting begint.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="endDepth" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop de verdichting eindigt.
+Explanation: De einddiepte van verdichting is altijd zichtbaar in de wand.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="CompactedIntervalPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:CompactedInterval"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="DisturbedInterval"
+               type="sfrcommon:DisturbedIntervalType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een diepte-interval waarin de laagopbouw over de gehele breedte van het profiel verstoord is.
+Explanation: De laagopbouw kan door menselijke, fysische, chemische en biologische oorzaken over een of meer diepte-intervallen verstoord zijn. Dat heeft tot gevolg dat de laagopbouw van plaats tot plaats verschilt.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DisturbedIntervalType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="beginDepth" minOccurs="0" maxOccurs="1" nillable="true">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het verstoord interval begint.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:restriction base="gml:MeasureType">
+                        <xs:attribute name="uom"
+                                      type="gml:UomIdentifier"
+                                      use="required"
+                                      fixed="m"/>
+                      </xs:restriction>
+                    </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="endDepthReached"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           nillable="true"
+                           type="brocom:IndicationYesNoType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de einddiepte van de verstoring in de wand zichtbaar is.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="endDepth" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het verstoord interval eindigt.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="disturbance"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:DisruptionType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Disruption</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type van verstoring.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DisturbedIntervalPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:DisturbedInterval"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="LitterLayer"
+               type="sfrcommon:LitterLayerType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een laag organisch materiaal die plaatselijk op het maaiveld ligt en uit resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting bestaat.
+Explanation: Bodemkundigen worden geacht het strooisel altijd te beschrijven omdat het de A-horizont van de bodem direct beïnvloedt. Maar in het verleden is dat wel eens niet gebeurd. Strooisel kan opgebouwd zijn uit verschillende lagen en die worden van elkaar onderscheiden op grond van de mate van omzetting van het materiaal of de herkomst.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="LitterLayerType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="upperBoundary" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale positie van de bovenkant van de strooisellaag.
+Explanation: De diepte is bepaald op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="upperBoundaryDetermination"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryPositioningMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryPositioningMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop de bovengrens van de laag is bepaald, met in het geval de grens op een in de wand waargenomen verandering is gebaseerd, een aanduiding van hoe scherp de grens is.
+Explanation: De bovengrens kan altijd waargenomen worden en is bijna altijd nauwkeurig te bepalen. Het begrip scherpte heeft betrekking op de waarneming op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="lowerBoundary" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale positie van de onderkant van de strooisellaag.
+Explanation: De diepte is bepaald op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="lowerBoundaryDetermination"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryPositioningMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryPositioningMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop de ondergrens van de laag is bepaald, met in het geval de grens op een in de wand waargenomen verandering is gebaseerd, een aanduiding van hoe scherp de grens is.
+Explanation: De ondergrens kan altijd waargenomen worden en is bijna altijd nauwkeurig te bepalen. Het begrip scherpte heeft betrekking op de waarneming op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="lowerBoundaryShape"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryShapeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryShape</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de vorm van de grens.
+Explanation: Het gegeven omschrijft de variatie in de ligging van de grens in het wandprofiel.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="layerDiscontinuous"
+                           type="brocom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag ergens in het wandprofiel ontbreekt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="horizonCode"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:HorizonCodeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>HorizonCode</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code van de horizon waartoe het strooisel volgens de Nederlandse classificatie wordt gerekend.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="litterType"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:LitterTypeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LitterType</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De nadere aanduiding van de herkomst van het organisch materiaal waaruit de laag bestaat.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="estimatedOrganicMatterContent" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan organische stof.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="%"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="LitterLayerPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:LitterLayer"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SiteCharacteristic"
+               type="sfrcommon:SiteCharacteristicType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over de toestand van het terrein tijdens het veldwerk, die relevant zijn voor het onderzoek.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SiteCharacteristicType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="soilUse"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:SoilUseType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SoilUse</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het doel waarvoor de bodem van het terrein in gebruik is.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="artificialDrainage"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           nillable="true"
+                           type="sfrcommon:ArtificialDrainageType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>ArtificialDrainage</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omstandigheden die op de ontwatering van het terrein betrekking hebben</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="positionOnGroundBody"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           nillable="true"
+                           type="sfrcommon:PositionOnGroundBodyType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>PositionOnGroundBody</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving die aangeeft of de wand op een door de mens gemaakt grondlichaam ligt met eventueel een nadere aanduiding van de plaats.
+Explanation: Wandonderzoek wordt ook uitgevoerd op grondlichamen als dijken of wallen die door de mens op het aardoppervlak zijn neergelegd. Wanneer dat het geval is, is een nadere precisering van die plaats op het grondlichaam relevant, omdat die de eigenschappen van de bodem beïnvloedt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="surfaceLevelShifted"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:SurfaceLevelShiftedType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SurfaceLevelShifted</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving die aangeeft of de positie van het maaiveld door de mens veranderd is met eventueel een nadere omschrijving van de verandering.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="tracesOfChurningPresent"
+                           type="brocom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of er wroetsporen in het terrein aanwezig zijn.
+Explanation: De aanwezigheid van wroetsporen wijst op de activiteit van wilde zwijnen en betekent dat de opbouw van het bovenste deel van het wandprofiel over korte afstand en binnen korte tijd kan veranderen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="meanHighestGroundwaterTable" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gemiddeld hoogste niveau van de grondwaterspiegel zoals geschat voor de locatie van het wandonderzoek.
+Explanation: Voor het onderzoek kan het van belang zijn te weten wat de gemiddeld hoogste grondwaterstand ter plekke is. Wanneer dat gegeven niet uit de monsters kan worden afgeleid, zal de uitvoerder proberen de waarde te schatten op basis van andere informatie. Dat kan een boorprofiel van een nabijgelegen boring zijn, het waterpeil in een sloot of een andere observatie in het terrein.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="meanLowestGroundwaterTable" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gemiddeld laagste niveau van de grondwaterspiegel zoals geschat voor de locatie van het wandonderzoek.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="hydrologicalSetting"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:HydrologicalSettingType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>HydrologicalSetting</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De karakterisering van de vochtigheid van het terrein vanuit het oogpunt van de plantengroei.
+Explanation: Het is van belang te weten hoe vochtig het deel van de bodem is waarin de planten wortelen en of het om zoet of zout water gaat.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="landscapeElement"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:LandscapeElementType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LandscapeElement</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van een element dat een detail is in de structuur van het landschap.
+Explanation: De vorm van het landschap is vastgelegd in de geomorfologische kaart. Voor bepaalde doeleinden is voor een goed begrip van de opbouw van de bodem meer detailinformatie nodig over het landschap waar het terrein in ligt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="currentProces"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:CurrentProcesType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>CurrentProces</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van het exogene proces waarvan de activiteit in het terrein zichtbaar is.
+Explanation: Er kunnen processen in het gebied spelen die het landschap, de positie van het maaiveld en de opbouw van de bodem in korte tijd kunnen veranderen. In korte tijd betekent binnen enkele uren of enkele dagen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="vegetationType"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:VegetationTypeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>VegetationType</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vegetatiekundige benaming van de plantengemeenschap die op het terrein staat.
+Explanation: Het gegeven wordt vastgelegd omdat het inzicht geeft in de natuurlijke bodemvruchtbaarheid. Het vraagt bijzondere expertise om het vast te leggen en dat wordt alleen gedaan wanneer de opdrachtgever erom vraagt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SiteCharacteristicPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SiteCharacteristic"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilClassification"
+               type="sfrcommon:SoilClassificationType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De karakteristiek van de bodem volgens de systematiek van de standaardpuntencode.
+Explanation: Het begrip bodem wordt hier gebuikt in engere zin voor het interval tussen maaiveld en 120 cm diepte. De standaardpuntencode is ontwikkeld voor bodemgeografisch onderzoek in Nederland. Het is een uit letters en cijfers opgebouwde code waarin de voor bodemkundigen relevante aspecten van een bodem worden samengevat. Sommige aspecten gelden voor alle soorten bodems, andere zijn specifiek voor een bepaalde categorie bodems. De variabiliteit van de bodem in Nederland is zo groot dat de code tienduizenden verschillende waarden kent. Voor de bodemkundige is het voldoende de code te kennen, maar voor de niet-deskundige heeft dat gegeven geen betekenis. Om de informatie die in de standaardpuntencode opgesloten ligt beter te ontsluiten voor niet-specialisten, is de informatie-inhoud vertaald naar gegevens die een meer algemeen begrijpelijke waarde hebben. In de codelijsten die bij de gegevens horen is steeds een verwijzing naar de waarde in de standaardpuntencode opgenomen. Voor nadere informatie wordt verwezen naar de Handleiding bodemgeografisch onderzoek (1995), uitgegeven door DLO Staring Centrum als technisch document 19A. De classificatie is gebaseerd op het boorprofiel en sluit aanvullende observaties gedaan op de locatie van onderzoek in.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilClassificationType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="codeGroup"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:CodeGroupType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>CodeGroup</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De categorie die in de systematiek de bodem op het hoogste niveau typeert en de opbouw van de standaardpuntencode bepaalt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="classificationCode"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De bodemkundige karakteristiek vastgelegd als code.
+Explanation: De standaardpuntencode is opgenomen om specialistische gebruikers direct te kunnen bedienen. De code bestaat uit zeven onderdelen, achtereenvolgens zijn dat de toevoegingen vooraan, het subgroepdeel, het cijferdeel, het kalkverloop, de toevoegingen achteraan, de vergravingen en de grondwatertrap.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="specialFeatureTop"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:SpecialFeatureTopType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SpecialFeatureTop</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een bijzonder aspect van het bovenste deel van de bodem of het ontbreken ervan.
+Explanation: Het bovenste deel van de bodem omvat het interval tussen 0 en 40 cm diepte; alleen voor de bijzonderheid ijzerrijk wordt ook wat dieper gekeken. Het gegeven is als toevoegingen vooraan in de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="soilClass"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:SoilClassType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SoilClass</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De subgroep waartoe de bodem behoort volgens het Nederlands systeem van bodemclassificatie, zo nodig aangevuld met informatie over de bovengrond en de herkomst van zavel- en kleigronden.
+Explanation: De term bovengrond wordt hier gebruikt in een specifieke betekenis en verwijst naar het bovenste deel van de bodem of meer in het bijzonder naar de bouwvoor of de A-horizont. Het gegeven is als subgroepdeel in de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="textureClass"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:TextureClassType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>TextureClass</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De klasse waartoe de bodem op grond van de korrelgrootteverdeling van het minerale deel van de grond in een bepaald diepte-interval behoort.
+Explanation: Het diepte-interval verschilt per codegroep, en soms ook daarbinnen. Voor details wordt naar TD19A verwezen. Het gegeven is in het cijferdeel van de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="peatClass"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:PeatClassType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>PeatClass</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Van veengronden die tot 120 cm onder maaiveld doorlopen, de veensoort die het meest voorkomt in het bovenste deel van het bodemprofiel.
+Explanation: De indeling van soorten veen is betrekkelijk globaal. Het gegeven is in het cijferdeel van de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="subsoilPeat"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:SubsoilPeatType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SubsoilPeat</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Van veengronden die niet tot 120 cm onder maaiveld doorlopen, de nadere omschrijving van de minerale ondergrond.
+Explanation: Het gegeven is in het cijferdeel van de standaardpuntencode opgenomen. De term ondergrond wordt hier gebruikt in een specifieke betekenis en verwijst naar het deel van de bodem dat onder het veen ligt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="lowerBoundaryPeat" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Van veengronden die niet tot 120 cm onder maaiveld doorlopen, de diepte van de grens tussen het veen en de minerale ondergrond.
+Explanation: Het gegeven is in het cijferdeel van de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="subsoilDuinVagueSoil"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:SubsoilDuinVagueSoilType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SubsoilDuinVagueSoil</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Van zandgronden die geclassificeerd zijn als duinvaaggrond, de nadere omschrijving van de grond onder het stuifzand.
+Explanation: Duinvaaggronden komen voor in holoceen stuifzand. De term ondergrond wordt hier gebruikt in een specifieke betekenis en verwijst naar het deel van de bodem dat direct onder het stuifzand ligt. Dat is veelal pleistoceen zand en daarin kan een podzolprofiel aanwezig zijn. Ook kan er onder het stuifzand een moerige laag voorkomen. De aard van de ondergrond is van invloed op de vochtvoorziening van diep wortelende begroeiing, zoals bomen. De duinvaaggronden vallen of onder de codegroep van de kalkhoudende zandgronden of onder die van de kalkloze zandgronden. Het gegeven is in het cijferdeel van de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="textureProfile"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:TextureProfileType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>TextureProfile</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Van kleigronden, de opeenvolging van de lagen in het bovenste deel van het bodemprofiel.
+Explanation: Er wordt gekeken naar de bovenste 120 cm onder maaiveld. Het gegeven is in het cijferdeel van de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="carbonateProfile"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:CarbonateProfileType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>CarbonateProfile</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Van kalkhoudende zandgronden en kleigronden, de klasse die het verloop van het kalkgehalte in het bovenste deel van de bodem aangeeft.
+Explanation: Het gegeven is als kalkverloop in de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="reworkingClass"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:ReworkingClassType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>ReworkingClass</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De klasse die aangeeft of de bodem ingrijpend door de mens verstoord is en wat de aard van de verstoring is.
+Explanation: Een verstoring is ingrijpend wanneer bodemlagen met elkaar vermengd zijn of wanneer bodemlagen zijn verwijderd of opgebracht. Het gegeven is als vergravingsdeel in de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="groundwaterTableClass"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:GroundwaterTableClassType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>GroundwaterTableClass</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mate waarin de stand van het grondwater fluctueert, uitgedrukt in een klasse.
+Explanation: De grondwatertrap is een afgeleide van de gemiddeld hoogste grondwaterstand (GHG) en de gemiddeld laagste grondwaterstand (GLG). Het gegeven is van belang voor de beoordeling van de geschiktheid van de bodem voor bepaalde vormen van landgebruik. Het gegeven is als grondwatertrap in de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="anomalousGroundwaterRegime"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:AnomalousGroundwaterRegimeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>AnomalousGroundwaterRegime</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft dat er ter plaatse omstandigheden zijn die het meer regionaal bepaalde gedrag van de grondwaterspiegel beïnvloeden.
+Explanation: Het gegeven is alleen aanwezig wanneer er bijzondere omstandigheden zijn geconstateerd. Het gegeven is als toevoeging aan de grondwatertrap in de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="specialFeatureSite"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:SpecialFeatureSiteType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SpecialFeatureSite</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de bodem op een plaats in het landschap ligt die van bodemkundige betekenis is en wat de ligging dan is.
+Explanation: Het gegeven heeft alleen betekenis in Zuid-Limburg. Het gegeven is in toevoeging achteraan van de standaardpuntencode opgenomen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="specialFeatureBottom"
+                           nillable="false"
+                           type="sfrcommon:SpecialFeatureBottomType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilClassificationPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilClassification"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilFaceDescription"
+               type="sfrcommon:SoilFaceDescriptionType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het bodemkundig wandonderzoek dat betrekking heeft op het beschrijven van de wand en het verwerken van de resultaten tot een samenvattende beschrijving van de opbouw van het bovenste deel van de ondergrond en het eventueel daarop liggende strooisel met daaruit afgeleid een classificatie van de bodem.
+Explanation: De beschrijving wordt gedaan door ervaren veldbodemkundigen en ter ondersteuning van schattingen worden referentiemonsters gebruikt.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilFaceDescriptionType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="descriptionReportDate"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           nillable="true"
+                           type="xs:date">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het beschrijven is voltooid en de resultaten zijn vastgelegd.
+Explanation: Bij gegevens van Wageningen Environmental Research die uit de registratie BIS Nederland komen en aangeleverd zijn in het kader van archiefoverdracht, is de datum van voltooiing de datum waarop de gegevens in die registratie zijn vastgelegd. Tevoren is de controle op de in het veld gemaakte beschrijving uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="descriptionProcedure"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:DescriptionProcedureType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>DescriptionProcedure</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft onder welke afspraken de wand is beschreven.
+Explanation: De beschrijfprocedure geeft aan volgens welk stelsel van afspraken de monsters beschreven zijn en welke aspecten worden beschreven.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="describedWidth" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De breedte van de wand die is beschreven.
+Explanation: De breedte geeft aan op welk deel van de wand de beschrijving betrekking heeft. De beschrijflijn, de verticale lijn waarop bijvoorbeeld de diepte van grenzen wordt vastgelegd, ligt gewoonlijk in het midden van de breedte. Aspecten die wel zichtbaar zijn, maar buiten de beschreven breedte liggen, worden niet opgenomen in de beschrijving.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="artificiallyHumidified"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de wand tijdens het beschrijven kunstmatig is bevochtigd.
+Explanation: Bevochtiging kan nodig zijn bij warm en droog weer om bijvoorbeeld verschillen in kleur goed zichtbaar te maken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="descriptionOperator"
+                           type="brocom:ChamberOfCommerceNumberType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de wandbeschrijving, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="fractionDistributionDetermined"
+                           type="brocom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de onderlinge verhouding van de fracties waaruit de grond is samengesteld consequent is beschreven.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="lowerBoundarySandFraction"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:LowerBoundarySandFractionType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LowerBoundarySandFraction</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De korrelgrootte die in de beschrijving is gehanteerd als grens tussen de silt- en de zandfractie.
+Explanation: In de bodemkunde wordt traditioneel de 50 µm-grens gehanteerd als ondergrens van de zandfractie. In andere vakgebieden wordt de 63 µm-grens gehanteerd. Het gegeven is opgenomen om voor alle gebruikers inzichtelijk te maken dat dit verschil bestaat.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="descriptiveSoilFaceLog"
+                           nillable="false"
+                           type="sfrcommon:SoilProfilePropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="soilClassification"
+                           nillable="false"
+                           type="sfrcommon:SoilClassificationPropertyType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilFaceDescriptionPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilFaceDescription"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilFacePhotography"
+               type="sfrcommon:SoilFacePhotographyType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: To do</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilFacePhotographyType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilFacePhotographyPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilFacePhotography"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilFaceSampleAnalysis"
+               type="sfrcommon:SoilFaceSampleAnalysisType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: To do</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilFaceSampleAnalysisType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilFaceSampleAnalysisPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilFaceSampleAnalysis"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilLayer"
+               type="sfrcommon:SoilLayerType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een interval in het wandprofiel dat als een laag met een bepaalde inhoud beschreven is en deel uitmaakt van de bovenste deel van de ondergrond.
+Explanation: De ondergrond wordt beschouwd als opgebouwd uit lagen en dat zijn homogene eenheden die zich vooral in horizontale richting uitstrekken en in verticale richting begrensd zijn. Een bodemlaag bestaat uit grond, gesteente of uit bijzonder materiaal en heeft in de eerste twee gevallen een bepaalde horizontcode.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilLayerType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="upperBoundary" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van de laag.
+Explanation: De diepte is bepaald op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="upperBoundaryDetermination"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryPositioningMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryPositioningMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop de bovengrens van de laag is bepaald, met in het geval de grens op een in de wand waargenomen verandering is gebaseerd, een aanduiding van hoe scherp de grens is.
+Explanation: De bovengrens kan altijd waargenomen worden en is bijna altijd nauwkeurig te bepalen. Het begrip scherpte heeft betrekking op de waarneming op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="lowerBoundary" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van de laag.
+Explanation: De diepte is bepaald op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="lowerBoundaryDetermination"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryPositioningMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryPositioningMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop de ondergrens van de laag is bepaald, met in het geval de grens op een in de wand waargenomen verandering is gebaseerd, een aanduiding van hoe scherp de grens is.
+Explanation: Het begrip scherpte heeft betrekking op de waarneming op de beschrijflijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="lowerBoundaryShape"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryShapeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryShape</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de vorm van de grens.
+Explanation: Het gegeven omschrijft de variatie in de ligging van de grens in het wandprofiel.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="layerDiscontinuous"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag ergens in het wandprofiel ontbreekt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="anthropogenic"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag grotendeels of geheel bestaat uit materiaal dat door de mens is getransporteerd.
+Explanation: Het materiaal waar de laag uit bestaat kan door de mens van elders zijn aangevoerd, maar ook door de mens van een andere diepte zijn weggehaald, bijvoorbeeld door ploegen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="mixed"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag door de mens gehomogeniseerd is.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="inverted"
+                           type="brocom:IndicationYesNoType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag door de mens tot een heterogeen geheel is gemaakt.
+Explanation: De term keren wordt in het werkveld gebruikt om aan te geven dat de mens een aantal bestaande lagen verbreekt en een laag achterlaat die uit allemaal brokstukken bestaat. Van gekeerde lagen worden de brokstukken van de oorspronkelijke lagen afzonderlijk beschreven.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="soilLife"
+                           minOccurs="1"
+                           maxOccurs="3"
+                           type="sfrcommon:SoilLifeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>SoilLife</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de (sporen van) organismen die in het wandprofiel zijn waargenomen.
+Explanation: In de wand kun je met het blote oog alleen (sporen van) schimmels, wormen en insecten zien.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rooted"
+                           type="brocom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag wortels bevat.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rootsEvenlyDistributed"
+                           type="brocom:IndicationYesNoType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de mate van gelijkmatigheid waarin de wortels over de laag verdeeld zijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rootAbundanceClass"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:RootAbundanceClassType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>RootAbundanceClass</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoeveelheid wortels uitgedrukt in een klasse.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="slant"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag scheef staat.
+Explanation: Lagen in de ondergrond liggen niet altijd horizontaal. Onder bepaalde omstandigheden worden lagen onder een hoek afgezet en na afzetting kunnen lagen zijn scheefgesteld doordat ze onder druk zijn komen te staan. Het gegeven moet in die context worden begrepen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="homogeneousMaterial"
+                           nillable="false"
+                           type="sfrcommon:HomogeneousMaterialType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag scheef staat.
+Explanation: Lagen in de ondergrond liggen niet altijd horizontaal. Onder bepaalde omstandigheden worden lagen onder een hoek afgezet en na afzetting kunnen lagen zijn scheefgesteld doordat ze onder druk zijn komen te staan. Het gegeven moet in die context worden begrepen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="layerComponent"
+                           nillable="false"
+                           type="sfrcommon:LayerComponentType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag scheef staat.
+Explanation: Lagen in de ondergrond liggen niet altijd horizontaal. Onder bepaalde omstandigheden worden lagen onder een hoek afgezet en na afzetting kunnen lagen zijn scheefgesteld doordat ze onder druk zijn komen te staan. Het gegeven moet in die context worden begrepen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilLayerPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilLayer"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilProfile"
+               type="sfrcommon:SoilProfileType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De opbouw van het bovenste deel van de ondergrond en het eventueel daarop liggende strooisel beschreven als een opeenvolging van lagen.
+Explanation: In de bodemkunde gaat het om de opbouw van het bovenste deel van de ondergrond. Wanneer het onderzoek dat vraagt wordt ook de laag strooisel die lokaal op de ondergrond ligt beschreven. Waar het vaste gesteente dicht genoeg onder de oppervlakte ligt, wordt ook dat meegenomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilProfileType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="descriptionQuality"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:DescriptionQualityType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>DescriptionQuality</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die de mate van detail aangeeft waarin de opbouw van de ondergrond is beschreven.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rootableDepthReached"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           nillable="true"
+                           type="brocom:IndicationYesNoUnknownType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de diepte tot waar beworteling mogelijk is, is bereikt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rootableDepth" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte in de bodem tot waar beworteling mogelijk is.
+Explanation: Het bodemgebruik bepaalt naar welke soort begroeiing er wordt gekeken. In bossen gaat het om de wortels van bomen, terwijl bij akkers naar de wortels van gewassen wordt gekeken.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="meanHighestGroundwaterLevelReached"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het niveau van de gemiddeld hoogste grondwaterstand in de wand is bereikt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="meanHighestGroundwaterLevel" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemiddeld hoogste grondwaterstand bepaald in de wand.
+Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kleur, de aanwezigheid van ijzervlekken of concreties. De terreintoestand en het al dan niet aanwezig zijn van bepaalde planten kunnen bijdragen aan de bepaling.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="meanLowestGroundwaterLevel" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemiddeld laagste grondwaterstand bepaald in de wand.
+Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kleur en aanwezigheid van ijzervlekken of concreties. Waarnemingen over de terreintoestand en het al dan niet aanwezig zijn van bepaalde planten kunnen bijdragen aan de bepaling.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="horizonRepetition"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of een opeenvolging van horizonten zich in het profiel herhaalt.
+Explanation: Een profiel met repeterende horizonten wordt in de bodemkunde ook wel dubbelprofiel genoemd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="localPhenomenon"
+                           minOccurs="1"
+                           maxOccurs="unbounded"
+                           type="sfrcommon:LocalPhenomenonType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LocalPhenomenon</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een verschijnsel dat de laagopbouw in het wandprofiel terzijde van de beschrijflijn verstoort.
+Explanation: Door natuurlijke oorzaken of door ingrijpen van de mens kan de opbouw van de bodem verstoord zijn. Wanneer de verstoring zich alleen plaatselijk voordoet en niet over de hele beschreven breedte, wordt het vastgelegd zonder de diepte van voorkomen te specificeren. Ondanks de verstoring is de opbouw in lagen goed te beschrijven. De verschijnselen beïnvloeden de kwaliteit van de bodem en kunnen inzicht geven in de ontstaansgeschiedenis.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="upperBoundaryShape"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:BoundaryShapeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>BoundaryShape</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de vorm van de bovenkant van het profiel.
+Explanation: De bovenkant van het profiel volgt de vorm van het terreinoppervlak, het maaiveld of de laag strooisel die daarop ligt. Dat oppervlak kan microreliëf vertonen en dat wil zeggen dat er binnen een meter afstand hoogteverschillen zijn die in de orde van enkele decimeters kunnen liggen. Microreliëf is van invloed op de processen in de bodem. Het hangt van de opdracht af of het gegeven aanwezig is.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="sequenceDisturbed"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laagopbouw over een bepaald diepte-interval is verstoord.
+Explanation: Het aantal verstoringen is niet expliciet vastgelegd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="compactionPresent"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de ondergrond door menselijk ingrijpen over een bepaalde diepte is verdicht.
+Explanation: Verdichting ontstaat wanneer de bodem door menselijk ingrijpen wordt samengedrukt bijvoorbeeld doordat er met zware machines over een kwetsbare, eventueel ook natte bodem heeft gereden, of wanneer de grond door de mens is opgehoogd. Door verdichting worden het aandeel van de met water en lucht gevulde ruimten in de grond kleiner. Dat is een vorm van bodemdegradatie omdat het de plantengroei belemmert. Regenwater kan minder makkelijk tot bij de wortels doordringen en uitwisseling van gassen zoals CO2 en zuurstof verloopt trager dan bij niet verdichte bodems.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="litterLayer"
+                           nillable="false"
+                           type="sfrcommon:LitterLayerPropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="soilLayer"
+                           nillable="false"
+                           type="sfrcommon:SoilLayerPropertyType"/>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="compactedInterval"
+                           nillable="false"
+                           type="sfrcommon:CompactedIntervalPropertyType"/>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="disturbedInterval"
+                           nillable="false"
+                           type="sfrcommon:DisturbedIntervalPropertyType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilProfilePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilProfile"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="SoilUncovering"
+               type="sfrcommon:SoilUncoveringType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft een wand in de ondergrond te maken of te prepareren.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SoilUncoveringType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="endDepthSoilFace" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte tot waar de wand voor het onderzoek is geprepareerd.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom"
+                                         type="gml:UomIdentifier"
+                                         use="required"
+                                         fixed="m"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="soilFaceOrientation"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           nillable="true">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoek tussen het magnetische noorden en de richting van de wand, zoals gemeten vanaf het magnetische noorden met de klok mee.
+Explanation: Het gaat hier het azimut of strekking van de wand. Het azimut is de hoek die de wand in het horizontale vlak maakt met het noorden. Het azimut wordt gemeten over het oosten.</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:restriction base="gml:MeasureType">
+                        <xs:attribute name="uom"
+                                      type="gml:UomIdentifier"
+                                      use="required"
+                                      fixed="deg"/>
+                      </xs:restriction>
+                    </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="outcropType"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sfrcommon:OutcropTypeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>OutcropType</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De wijze waarop de ondergrond is ontsloten.
+Explanation: De bodem kan ontsloten zijn door specifiek voor het onderzoek een kuil te graven, de profielkuil, maar de bodem kan ook ontsloten zijn door activiteiten die los staan van het onderzoek. Een op zichzelf staande activiteit is bijvoorbeeld de aanleg van een weg. Natuurlijke ontsluitingen komen eigenlijk nooit voor.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="stopCriterion"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sfrcommon:StopCriterionType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>StopCriterion</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De reden waarom de uitvoerder van het onderzoek met graven is opgehouden.
+Explanation: Het gegeven geeft aan of de beoogde diepte is bereikt of dat het graven is gestopt omdat er bepaalde problemen waren. De aard van het eventuele probleem kan informatie geven over de opbouw van de bodem.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="pitRefilled"
+                           type="brocom:IndicationYesNoUnknownType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gegeven dat aangeeft of een profielkuil als onderdeel van het veldwerk is opgevuld tot het niveau van het oorspronkelijke materiaal.
+Explanation: Gewoonlijk wordt een profielkuil weer opgevuld. Voor bijvoorbeeld educatieve doeleinden, kan het wenselijk zijn de kuil open te houden. Het gegeven geeft de situatie op de veldwerkdatum aan.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SoilUncoveringPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sfrcommon:SoilUncovering"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:complexType name="DeliveredLocationType">
+      <xs:sequence>
+         <xs:element name="coordinates"
+                     type="gml:PointPropertyType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De coördinaten die zijn aangeleverd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="horizontalPositioningDate"
+                     type="brocom:PartialDateType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de plaats van het wandonderzoek op het aardoppervlak is bepaald.
+Explanation: De regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij gegevens uit het verleden de meest relevante datum van het wandonderzoek, de rapportagedatum onderzoek, niet bekend is, kan een eventueel wel ingevulde datum locatiebepaling niet in de chronologische context geplaatst worden en verliest het zijn toegevoegde waarde.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="horizontalPositioningMethod"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:HorizontalPositioningMethodType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>HorizontalPositioningMethod</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De werkwijze die is gevolgd voor de bepaling van de plaats van het wandonderzoek op het aardoppervlak.
+Explanation: Het gegeven geeft inzicht in de nauwkeurigheid waarmee de plaats van het wandonderzoek op het aardoppervlak is bepaald.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="horizontalPositioningOperator"
+                     type="brocom:ChamberOfCommerceNumberType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het wandonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="DeliveredVerticalPositionType">
+      <xs:sequence>
+         <xs:element name="localVerticalReferencePoint"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:LocalVerticalReferencePointType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>LocalVerticalReferencePoint</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat in het wandonderzoek is gebruikt als nulpunt voor de diepte.
+Explanation: Het lokaal verticaal referentiepunt is voor bodemkundig wandonderzoek altijd het maaiveld, omdat de wand tijdens het veldwerk nooit onder water ligt. De afspraak is dat strooisel boven het lokaal verticaal referentiepunt ligt.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="offset" minOccurs="1" maxOccurs="1" nillable="true">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.
+Explanation: De waarde kan positief of negatief zijn. Als de waarde positief is, ligt het lokaal verticaal referentiepunt boven het verticaal referentievlak en dat is voor bodemkunde altijd NAP. Met behulp van de verschuiving kan een diepte omgerekend worden naar een positie ten opzichte van NAP.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:restriction base="gml:MeasureType">
+                  <xs:attribute name="uom"
+                                type="gml:UomIdentifier"
+                                use="required"
+                                fixed="m"/>
+                </xs:restriction>
+              </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="verticalDatum"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:VerticalDatumType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>VerticalDatum</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.
+Explanation: Omdat het vakgebied bodemkunde is ligt de locatie op land.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="verticalPositioningDate"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     nillable="true"
+                     type="brocom:PartialDateType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.
+Explanation: Het gegeven is van belang in verband met mogelijke veranderingen in de positie van het maaiveld. In het geval de positie is bepaald op basis van het AHN geldt als datum 1 januari van het jaar waarin de gebruikte versie van het AHN voor het gebied waarin de locatie ligt, is vastgesteld. De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij gegevens uit het verleden de meest relevante datum van het wandonderzoek, de rapportagedatum onderzoek, niet bekend is, kan een eventueel wel ingevulde datum verticale positie bepaling niet in de chronologische context geplaatst worden en verliest het zijn toegevoegde waarde.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="verticalPositioningMethod"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:VerticalPositioningMethodType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>VerticalPositioningMethod</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.
+Explanation: Het gegeven geeft inzicht in de nauwkeurigheid waarmee de verticale positie is bepaald.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="verticalPositioningOperator"
+                     type="brocom:ChamberOfCommerceNumberType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het wandonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="FineFractionDistributionType">
+      <xs:sequence>
+         <xs:element name="estimatedClayContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedSiltContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedSandContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="FractionDistributionType">
+      <xs:sequence>
+         <xs:element name="estimatedGravelContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan grind.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedShellMatterContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan schelpmateriaal.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedOrganicMatterContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan organische stof.
+Explanation: Bij Wageningen Environmental Research wordt het gehalte aan organische stof sinds 2010 systematisch vastgelegd.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedFineFractionContent" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan materiaal van minerale herkomst met een korrelgrootte kleiner dan 2 mm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="fineFractionDistribution"
+                     nillable="false"
+                     type="sfrcommon:FineFractionDistributionType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="HomogeneousMaterialType">
+      <xs:sequence>
+         <xs:element name="specialMaterial"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:SpecialMaterialType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>SpecialMaterial</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.
+Explanation: Wanneer een laag uit materiaal bestaat dat niet als grond of gesteente kan worden beschreven, wordt het materiaal bijzonder genoemd. Dat materiaal kan zowel natuurlijk als antropogeen van aard zijn.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="horizonCode"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:HorizonCodeType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>HorizonCode</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code van de horizont waartoe het deel van de bodem volgens de Nederlandse classificatie wordt gerekend.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="rockType"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:RockTypeType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>RockType</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van het gesteente waar de laag uit bestaat.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="soil"
+                     nillable="false"
+                     type="sfrcommon:SoilType"/>
+         <xs:element name="pedologicalDepositionalCharacteristic"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:PedologicalDepositionalCharacteristicType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>PedologicalDepositionalCharacteristic</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geologische typering van het sediment waaruit de bodem bestaat naar periode en milieu van afzetting.
+Explanation: Het gegeven geeft kernachtige informatie over de omgeving en de periode waarin het sediment is gevormd, en in voorkomende gevallen ook dat het sediment zich niet meer in zijn oorspronkelijke positie bevindt, maar door het landijs is gestuwd of door erosie is verplaatst. De informatie is van belang voor de bodemkundige classificatie. De bron van informatie is in formele zin een geologisch model. Omdat de waarde van het gegeven bepaald wordt door de actualiteit van het (impliciet) gebruikte model en strijdig kan zijn met de informatie in de modellen die deel uit (zullen) maken van registratie ondergrond, is het gegeven niet authentiek.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="estimatedSaturatedPermeability" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.
+Explanation: Het gegeven is alleen aanwezig wanneer de opdrachtgever daarom heeft gevraagd of wanneer de uitvoerder dat op eigen initiatief heeft vastgelegd. De waarde wordt op basis van expertkennis en op het oog geschat aan de hand van met name de grondsoort. Een waarde groter dan 0,49 wordt als een veelvoud van 0,10 genoteerd om schijnnauwkeurigheid te vermijden.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="m/24h"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="IncompleteFractionSpecificationType">
+      <xs:sequence>
+         <xs:element name="estimatedOrganicMatterContent" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan organische stof.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedClayContent" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan minerale delen met een korrelgrootte kleiner dan 2 µm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedSiltContent" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 2 en 50 µm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="estimatedSandContent" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte gehalte aan minerale delen met een korrelgrootte tussen 50 en 2000 µm.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="IntermediateEventType">
+      <xs:sequence>
+         <xs:element name="eventName"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:EventNameType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>EventName</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: to edo</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="eventDate" type="xs:date" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: to do</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="LayerComponentType">
+      <xs:sequence>
+         <xs:element name="horizonCode"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:HorizonCodeType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>HorizonCode</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code van de horizont waartoe het deel van de bodem volgens de Nederlandse classificatie wordt gerekend.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="estimatedVolumePercentage" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geschatte aandeel van de component in het volume van de laag.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="%"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="pedologicalDepositionalCharacteristic"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:PedologicalDepositionalCharacteristicType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>PedologicalDepositionalCharacteristic</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geologische typering van het sediment waaruit de bodem bestaat naar periode en milieu van afzetting.
+Explanation: Het gegeven geeft kernachtige informatie over de omgeving en de periode waarin het sediment is gevormd, en in voorkomende gevallen ook dat het sediment zich niet meer in zijn oorspronkelijke positie bevindt, maar door het landijs is gestuwd of door erosie is verplaatst. De informatie is van belang voor de bodemkundige classificatie. De bron van informatie is in formele zin een geologisch model. Omdat de waarde van het gegeven bepaald wordt door de actualiteit van het (impliciet) gebruikte model en strijdig kan zijn met de informatie in de modellen die deel uit (zullen) maken van registratie ondergrond, is het gegeven niet authentiek.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="estimatedSaturatedPermeability" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geschatte snelheid waarmee water door de met water verzadigde grond kan stromen.
+Explanation: Het gegeven is alleen aanwezig wanneer de opdrachtgever daarom heeft gevraagd of wanneer de uitvoerder dat op eigen initiatief heeft vastgelegd. De waarde wordt op basis van expertkennis en op het oog geschat aan de hand van met name de grondsoort. Een waarde groter dan 0,49 wordt als een veelvoud van 0,10 genoteerd om schijnnauwkeurigheid te vermijden.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="m/24h"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element minOccurs="1"
+                     maxOccurs="1"
+                     name="soil"
+                     nillable="false"
+                     type="sfrcommon:SoilType"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="MunsellColourType">
+      <xs:sequence>
+         <xs:element name="munsellHue"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:MunsellHueType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>MunsellHue</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur uitgedrukt in de code die de plaats op de kleurcirkel aangeeft.
+Explanation: De hoofdkleur is een samengesteld gegeven: een of meer letters geven de globale plaats op de cirkel, een getal geeft een nadere precisering van de plaats.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="munsellValue"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:MunsellValueType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>MunsellValue</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mate van witheid uitgedrukt in een getal.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="munsellChroma"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:MunsellChromaType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>MunsellChroma</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mate van zuiverheid uitgedrukt in een getal.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ReportHistoryType">
+      <xs:sequence>
+         <xs:element name="reportStartDate"
+                     type="xs:date"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: to do</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="reportEndDate" type="xs:date" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: to do</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="unbounded"
+                     name="intermediateEvent"
+                     nillable="false"
+                     type="sfrcommon:IntermediateEventType"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="SoilType">
+      <xs:sequence>
+         <xs:element name="classificationLoamBased"
+                     type="brocom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de bodemkundige naam van de grondsoort is gebaseerd op de leemdriehoek.
+Explanation: In de bodemkunde zijn voor de grondsoort eigenlijk twee classificatiesystemen naast elkaar in gebruik. Het verschil tussen de twee is dat in het ene geval de zgn. kleidriehoek en in het andere de zgn. leemdriehoek wordt gebruikt. De uitvoerder bepaalt op basis van zijn kennis van de geologische context welke van de twee driehoeken wordt gebruikt.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="pedologicalSoilName"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:PedologicalSoilNameType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>PedologicalSoilName</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van de grondsoort volgens de Nederlandse bodemkundige classificatie.
+Explanation: Het gehalte aan organische stof bepaalt of de bodemkundige grondsoort bepaald wordt op basis van de veendriehoek, en de afzettingskarakteristiek bepaalt vervolgens of de leemdriehoek of de kleidriehoek wordt gebruikt.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="soilNameNEN5104"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:SoilNameNEN5104Type">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>SoilNameNEN5104</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van de grondsoort volgens de classificatie die op NEN5104 gebaseerd is.
+Explanation: De naam is afgeleid uit de waarden voor de fractieverdeling. Wanneer de fracties niet volledig zijn gespecificeerd kan de naam niet worden afgeleid. Voor grind wordt alleen de naam van de hoofdgrondsoort (grind) gegeven en als het grind vooral uit schelpmateriaal bestaat geldt dat als de naam van de grondsoort.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="tertiaryConstituent"
+                     minOccurs="1"
+                     maxOccurs="unbounded"
+                     type="sfrcommon:TertiaryConstituentType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>TertiaryConstituent</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend.
+Explanation: Bijzondere bestanddelen worden benoemd wanneer ze belangrijk zijn voor het herleiden van de oorsprong van de grond of wanneer zij op bijzondere omstandigheden in de bodem wijzen. Bijzondere bestanddelen hebben gewoonlijk of een natuurlijke of een antropogene herkomst maar in enkele gevallen is beide mogelijk. In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde geen vastgelegd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="colour"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     nillable="true"
+                     type="sfrcommon:ColourType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>Colour</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur van de grond.
+Explanation: Het bepalen van kleur kent een zekere mate van subjectiviteit als dat gebeurt zonder gebruik te maken van hulpmiddelen. Een kleurenkaart kan helpen de consistentie van de door verschillende personen en bij verschillende lichtsterkte uitgevoerde beschrijvingen te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell kleurenkaart opgenomen in de codelijst.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="mottled"
+                     type="brocom:IndicationYesNoUnknownType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de grond vlekken vertoont.
+Explanation: Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling van de grond na afzetting van het sediment. Er zijn tot drie verschillende soorten vlekken te onderscheiden.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="structureType"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     nillable="true"
+                     type="sfrcommon:StructureTypeType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>StructureType</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De bodemkundige typering van de structuur van de grond.
+Explanation: De typering van structuur beperkt zich tot aspecten die zichtbaar zijn met het blote oog ( &gt; 0.100 mm).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="estimatedDensity" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geschatte dichtheid van de grond.
+Explanation: Een geoefend beschrijver kan de dichtheid van de grond op 0.1 g/cm3 nauwkeurig schatten.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="g/cm3"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="peatType"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:PeatTypeType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>PeatType</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een nadere typering van het als veen omschreven bestanddeel van grond.
+Explanation: Het hangt van de aard van de opdracht en de keuzen die de uitvoerder heeft gemaakt af of het gegeven is vastgelegd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="sandCementation"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:SandCementationType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>SandCementation</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mate waarin zandkorrels aan elkaar zijn gekit, uitgedrukt in een klasse.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="carbonateContentClass"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:CarbonateContentClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>CarbonateContentClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan koolzure kalk uitgedrukt in een klasse.
+Explanation: Het kalkgehalte wordt geschat naar de mate van opbruisen met verdund zoutzuur (10% HCl).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="estimatedSandMedian" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de zandfractie.
+Explanation: De zandfractie is voor het vakgebied bodemkunde de fractie 50-2000 µm van het minerale bestanddeel van de grond. Wanneer de beschrijver voelt dat er zand in het monster voorkomt, schat hij de zandmediaan. Het gegeven is van belang voor het beoordelen van de bruikbaarheid van de grond voor landbouw. De mediaan wordt op 5 micrometer nauwkeurig geschat.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="um"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="organicMatterContentClass"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:OrganicMatterContentClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>OrganicMatterContentClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan organische stof uitgedrukt in een klasse volgens NEN 5104.
+Explanation: De organische stofklasse wordt niet bepaald als de grondsoort al aangeeft dat de grond in belangrijke mate uit organische stof bestaat. Voor bodemkunde is het gegeven redundant wanneer de fractieverdeling bekend is. Het wordt toch systematisch opgenomen om de informatie beter toegankelijk te maken voor gebruikers uit andere vakgebieden.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="containsShellMatter"
+                     type="brocom:IndicationYesNoType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of grond die niet uit schelpen bestaat, schelpmateriaal bevat.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ripeningClass"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:RipeningClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>RipeningClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De graad van rijping van klei- en leemhoudende grond uitgedrukt in een klasse.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="shellMatterContentClass"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:ShellMatterContentClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ShellMatterContentClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan schelpmateriaal van grond die niet uit schelpen bestaat maar wel schelpmateriaal bevat, uitgedrukt in een klasse.
+Explanation: Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in het domein bodem en grond van de basisregistratie ondergrond.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="vertic"
+                     type="brocom:IndicationYesNoUnknownType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de klei de verschijnselen vertoont die wijzen op een lager dan normale Ca/Mg-verhouding.
+Explanation: De verschijnselen die op een lage Ca/Mg-verhouding wijzen (knip) zijn een hoog lutumgehalte, het ontbreken van structuur, een grauwe vlekkerige kleur, een geringe consistentie (geringe rijping) waardoor de klei makkelijk uit elkaar valt, en het voorkomen van roestvlekken met een bijzondere kleur en een anormale verdeling. Knip is een eigenschap van klei die in zee is afgezet. De Ca/Mg-verhouding in zeeklei ligt normaliter tussen 12 en 15. In knipklei is de verhouding ca. 5 of minder. Het vermogen van knipklei tot zwellen en krimpen is beduidend groter dan van normale zeeklei. Knipklei is moeilijk te bewerken.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="containsGravel"
+                     type="brocom:IndicationYesNoType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of grond die geen grind is wel grind bevat.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="gravelContentClass"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:GravelContentClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>GravelContentClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan grind van grond die tussen nul en dertig procent grind bevat, uitgedrukt in een klasse.
+Explanation: Het gegeven is redundant wanneer de fractieverdeling bepaald is. Het is opgenomen met het oog op de standaardisatie van de grondsoortbenaming in booronderzoek. van de BRO.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="interbedding"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     nillable="true"
+                     type="sfrcommon:InterbeddingType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>Interbedding</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De niet als afzonderlijke lagen onderscheiden laagjes die uit ander materiaal dan de grondsoort bestaan, getypeerd naar materiaal.
+Explanation: Het gegeven geeft aan of er in een laag die beschreven is als bestaand uit een soort grond bestaat, dunne laagjes voorkomen van ander, natuurlijk materiaal. De laagjes hebben een natuurlijke oorsprong en zijn samen met de laag gevormd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="chunk"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:ChunkType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>Chunk</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De willekeurig verspreid voorkomende brokjes die uit ander materiaal dan de grondsoort bestaan, getypeerd naar materiaal.
+Explanation: Het gegeven geeft aan of er in een laag die beschreven is als bestaand uit een soort grond bestaat, brokjes voorkomen van ander, natuurlijk materiaal. Het gegeven geeft niet wat de herkomst is van het materiaal. De brokjes kunnen als deel van de grond zijn afgezet mar ook door vermenging in de grond zijn terechtgekomen. Alleen in het geval de laag gemengd is (gemengd heeft de waarde ja), kan de herkomst aan menselijk handelen worden toegeschreven. Bij archief gegevens van WENR is dit niet vastgelegd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="moistness"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:MoistnessType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>Moistness</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over de vochtigheidstoestand van de grond op het moment van beschrijven.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="fractionDistribution"
+                     nillable="false"
+                     type="sfrcommon:FractionDistributionType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="incompleteFractionSpecification"
+                     nillable="false"
+                     type="sfrcommon:IncompleteFractionSpecificationType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="munsellColour"
+                     nillable="false"
+                     type="sfrcommon:MunsellColourType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="3"
+                     name="stain"
+                     nillable="false"
+                     type="sfrcommon:StainType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="soilAggregate"
+                     nillable="false"
+                     type="sfrcommon:SoilAggregateType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: n.v.t.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="SoilAggregateType">
+      <xs:sequence>
+         <xs:element name="aggregateShape"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:AggregateShapeType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>AggregateShape</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vorm van het aggregaat ingedeeld naar de verhouding tussen de drie dimensies.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="angularity"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:AngularityType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>Angularity</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoekigheid van het aggregaat uitgedrukt in een klasse.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="roughness"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="sfrcommon:RoughnessType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>Roughness</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De ruwheid van het oppervlak van het aggregaat.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="aggregateLengthClass"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:AggregateLengthClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>AggregateLengthClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lengte van de verticale as van het aggregaat.
+Explanation: Voor aggregaten met een prismavorm geldt de langste as als verticale as, voor aggregaten met een plaatvorm is dat de kortste as. Aggregaten met een lengte groter dan 50 centimeter worden kluiten genoemd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="poreAbundanceClass"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:PoreAbundanceClassType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>PoreAbundanceClass</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoeveelheid poriën die na doorbreken van het aggregaat zichtbaar is op het vlak dat loodrecht staat op de verticale as, uitgedrukt in een klasse.
+Explanation: Voor aggregaten met een prismavorm geldt de langste as als verticale as, voor aggregaten met een plaatvorm is dat de kortste as.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="horizontallyAligned"
+                     type="brocom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de aggregaten langs horizontale lijnen in het profiel zijn gerangschikt.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="disintegrating"
+                     type="brocom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de aggregaten uiteen beginnen te vallen.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="SpecialFeatureBottomType">
+      <xs:sequence>
+         <xs:element name="specialFeature"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:SpecialFeatureType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>SpecialFeature</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de bijzonderheid in het onderste deel van het profiel.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="beginDepth" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop de bijzonderheid begint.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom"
+                                   type="gml:UomIdentifier"
+                                   use="required"
+                                   fixed="m"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="StainType">
+      <xs:sequence>
+         <xs:element name="stainColour"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:StainColourType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>StainColour</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur van de vlekken.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="mottlingDensity"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sfrcommon:MottlingDensityType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>MottlingDensity</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het oppervlak dat de vlekken beslaan, uitgedrukt in een klasse.
+Explanation: Dit wordt ook wel het bedekkingspercentage genoemd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="evenlyMottled"
+                     type="brocom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de vlekken gelijkmatig over het oppervlak van de wand zijn verdeeld.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AggregateLengthClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:AggregateLengthClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="AggregateShapeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:AggregateShape"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="AngularityType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Angularity"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="AnomalousGroundwaterRegimeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:AnomalousGroundwaterRegime"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="ArtificialDrainageType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:ArtificialDrainage"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="BoundaryPositioningMethodType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:BoundaryPositioningMethod"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="BoundaryShapeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:BoundaryShape"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CarbonateContentClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:CarbonateContentClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CarbonateProfileType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:CarbonateProfile"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="ChunkType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Chunk"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CodeGroupType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:CodeGroup"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="ColourType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Colour"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CurrentProcesType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:CurrentProces"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="DeliveryContextType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:DeliveryContext"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="DescriptionProcedureType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:DescriptionProcedure"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="DescriptionQualityType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:DescriptionQuality"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="DisciplineType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Discipline"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="DisruptionType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Disruption"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="EventNameType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:EventName"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="GravelContentClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:GravelContentClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="GroundwaterTableClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:GroundwaterTableClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="HorizonCodeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:HorizonCode"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="HorizontalPositioningMethodType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:HorizontalPositioningMethod"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="HydrologicalSettingType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:HydrologicalSetting"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="InterbeddingType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Interbedding"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="LandscapeElementType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:LandscapeElement"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="LitterTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:LitterType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="LocalPhenomenonType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:LocalPhenomenon"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="LocalVerticalReferencePointType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:LocalVerticalReferencePoint"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="LowerBoundarySandFractionType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:LowerBoundarySandFraction"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="MoistnessType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Moistness"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="MottlingDensityType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:MottlingDensity"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="MunsellChromaType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:MunsellChroma"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="MunsellHueType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:MunsellHue"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="MunsellValueType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:MunsellValue"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="OrganicMatterContentClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:OrganicMatterContentClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="OutcropTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:OutcropType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="PeatClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:PeatClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="PeatTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:PeatType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="PedologicalDepositionalCharacteristicType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:PedologicalDepositionalCharacteristic"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="PedologicalSoilNameType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:PedologicalSoilName"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="PoreAbundanceClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:PoreAbundanceClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="PositionOnGroundBodyType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:PositionOnGroundBody"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="ReworkingClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:ReworkingClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="RipeningClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:RipeningClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="RockTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:RockType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="RootAbundanceClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:RootAbundanceClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="RoughnessType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:Roughness"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SandCementationType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SandCementation"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="ShellMatterContentClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:ShellMatterContentClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SpecialFeatureType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SpecialFeature"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SpecialFeatureSiteType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SpecialFeatureSite"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SpecialFeatureTopType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SpecialFeatureTop"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SpecialMaterialType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SpecialMaterial"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SoilClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SoilClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SoilLifeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SoilLife"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SoilNameNEN5104Type">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SoilNameNEN5104"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SoilUseType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SoilUse"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="StainColourType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:StainColour"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="StopCriterionType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:StopCriterion"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="StructureTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:StructureType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SubsoilDuinVagueSoilType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SubsoilDuinVagueSoil"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SubsoilPeatType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SubsoilPeat"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SurfaceLevelShiftedType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SurfaceLevelShifted"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="SurveyPurposeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:SurveyPurpose"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="TertiaryConstituentType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:TertiaryConstituent"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="TextureClassType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:TextureClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="TextureProfileType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:TextureProfile"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="VegetationTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:VegetationType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="VerticalDatumType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:VerticalDatum"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="VerticalPositioningMethodType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:VerticalPositioningMethod"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+</xs:schema>
