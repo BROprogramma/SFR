@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest 
+      xmlns="http://www.broservices.nl/xsd/issfr/0.9"
+      xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/0.1"
+      xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+      xmlns:gml="http://www.opengis.net/gml/3.2"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.broservices.nl/xsd/issfr/0.9 ../../XSD/issfr-messages.xsd">
+   <brocom:requestReference>requestReference</brocom:requestReference>
+   <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+   <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+   <sourceDocument>
+      <SFR_StartReport_V1 gml:id="SomeId_20181023_QR2">
+      ...
+      </SFR_StartReport_V1>
+   </sourceDocument>
+</registrationRequest>
