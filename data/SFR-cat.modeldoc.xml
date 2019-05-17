@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="Bodemkundig wandonderzoek (SFR)"
-      subpath="Conceptual model/Bodemkundig wandonderzoek (SFR)/20180831"
+      subpath="Conceptual model/Bodemkundig wandonderzoek (SFR)/20190517"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
       generator-version="1.53.0"
-      generator-date="2019-05-17T16:21:01Z">
+      generator-date="2019-05-17T16:37:52Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -34432,7 +34432,7 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is niet grillig en toont zich als een lijn zonder uitstulpingen; de afstand tussen tweetoppen is groter dan het verschil in hoogte over die afstand; deze waarde geldt alleen voor de ondergrens.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is niet grillig en toont zich als een lijn zonder uitstulpingen; de afstand tussen twee toppen is groter dan het verschil in hoogte over die afstand; deze waarde geldt alleen voor de ondergrens.</p>
                   </item>
                </part>
                <part>
