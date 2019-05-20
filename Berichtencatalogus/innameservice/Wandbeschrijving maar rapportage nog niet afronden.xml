@@ -30,7 +30,11 @@
                <sfrcom:artificiallyHumidified>nee</sfrcom:artificiallyHumidified>
                <!--Optional:-->
                <sfrcom:descriptionOperator>
+                  <!--You have a CHOICE of the next 2 items at this level-->
                   <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                  <!-- 
+                  <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                   -->
                </sfrcom:descriptionOperator>
                <sfrcom:fractionDistributionDetermined>nee</sfrcom:fractionDistributionDetermined>
                <sfrcom:lowerBoundarySandFraction codeSpace="urn:bro:sfr:LowerBoundarySandFraction">50</sfrcom:lowerBoundarySandFraction>

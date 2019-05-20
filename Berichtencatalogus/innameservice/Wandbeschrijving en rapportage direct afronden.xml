@@ -17,19 +17,24 @@
             <sfrcom:SoilFaceDescription gml:id="SomeId_20190408_SFR_SFD">
                <sfrcom:descriptionReportDate>
                   <!--You have a CHOICE of the next 4 items at this level-->
-                  <brocom:date>2018-01-01</brocom:date>
                   <!-- 
-                  <brocom:yearMonth>2018-01</brocom:yearMonth>
+                  <brocom:date>2020-03-01</brocom:date>
+                  <brocom:yearMonth>2020-03</brocom:yearMonth>
                   <brocom:year>2018</brocom:year>
                   <brocom:voidReason>onbekend</brocom:voidReason>
                    -->
+                  <brocom:date>2020-03-01</brocom:date>
                </sfrcom:descriptionReportDate>
                <sfrcom:descriptionProcedure codeSpace="urn:bro:sfr:DescriptionProcedure">AlterraTD19Av2020</sfrcom:descriptionProcedure>
                <sfrcom:describedWidth uom="m">3.33</sfrcom:describedWidth>
                <sfrcom:artificiallyHumidified>nee</sfrcom:artificiallyHumidified>
                <!--Optional:-->
                <sfrcom:descriptionOperator>
+                  <!--You have a CHOICE of the next 2 items at this level-->
                   <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                  <!-- 
+                  <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                   -->
                </sfrcom:descriptionOperator>
                <sfrcom:fractionDistributionDetermined>ja</sfrcom:fractionDistributionDetermined>
                <sfrcom:lowerBoundarySandFraction codeSpace="urn:bro:sfr:LowerBoundarySandFraction">63</sfrcom:lowerBoundarySandFraction>
@@ -520,9 +525,9 @@
          <discipline codeSpace="urn:bro:sfr:Discipline">bodemkunde</discipline>
          <fieldworkDate>
             <!--You have a CHOICE of the next 4 items at this level-->
-            <brocom:date>2018-01-01</brocom:date>
+            <brocom:date>2020-03-01</brocom:date>
             <!-- 
-            <brocom:yearMonth>2018-01</brocom:yearMonth>
+            <brocom:yearMonth>2020-03</brocom:yearMonth>
             <brocom:year>2018</brocom:year>
             <brocom:voidReason>onbekend</brocom:voidReason>
              -->
@@ -540,9 +545,9 @@
             </sfrcom:location>
             <sfrcom:horizontalPositioningDate>
                <!--You have a CHOICE of the next 4 items at this level-->
-               <brocom:date>2018-01-01</brocom:date>
+               <brocom:date>2020-03-01</brocom:date>
                <!-- 
-               <brocom:yearMonth>2018-01</brocom:yearMonth>
+               <brocom:yearMonth>2020-03</brocom:yearMonth>
                <brocom:year>2018</brocom:year>
                <brocom:voidReason>onbekend</brocom:voidReason>
                 -->
@@ -559,9 +564,9 @@
             <sfrcom:verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</sfrcom:verticalDatum>
             <sfrcom:verticalPositioningDate>
                <!--You have a CHOICE of the next 4 items at this level-->
-               <brocom:date>2018-01-01</brocom:date>
+               <brocom:date>2020-03-01</brocom:date>
                <!-- 
-               <brocom:yearMonth>2018-01</brocom:yearMonth>
+               <brocom:yearMonth>2020-03</brocom:yearMonth>
                <brocom:year>2018</brocom:year>
                <brocom:voidReason>onbekend</brocom:voidReason>
                 -->
@@ -606,12 +611,13 @@
          </siteCharacteristic>
          <researchReportDate>
             <!--You have a CHOICE of the next 4 items at this level-->
-            <brocom:date>2018-01-01</brocom:date>
             <!-- 
-            <brocom:yearMonth>2018-01</brocom:yearMonth>
+            <brocom:date>2020-03-01</brocom:date>
+            <brocom:yearMonth>2020-03</brocom:yearMonth>
             <brocom:year>2018</brocom:year>
             <brocom:voidReason>onbekend</brocom:voidReason>
              -->
+            <brocom:date>2020-03-01</brocom:date>
          </researchReportDate>
       </SFR_CompleteReport_V1>
    </sourceDocument>
