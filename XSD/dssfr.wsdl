@@ -18,41 +18,39 @@
         </xsd:schema>
     </wsdl:types>
 
-    <wsdl:message name="dispatchCharacteristicsRequest">
-        <wsdl:part element="msg:dispatchCharacteristicsRequest" name="request" />
-    </wsdl:message>
-    <wsdl:message name="dispatchCharacteristicsResponse">
-        <wsdl:part element="msg:dispatchCharacteristicsResponse" name="response" />
-    </wsdl:message>
-
     <wsdl:message name="dispatchDataRequest">
-        <wsdl:part element="msg:dispatchDataRequest" name="request" />
+        <wsdl:part name="request" element="msg:dispatchDataRequest" />
     </wsdl:message>
     <wsdl:message name="dispatchDataResponse">
-        <wsdl:part element="msg:dispatchDataResponse" name="response" />
+        <wsdl:part name="response" element="msg:dispatchDataResponse" />
+    </wsdl:message>
+    <wsdl:message name="dispatchCharacteristicsRequest">
+        <wsdl:part name="request" element="msg:dispatchCharacteristicsRequest" />
+    </wsdl:message>
+    <wsdl:message name="dispatchCharacteristicsResponse">
+        <wsdl:part name="response" element="msg:dispatchCharacteristicsResponse" />
     </wsdl:message>
 
     <wsdl:message name="parseSoapFault">
-        <wsdl:part element="msg:parseFault" name="parseFault" />
+        <wsdl:part name="parseFault" element="msg:parseFault" />
     </wsdl:message>
 
     <wsdl:portType name="dssfr">
-        <wsdl:operation name="dispatchCharacteristics">
-            <wsdl:input message="tns:dispatchCharacteristicsRequest" wsam:Action="http://www.broservices.nl/wus/dssfr/dispatchCharacteristicsRequest" />
-            <wsdl:output message="tns:dispatchCharacteristicsResponse" wsam:Action="http://www.broservices.nl/wus/dssfr/dispatchCharacteristicsResponse" />
-            <wsdl:fault message="tns:parseSoapFault" name="parsefault" wsam:Action="http://www.broservices.nl/wus/dssfr/parseSoapFault" />
-        </wsdl:operation>
         <wsdl:operation name="dispatchData">
             <wsdl:input message="tns:dispatchDataRequest" wsam:Action="http://www.broservices.nl/wus/dssfr/dispatchDataRequest" />
             <wsdl:output message="tns:dispatchDataResponse" wsam:Action="http://www.broservices.nl/wus/dssfr/dispatchDataResponse" />
             <wsdl:fault message="tns:parseSoapFault" name="parsefault" wsam:Action="http://www.broservices.nl/wus/dssfr/parseSoapFault" />
         </wsdl:operation>
+        <wsdl:operation name="dispatchCharacteristics">
+            <wsdl:input message="tns:dispatchCharacteristicsRequest" wsam:Action="http://www.broservices.nl/wus/dssfr/dispatchCharacteristicsRequest" />
+            <wsdl:output message="tns:dispatchCharacteristicsResponse" wsam:Action="http://www.broservices.nl/wus/dssfr/dispatchCharacteristicsResponse" />
+            <wsdl:fault message="tns:parseSoapFault" name="parsefault" wsam:Action="http://www.broservices.nl/wus/dssfr/parseSoapFault" />
+        </wsdl:operation>
     </wsdl:portType>
-
 
     <wsdl:binding name="dssfr_SOAP" type="tns:dssfr">
         <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
-        <wsdl:operation name="dispatchCharacteristics">
+        <wsdl:operation name="dispatchData">
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
@@ -64,7 +62,7 @@
                 <soap:fault use="literal" name="parsefault" />
             </wsdl:fault>
         </wsdl:operation>
-        <wsdl:operation name="dispatchData">
+        <wsdl:operation name="dispatchCharacteristics">
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />

@@ -3,8 +3,8 @@
       subpath="Conceptual model/Bodemkundig wandonderzoek (SFR)/20190517"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
-      generator-version="1.53.0"
-      generator-date="2019-05-17T16:50:19Z">
+      generator-version="1.53.1"
+      generator-date="2019-06-12T08:13:25Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -5218,20 +5218,7 @@ Alleen in uitzonderlijke gevallen is het beschrijven van de wand geen deel van h
                </part>
             </content>
          </section>
-         <section type="OVERVIEW-ENUMERATION" include="true">
-            <content>
-               <part>
-                  <item id="global_class_DomeinmodelBROSFR_ActueelProces"
-                        uuid="EAID_E2F822A3_0233_447b_A899_5E3306D1716C"
-                        idref="detail_class_DomeinmodelBROSFR_ActueelProces">ActueelProces</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">To do</p>
-                  </item>
-               </part>
-            </content>
-         </section>
+         <!--removed empty content-->
          <section type="DETAILS" include="true"><!--skipped excluded section-->
             <section name="Registratieobject"
                      type="OBJECTTYPE"
@@ -34611,79 +34598,6 @@ Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagje
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">De minder strikte kwaliteitseis die tot beëindiging van de transitieperiode gebruikt kan zijn.</p>
-                  </item>
-               </part>
-            </content>
-         </section>
-         <section name="ActueelProces"
-                  type="DETAIL-CODELIST"
-                  id="detail_class_DomeinmodelBROSFR_ActueelProces"
-                  id-global="global_class_DomeinmodelBROSFR_ActueelProces"
-                  uuid="EAID_E2F822A3_0233_447b_A899_5E3306D1716C">
-            <content>
-               <part>
-                  <item>Definitie</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">To do</p>
-                  </item>
-               </part>
-            </content>
-            <content>
-               <itemtype type="NAME"/>
-               <itemtype type="IMBRO"/>
-               <itemtype type="IMBROA"/>
-               <itemtype type="DEFINITION"/>
-               <part>
-                  <item>geulverlegging</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Er komen lateraal migrerende geulen voor.<br clear="none"/>
-                              </p>
-                  </item>
-               </part>
-               <part>
-                  <item>geulvorming</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Er vindt vorming of verdieping van geulen plaats.</p>
-                  </item>
-               </part>
-               <part>
-                  <item>piping</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Water stroomt onder een dijk of ander grondlichaam door om buitendijks aan het oppervlak te komen.</p>
-                  </item>
-               </part>
-               <part>
-                  <item>verstuiving</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Er vindt verstuiving plaats wanneer het hard waait (levend stuifzand).</p>
-                  </item>
-               </part>
-               <part>
-                  <item>onbekend</item>
-                  <item/>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend of er een actueel proces is.</p>
                   </item>
                </part>
             </content>

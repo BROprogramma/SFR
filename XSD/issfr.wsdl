@@ -24,10 +24,6 @@
         <wsdl:part element="msg:registrationRequest" name="request" />
     </wsdl:message>
 
-    <wsdl:message name="correctionRequest">
-        <wsdl:part element="msg:correctionRequest" name="request" />
-    </wsdl:message>
-
     <wsdl:message name="intakeResponse">
         <wsdl:part element="msg:intakeResponse" name="response" />
     </wsdl:message>
@@ -46,29 +42,11 @@
             <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/issfr/intakeResponse" />
             <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
         </wsdl:operation>
-        <wsdl:operation name="correct">
-            <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wus/issfr/correctionRequest" />
-            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/issfr/intakeResponse" />
-            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
-        </wsdl:operation>
     </wsdl:portType>
 
     <wsdl:binding name="issfr_SOAP" type="tns:issfr">
         <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
         <wsdl:operation name="register">
-            <soap:operation soapAction="" style="document" />
-            <wsdl:input>
-                <soap:body use="literal" />
-                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
-            </wsdl:input>
-            <wsdl:output>
-                <soap:body use="literal" />
-            </wsdl:output>
-            <wsdl:fault name="parseFault">
-                <soap:fault use="literal" name="parseFault" />
-            </wsdl:fault>
-        </wsdl:operation>
-        <wsdl:operation name="correct">
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
