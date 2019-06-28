@@ -3,8 +3,8 @@
       subpath="Conceptual model/Bodemkundig wandonderzoek (SFR)/20190517"
       type="BASISMODEL"
       id="EAPK_5FB72E66_9A73_40a8_8FBE_EEB9C432DAF8"
-      generator-version="1.53.1"
-      generator-date="2019-06-12T08:13:25Z">
+      generator-version="1.53.2"
+      generator-date="2019-06-28T06:08:01Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -5852,6 +5852,10 @@ De datum ligt niet na het <em>tijdstip voltooiing registratie</em>van de entitei
                         <item>Formaat</item>
                         <item>Datum</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>OnvolledigeDatum</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -5934,6 +5938,10 @@ De datum ligt niet na het <em>tijdstip voltooiing registratie</em>van de entitei
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Datum</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>OnvolledigeDatum</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -6321,6 +6329,10 @@ De datum ligt niet na het <em>tijdstip voltooiing registratie</em>van de entitei
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
+                        </part>
+                        <part type="CFG-DOC-DOMAIN-IMBROA">
+                           <item>Formaat IMBRO/A</item>
+                           <item>OnvolledigeDatum</item>
                         </part>
                      </content>
                   </section>
@@ -6768,6 +6780,10 @@ De datum ligt niet na het <em>tijdstip voltooiing registratie</em>van de entitei
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
+                        </part>
+                        <part type="CFG-DOC-DOMAIN-IMBROA">
+                           <item>Formaat IMBRO/A</item>
+                           <item>OnvolledigeDatum</item>
                         </part>
                      </content>
                   </section>
@@ -8016,6 +8032,10 @@ In deze versie van de catalogus is alleen nog maar het deelonderzoek <em>wandbes
                            <item>Formaat</item>
                            <item>Datum</item>
                         </part>
+                        <part type="CFG-DOC-DOMAIN-IMBROA">
+                           <item>Formaat IMBRO/A</item>
+                           <item>OnvolledigeDatum</item>
+                        </part>
                      </content>
                   </section>
                   <section name="einddatum rapportage"
@@ -8087,6 +8107,10 @@ In deze versie van de catalogus is alleen nog maar het deelonderzoek <em>wandbes
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
+                        </part>
+                        <part type="CFG-DOC-DOMAIN-IMBROA">
+                           <item>Formaat IMBRO/A</item>
+                           <item>OnvolledigeDatum</item>
                         </part>
                      </content>
                   </section>
@@ -8249,6 +8273,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>Datum</item>
+                           </part>
+                           <part type="CFG-DOC-DOMAIN-IMBROA">
+                              <item>Formaat IMBRO/A</item>
+                              <item>OnvolledigeDatum</item>
                            </part>
                         </content>
                      </section>
@@ -9324,6 +9352,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -9639,6 +9671,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10150,6 +10186,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                         <item>Formaat</item>
                         <item>Datum</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>OnvolledigeDatum</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -10372,6 +10412,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -10517,6 +10561,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -10831,6 +10879,10 @@ In deze versie van de catalogus vinden er geen tussentijdse gebeurtenissen plaat
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -10977,6 +11029,10 @@ De <em>bewortelbare diepte</em> mag niet groter zijn dan de <em>einddiepte wand<
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -11224,6 +11280,10 @@ De waarde mag niet groter zijn dan de <em>einddiepte</em>
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -11426,6 +11486,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -11492,6 +11556,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -12192,6 +12260,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -12839,6 +12911,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -12906,6 +12982,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -12972,6 +13052,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -13182,6 +13266,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
                      </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
@@ -13249,6 +13337,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -13384,6 +13476,11 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend
+</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -14223,6 +14320,11 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                               <item>Formaat</item>
                               <item>IndicatieJaNee</item>
                            </part>
+                           <part type="CFG-DOC-DOMAIN-IMBROA">
+                              <item>Formaat IMBRO/A</item>
+                              <item>IndicatieJaNeeOnbekend
+</item>
+                           </part>
                         </content>
                      </section>
                      <section name="structuurtype"
@@ -14848,6 +14950,10 @@ Het hangt van de opdracht af of het gegeven aanwezig is. </p>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>IndicatieJaNee</item>
+                           </part>
+                           <part type="CFG-DOC-DOMAIN-IMBROA">
+                              <item>Formaat IMBRO/A</item>
+                              <item>IndicatieJaNeeOnbekend</item>
                            </part>
                         </content>
                      </section>
@@ -16620,6 +16726,10 @@ Voor historische gegevens is tenminste de kleur van de vlekken benoemd. </p>
                               <part type="CFG-DOC-FORMAAT">
                                  <item>Formaat</item>
                                  <item>IndicatieJaNee</item>
+                              </part>
+                              <part type="CFG-DOC-DOMAIN-IMBROA">
+                                 <item>Formaat IMBRO/A</item>
+                                 <item>IndicatieJaNeeOnbekend</item>
                               </part>
                            </content>
                         </section>
@@ -17944,6 +18054,11 @@ Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal
                               <item>Formaat</item>
                               <item>IndicatieJaNee</item>
                            </part>
+                           <part type="CFG-DOC-DOMAIN-IMBROA">
+                              <item>Formaat IMBRO/A</item>
+                              <item>IndicatieJaNeeOnbekend
+</item>
+                           </part>
                         </content>
                      </section>
                      <section name="structuurtype"
@@ -18569,6 +18684,10 @@ Het aantal laagcomponenten is bij aanwezigheid van deze entiteit altijd minimaal
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
                               <item>IndicatieJaNee</item>
+                           </part>
+                           <part type="CFG-DOC-DOMAIN-IMBROA">
+                              <item>Formaat IMBRO/A</item>
+                              <item>IndicatieJaNeeOnbekend</item>
                            </part>
                         </content>
                      </section>
@@ -20342,6 +20461,10 @@ Voor historische gegevens is tenminste de kleur van de vlekken benoemd. </p>
                                  <item>Formaat</item>
                                  <item>IndicatieJaNee</item>
                               </part>
+                              <part type="CFG-DOC-DOMAIN-IMBROA">
+                                 <item>Formaat IMBRO/A</item>
+                                 <item>IndicatieJaNeeOnbekend</item>
+                              </part>
                            </content>
                         </section>
                      </section>
@@ -21182,6 +21305,10 @@ Voor historische gegevens is tenminste de kleur van de vlekken benoemd. </p>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-DOMAIN-IMBROA">
+                        <item>Formaat IMBRO/A</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
