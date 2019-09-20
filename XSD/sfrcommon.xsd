@@ -7,7 +7,7 @@
            targetNamespace="http://www.broservices.nl/xsd/sfrcommon/0.9"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.9.3">
+           version="0.9.4">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -1336,18 +1336,12 @@ Explanation: Omdat het vakgebied bodemkunde is ligt de locatie aan de landzijde 
          <xs:element name="verticalPositioningDate"
                      minOccurs="1"
                      maxOccurs="1"
-                     nillable="true">
+                     nillable="true"
+                     type="brocom:PartialDateType">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.
 Explanation: Het gegeven is van belang in verband met mogelijke veranderingen in de positie van het maaiveld. In het geval de positie is bepaald op basis van het AHN geldt als datum 1 januari van het jaar waarin de gebruikte versie van het AHN voor het gebied waarin de locatie ligt, is vastgesteld.</xs:documentation>
             </xs:annotation>
-            <xs:complexType>
-               <xs:complexContent>
-                  <xs:extension base="brocom:PartialDateType">
-                     <xs:attribute name="nilReason" type="xs:string" use="optional"/>
-                  </xs:extension>
-               </xs:complexContent>
-            </xs:complexType>
          </xs:element>
          <xs:element name="verticalPositioningMethod"
                      minOccurs="1"
