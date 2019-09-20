@@ -8,7 +8,7 @@
            targetNamespace="http://www.broservices.nl/xsd/dssfr/0.9"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.9.3">
+           version="0.9.4">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -553,18 +553,26 @@ Explanation: Het gegeven is vastgelegd als einddiepte wand.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="outcropType"
-                           type="brocom:IndicationYesNoType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sfrcom:OutcropTypeType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>OutcropType</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het kalkgehalte van het materiaal waaruit het onderzochte interval bestaat is bepaald.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="stopCriterion"
-                           type="brocom:IndicationYesNoType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sfrcom:StopCriterionType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>StopCriterion</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de volumieke massa van het materiaal waaruit het onderzochte interval bestaat is bepaald.</xs:documentation>
                   </xs:annotation>
                </xs:element>
