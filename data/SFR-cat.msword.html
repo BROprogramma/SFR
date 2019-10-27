@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20191025</p>
       <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-0.99versie16oktober2019-3-20191025-20191025-172154</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-0.99versie16oktober2019-3-20191025-20191027-112651</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -21,7 +21,7 @@
             <h2>Het domeinmodel</h2>
             <section id="" level="3">
                <div class="imageinfo overview"><img src="Images/EAID_037484F1_4385_43fe_B9A7_1A849CBC1683.png" usemap="#imagemap-EAID_037484F1_4385_43fe_B9A7_1A849CBC1683"><map name="imagemap-EAID_037484F1_4385_43fe_B9A7_1A849CBC1683">
-                     <area shape="rect" coords="843,525,994,455" alt="" href="#graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB">
+                     <area shape="rect" coords="706,569,796,499" alt="" href="#graph_EAID_85392C61_2694_433a_89B1_7CB7439020AE">
                      <area shape="rect" coords="866,778,1047,625" alt="" href="#graph_EAID_A3EFAD78_CF43_496b_9454_F58C164C823C">
                      <area shape="rect" coords="641,713,812,625" alt="" href="#graph_EAID_D9F10174_6BE1_4726_AD71_3E27E1A28945">
                      <area shape="rect" coords="449,765,605,625" alt="" href="#graph_EAID_E1824E51_FA7A_4696_88DF_D4B613459AE6">
@@ -31,6 +31,7 @@
                      <area shape="rect" coords="398,407,656,293" alt="" href="#graph_EAID_8A3656CD_0F50_48f6_9CF0_0890F48CA39A">
                      <area shape="rect" coords="802,433,1047,293" alt="" href="#graph_EAID_3C291EC5_84C5_4d25_8E28_F9D97115F1F7">
                      <area shape="rect" coords="802,186,1047,85" alt="" href="#graph_EAID_34645118_BDCB_4863_8A47_BF5AE086C2D3">
+                     <area shape="rect" coords="884,530,1035,460" alt="" href="#graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB">
                      <area shape="rect" coords="11,375,256,300" alt="" href="#graph_EAID_05CC081B_EF1F_4a65_96D4_4D0492C3A9A4">
                      <area shape="rect" coords="406,85,648,10" alt="" href="#graph_EAID_DC3E6339_1B2C_482c_AB74_881D1281A2EC">
                      <area shape="rect" coords="406,226,648,138" alt="" href="#graph_EAID_A420FBE3_89CE_466c_875A_7F10AD21E90D"></map><p><b>Domeinmodel BRO SFR Bodemkundige analyses Basis</b></p>
@@ -12859,14 +12860,14 @@
                         <tr>
                            <th>Relaties met andere entiteiten</th>
                            <td>Basis korrelgrootteverdeling 
-                              heeft 0..* 
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling">Niet gestandaardiseerde fractieverdeling</a>
-                              <br>Basis korrelgrootteverdeling 
                               nader onderverdeeld in 0..1 
                               <a class="link" href="#global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractieGroter63M">Uitgebreide verdeling fractie groter63µm</a>
                               <br>Basis korrelgrootteverdeling 
                               nader onderverdeeld in 0..1 
                               <a class="link" href="#global_class_DomeinmodelBROSFR_StandaardVerdelingFractieGroter63M">Standaard verdeling fractie groter63µm </a>
+                              <br>Basis korrelgrootteverdeling 
+                              heeft 0..1 
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractie">Niet gestandaardiseerde fractie</a>
                               <br>Basis korrelgrootteverdeling 
                               nader onderverdeeld in 0..1 
                               <a class="link" href="#global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50M">Uitgebreide verdeling fractie kleiner50µm</a>
@@ -14145,8 +14146,8 @@
                      </table>
                      
                   </section>
-               </section><a class="anchor" name="graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling"></a><section id="global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling" level="4">
-                  <h3>   Niet gestandaardiseerde fractieverdeling</h3>
+               </section><a class="anchor" name="graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_Fractie"></a><section id="global_class_DomeinmodelBROSFR_Fractie" level="4">
+                  <h3>   Fractie</h3>
                   <div class="imageinfo "><img src="Images/EAID_19AC7496_B31C_408d_A386_F7811F324F31.png" usemap="#imagemap-EAID_19AC7496_B31C_408d_A386_F7811F324F31"><map name="imagemap-EAID_19AC7496_B31C_408d_A386_F7811F324F31">
                         <area shape="rect" coords="10,85,202,10" alt="" href="#graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB"></map><p><b>IMBRO/A fractie verdeling</b></p>
                   </div>
@@ -14159,14 +14160,22 @@
                            <td>Entiteit</td>
                         </tr>
                         <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De fractie beschreven met een ondergrens, een bovengrens en de bepaalde fractie. !</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Relaties met andere entiteiten</th>
                            <td>
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling">Basis korrelgrootteverdeling</a>
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractie">Niet gestandaardiseerde fractie</a>
                               
-                              heeft 0..* Niet gestandaardiseerde fractieverdeling<br></td>
+                              nader onderverdeeld in 1..* Fractie<br></td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling_ondergrens"></a><section id="detail_attribute_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling_ondergrens" level="5">
+                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Fractie_ondergrens"></a><section id="detail_attribute_DomeinmodelBROSFR_Fractie_ondergrens" level="5">
                      <h4>  ondergrens</h4>
                      
                      <table width="100%">
@@ -14175,7 +14184,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Niet gestandaardiseerde fractieverdeling</td>
+                              <td>Attribuut van Fractie</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14216,7 +14225,7 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling_bovengrens"></a><section id="detail_attribute_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling_bovengrens" level="5">
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Fractie_bovengrens"></a><section id="detail_attribute_DomeinmodelBROSFR_Fractie_bovengrens" level="5">
                      <h4>  bovengrens</h4>
                      
                      <table width="100%">
@@ -14225,7 +14234,15 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Niet gestandaardiseerde fractieverdeling</td>
+                              <td>Attribuut van Fractie</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De maximale diameter van de korrels.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -14241,16 +14258,32 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 4.0</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
                            </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>µm (micrometer)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 2000</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De bovengrens is groter dan de ondergrens van de fractie.</p>
+                                 
+                              </td>
+                           </tr>
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling_fractie"></a><section id="detail_attribute_DomeinmodelBROSFR_NietGestandaardiseerdeFractieverdeling_fractie" level="5">
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Fractie_fractie"></a><section id="detail_attribute_DomeinmodelBROSFR_Fractie_fractie" level="5">
                      <h4>  fractie</h4>
                      
                      <table width="100%">
@@ -14259,7 +14292,15 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Niet gestandaardiseerde fractieverdeling</td>
+                              <td>Attribuut van Fractie</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het aandeel van de korrels in de massa van het materiaal.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -14275,11 +14316,30 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 3.1</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>% (procent)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 100</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In de bodemkunde is de totale massa van het materiaal altijd van het materiaal met
+                                    de korrelgrootte tot 2 mm. Standaard wordt al het materiaal groter dan 2 milimeter
+                                    verwijderd. 
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -21684,6 +21744,54 @@
                               <a class="link" href="#global_class_DomeinmodelBROSFR_Wandonderzoek">Wandonderzoek</a>
                               
                               heeft 0..* Wandfotografie (BUITEN SCOPE)<br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section><a class="anchor" name="graph_EAID_85392C61_2694_433a_89B1_7CB7439020AE"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractie"></a><section id="global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractie" level="4">
+                  <h3>   Niet gestandaardiseerde fractie</h3>
+                  <table width="100%">
+                     <colgroup width="30%"></colgroup>
+                     <colgroup width="70%"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omschrijving van een niet gestandaardiseerde fractieverdeling. </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn onder IMBRO/A wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nietGestandaardiseerd</em>.
+                                 De entiteit moet ontbreken in alle andere gevallen.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">!</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>Niet gestandaardiseerde fractie 
+                              nader onderverdeeld in 1..* 
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_Fractie">Fractie</a>
+                              <br>
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling">Basis korrelgrootteverdeling</a>
+                              
+                              heeft 0..1 Niet gestandaardiseerde fractie<br></td>
                         </tr>
                      </tbody>
                   </table>
