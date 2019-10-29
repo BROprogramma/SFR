@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20191025</p>
       <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-0.99versie16oktober2019-3-20191025-20191029-060342</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-0.99versie16oktober2019-3-20191025-20191029-070512</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -16048,6 +16048,46 @@
                            <td>Entiteit</td>
                         </tr>
                         <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het volgens een bepaalde methode bepalen van de afname van de massa en het volume
+                                 van de grond bij uitdroging.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd, hydrofysicaNietGespecificeerd, hydrofysicaStandaard
+                                    of hydrofysicaStandaardChemieNietGespecificeerd.</em>
+                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De krimp wordt bepaald aan allerlei soorten monsters. De massa wordt bepaald met een
+                                 weegschaal en het volume met één van de verschillende methodes. In deze methodes vind
+                                 er veel ontwikkeling plaats waarbij men in de toekomst ook met laseropstellingen en
+                                 camera opstellingen het volume van een monster wil bepalen.
+                                 Het verloop van de krimp kan aan zowel verstoorde als onverstoorde monster worden
+                                 gemeten. Het monster wordt altijd eerst volledig verzadigd met water. Vervolgens wordt
+                                 bij iedere meting van het verloop van de krimp de massa bepaald met een balans en
+                                 het volume volgens een bepaalde methode bepaald. De hoeveelheid tijd die tussen de
+                                 metingen zit, is niet relevant om vast te leggen. Men is geïnteresseerd in het verband
+                                 tussen de massa en het volume van het monster. De experimentator bepaalt hoeveel metingen
+                                 er worden gedaan.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Relaties met andere entiteiten</th>
                            <td>Bepaling krimpverloop 
                               leidt tot 1 
@@ -16070,6 +16110,14 @@
                               <td>Attribuut van Bepaling krimpverloop</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De procedure die aangeeft onder welke afspraken de bepaling is uitgevoerd.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -16089,6 +16137,24 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system"> De waarde van het attribuut moet gelijk zijn aan<br clear="none"></br>
+                                    <em>bronswijk1986</em>, <em>cameraprocedureWENRv1</em> of <em>laserprocedureWENRv1</em>.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Regels IMBRO/A</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan onbekend.</p>
+                                 
+                              </td>
+                           </tr>
                         </tbody>
                      </table>
                      
@@ -16102,6 +16168,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Bepaling krimpverloop</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De manier waarop het krimpverloop is bepaald.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -16126,8 +16200,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_BepalingKrimpverloop_onverstoord"></a><section id="detail_attribute_DomeinmodelBROSFR_BepalingKrimpverloop_onverstoord" level="5">
-                     <h4>  onverstoord</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_BepalingKrimpverloop_verstoord"></a><section id="detail_attribute_DomeinmodelBROSFR_BepalingKrimpverloop_verstoord" level="5">
+                     <h4>  verstoord</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -16136,6 +16210,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Bepaling krimpverloop</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of er een verstoord monster is gebruikt.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -16157,6 +16239,18 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst niet uitbreidbaar</td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Met verstoord wordt bedoelt of het monster in verstoord uit de grond is genomen of
+                                    in zijn geheel uit de grond is genomen. Voorbeelden van monsters die in zijn geheel
+                                    uit de grond zijn gehaald zijn monsters die met een schop omhoog gehaald zijn als
+                                    kluit of gestoken als ringmonster.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
                         </tbody>
                      </table>
                      
@@ -16170,6 +16264,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Bepaling krimpverloop</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de bepaling verticaal is uitgevoerd.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -16186,6 +16288,10 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>IndicatieJaNee</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
+                              <td>IndicatieJaNeeOnbekend</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
@@ -16206,6 +16312,14 @@
                               <td>Attribuut van Bepaling krimpverloop</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De temperatuur waaronder de bepaling is uitgevoerd. </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -16219,11 +16333,33 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 2.1</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>°C (graden Celsius)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>10 tot 40</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het is goede praktijk de temperatuur zo te reguleren dat de waarde niet meer dan een
+                                    graad afwijkt.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td>Voor IMBRO/A-gegevens mag de waarde ontbreken.</td>
                            </tr>
                         </tbody>
                      </table>
@@ -16240,12 +16376,22 @@
                               <td>Attribuut van Bepaling krimpverloop</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een bijzonderheid die tijdens de bepaling is geconstateerd door het onderzochte materiaal
+                                    te bekijken, en die van invloed kan zijn op de resultaten van de bepaling.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>0..3</td>
+                              <td>0..2</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -16258,6 +16404,19 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system"> Tijdens de uitvoering kunnen er bijzonderheden worden geconstateerd die extra informatie
+                                    over de aard van het onderzochte materiaal geven. In de huidige praktijk legt de uitvoerder
+                                    eventuele bijzonderheden altijd vast. In het verleden was dat niet altijd het geval
+                                    en voor historische gegevens kan aan het ontbreken van dit gegeven geen betekenis
+                                    worden toegekend. 
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -16276,6 +16435,26 @@
                         <tr>
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De afname in de massa en het volume.</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het woord krimp impliceert dat het volume en de massa altijd afneemt. Er worden minimaal
+                                 2 metingen uitgevoerd, namelijk aan een volledig verzadigd monster en aan een volledig
+                                 uitgedroogd monster. Het aantal metingen ertussen in kan sterk varieren met het doel
+                                 van de proef en de opdracht waarbinnen de proef wordt uitgevoerd.
+                              </p>
+                              
+                           </td>
                         </tr>
                         <tr>
                            <th>Relaties met andere entiteiten</th>
@@ -16303,6 +16482,25 @@
                            <td>Entiteit</td>
                         </tr>
                         <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De massa en het volume van de grond.</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De krimptoestand geeft de massa en het volume van de grond op een bepaald tijdstip
+                                 weer. Afhankelijk van de methode om het volume te bepalen wordt ook de gemiddelde
+                                 hoogte en/of de gemiddelde breedte van het monster vastgelegd.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Relaties met andere entiteiten</th>
                            <td>
                               <a class="link" href="#global_class_DomeinmodelBROSFR_Krimpverloop">Krimpverloop</a>
@@ -16322,6 +16520,14 @@
                               <td>Attribuut van Krimptoestand</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De massa die het monster heeft. </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -16335,11 +16541,19 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 2.1</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>g (gram)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 99</td>
                            </tr>
                         </tbody>
                      </table>
@@ -16356,6 +16570,14 @@
                               <td>Attribuut van Krimptoestand</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het volume dat het monster inneemt. </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -16369,11 +16591,19 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 2.1</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>cm3 (kubieke centimeter)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 99</td>
                            </tr>
                         </tbody>
                      </table>
@@ -16390,6 +16620,14 @@
                               <td>Attribuut van Krimptoestand</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De gemiddelde hoogte die het monster heeft.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -16403,11 +16641,27 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 2.1</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>cm (centimeter)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 50</td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Ja</td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td>Voor IMBRO/A-gegevens mag de waarde ontbreken.</td>
                            </tr>
                         </tbody>
                      </table>
@@ -16424,6 +16678,14 @@
                               <td>Attribuut van Krimptoestand</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De gemiddelde breedte die het monster heeft.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -16437,11 +16699,27 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
+                              <td>Meetwaarde 2.1</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>cm (centimeter)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 50</td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Ja</td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td>Voor IMBRO/A-gegevens mag de waarde ontbreken.</td>
                            </tr>
                         </tbody>
                      </table>
@@ -23097,32 +23375,28 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>vanGenugten</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>mualemvanGenugten</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
                      <td>beuving1986</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bronswijk 1986: <em>Handleiding voor het bepalen van het zwel- en krimpvermogen van een bodem</em> voor eigen gebruik opgesteld door het ICW beschrijft de procedure voor het bepalen
+                           van het krimpverloop van grond.<br clear="none"></br>
+                           
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>cameraprocedureWENRv1</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van het volume
+                           van krimpende grond met behulp van een camera. In de procedure staat opgenomen welke
+                           bewerkingsstappen er zijn om het volume te bepalen.
+                        </p>
                         
                      </td>
                   </tr>
@@ -23140,14 +23414,24 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>NEN5789plusWENR</td>
+                     <td>EN15936v2012</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde
-                           waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991
-                           <em>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</em> en op onderdelen wat specifieker is.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN 15936:2012 Bepaling van de totale organische koolstof door droge verbranding.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>laserprocedureWENRv1</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van het volume
+                           van krimpende grond met behulp van een laser. In de procedure staat opgenomen welke
+                           bewerkingsstappen er zijn om het volume te bepalen.
                         </p>
                         
                      </td>
@@ -23161,36 +23445,6 @@
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een door WEnR voor eigen gebruik opgestelde procedure voor het bepalen van de droge
                            bulkdichtheid die zich conformeert aan <em>ISO 11272:2017 Soil quality -Determination of dry bulk density</em> en op onderdelen wat specifieker is.
                         </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>standaard WENR camera procedure</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>standaard WENR laser procedure</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>Bronswijk1986</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">to do</p>
                         
                      </td>
                   </tr>
@@ -23221,54 +23475,16 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>ISO14235v1998</td>
+                     <td>ISO11277v2009</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">ISO 14235:1998 Bepaling van organisch koolstof met sulfachrome oxidatie.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>EN15936v2012</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN 15936:2012 Bepaling van de totale organische koolstof door droge verbranding.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>NENISO10390v2005</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN-ISO 10390:2005 Instrumentele bepaling van de zuurgraad uitgedrukt in pH gebruik
-                           makend van een glaselectrode.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN-ISO 11277:2009<em>Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode
+                              door zeven en sedimentering</em> beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel
+                           van zeven.
+                           Een internationale norm geaccepteerd door Nederland.
                         </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>NEN5754v2014</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN 5754:2014 Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>onbekend</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend volgens welke procedure de bepaling is uitgevoerd.</p>
                         
                      </td>
                   </tr>
@@ -23286,15 +23502,23 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>ISO11277v2009</td>
+                     <td>ISO14235v1998</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN-ISO 11277:2009<em>Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode
-                              door zeven en sedimentering</em> beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel
-                           van zeven.
-                           Een internationale norm geaccepteerd door Nederland.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">ISO 14235:1998 Bepaling van organisch koolstof met sulfachrome oxidatie.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>NENISO10390v2005</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN-ISO 10390:2005 Instrumentele bepaling van de zuurgraad uitgedrukt in pH gebruik
+                           makend van een glaselectrode.
                         </p>
                         
                      </td>
@@ -23311,6 +23535,39 @@
                            verdeling in grond en waterbodem na verwijdering van organische stof, carbonaten en
                            eventueel ijzer.
                         </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>NEN5754v2014</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">NEN 5754:2014 Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>NEN5789plusWENR</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde
+                           waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991
+                           <em>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</em> en op onderdelen wat specifieker is.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>onbekend</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend volgens welke procedure de bepaling is uitgevoerd.</p>
                         
                      </td>
                   </tr>
