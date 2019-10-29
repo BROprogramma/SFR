@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20191025</p>
       <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-0.99versie16oktober2019-3-20191025-20191028-180436</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-0.99versie16oktober2019-3-20191025-20191029-053616</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -90,7 +90,7 @@
                      <area shape="rect" coords="759,541,931,501" alt="" href="#graph_EAID_FBF7EE9E_B144_44cb_884B_E43C32018A3C">
                      <area shape="rect" coords="453,719,617,618" alt="" href="#graph_EAID_C9AA7519_2AF8_4dd9_89FB_57D75C258967">
                      <area shape="rect" coords="420,541,650,440" alt="" href="#graph_EAID_5FB93F12_08C4_46da_B34D_E95D364293A1">
-                     <area shape="rect" coords="417,376,653,262" alt="" href="#graph_EAID_ED8DE5D2_7585_496c_8B3C_F887234EE5BA">
+                     <area shape="rect" coords="417,376,659,262" alt="" href="#graph_EAID_ED8DE5D2_7585_496c_8B3C_F887234EE5BA">
                      <area shape="rect" coords="61,706,221,618" alt="" href="#graph_EAID_E16F0A23_FB18_4ee9_B374_D7CB58CB2E23">
                      <area shape="rect" coords="30,510,252,440" alt="" href="#graph_EAID_E1ACF1B6_24DC_4c23_A9A8_3C13199F7CD8">
                      <area shape="rect" coords="18,363,264,262" alt="" href="#graph_EAID_DAAF285C_6B5F_4ccc_9633_42F19B112D3B">
@@ -12443,8 +12443,10 @@
                </section><a class="anchor" name="graph_EAID_8A3656CD_0F50_48f6_9CF0_0890F48CA39A"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_BepalingKorrelgrootteverdeling"></a><section id="global_class_DomeinmodelBROSFR_BepalingKorrelgrootteverdeling" level="4">
                   <h3>   Bepaling korrelgrootteverdeling</h3>
                   <div class="imageinfo "><img src="Images/EAID_F8D3D733_74B6_4562_80CC_954B63181B6C.png" usemap="#imagemap-EAID_F8D3D733_74B6_4562_80CC_954B63181B6C"><map name="imagemap-EAID_F8D3D733_74B6_4562_80CC_954B63181B6C">
-                        <area shape="rect" coords="10,191,280,163" alt="" href="#graph_EAID_871F5094_E2B5_47a6_8F29_74B442A18DDA">
-                        <area shape="rect" coords="10,124,280,10" alt="" href="#graph_EAID_8A3656CD_0F50_48f6_9CF0_0890F48CA39A"></map><p><b>Bepaling korrelgrootteverdeling</b></p>
+                        <area shape="rect" coords="220,417,490,389" alt="" href="#graph_EAID_871F5094_E2B5_47a6_8F29_74B442A18DDA">
+                        <area shape="rect" coords="220,350,490,236" alt="" href="#graph_EAID_8A3656CD_0F50_48f6_9CF0_0890F48CA39A">
+                        <area shape="rect" coords="569,488,707,408" alt="" href="#graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB">
+                        <area shape="rect" coords="10,90,110,10" alt="" href="#graph_EAID_85392C61_2694_433a_89B1_7CB7439020AE"></map><p><b>Bepaling korrelgrootteverdeling</b></p>
                   </div>
                   <table width="100%">
                      <colgroup width="30%"></colgroup>
@@ -12482,7 +12484,7 @@
                                  Het materiaal waaruit het onderzochte interval bestaat wordt vooraf gedroogd bij 40
                                  graden Celsius, materiaal groter dan 2 milimeter wordt eruit gezeefd en wordt verder
                                  buiten beschouwing gelaten. Carbonaten en organische stof worden verwijderd en samengeklonterde
-                                 korreltjes worden van elkaar los gemaakt (dispersie).
+                                 korreltjes worden van elkaar los gemaakt (<em>dispersie</em>).
                                  Het materiaal wordt vervolgens op een bepaalde manier verdeeld in fracties. De droge
                                  massa van iedere fractie wordt bepaald en het resultaat wordt omgerekend naar een
                                  percentage van de totale massa van alle deeltjes kleiner dan 2 milimeter.
@@ -12496,6 +12498,9 @@
                            <td>Bepaling korrelgrootteverdeling 
                               resulteert in 0..1 
                               <a class="link" href="#global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling">Basis korrelgrootteverdeling</a>
+                              <br>Bepaling korrelgrootteverdeling 
+                              heeft 0..1 
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractieVerdeling">Niet gestandaardiseerde fractie verdeling</a>
                               <br>
                               <a class="link" href="#global_class_DomeinmodelBROSFR_OnderzochtInterval">Onderzocht interval</a>
                               
@@ -12626,7 +12631,7 @@
                                     2000 µm. Van oudsher is voor bodemkunde de grens van 50 µm belangrijk om de zandmediaan
                                     te kunnen bepalen. Om aan te sluiten bij internationale standaarden wordt sinds 2012
                                     standaard de fractie van 50 µm tot 63 µm bepaald.
-                                    De fractie groter dan 63 µm wordt verder onderverdeeld wanneer het aandeel groter
+                                    De fractie van 63 µm tot 2000  µm wordt verder onderverdeeld wanneer het aandeel groter
                                     is dan 10%. Dit gebeurt door het droge materiaal te zeven.
                                     De fijne fractie wordt normaliter ook verder onderverdeeld wanneer het aandeel groter
                                     is dan 10%. De verdeling van de fijne fractie wordt bepaald op basis van de bezinksnelheid
@@ -12634,8 +12639,8 @@
                                     deze methoden zijn minder nauwkeurig dan bij zeving. 
                                     Wanneer laserdiffractie wordt toegepast, worden de fracties quasi-continu bepaald,
                                     waarbij de meting in volumeprocenten omgerekend wordt naar massa procenten.
-                                    Voor 2012 werd de fractie 50 tot 63µm nooit apart bepaald en dan geldt de IMBRO/A
-                                    fractie verdeling.
+                                    Voor 2012 werd de fractie 50 tot 63µm bijna nooit apart bepaald en dan geldt de niet
+                                    standaard fractie verdeling.
                                  </p>
                                  
                               </td>
@@ -12894,8 +12899,6 @@
                </section><a class="anchor" name="graph_EAID_871F5094_E2B5_47a6_8F29_74B442A18DDA"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling"></a><section id="global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling" level="4">
                   <h3>   Basis korrelgrootteverdeling</h3>
                   <div class="imageinfo "><img src="Images/EAID_7677F4C2_683C_4f21_995D_E615DA0C2AB9.png" usemap="#imagemap-EAID_7677F4C2_683C_4f21_995D_E615DA0C2AB9"><map name="imagemap-EAID_7677F4C2_683C_4f21_995D_E615DA0C2AB9">
-                        <area shape="rect" coords="449,372,611,328" alt="" href="#graph_EAID_85392C61_2694_433a_89B1_7CB7439020AE">
-                        <area shape="rect" coords="449,481,611,437" alt="" href="#graph_EAID_431226DB_231C_42b8_8010_00402BDFC5AB">
                         <area shape="rect" coords="449,267,611,223" alt="" href="#graph_EAID_A3EFAD78_CF43_496b_9454_F58C164C823C">
                         <area shape="rect" coords="449,162,611,118" alt="" href="#graph_EAID_D9F10174_6BE1_4726_AD71_3E27E1A28945">
                         <area shape="rect" coords="10,372,172,328" alt="" href="#graph_EAID_E1824E51_FA7A_4696_88DF_D4B613459AE6">
@@ -12925,6 +12928,7 @@
                               
                               <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nietGestandaardiseerd</em>.
                                  Het attribuut moet aanwezig zijn in alle andere gevallen. 
+                                 De som van de fracties is 100%.
                               </p>
                               
                            </td>
@@ -12943,13 +12947,10 @@
                            <th>Relaties met andere entiteiten</th>
                            <td>Basis korrelgrootteverdeling 
                               nader onderverdeeld in 0..1 
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium">Uitgebreide verdeling fractie 63tot2000ium</a>
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um">Uitgebreide verdeling fractie 63tot2000um</a>
                               <br>Basis korrelgrootteverdeling 
                               nader onderverdeeld in 0..1 
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium">Standaard verdeling fractie 63tot2000ium</a>
-                              <br>Basis korrelgrootteverdeling 
-                              heeft 0..1 
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_NietGestandaardiseerdeFractieVerdeling">Niet gestandaardiseerde fractie verdeling</a>
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um">Standaard verdeling fractie 63tot2000um</a>
                               <br>Basis korrelgrootteverdeling 
                               nader onderverdeeld in 0..1 
                               <a class="link" href="#global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um">Uitgebreide verdeling fractie kleiner50um</a>
@@ -13296,8 +13297,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardBasis</em>,<br clear="none"></br>
-                                 <em>standaardStandaard</em> of <em>standaardUitgebreid</em>.
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardBasis</em>, <em>standaardStandaard</em> of <em>standaardUitgebreid</em>.
                                  De entiteit moet afwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -13321,8 +13321,8 @@
                               nader onderverdeeld in 0..1 Standaard verdeling fractie kleiner50um <br></td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie0tot2M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie0tot2M" level="5">
-                     <h4>  fractie 0tot2µm</h4>
+                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie0tot2um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie0tot2um" level="5">
+                     <h4>  fractie 0tot2um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13371,8 +13371,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie2tot16M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie2tot16M" level="5">
-                     <h4>  fractie 2tot16µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie2tot16um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie2tot16um" level="5">
+                     <h4>  fractie 2tot16um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13421,8 +13421,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie16tot50M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie16tot50M" level="5">
-                     <h4>  fractie 16tot50µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie16tot50um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractieKleiner50um_fractie16tot50um" level="5">
+                     <h4>  fractie 16tot50um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13523,8 +13523,8 @@
                               nader onderverdeeld in 0..1 Uitgebreide verdeling fractie kleiner50um<br></td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie0tot2M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie0tot2M" level="5">
-                     <h4>  fractie 0tot2µm</h4>
+                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie0tot2um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie0tot2um" level="5">
+                     <h4>  fractie 0tot2um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13573,8 +13573,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie2ot4M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie2ot4M" level="5">
-                     <h4>  fractie 2ot4µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie2ot4um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie2ot4um" level="5">
+                     <h4>  fractie 2ot4um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13623,8 +13623,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie4tot8M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie4tot8M" level="5">
-                     <h4>  fractie 4tot8µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie4tot8um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie4tot8um" level="5">
+                     <h4>  fractie 4tot8um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13673,8 +13673,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie8tot16M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie8tot16M" level="5">
-                     <h4>  fractie 8tot16µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie8tot16um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie8tot16um" level="5">
+                     <h4>  fractie 8tot16um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13723,8 +13723,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie16tot25M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie16tot25M" level="5">
-                     <h4>  fractie 16tot25µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie16tot25um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie16tot25um" level="5">
+                     <h4>  fractie 16tot25um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13773,8 +13773,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie25tot35M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie25tot35M" level="5">
-                     <h4>  fractie 25tot35µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie25tot35um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie25tot35um" level="5">
+                     <h4>  fractie 25tot35um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13823,8 +13823,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie35tot50M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie35tot50M" level="5">
-                     <h4>  fractie 35tot50µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie35tot50um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractieKleiner50um_fractie35tot50um" level="5">
+                     <h4>  fractie 35tot50um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13874,8 +13874,8 @@
                      </table>
                      
                   </section>
-               </section><a class="anchor" name="graph_EAID_D9F10174_6BE1_4726_AD71_3E27E1A28945"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium"></a><section id="global_class_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium" level="4">
-                  <h3>   Standaard verdeling fractie 63tot2000ium</h3>
+               </section><a class="anchor" name="graph_EAID_D9F10174_6BE1_4726_AD71_3E27E1A28945"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um"></a><section id="global_class_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um" level="4">
+                  <h3>   Standaard verdeling fractie 63tot2000um</h3>
                   <div class="imageinfo "><img src="Images/EAID_D7DFA672_AACF_4314_BCEF_C5DB15565DA8.png" usemap="#imagemap-EAID_D7DFA672_AACF_4314_BCEF_C5DB15565DA8"><map name="imagemap-EAID_D7DFA672_AACF_4314_BCEF_C5DB15565DA8">
                         <area shape="rect" coords="10,98,218,10" alt="" href="#graph_EAID_D9F10174_6BE1_4726_AD71_3E27E1A28945"></map><p><b>Standaard verdeling fractie groter63µm</b></p>
                   </div>
@@ -13911,11 +13911,11 @@
                            <td>
                               <a class="link" href="#global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling">Basis korrelgrootteverdeling</a>
                               
-                              nader onderverdeeld in 0..1 Standaard verdeling fractie 63tot2000ium<br></td>
+                              nader onderverdeeld in 0..1 Standaard verdeling fractie 63tot2000um<br></td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie63tot105M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie63tot105M" level="5">
-                     <h4>  fractie 63tot105µm</h4>
+                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie63tot105um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie63tot105um" level="5">
+                     <h4>  fractie 63tot105um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13923,7 +13923,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Standaard verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Standaard verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -13966,8 +13966,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie105ot210M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie105ot210M" level="5">
-                     <h4>  fractie 105ot210µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie105ot210um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie105ot210um" level="5">
+                     <h4>  fractie 105ot210um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -13975,7 +13975,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Standaard verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Standaard verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14018,8 +14018,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie210tot420M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie210tot420M" level="5">
-                     <h4>  fractie 210tot420µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie210tot420um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie210tot420um" level="5">
+                     <h4>  fractie 210tot420um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14027,7 +14027,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Standaard verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Standaard verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14070,8 +14070,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie420tot2000M"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000ium_fractie420tot2000M" level="5">
-                     <h4>  fractie 420tot2000µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie420tot2000um"></a><section id="detail_attribute_DomeinmodelBROSFR_StandaardVerdelingFractie63tot2000um_fractie420tot2000um" level="5">
+                     <h4>  fractie 420tot2000um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14079,7 +14079,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Standaard verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Standaard verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14123,8 +14123,8 @@
                      </table>
                      
                   </section>
-               </section><a class="anchor" name="graph_EAID_A3EFAD78_CF43_496b_9454_F58C164C823C"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium"></a><section id="global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium" level="4">
-                  <h3>   Uitgebreide verdeling fractie 63tot2000ium</h3>
+               </section><a class="anchor" name="graph_EAID_A3EFAD78_CF43_496b_9454_F58C164C823C"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um"></a><section id="global_class_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um" level="4">
+                  <h3>   Uitgebreide verdeling fractie 63tot2000um</h3>
                   <div class="imageinfo "><img src="Images/EAID_A7F4F352_573C_4ae7_9575_C3D1693C53A1.png" usemap="#imagemap-EAID_A7F4F352_573C_4ae7_9575_C3D1693C53A1"><map name="imagemap-EAID_A7F4F352_573C_4ae7_9575_C3D1693C53A1">
                         <area shape="rect" coords="10,163,251,10" alt="" href="#graph_EAID_A3EFAD78_CF43_496b_9454_F58C164C823C"></map><p><b>Uitgebreide verdeling fractie groter63µm</b></p>
                   </div>
@@ -14161,11 +14161,11 @@
                            <td>
                               <a class="link" href="#global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling">Basis korrelgrootteverdeling</a>
                               
-                              nader onderverdeeld in 0..1 Uitgebreide verdeling fractie 63tot2000ium<br></td>
+                              nader onderverdeeld in 0..1 Uitgebreide verdeling fractie 63tot2000um<br></td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie63tot105M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie63tot105M" level="5">
-                     <h4>  fractie 63tot105µm</h4>
+                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie63tot105um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie63tot105um" level="5">
+                     <h4>  fractie 63tot105um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14173,7 +14173,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14216,8 +14216,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie105ot210M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie105ot210M" level="5">
-                     <h4>  fractie 105ot210µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie105ot210um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie105ot210um" level="5">
+                     <h4>  fractie 105ot210um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14225,7 +14225,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14268,8 +14268,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie210tot300M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie210tot300M" level="5">
-                     <h4>  fractie 210tot300µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie210tot300um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie210tot300um" level="5">
+                     <h4>  fractie 210tot300um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14277,7 +14277,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14320,8 +14320,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie300tot420M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie300tot420M" level="5">
-                     <h4>  fractie 300tot420µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie300tot420um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie300tot420um" level="5">
+                     <h4>  fractie 300tot420um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14329,7 +14329,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14372,8 +14372,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie420tot600M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie420tot600M" level="5">
-                     <h4>  fractie 420tot600µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie420tot600um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie420tot600um" level="5">
+                     <h4>  fractie 420tot600um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14381,7 +14381,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14424,8 +14424,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie600tot850M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie600tot850M" level="5">
-                     <h4>  fractie 600tot850µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie600tot850um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie600tot850um" level="5">
+                     <h4>  fractie 600tot850um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14433,7 +14433,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14476,8 +14476,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie850tot1200M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie850tot1200M" level="5">
-                     <h4>  fractie 850tot1200µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie850tot1200um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie850tot1200um" level="5">
+                     <h4>  fractie 850tot1200um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14485,7 +14485,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14528,8 +14528,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie1200tot1700M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie1200tot1700M" level="5">
-                     <h4>  fractie 1200tot1700µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie1200tot1700um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie1200tot1700um" level="5">
+                     <h4>  fractie 1200tot1700um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14537,7 +14537,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14580,8 +14580,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie1700tot2000M"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000ium_fractie1700tot2000M" level="5">
-                     <h4>  fractie 1700tot2000µm</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie1700tot2000um"></a><section id="detail_attribute_DomeinmodelBROSFR_UitgebreideVerdelingFractie63tot2000um_fractie1700tot2000um" level="5">
+                     <h4>  fractie 1700tot2000um</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -14589,7 +14589,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000ium</td>
+                              <td>Attribuut van Uitgebreide verdeling fractie 63tot2000um</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -14647,7 +14647,7 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De een niet gestandaardiseerde fractieverdeling van de grond.</p>
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De niet gestandaardiseerde fractieverdeling van de grond.</p>
                               
                            </td>
                         </tr>
@@ -14657,6 +14657,7 @@
                               
                               <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn onder IMBRO/A wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nietGestandaardiseerd</em>.
                                  De entiteit moet ontbreken in alle andere gevallen.
+                                 De som van de fracties is kleiner of gelijk aan 100%.
                               </p>
                               
                            </td>
@@ -14665,9 +14666,12 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In het verleden zijn fractieverdelingen in vele verschillende reeksen gemeten. Ook
-                                 is niet altijd de gehele reeks vastgelegd, maar bijvoorbeeld alleen de fractie van
-                                 0-2 omdat dat het lutumgehalte vertegenwoordigd.
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In het verleden zijn fractieverdelingen in vele verschillende reeksen gemeten met
+                                 verschillende grenzen van de fracties. Ook is niet altijd de gehele reeks vastgelegd,
+                                 maar bijvoorbeeld alleen de fractie van 0 tot 2 um omdat dat het lutumgehalte vertegenwoordigd.
+                                 Dit impliceert dat de rest van de fractie 2 tot 2000 um is. In principe geldt dat
+                                 alle ontbrekend fracties samen met de bekende fractie 100% voorstelt.<br clear="none"></br>
+                                 
                               </p>
                               
                            </td>
@@ -14678,7 +14682,7 @@
                               nader onderverdeeld in 1..* 
                               <a class="link" href="#global_class_DomeinmodelBROSFR_Fractie">Fractie</a>
                               <br>
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_BasisKorrelgrootteverdeling">Basis korrelgrootteverdeling</a>
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_BepalingKorrelgrootteverdeling">Bepaling korrelgrootteverdeling</a>
                               
                               heeft 0..1 Niet gestandaardiseerde fractie verdeling<br></td>
                         </tr>
@@ -14709,7 +14713,7 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De fracties die bij archiefgegevens kunnen voorkomen zijn: 0 µm tot 2 µm, 0 µm tot
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De fracties die bij archiefgegevens van WeNR voorkomen zijn: 0 µm tot 2 µm, 0 µm tot
                                  50 µm, 0 µm tot 150 µm, 0 µm tot 210 µm, 0 µm tot 300 µm, 2 µm tot 4 µm, 2 µm tot
                                  16 µm, 2 µm tot 50 µm, 2 µm tot 2000 µm, 4 µm tot 8 µm, 8 µm tot 16 µm, 16 µm tot
                                  25 µm, 16 µm tot 35 µm, 16 µm tot 50 µm, 25 µm tot 35 µm, 35 µm tot 50 µm, 75 µm tot
@@ -14722,7 +14726,7 @@
                                  210 µm tot 420 µm, 210 µm tot 2000 µm, 250 µm tot 355 µm, 300 µm tot 420 µm, 300 µm
                                  tot 2000 µm, 355 µm tot 500 µm, 420 µm tot 600 µm, 420 µm tot 2000 µm, 500 µm tot
                                  1000 µm, 600 µm tot 850 µm, 600 µm tot 2000 µm, 850 µm tot 1200 µm, 1000 µm tot 2000
-                                 µm, 1200 µm tot 1700 µm en 1700 µm tot 2000 µ.
+                                 µm, 1200 µm tot 1700 µm en 1700 µm tot 2000 µm.
                               </p>
                               
                            </td>
@@ -21008,6 +21012,16 @@
                         <tr>
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het volgens een bepaalde methode modelleren van het verband tussen het watergehalte,
+                                 de waterdoorlatendheid en de bodemvochtpotentiaal.
+                              </p>
+                              
+                           </td>
                         </tr>
                         <tr>
                            <th>Relaties met andere entiteiten</th>
@@ -37289,61 +37303,111 @@
                      <td>geen</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Er is voorafgaand aan de bepaling geen materiaal verwijderd.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>antropogeenStenigBestanddeel</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling is stenig antropogeen materiaal verwijderd.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>grind</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling is grind en grover materiaal verwijderd.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>houtskool</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn door verbranding verkoolde resten van hout verwijderd.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>kalkconcreties</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn concreties die door carbonaat tot een geheel zijn
+                           verkit verwijderd.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>koolzureKalk</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling van de korrelgrootteverdeling is de koolzure kalk verwijderd
+                           met HCl (0,2 M) en is het gehalte van de verwijderde kalk bepaald (<em>Bepaling kalkgehalte</em>).
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>organischeStof</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling van de korrelgrootteverdeling is het organische stof verwijderd
+                           met H2O2 (20%) en is het gehalte van het verwijderde organische stof bepaald (<em>Bepaling organische stof gehalte</em>).
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>plantenrestenHoutig</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn houtige, onverteerde resten van planten, zoals stammen
+                           en takken verwijderd.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>plantenrestenNietHoutig</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn niet-houtige, onverteerde resten van planten, zoals
+                           worteltjes, rietstengels en bladeren verwijderd.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>schelpmateriaal</td>
                      <td>✔</td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn schelpen en resten van schelpen verwijderd.</p>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>
