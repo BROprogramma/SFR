@@ -10,7 +10,7 @@ Het is ook mogelijk te reageren via een webformulier: https://basisregistratieon
 
 Voor het goed begrijpen van de catalogus zoals hij in de ministeriële regeling verschijnt raden we u ten sterkste aan eerst het [achtergrond document][3] te lezen. U kunt niet op dit inleidend document reageren, maar het geeft wel een goede inleiding waarmee de catalogus beter begrepen kan worden.
 
-Het gaat bij deze consultatie om een uitbreiding met labproeven voor het bepalen van Consistentiegrenzen, Schuifspanningsverloop, Zettingseigenschappen, Waterdoorlatendheid.
+Een wandmonsteranalyse onderzoekt wandmonsters door er metingen aan te doen. Dit gebeurt eigenlijk altijd in een laboratorium. Bodemkundige analyses worden gedaan om meer te weten te komen over de samenstelling, opbouw en vorming van bodem. De bodemkundige boormonsteranalyse komt qua laboratorium proeven (bepalingen) volledig overeen met de proeven(bepalingen) van de bodemkundige wandmonsteranalyse. Het is afdoende om van een van beide catalogi de uitbreiding te beoordelen. Het onderhoud op het bestaande deel van de catalogi verschilt wel kijk hier voor beide catalogi dus kritisch naar.
 
 Daarnaast zijn er bij de implementatie van de bestaande catalogus voor bodemkundig wandonderzoek bevindingen gedaan. Een aantal van deze bevindingen zijn in de te consulteren catalogus opgelost. Daarnaast zijn er bevindingen vanuit juridisch traject en voortschrijdend inzicht in modelleerwijze. De complete lijst met issues die opgelost worden is [hier te vinden op Github][4]. Per issue staat de oplossingsrichting aangegeven en waar in de catalogus de uitwerking terug te vinden is.
 
