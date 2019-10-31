@@ -1,6 +1,6 @@
-# Wandonderzoek - bodemkundige wandbeschrijving (Soil face research/SFR)
+# Wandonderzoek - bodemkundige wandbeschrijving & bodemkundige wandmonsteranalyse (Soil face research/SFR)
 
-Repository voor het ontwikkelen van de gegevenscatalogus Wandonderzoek - bodemkundige wandbeschrijving.
+Repository voor het ontwikkelen van de gegevenscatalogus Wandonderzoek - bodemkundige wandbeschrijving & wandmonsteranalyse.
 
 ## Publieke Consultatie
 Op donderdag 31 oktober start de publieke consultatie voor de standaard [bodemkundige wandmonsteranalyse][1]. De publieke consultatie loopt tot en met 15 december 2019. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
