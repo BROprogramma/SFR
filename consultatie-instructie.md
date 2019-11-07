@@ -16,13 +16,13 @@ U kunt ook [alle gemelde issues][5] bekijken.
 1. Download het document. 
 2. Review het document.
 3. Om een nieuw issue aan te maken: 
-4. Controleer eerst of het issue al gemeld is: [bestaande issues Booronderzoek geotechnische boormonsterbeschrijving][5]
+4. Controleer eerst of het issue al gemeld is: [bestaande issues Wandonderzoek bodemkundige wandmonsteranalyse][5]
 5. Klik op **New Issue** (de groene knop rechtsboven) om een nieuw issue aan te maken.
 6. Geef het issue een titel die aangeeft wat er mis is.
 7. Geef een beschrijving van het issue met liefst een suggestie voor een oplossing.
 8. Klik op **Submit new issue** om het issue op te slaan. 
   
 
-[4]: https://github.com/BROprogramma/BHR-GT/issues/new
-[5]: https://github.com/BROprogramma/BHR-GT/issues
+[4]: https://github.com/BROprogramma/SFR/issues/new
+[5]: https://github.com/BROprogramma/SFR/issues
 [6]: https://github.com/join
