@@ -406,6 +406,7 @@ Explanation: Het is van belang te weten hoe vochtig het deel van de bodem is waa
                <xs:element name="landscapeElement"
                            minOccurs="0"
                            maxOccurs="1"
+                           nillable="true"
                            type="sfrcom:LandscapeElementType">
                   <xs:annotation>
                      <xs:appinfo>
