@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20191121</p>
       <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.90versie21nov2019-3-20191121-20191125-170758</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.90versie21nov2019-3-20191121-20191125-175124</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -20929,7 +20929,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>0 tot niet-gespecificeerd</td>
+                              <td>vanaf 0</td>
                            </tr>
                            <tr>
                               <th>Toelichting</th>
@@ -22380,7 +22380,7 @@
                   <h3>   Modelleringsstap</h3>
                   <div class="imageinfo "><img src="Images/EAID_FC0D23D9_F87B_42ee_ACA4_DA2DF390B12B.png" usemap="#imagemap-EAID_FC0D23D9_F87B_42ee_ACA4_DA2DF390B12B"><map name="imagemap-EAID_FC0D23D9_F87B_42ee_ACA4_DA2DF390B12B">
                         <area shape="rect" coords="44,273,208,223" alt="" href="#graph_EAID_C9AA7519_2AF8_4dd9_89FB_57D75C258967">
-                        <area shape="rect" coords="10,138,241,10" alt="" href="#graph_EAID_5FB93F12_08C4_46da_B34D_E95D364293A1"></map><p><b>Modelleringsstap- detail</b></p>
+                        <area shape="rect" coords="10,111,241,10" alt="" href="#graph_EAID_5FB93F12_08C4_46da_B34D_E95D364293A1"></map><p><b>Modelleringsstap- detail</b></p>
                   </div>
                   <table width="100%">
                      <colgroup width="30%"></colgroup>
@@ -22623,6 +22623,16 @@
                               <td>Attribuut van Modelleringsstap</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De factor die verondersteld wordt de spreiding van de grootte van de poriën in de
+                                    grond voor te stellen. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
@@ -22642,11 +22652,24 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Getal</td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Fysisch gezien geeft dit de spreiding in de grootte van de poriën. Mathematisch gezien
+                                    komt de vormfactor lambda tot uiting in de helling van de retentiekarakteristiek.
+                                    Hoe groter (minder negatief) de waarde van de vormfactor lambda, hoe steiler de grafiek
+                                    is van de relatie tussen de waterdoorlatendheid en de bodemvochtpotentiaal. Het symbool
+                                    voor vormfactor lambda is ?. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Modelleringsstap_curveEnkelvoudig"></a><section id="detail_attribute_DomeinmodelBROSFR_Modelleringsstap_curveEnkelvoudig" level="5">
-                     <h4>  curve enkelvoudig</h4>
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Modelleringsstap_vlakEnkelvoudig"></a><section id="detail_attribute_DomeinmodelBROSFR_Modelleringsstap_vlakEnkelvoudig" level="5">
+                     <h4>  vlak enkelvoudig</h4>
                      
                      <table width="100%">
                         <colgroup width="30%"></colgroup>
@@ -22655,6 +22678,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Modelleringsstap</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of het vlak enkelvoudig is.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -22675,6 +22706,31 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst niet uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut moet gelijk zijn aan ja, wanneer de waarde van de bepalingsmethode
+                                    gelijk is aan MualemvanGenuchtenDurner. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Standaard wordt gekozen voor toepassing van de methode volgens MualemVan Genuchten
+                                    en het resultaat daarvan is een enkelvoudig vlak. Een enkelvoudig vlak beschrijft
+                                    de karakteristiek van grond met een homogene poriënverdeling. Wanneer blijkt dat een
+                                    enkelvoudig vlak de meetgegevens niet voldoende kan beschrijven, wordt gekozen voor
+                                    de meer uitgebreide methode mualemVanGenuchtenDurner en dan is het resultaat een aantal
+                                    curven die tezamen een samengestelde vlakken definiëren. Dit wordt toegepast bij gronden
+                                    met een heterogene poriënverdeling. 
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -22947,6 +23003,200 @@
                                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft aan in welke mate een samenstellende  curve bijdraagt aan de vorm
                                     van het geheel. Iedere samenstellende curve beschrijft andere waarden van de eigenschappen
                                     van de grond. Het symbool voor de wegingsfactor is ?.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section><a class="anchor" name="graph_EAID_11DC9531_55C5_4340_9E9E_9C71A7B9E93F"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_Verwerkingsstap"></a><section id="global_class_DomeinmodelBROSFR_Verwerkingsstap" level="4">
+                  <h3>   Verwerkingsstap</h3>
+                  <div class="imageinfo "><img src="Images/EAID_4346B7EE_406A_46c6_91CB_E59FD67FA46B.png" usemap="#imagemap-EAID_4346B7EE_406A_46c6_91CB_E59FD67FA46B"><map name="imagemap-EAID_4346B7EE_406A_46c6_91CB_E59FD67FA46B">
+                        <area shape="rect" coords="213,175,424,147" alt="" href="#graph_EAID_8F576333_705A_4d2b_82DB_87E3BC853A04">
+                        <area shape="rect" coords="10,175,110,147" alt="" href="#graph_EAID_FBF7EE9E_B144_44cb_884B_E43C32018A3C">
+                        <area shape="rect" coords="20,85,282,10" alt="" href="#graph_EAID_11DC9531_55C5_4340_9E9E_9C71A7B9E93F"></map><p><b>Verwerkingsstap</b></p>
+                  </div>
+                  <table width="100%">
+                     <colgroup width="30%"></colgroup>
+                     <colgroup width="70%"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>Verwerkingsstap 
+                              resulteert in 1 
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_Puntenwolk">Puntenwolk</a>
+                              <br>Verwerkingsstap 
+                              heeft 1 
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_WaterretentiekarakteristiekVerdamping">Waterretentiekarakteristiek verdamping</a>
+                              <br>
+                              <a class="link" href="#global_class_DomeinmodelBROSFR_ModelleringBodemvochtpotentiaalWatergehalteEnWaterdoorlatendheid">Modellering bodemvochtpotentiaal, watergehalte en waterdoorlatendheid</a>
+                              
+                              heeft 1 Verwerkingsstap<br></td>
+                        </tr>
+                     </tbody>
+                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_verwerkingsprocedure"></a><section id="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_verwerkingsprocedure" level="5">
+                     <h4>  verwerkingsprocedure</h4>
+                     
+                     <table width="100%">
+                        <colgroup width="30%"></colgroup>
+                        <colgroup width="70%"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Verwerkingsstap</td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Verwerkingsmethode</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_kleinsteGemetenBodemvochtpotentiaal"></a><section id="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_kleinsteGemetenBodemvochtpotentiaal" level="5">
+                     <h4>  kleinste gemeten bodemvochtpotentiaal</h4>
+                     
+                     <table width="100%">
+                        <colgroup width="30%"></colgroup>
+                        <colgroup width="70%"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Verwerkingsstap</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De kleinste waarde van de bodemvochtpotentiaal die is gemeten binnen het onderzochte
+                                    interval. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Meetwaarde 8.0</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>cm H2O</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>minus 0.1 tot minus 10exp7</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is een indicator voor hoe de modellering te gebruiken. De betrouwbaarheid
+                                    van de curve zou mogelijk kunnen afnemen als het gebruikt wordt voor waarden kleiner
+                                    dan de kleinste gemeten waarde van de bodemvochtpotentiaal. Er is namelijk een extrapolatie
+                                    van de gegevens uitgevoerd die buiten het fysieke meetbereik tot onzekere resultaten
+                                    kan leiden. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_grootsteGemetenBodemvochtpotentiaal"></a><section id="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_grootsteGemetenBodemvochtpotentiaal" level="5">
+                     <h4>  grootste gemeten bodemvochtpotentiaal</h4>
+                     
+                     <table width="100%">
+                        <colgroup width="30%"></colgroup>
+                        <colgroup width="70%"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Verwerkingsstap</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De grootste waarde van de bodemvochtpotentiaal die is gemeten binnen het onderzochte
+                                    interval. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Meetwaarde 8.0</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>  cm H2O</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>  minus 0.1 tot minus 10exp7</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is een indicator voor hoe de modellering te gebruiken. De betrouwbaarheid
+                                    van de curve zou mogelijk kunnen afnemen als het gebruikt wordt voor waarden groter
+                                    dan de grootste gemeten waarde van de bodemvochtpotentiaal. Er is namelijk een extrapolatie
+                                    van de gegevens uitgevoerd die buiten het fysieke meetbereik tot onzekere resultaten
+                                    kan leiden. 
                                  </p>
                                  
                               </td>
@@ -23417,133 +23667,6 @@
                      </table>
                      
                   </section>
-               </section><a class="anchor" name="graph_EAID_11DC9531_55C5_4340_9E9E_9C71A7B9E93F"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_Verwerkingsstap"></a><section id="global_class_DomeinmodelBROSFR_Verwerkingsstap" level="4">
-                  <h3>   Verwerkingsstap</h3>
-                  <table width="100%">
-                     <colgroup width="30%"></colgroup>
-                     <colgroup width="70%"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th>Type gegeven</th>
-                           <td>Entiteit</td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>Verwerkingsstap 
-                              resulteert in 1 
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_Puntenwolk">Puntenwolk</a>
-                              <br>Verwerkingsstap 
-                              heeft 1 
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_WaterretentiekarakteristiekVerdamping">Waterretentiekarakteristiek verdamping</a>
-                              <br>
-                              <a class="link" href="#global_class_DomeinmodelBROSFR_ModelleringBodemvochtpotentiaalWatergehalteEnWaterdoorlatendheid">Modellering bodemvochtpotentiaal, watergehalte en waterdoorlatendheid</a>
-                              
-                              heeft 1 Verwerkingsstap<br></td>
-                        </tr>
-                     </tbody>
-                  </table><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_verwerkingsprocedure"></a><section id="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_verwerkingsprocedure" level="5">
-                     <h4>  verwerkingsprocedure</h4>
-                     
-                     <table width="100%">
-                        <colgroup width="30%"></colgroup>
-                        <colgroup width="70%"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Verwerkingsstap</td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td>Verwerkingsmethode</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Waardelijst uitbreidbaar</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_kleinsteGemetenBodemvochtpotentiaal"></a><section id="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_kleinsteGemetenBodemvochtpotentiaal" level="5">
-                     <h4>  kleinste gemeten bodemvochtpotentiaal</h4>
-                     
-                     <table width="100%">
-                        <colgroup width="30%"></colgroup>
-                        <colgroup width="70%"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Verwerkingsstap</td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Getal</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     
-                  </section><a class="anchor" name="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_grootsteGemetenBodemvochtpotentiaal"></a><section id="detail_attribute_DomeinmodelBROSFR_Verwerkingsstap_grootsteGemetenBodemvochtpotentiaal" level="5">
-                     <h4>  grootste gemeten bodemvochtpotentiaal</h4>
-                     
-                     <table width="100%">
-                        <colgroup width="30%"></colgroup>
-                        <colgroup width="70%"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Verwerkingsstap</td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde </td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Getal</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     
-                  </section>
                </section><a class="anchor" name="graph_EAID_FBF7EE9E_B144_44cb_884B_E43C32018A3C"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_Puntenwolk"></a><section id="global_class_DomeinmodelBROSFR_Puntenwolk" level="4">
                   <h3>   Puntenwolk</h3>
                   <div class="imageinfo "><img src="Images/EAID_B2CBB1CE_FD7D_4b4b_8640_7D028503A231.png" usemap="#imagemap-EAID_B2CBB1CE_FD7D_4b4b_8640_7D028503A231"><map name="imagemap-EAID_B2CBB1CE_FD7D_4b4b_8640_7D028503A231">
@@ -23583,7 +23706,7 @@
                </section><a class="anchor" name="graph_EAID_321DD240_1DC5_4a4a_A79F_B87D293B2042"></a><a class="anchor" name="global_class_DomeinmodelBROSFR_ThetaEnKBijBepaaldeBodemvochtpotentiaal"></a><section id="global_class_DomeinmodelBROSFR_ThetaEnKBijBepaaldeBodemvochtpotentiaal" level="4">
                   <h3>   theta en k bij bepaalde bodemvochtpotentiaal</h3>
                   <div class="imageinfo "><img src="Images/EAID_EDDD37FF_A0DB_4456_AA98_DCA395F98DD0.png" usemap="#imagemap-EAID_EDDD37FF_A0DB_4456_AA98_DCA395F98DD0"><map name="imagemap-EAID_EDDD37FF_A0DB_4456_AA98_DCA395F98DD0">
-                        <area shape="rect" coords="10,106,200,10" alt="" href="#graph_EAID_321DD240_1DC5_4a4a_A79F_B87D293B2042"></map><p><b>Waterretentie en waterdoorlatendheidwaarde</b></p>
+                        <area shape="rect" coords="10,85,206,10" alt="" href="#graph_EAID_321DD240_1DC5_4a4a_A79F_B87D293B2042"></map><p><b>Waterretentie en waterdoorlatendheidwaarde</b></p>
                   </div>
                   <table width="100%">
                      <colgroup width="30%"></colgroup>
