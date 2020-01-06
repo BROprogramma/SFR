@@ -2,19 +2,19 @@
 <wsdl:definitions name="dssfr"
     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
-    xmlns:msg="http://www.broservices.nl/xsd/dssfr/0.9"
-	xmlns:tns="http://www.broservices.nl/wsdl/dssfr/0.9"
-	targetNamespace="http://www.broservices.nl/wsdl/dssfr/0.9">
+    xmlns:msg="http://www.broservices.nl/xsd/dssfr/1.0"
+    xmlns:tns="http://www.broservices.nl/wsdl/dssfr/1.0"
+    targetNamespace="http://www.broservices.nl/wsdl/dssfr/1.0">
 
     <wsdl:documentation>
-        Deze WSDL beschrijft de webservice voor uitgifte van bodemkundige wandkuil (SFR)
+        Deze WSDL beschrijft de webservice voor uitgifte van bodemkundige wandonderzoek (SFR)
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dssfr/0.9" targetNamespace="http://www.broservices.nl/wsdl/dssfr/0.9">
-            <xsd:import namespace="http://www.broservices.nl/xsd/dssfr/0.9" schemaLocation="dssfr-messages.xsd" />
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dssfr/1.0" targetNamespace="http://www.broservices.nl/wsdl/dssfr/1.0">
+            <xsd:import namespace="http://www.broservices.nl/xsd/dssfr/1.0" schemaLocation="dssfr-messages.xsd" />
         </xsd:schema>
     </wsdl:types>
 

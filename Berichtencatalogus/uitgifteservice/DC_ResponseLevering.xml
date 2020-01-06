@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchCharacteristicsResponse
-    xmlns="http://www.broservices.nl/xsd/dssfr/0.9"
-    xmlns:bhrgtcom="http://www.broservices.nl/xsd/sfrcommon/0.9"
+    xmlns="http://www.broservices.nl/xsd/dssfr/1.0"
+    xmlns:bhrgtcom="http://www.broservices.nl/xsd/sfrcommon/1.0"
     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/0.9 ../../XSD/dssfr-messages.xsd"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/1.0 ../../XSD/dssfr-messages.xsd"
     >
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
        Het is niet gevalideert door de uitgifteervice en is vaktechnisch/inhoudelijk niet voorbeeldig.

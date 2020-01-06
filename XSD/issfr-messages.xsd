@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:issfr="http://www.broservices.nl/xsd/issfr/0.9"
+<xs:schema xmlns:issfr="http://www.broservices.nl/xsd/issfr/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/0.9"
+           xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/1.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/issfr/0.9"
+           targetNamespace="http://www.broservices.nl/xsd/issfr/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.9.3">
+           version="1.0.0">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -17,11 +17,45 @@
    </xs:annotation>
 
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/0.9" schemaLocation="sfrcommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/1.0" schemaLocation="sfrcommon.xsd"/>
    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
    <xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
    <xs:element name="parseFault" type="brocom:ParseFaultType" />
+
+   <xs:element name="correctionRequest" type="issfr:CorrectionRequestType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht CorrectionRequest is een specialisatie van de abstract klasse CorrectionRequest uit de package brocommon, waaraan het een correctionReason en een sourceDocument toevoegt. Met dit bericht kunnen onjuiste gegevens van een in de BRO geregistreerd bodemkundig wandonderzoek worden vervangen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CorrectionRequestType">
+      <xs:complexContent>
+         <xs:extension base="brocom:CorrectionRequestType">
+            <xs:sequence>
+               <xs:element name="correctionReason"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="issfr:CorrectionReasonType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>CorrectionReason</CodeListName>
+                        <CodeListURI>urn:bro:sfr:CorrectionReason</CodeListURI>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Reden waarom de geregistreerde gegevens gecorrigeerd worden.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="sourceDocument"
+                           type="issfr:SourceDocumentType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat de gecorrigeerde gegevens die de nu in het BRO-systeem geregistreerde gegevens zullen vervangen en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het innameverzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
 
    <xs:element name="registrationRequest" type="issfr:RegistrationRequestType" />
    <xs:complexType name="RegistrationRequestType">
@@ -197,6 +231,17 @@ Explanation: In het bodemkundig wandonderzoek zoals dat door Wageningen Environm
       <xs:sequence minOccurs="1">
          <xs:element ref="issfr:SFR_StartReport_V1"/>
       </xs:sequence>
+   </xs:complexType>
+
+   <xs:complexType name="CorrectionReasonType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sfr:CorrectionReason"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
 
    <xs:element name="SourceDocument" type="issfr:SourceDocumentType">

@@ -5,42 +5,51 @@
                   xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                   xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:msg="http://www.broservices.nl/xsd/issfr/0.9"
-                  xmlns:tns="http://www.broservices.nl/wsdl/issfr/0.9"
-                  targetNamespace="http://www.broservices.nl/wsdl/issfr/0.9">
+                  xmlns:msg="http://www.broservices.nl/xsd/issfr/1.0"
+                  xmlns:tns="http://www.broservices.nl/wsdl/issfr/1.0"
+                  targetNamespace="http://www.broservices.nl/wsdl/issfr/1.0">
 
     <wsdl:documentation>
-        inname van bodemkundige wandkuil (SFR)
+        inname van bodemkundig wandonderzoek (SFR)
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issfr/0.9" targetNamespace="http://www.broservices.nl/wsdl/issfr/0.9">
-            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/0.9" schemaLocation="issfr-messages.xsd" />
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issfr/1.0" targetNamespace="http://www.broservices.nl/wsdl/issfr/1.0">
+            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/1.0" schemaLocation="issfr-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>
 
     <wsdl:message name="registrationRequest">
-        <wsdl:part element="msg:registrationRequest" name="request" />
+        <wsdl:part name="request" element="msg:registrationRequest" />
+    </wsdl:message>
+
+    <wsdl:message name="correctionRequest">
+        <wsdl:part name="request" element="msg:correctionRequest" />
     </wsdl:message>
 
     <wsdl:message name="intakeResponse">
-        <wsdl:part element="msg:intakeResponse" name="response" />
+        <wsdl:part name="response" element="msg:intakeResponse" />
     </wsdl:message>
 
     <wsdl:message name="parseSoapFault">
-        <wsdl:part element="msg:parseFault" name="parseFault" />
+        <wsdl:part name="parseFault" element="msg:parseFault" />
     </wsdl:message>
 
     <wsdl:message name="DeliveryResponsiblePartyHeader">
-        <wsdl:part element="brocom:deliveryResponsibleParty" name="deliveryResponsibleParty"></wsdl:part>
+        <wsdl:part name="deliveryResponsibleParty" element="brocom:deliveryResponsibleParty" />
     </wsdl:message>
 
     <wsdl:portType name="issfr">
         <wsdl:operation name="register">
             <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wus/issfr/registrationRequest" />
             <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/issfr/intakeResponse" />
-            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
+            <wsdl:fault name="parseFault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
+        </wsdl:operation>
+        <wsdl:operation name="correct">
+            <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wus/issfr/correctionRequest" />
+            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/issfr/intakeResponse" />
+            <wsdl:fault name="parseFault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
         </wsdl:operation>
     </wsdl:portType>
 
@@ -56,7 +65,20 @@
                 <soap:body use="literal" />
             </wsdl:output>
             <wsdl:fault name="parseFault">
-                <soap:fault use="literal" name="parseFault" />
+                <soap:fault name="parseFault" use="literal" />
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="correct">
+            <soap:operation soapAction="" style="document" />
+            <wsdl:input>
+                <soap:body use="literal" />
+                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+            <wsdl:fault name="parseFault">
+                <soap:fault name="parseFault" use="literal" />
             </wsdl:fault>
         </wsdl:operation>
     </wsdl:binding>
