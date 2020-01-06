@@ -10,7 +10,7 @@
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innameservice.
        Het is niet gevalideert door de innameservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
   -->
-   <brocom:requestReference>SFR-BRO-1596</brocom:requestReference>
+   <brocom:requestReference>SFR-BRO-1621</brocom:requestReference>
    <!--Optional:-->
    <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
    <brocom:broId>SFR123456789012</brocom:broId>
