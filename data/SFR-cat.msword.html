@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20200302</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.922versie2maart2020-3-20200302-20200309-101230</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.922versie2maart2020-3-20200302-20200310-104148</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -16333,7 +16333,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p> De binnen het onderzochte interval unieke identificatie van de bepaling.</p>
+                                 <p>De binnen het onderzochte interval unieke identificatie van de bepaling.</p>
                                  
                               </td>
                            </tr>
@@ -16357,10 +16357,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p> Het gegeven wordt gebruikt om binnen het onderzoek aan te kunnen geven welke bepalingen
+                                 <p>Het gegeven wordt gebruikt om binnen het onderzoek aan te kunnen geven welke bepalingen
                                     als input voor het modelleren van karakteristieken is gebruikt. De opbouw van het
                                     gegeven bestaat uit drie letters voor de naam van de bepaling (WDH) en een volgnummer
-                                    dat uit 2 cijfers bestaat. 
+                                    dat uit 2 cijfers (NN) bestaat. 
                                  </p>
                                  
                               </td>
@@ -17148,7 +17148,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De snelheid waarmee water door de grond stroomt.</p>
+                                 <p>De snelheid waarmee water door het monster stroomt.</p>
                                  
                               </td>
                            </tr>
@@ -17185,14 +17185,8 @@
                               <td>
                                  
                                  <p>Wat bij een bepaalde bodemvochtpotentiaal gemeten wordt, is het volume water dat per
-                                    eenheid van tijd door een vlak in de grond stroomt. Het symbool voor waterdoorlatendheid
-                                    is k.
-                                 </p>
-                                 
-                                 <p>optie Marius:
-                                    Wat bij een bepaalde bodemvochtpotentiaal gemeten wordt, is het volume water (cm3)
-                                    dat per eenheid van tijd (d) per eenheid oppervlak loodrecht op de stromingsrichting
-                                    (cm2) door de grond stroomt. Het symbool voor waterdoorlatendheid is k. 
+                                    eenheid van tijd per eenheid oppervlak loodrecht op de stromingsrichting door het
+                                    monster stroomt.  Het symbool voor waterdoorlatendheid is <em>k</em>. 
                                  </p>
                                  
                               </td>
@@ -17215,7 +17209,9 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het aandeel van het water in het waterverzadigde volume van de grond.</p>
+                                 <p>De verhouding tussen het volume van het water en het waterverzadigde volume van het
+                                    monster.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -17252,7 +17248,16 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het volumetrisch watergehalte wordt bepaald met een sonde. Deze sonde wordt gekalibreerd
+                                 <p>Nieuw, laatste wijzigingen nog doorvoeren:</p>
+                                 
+                                 <p>Het watergehalte van het monster op het moment van meten wordt altijd omgerekend naar
+                                    het aandeel in het volume van het met waterverzadigde monster, omdat het volume van
+                                    het monster op het moment van meten niet goed kan worden bepaald.<br clear="none">
+                                    Het symbool voor het volumetrisch watergehalte is θ. 
+                                 </p>
+                                 
+                                 <p>oud
+                                    Het volumetrisch watergehalte wordt bepaald met een sonde. Deze sonde wordt gekalibreerd
                                     per grondsoort en heeft een meetonnauwkeurigheid van 1 tot 5 procent. Het symbool
                                     voor het volumetrisch watergehalte is θ. 
                                  </p>
@@ -17317,9 +17322,8 @@
                                  In een stap wordt een bepaalde bodemvochtpotentiaal gerealiseerd door het monster
                                  een bepaalde druk op te leggen en die wordt gemeten in centimeters waterkolom (drukhoogte,
                                  <em>h</em>). Na bereiken van evenwicht wordt het watergehalte bepaald. De bepaling levert meestal
-                                 een kleine serie gegevens en die dekt een beperkt bereik van de bodemvochtpotentiaal
-                                 (drukhoogte tussen 0 en minus 15.000 cm H<sub>2</sub>O). Bij de methode luchtdroog wordt maar een gegeven geproduceerd en dat is het watergehalte
-                                 bij een bodemvochtpotentiaal van minus 10<sup>6</sup>.
+                                 een kleine serie gegevens en die dekt het volledige bereik van de bodemvochtpotentiaal.
+                                 
                               </p>
                               
                            </td>
@@ -17470,7 +17474,7 @@
                                  <p>Het gegeven wordt gebruikt om binnen het onderzoek aan te kunnen geven welke bepalingen
                                     als input voor het modelleren van karakteristieken is gebruikt. De opbouw van het
                                     gegeven bestaat uit drie letters voor de naam van de bepaling (WRS) en een volgnummer
-                                    dat uit 2 cijfers bestaat. 
+                                    dat uit 2 cijfers (NN) bestaat. 
                                  </p>
                                  
                               </td>
@@ -17525,8 +17529,8 @@
                                  
                                  <p>De bepaling wordt uitgevoerd aan ringmonsters met een bekend volume voor de bodemvochtpotentiaal
                                     van 0 tot circa -1000 cm H<sub>2</sub>O.Bij de drukplaat methode wordt voor meer negatieve waarden van de bodemvochtpotentiaal
-                                    volstaan met verstoorde monsters, want de binding van water is niet meer door de structuur
-                                    van de grond wordt bepaald. 
+                                    volstaan met verstoorde monsters, want de binding van water wordt nauwelijk door de
+                                    structuur van de grond bepaald. 
                                  </p>
                                  
                               </td>
@@ -17927,6 +17931,11 @@
                                     uit te sluiten. 
                                  </p>
                                  
+                                 <p>Het watergehalte van een monster dat met de zandbak methode vernattend is bepaald
+                                    zal afwijken van het watergehalte van een monster dat verdrogend is bepaald bij dezelfde
+                                    bodemvochtpotentiaal. Dit fenomeen wordt hysterese genoemd. 
+                                 </p>
+                                 
                               </td>
                            </tr>
                         </tbody>
@@ -18024,7 +18033,7 @@
                                  
                                  <p>Aan het eind van de bepaling wordt het monster gedurende een bepaalde tijd in de oven
                                     gedroogd. Standaard is dat tot de massa stabiel is (en dat is wanneer de afname van
-                                    de massa minder dan 0.6% per 24 uur is). In het verleden is de droogtijd niet altijd
+                                    de massa minder is dan 0.6% per 24 uur). In het verleden is de droogtijd niet altijd
                                     te achterhalen. 
                                  </p>
                                  
@@ -18078,10 +18087,8 @@
                                  
                                  <p>In het laboratorium wordt eerst het massa watergehalte (gram water per gram droge
                                     grond) berekend en die wordt omgerekend naar het volumetrisch watergehalte (cm<sup>3</sup> water per cm<sup>3</sup> verzadigde grond) door het massa watergehalte te vermenigvuldigen met de droge bulkdichtheid
-                                    (aanname: de dichtheid van water is 1 g/cm<sup>3</sup>). De droge bulkdichtheid kan  niet worden bepaald wanneer er alleen verstoord monsters
+                                    (aanname: de dichtheid van water is 1 g/cm<sup>3</sup>). De droge bulkdichtheid kan niet worden bepaald wanneer er alleen verstoorde monsters
                                     voorhanden zijn en dan wordt volstaan met het massa watergehalte.
-                                    Bepalingen met volumetrisch watergehalte kunnen gebruikt worden om de waterretentie-
-                                    en waterdoorlatendheidskarakteristieken te modelleren. 
                                  </p>
                                  
                               </td>
@@ -18311,9 +18318,15 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Het watergehalte wordt, behalve bij de methode luchtdroog, een aantal malen bepaald
-                                 en steeds bij een andere bodemvochtpotentiaal. Standaard wordt het <em>massa watergehalte omgerekend naar</em> het volumetrisch watergehalte, maar wanneer de droge bulkdichtheid niet is bepaald,
-                                 wordt het <em>massa watergehalte</em>, gegeven.
+                              <p>Het watergehalte wordt een aantal keren bepaald en steeds bij een andere bodemvochtpotentiaal.
+                                 Bij de methode luchtdroog wordt er meestal maar één gegeven geproduceerd en dat is
+                                 het watergehalte bij een bodemvochtpotentiaal van - 10<sup>6</sup> cm H<sub>2</sub>O. Theoretisch is het mogelijk om meerdere resultaten te produceren door bijvoorbeeld
+                                 de temperatuur en de luchtvochtigheid te variëren. In praktijk gebeurt dit niet. Bij
+                                 de methode drukplaat kunnen er in het natte bereik (tot minus 1000 cm H<sub>2</sub>O) meerdere meetresultaten zijn, in het droge bereik is er altijd één resultaat per
+                                 monster. 
+                              </p>
+                              
+                              <p>Standaard wordt het <em>massa watergehalte</em> omgerekend naar het <em>volumetrisch watergehalte</em>, maar wanneer de droge bulkdichtheid niet is bepaald, wordt het <em>massa watergehalte</em>, gegeven.
                               </p>
                               
                            </td>
@@ -18426,7 +18439,9 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het aandeel van het water in het waterverzadigde volume van de grond.</p>
+                                 <p>De verhouding tussen het volume van het water en het waterverzadigde volume van het
+                                    monster.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -18474,7 +18489,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het symbool voor het volumetrisch watergehalte is θ. </p>
+                                 <p>Het watergehalte van het monster op het moment van meten wordt altijd omgerekend naar
+                                    het aandeel in het volume van het met waterverzadigde monster, omdat het volume van
+                                    het monster op het moment van meten niet goed kan worden bepaald.<br clear="none">
+                                    Het symbool voor het volumetrisch watergehalte is θ. 
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -18496,7 +18515,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het aandeel van het water in de massa van de grond.</p>
+                                 <p>De verhouding tussen de massa van het water en de massa van het ovendroge monster.</p>
                                  
                               </td>
                            </tr>
@@ -18751,7 +18770,7 @@
                                  <p>Het gegeven wordt gebruikt om binnen het onderzoek aan te kunnen geven welke bepalingen
                                     als input voor het modelleren van karakteristieken is gebruikt. De opbouw van het
                                     gegeven bestaat uit drie letters voor de naam van de bepaling (WRD) en een volgnummer
-                                    dat uit 2 cijfers bestaat. 
+                                    dat uit 2 cijfers (NN) bestaat. 
                                  </p>
                                  
                               </td>
@@ -20151,7 +20170,9 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het aandeel van het water in het waterverzadigde volume van het monster. </p>
+                                 <p>De verhouding tussen het volume van het water en het waterverzadigde volume van het
+                                    monster.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -20188,7 +20209,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het symbool voor het volumetrisch watergehalte is θ. </p>
+                                 <p>Het watergehalte van het monster op het moment van meten wordt altijd omgerekend naar
+                                    het aandeel in het volume van het met waterverzadigde monster, omdat het volume van
+                                    het monster op het moment van meten niet goed kan worden bepaald.<br clear="none">
+                                    Het symbool voor het volumetrisch watergehalte is θ. 
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -20281,7 +20306,11 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De bodemvohctpotentiaal uitgedrukt als drukhoogte.</p>
+                                 <p>De bodemvochtpotentiaal uitgedrukt als drukhoogte.
+                                    of
+                                    De zuigende kracht die de grond per eenheid van lengte en per eenheid van massa op
+                                    het water uitoefent, uitgedrukt als drukhoogte. 
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -20332,7 +20361,9 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het aandeel van het water in het waterverzadigde volume van het monster.</p>
+                                 <p>De verhouding tussen het volume van het water en het waterverzadigde volume van het
+                                    monster.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -20369,7 +20400,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het symbool voor het volumetrisch watergehalte is θ. </p>
+                                 <p>Het watergehalte van het monster op het moment van meten wordt altijd omgerekend naar
+                                    het aandeel in het volume van het met waterverzadigde monster, omdat het volume van
+                                    het monster op het moment van meten niet goed kan worden bepaald.<br clear="none">
+                                    Het symbool voor het volumetrisch watergehalte is θ. 
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -20391,7 +20426,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De snelheid waarmee water door de grond stroomt.</p>
+                                 <p>De snelheid waarmee water door het monster stroomt.</p>
                                  
                               </td>
                            </tr>
@@ -20422,6 +20457,17 @@
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>0 tot 10.000</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Wat bij een bepaalde bodemvochtpotentiaal gemeten wordt, is het volume water dat per
+                                    eenheid van tijd per eenheid oppervlak loodrecht op de stromingsrichting door het
+                                    monster stroomt.  Het symbool voor waterdoorlatendheid is k. 
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
