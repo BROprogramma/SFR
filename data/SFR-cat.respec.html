@@ -16779,7 +16779,7 @@
                         <p>De waterdoorlatendheid varieert met de viscositeit van het water en die is weer afhankelijk
                            van de temperatuur. In het hydrofysisch laboratorium van Wageningen Environmental
                            Research wordt de temperatuur zo gereguleerd dat de waarde niet meer dan een graad
-                           afwijkt. De temperatuur wordt nooit omgerekend naar een andere bodemtemperatuur. 
+                           afwijkt van de ingestelde waarde.
                         </p>
                         
                      </td>
@@ -16906,7 +16906,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De snelheid waarmee water door de met water verzadigde grond stroomt. </p>
+                        <p>De snelheid waarmee water door het met water verzadigde monster stroomt. </p>
                         
                      </td>
                   </tr>
@@ -16953,7 +16953,7 @@
                      <td>
                         
                         <p>De uitvoerder van de bepaling bepaalt wanneer er een constante hoeveelheid water door
-                           het proefstuk heen stroomt. Op dat moment wordt de meting gestart en er worden achtereenvolgens
+                           het monster heen stroomt. Op dat moment wordt de meting gestart en er worden achtereenvolgens
                            3 metingen gedaan. Het gemiddelde van 3 metingen wordt vastgelegd. Het symbool voor
                            de verzadigde waterdoorlatendheid is k<sub>sat</sub>.
                         </p>
@@ -17227,18 +17227,11 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Nieuw, laatste wijzigingen nog doorvoeren:</p>
-                        
                         <p>Het watergehalte van het monster op het moment van meten wordt altijd omgerekend naar
                            het aandeel in het volume van het met waterverzadigde monster, omdat het volume van
-                           het monster op het moment van meten niet goed kan worden bepaald.<br clear="none">
+                           het monster op het moment van meten niet goed kan worden bepaald. Dit kan op verschillende
+                           manieren.<br clear="none">
                            Het symbool voor het volumetrisch watergehalte is θ. 
-                        </p>
-                        
-                        <p>oud
-                           Het volumetrisch watergehalte wordt bepaald met een sonde. Deze sonde wordt gekalibreerd
-                           per grondsoort en heeft een meetonnauwkeurigheid van 1 tot 5 procent. Het symbool
-                           voor het volumetrisch watergehalte is θ. 
                         </p>
                         
                      </td>
@@ -17753,7 +17746,7 @@
                      <td>
                         
                         <p>Het is goede praktijk de temperatuur zo te reguleren dat de waarde niet meer dan een
-                           graad afwijkt.
+                           graad afwijkt van de ingestelde waarde.
                         </p>
                         
                      </td>
@@ -19095,7 +19088,7 @@
                         
                         <p>De snelheid van de verdamping wordt beïnvloed door de omgevingstemperatuur. Het is
                            goede praktijk de temperatuur zo te reguleren dat de waarde niet meer dan een graad
-                           afwijkt. 
+                           afwijkt van de ingestelde waarde. 
                         </p>
                         
                      </td>
@@ -22708,6 +22701,30 @@
 </section>
 <section>
    <h1>Uitbreidbare waardelijsten</h1>
+   <section id="detail_class_DomeinmodelBROSFR_GebruikteInput">
+      <h2>  GebruikteInput</h2>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody>
+            <tr>
+               <th>Waarde</th>
+               <th>IMBRO</th>
+               <th>IMBRO/A</th>
+               <th>Omschrijving</th>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
    <section id="detail_class_DomeinmodelBROSFR_ActueelProces">
       <h2>  ActueelProces</h2>
       
@@ -23136,7 +23153,7 @@
                <td>
                   
                   <p>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt
-                     een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant
+                     een hydraulische gradiënt aangelegd tussen de bovenkant van het monster en de onderkant
                      en die wordt tijdens de proef constant gehouden. Zodra het debiet niet meer verandert,
                      wordt de meting uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de
                      wet van Darcy.
@@ -23194,14 +23211,14 @@
                <td>✔</td>
                <td>
                   
-                  <p>Methode voor het bepalen van de waterdoorlatendheidsverloop. De waterdoorlatendheid
-                     wordt bepaald bij een stapsgewijs afnemend bodemvochtpotentiaal. In iedere stap wordt
-                     een drukgradiënt aangelegd tussen de bovenkant en onderkant door het monster te benevelen
-                     met een constante hoeveelheid water. Zodra het debiet constant is, wordt de meting
-                     uitgevoerd en daarbij wordt de bodemvochtpotentiaal gemeten met een tensiometer. De
-                     optie bestaat om het volumetrisch watergehalte te bepalen en daarvoor wordt dan een
-                     sonde in het monster geplaatst. De waterdoorlatendheid wordt berekend met de wet van
-                     Darcy bij de bodemvochtpotentiaal in het midden van het monster.
+                  <p>Methode voor het bepalen van de waterdoorlatendheidsverloop in het natte traject.
+                     De waterdoorlatendheid wordt bepaald bij een stapsgewijs afnemende bodemvochtpotentiaal.
+                     In iedere stap wordt een drukgradiënt aangelegd tussen de bovenkant en onderkant door
+                     het monster te benevelen met een constante hoeveelheid water en aan de onderkant een
+                     kleine zuigspanning aan te leggen. Zodra het debiet constant is, wordt de meting uitgevoerd
+                     en daarbij wordt de bodemvochtpotentiaal gemeten met een tensiometer. De optie bestaat
+                     om het volumetrisch watergehalte te bepalen. De waterdoorlatendheid wordt berekend
+                     met de wet van Darcy bij de bodemvochtpotentiaal in het midden van het monster.
                   </p>
                   
                </td>
@@ -38284,96 +38301,6 @@
                   </p>
                   
                </td>
-            </tr>
-         </tbody>
-      </table>
-      
-   </section>
-   <section id="detail_class_DomeinmodelBROSFR_ZoutcorrectiemethodeCopy">
-      <h2>  Zoutcorrectiemethode - Copy</h2>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <td>
-                  
-                  <p>De lijst met de methoden voor het corrigeren voor het gehalte aan opgeloste zouten.</p>
-                  
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup style="width: 20%;"></colgroup>
-         <colgroup style="width: 5%;"></colgroup>
-         <colgroup style="width: 5%;"></colgroup>
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <th>Waarde</th>
-               <th>IMBRO</th>
-               <th>IMBRO/A</th>
-               <th>Omschrijving</th>
-            </tr>
-            <tr>
-               <td>nietToegepast</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>Het watergehalte is niet gecorrigeerd voor het gehalte aan opgeloste zouten.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>zoutgehalteAangenomen</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>Het watergehalte is gecorrigeerd voor het gehalte aan opgeloste zouten. Het zoutgehalte
-                     van het water is een aangenomen waarde.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>zoutgehalteBepaald</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>Het watergehalte is gecorrigeerd voor het gehalte aan opgeloste zouten. Het zoutgehalte
-                     van het water is bepaald.
-                  </p>
-                  
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      
-   </section>
-   <section id="detail_class_DomeinmodelBROSFR_GebruikteInput">
-      <h2>  GebruikteInput</h2>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <td></td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <table style="width: 100%;">
-         <tbody>
-            <tr>
-               <th>Waarde</th>
-               <th>IMBRO</th>
-               <th>IMBRO/A</th>
-               <th>Omschrijving</th>
             </tr>
          </tbody>
       </table>
