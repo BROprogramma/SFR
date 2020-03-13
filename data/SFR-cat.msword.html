@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20200310</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.3versie10maart2020-3-20200310-20200313-152303</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.3versie10maart2020-3-20200310-20200313-155521</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -21486,14 +21486,16 @@
                                  de waterretentiekarakteristiek en de waterdoorlatendheidskarakteristiek. Om de waterdoorlatendheidskarakteristiek
                                  te kunnen modelleren moet wel het watergehalte en de doorlatendheid bij veranderende
                                  bodemvochtpotentiaal bepaald zijn.
-                                 De twee karakteristieken wordt onder meer gebruikt als input voor modellen waarmee
-                                 de waterbeweging in de bodem wordt gesimuleerd. Een tabel met alleen de meetresultaten
+                                 De twee karakteristieken worden onder meer gebruikt als input voor modellen waarmee
+                                 de waterbeweging in de bodem wordt gesimuleerd. Een meetreeks met alleen de meetresultaten
                                  uit de bepalingen voldoet daarvoor niet omdat een glad verloop van de curve wenselijk
                                  is en omdat extrapolatie van de metingen buiten het meetbereik altijd noodzakelijk
                                  is. In de hydrofysische praktijk worden de metingen daarom samengevat door deze te
                                  beschrijven via een analytische oplossing waarin een beperkt aantal parameters voorkomen
                                  (curve fitting). 
-                                 De uitvoerder kan van een onderzocht interval een niet bepaald aantal van ieder van
+                              </p>
+                              
+                              <p>De uitvoerder kan van een onderzocht interval een niet bepaald aantal van ieder van
                                  deze karakteristieken maken door steeds een andere keuze te maken uit de beschikbare
                                  input. De beschikbare input bepaalt of hij alleen de waterretentiekarakteristiek kan
                                  modelleren of ook de waterdoorlatendheidskarakteristiek. In de toekomst is de wens
@@ -21600,8 +21602,8 @@
                                  
                                  <p>De modellering van alleen de waterretentiekarakteristiek is gebaseerd op de methode
                                     van Van Genuchten, en die van de waterretentiekarakteristiek  en de doorlatendheidskarakteristiek
-                                    op de methode van Mualem en Van Genuchten. Durner heeft beide methodes uitgebreid
-                                    om meer complexe relaties te kunnen definiëren voor het geval de poriën niet homogeen
+                                    op de methode van Mualem - Van Genuchten. Durner heeft beide methodes uitgebreid om
+                                    meer complexe relaties te kunnen definiëren voor het geval de poriën niet homogeen
                                     maar heterogeen verdeeld zijn. 
                                  </p>
                                  
@@ -21888,7 +21890,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>vanGenuchten</em> of <em>mualemVanGenuchten</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>vanGenuchten</em> of <em>mualemVanGenuchten</em>.<br clear="none">
                                     De waarde van het attribuut moet gelijk zijn aan <em>nee</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>vanGenuchtenDurner</em> of <em>mualemVanGenuchtenDurner</em>.
                                  </p>
                                  
@@ -21939,7 +21941,7 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>De analytische beschrijving volgens van Genuchten drie vormparameters: <em>a</em>, <em>n</em> en <em>m</em>. Voor multimodale varianten worden meerdere sets waarden voor de laatste drie parameters
+                              <p>De analytische beschrijving volgens van Genuchten drie vormparameters: <em>α</em>, <em>n</em> en <em>m</em>. Voor multimodale varianten worden meerdere sets waarden voor de laatste drie parameters
                                  gegeven met een wegingsfactor. De som van alle wegingsfactoren is gelijk aan 1.
                               </p>
                               
@@ -21961,7 +21963,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor a in de analytische beschrijving volgens Van Genuchten. </p>
+                                 <p>De factor α in de analytische beschrijving volgens Van Genuchten. </p>
                                  
                               </td>
                            </tr>
@@ -21999,7 +22001,7 @@
                               <td>
                                  
                                  <p>Het gegeven heeft geen exacte fysische betekenis. In de mathematische expressie van
-                                    het model heeft de vormfactor a de eenheid per centimeter vanwege de plaats in deze
+                                    het model heeft de vormfactor α de eenheid per centimeter vanwege de plaats in deze
                                     expressie. 
                                  </p>
                                  
@@ -22232,8 +22234,8 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>modelleringsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em> of <em>mualemVanGenuchtenDurner.</em>
-                                 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>modelleringsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em> of <em>mualemVanGenuchtenDurner.</em> 
+                                 In andere gevallen ontbreekt de entiteit. 
                               </p>
                               
                            </td>
@@ -22276,10 +22278,6 @@
                                  
                                  <p>De gemodelleerde waarde voor de doorlatendheid bij verzadiging. </p>
                                  
-                                 <p>Het punt in het model dat de waterdoorlatendheid van de verzadigde grond het best
-                                    benadert.
-                                 </p>
-                                 
                               </td>
                            </tr>
                            <tr>
@@ -22314,10 +22312,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De gemodelleerde doorlatendheid bij verzadiging wordt aangeduid met het symbool k<sub>sf</sub> (s = verzadigd (Eng: saturated); f = fitted). Het is een parameter in de analytische
-                                    vergelijking van Mualem, en de waarde wordt bepaald door enerzijds de ligging van
-                                    alle meetwaarden en anderzijds door de gewogen koppeling met de Van Genuchten vergelijking
-                                    voor de retentiekarakteristiek. 
+                                 <p>De gemodelleerde doorlatendheid bij verzadiging wordt aangeduid met het symbool <em>k</em>
+                                    <em>&lt;sub&gt;sf&lt;/sub&gt;</em> (s = verzadigd (Engels: <em>saturated</em>); f = <em>fitted</em>). Het is een parameter in de analytische vergelijking van Mualem, en de waarde wordt
+                                    bepaald door enerzijds de ligging van alle meetwaarden en anderzijds door de gewogen
+                                    koppeling met de Van Genuchten vergelijking voor de retentiekarakteristiek. 
                                     De waarde voor de gemodelleerde verzadigde waterdoorlatendheid is in veel gevallen
                                     kleiner dan de gemeten waarde van de verzadigde waterdoorlatendheid van hetzelfde
                                     onderzochte interval. 
@@ -22371,7 +22369,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em>.<br clear="none">
                                     De waarde van het attribuut moet gelijk zijn aan <em>nee</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchtenDurner</em>.
                                  </p>
                                  
@@ -22442,7 +22440,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor a in de analytische beschrijving volgens Van Genuchten. </p>
+                                 <p>De factor α in de analytische beschrijving volgens Van Genuchten. </p>
                                  
                               </td>
                            </tr>
@@ -22480,7 +22478,7 @@
                               <td>
                                  
                                  <p>Het gegeven heeft geen exacte fysische betekenis. In de mathematische expressie van
-                                    het model heeft de vormfactor a de eenheid per centimeter vanwege de plaats in deze
+                                    het model heeft de vormfactor α de eenheid per centimeter vanwege de plaats in deze
                                     expressie. 
                                  </p>
                                  
@@ -22626,7 +22624,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor m in de analytische beschrijving volgens Mualem - Van Genuchten.</p>
+                                 <p>De factor λ in de analytische beschrijving volgens Mualem - Van Genuchten.</p>
                                  
                               </td>
                            </tr>
@@ -22658,9 +22656,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Vormparameter l is een maat voor de kronkeligheid van het poriënstelsel, ofwel een
+                                 <p>Vormparameter λ is een maat voor de kronkeligheid van het poriënstelsel, ofwel een
                                     maat voor de connectiviteit van de poriën. Voor een monotoom, concave vorm van de
-                                    doorlatendheidscurve (in het Mualem – van Genuchten modelconcept) geldt l &gt; 1-2/<em>m</em>
+                                    doorlatendheidscurve (in het Mualem – van Genuchten modelconcept) geldt λ &gt; 1-2/<em>m.</em>
                                     
                                  </p>
                                  
