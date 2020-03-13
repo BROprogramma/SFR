@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20200310</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.3versie10maart2020-3-20200310-20200313-131018</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.3versie10maart2020-3-20200310-20200313-152303</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -149,8 +149,8 @@
                      <area shape="rect" alt="Onderzocht interval" coords="280,136,526,224" href="#graph_EAID_A420FBE3_89CE_466c_875A_7F10AD21E90D"></map><p><b>Domeinmodel BRO SFR Bodemkundige analyses deel 2b 1.92.3</b></p>
                </div>
                <div class="imageinfo overview"><img src="Images/EAID_D1E5D681_CA87_4e76_B1F1_8114BB715A76.png" usemap="#imagemap-EAID_D1E5D681_CA87_4e76_B1F1_8114BB715A76" alt="Diagram "><map name="imagemap-EAID_D1E5D681_CA87_4e76_B1F1_8114BB715A76">
-                     <area shape="rect" alt="Vorm doorlatendheidscurve" coords="684,629,875,730" href="#graph_EAID_C235166C_1A71_4de1_A5D2_53E6850A7B38">
-                     <area shape="rect" alt="Waterdoorlatendheidskarakteristiek" coords="647,451,954,513" href="#graph_EAID_0AF057E2_EDD7_4700_B3C4_8BFDC1229F63">
+                     <area shape="rect" alt="Vorm doorlatendheidscurve" coords="705,629,895,730" href="#graph_EAID_C235166C_1A71_4de1_A5D2_53E6850A7B38">
+                     <area shape="rect" alt="Waterdoorlatendheidskarakteristiek" coords="647,451,953,513" href="#graph_EAID_0AF057E2_EDD7_4700_B3C4_8BFDC1229F63">
                      <area shape="rect" alt="Waterretentiekarakteristiek" coords="250,451,514,526" href="#graph_EAID_E4D2D503_2A00_47e1_9BC1_540129FF6621">
                      <area shape="rect" alt="Wandmonsteranalyse" coords="259,10,505,50" href="#graph_EAID_DC3E6339_1B2C_482c_AB74_881D1281A2EC">
                      <area shape="rect" alt="Vorm retentiecurve" coords="250,629,514,717" href="#graph_EAID_C9AA7519_2AF8_4dd9_89FB_57D75C258967">
@@ -19702,7 +19702,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Opbouw</th>
-                              <td>WGDCC</td>
+                              <td>WGDNN</td>
                            </tr>
                            <tr>
                               <th>Toelichting</th>
@@ -19711,7 +19711,7 @@
                                  <p>Het gegeven wordt gebruikt om binnen het onderzoek aan te kunnen geven welke bepalingen
                                     als input voor het modelleren van karakteristieken is gebruikt. De opbouw van het
                                     gegeven bestaat uit drie letters voor de naam van de bepaling (WGD) en een volgnummer
-                                    dat uit 2 cijfers (CC) bestaat. 
+                                    dat uit 2 cijfers (NN) bestaat. 
                                  </p>
                                  
                               </td>
@@ -21458,9 +21458,10 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>Het volgens een bepaalde procedure modelleren van het verband tussen het volumetrisch
-                                 watergehalte, de waterdoorlatendheid en de bodemvochtpotentiaal van het onderzochte
-                                 interval.
+                              <p>Het volgens een bepaalde methode modelleren van het verband tussen het volumetrisch
+                                 watergehalte en de bodemvochtpotentiaal, of tussen het volumetrisch watergehalte,
+                                 de waterdoorlatendheid en de bodemvochtpotentiaal, voor een of meer monsters uit het
+                                 onderzochte interval. 
                               </p>
                               
                            </td>
@@ -21471,6 +21472,34 @@
                               
                               <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>karakteristiek gemodelleerd</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  In andere gevallen ontbreekt de entiteit.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>De gegevens uit de bepalingen van de waterretentie stapsgewijs, van het watergehalte
+                                 en de doorlatendheid bij veranderende bodemvochtpotentiaal, en van het waterdoorlatendheidsverloop
+                                 worden gebruikt om hydrofysische karakteristieken te modelleren. Er bestaan twee typen,
+                                 de waterretentiekarakteristiek en de waterdoorlatendheidskarakteristiek. Om de waterdoorlatendheidskarakteristiek
+                                 te kunnen modelleren moet wel het watergehalte en de doorlatendheid bij veranderende
+                                 bodemvochtpotentiaal bepaald zijn.
+                                 De twee karakteristieken wordt onder meer gebruikt als input voor modellen waarmee
+                                 de waterbeweging in de bodem wordt gesimuleerd. Een tabel met alleen de meetresultaten
+                                 uit de bepalingen voldoet daarvoor niet omdat een glad verloop van de curve wenselijk
+                                 is en omdat extrapolatie van de metingen buiten het meetbereik altijd noodzakelijk
+                                 is. In de hydrofysische praktijk worden de metingen daarom samengevat door deze te
+                                 beschrijven via een analytische oplossing waarin een beperkt aantal parameters voorkomen
+                                 (curve fitting). 
+                                 De uitvoerder kan van een onderzocht interval een niet bepaald aantal van ieder van
+                                 deze karakteristieken maken door steeds een andere keuze te maken uit de beschikbare
+                                 input. De beschikbare input bepaalt of hij alleen de waterretentiekarakteristiek kan
+                                 modelleren of ook de waterdoorlatendheidskarakteristiek. In de toekomst is de wens
+                                 om met dezelfde input verschillende modelleringsmethoden te gebruiken. Omdat de uitvoerder
+                                 vrij kan kiezen welke resultaten hij als input gebruikt, wordt die voor ieder model
+                                 vastgelegd.
                               </p>
                               
                            </td>
@@ -21569,10 +21598,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Volgens de methode Mualem Van Genuchten wordt het verband tussen het watergehalte,
-                                    waterdoorlatendheid en de bodemvochtpotentiaal uitgedrukt in een enkel vlak. Met de
-                                    uitbreiding die daarop door Durner is gedaan is het mogelijk een meer complexe relatie
-                                    te definiëren door een vlak uit meerdere vlakken samen te stellen. 
+                                 <p>De modellering van alleen de waterretentiekarakteristiek is gebaseerd op de methode
+                                    van Van Genuchten, en die van de waterretentiekarakteristiek  en de doorlatendheidskarakteristiek
+                                    op de methode van Mualem en Van Genuchten. Durner heeft beide methodes uitgebreid
+                                    om meer complexe relaties te kunnen definiëren voor het geval de poriën niet homogeen
+                                    maar heterogeen verdeeld zijn. 
                                  </p>
                                  
                               </td>
@@ -21658,7 +21688,8 @@
                            <td>
                               
                               <p>De variabelen die de curve definiëren die het verband tussen het watergehalte en de
-                                 bodemvochtpotentiaal van het onderzochte interval beschrijft. 
+                                 bodemvochtpotentiaal voor een of meer monsters uit het onderzochte interval beschrijft.
+                                 
                               </p>
                               
                            </td>
@@ -21676,16 +21707,17 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Het verband  tussen de bodemvochtpotentiaal en het watergehalte wordt beschreven als
-                                 een curve en die wordt in de bodemkunde de waterretentiekarakteristiek genoemd. Het
-                                 begin en het eind van de curve zijn gedefinieerd als punten in een twee-assig stelsel,
-                                 waarbij de ene as de bodemvochtpotentiaal vertegenwoordigt en de andere het watergehalte.
-                                 Het ene punt is het punt waar de bodemvochtpotentiaal gelijk is aan 0  (<em>verzadigd volumetrisch watergehalte</em>) en het andere het punt waar de bodemvochtpotentiaal gelijk is aan minus 10^-7 (<em>residueel volumetrisch watergehalte</em>). 
-                                 De curve kan enkelvoudig of samengesteld zijn. Een samengestelde curve wordt gedefinieerd
-                                 uit een aantal curven die hetzelfde begin en eind hebben, maar in vorm verschillen.
-                                 De vorm van een curve wordt vastgelegd in drie parameters. Een samenstellende curve
-                                 heeft daarnaast een zogenaamde wegingsfactor en die is nodig om de bijdrage van de
-                                 curve aan de samengestelde curve te definiëren. 
+                              <p>Het verband tussen het watergehalte en de bodemvochtpotentiaal wordt beschreven als
+                                 een curve en die wordt in de bodemkunde de waterretentiekarakteristiek genoemd. De
+                                 curve kan enkelvoudig of samengesteld zijn. 
+                                 De curve die het resultaat is van de modellering wordt gedefinieerd door het bereik
+                                 van het volumetrisch watergehalte en een of meer sets vormparameters. Het bereik van
+                                 het volumetrisch watergehalte wordt gegeven door de waarde bij verzadiging en een
+                                 asymptotische residuele waarde. Voor de definitie van een enkelvoudige curve is daarnaast
+                                 een set van drie vormparameters voldoende. Voor een curve die uit samenstellende curves
+                                 is opgebouwd zijn er meer sets nodig. Ieder van die sets heeft als extra parameter
+                                 een zogenaamde wegingsfactor en die is nodig om de bijdrage van de curve aan de samengestelde
+                                 curve te definiëren. De som van die wegingsfactoren is gelijk aan 1.
                               </p>
                               
                            </td>
@@ -21706,9 +21738,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het beginpunt van de curve: het volumetrisch watergehalte en de bodemvochtpotentiaal
-                                    van de waterverzadigde grond. 
-                                 </p>
+                                 <p>De gemodelleerde waarde voor het volumetrisch watergehalte bij verzadiging. </p>
                                  
                               </td>
                            </tr>
@@ -21745,7 +21775,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het symbool voor verzadigd volumetrisch watergehalte is θ<sub>s</sub> (in het Engels: volumetric water content at saturation).
+                                 <p>Het symbool voor verzadigd volumetrisch watergehalte is θ<sub>s</sub> (in het Engels: <em>volumetric water content at saturation</em>).
                                  </p>
                                  
                               </td>
@@ -21768,10 +21798,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De asymptoot van de curve: het volumetrisch watergehalte waarbij de bodemvochtpotentiaal
-                                    oneindig negatief is.<br clear="none">
-                                    
-                                 </p>
+                                 <p>De asymptotische waarde van het volumetrisch watergehalte.</p>
                                  
                               </td>
                            </tr>
@@ -21808,10 +21835,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het residueel volumetrisch watergehalte is in het model de asymptotische waarde voor
-                                    ? aan het droge uiteinde van de waterretentiekarakteristiek, op het punt waar de gradient
-                                    d?/dh 0 wordt. In praktijk wordt de corresponderende bodemvochtpotentiaal gelijkgesteld
-                                    aan minus 10^7. Het symbool voor residueel volumetrisch watergehalte is θ<sub>r</sub> (in het Engels: <em>residual volumetric water content</em>).
+                                 <p>Bij een zeer kleine bodemvochtpotentiaal nadert het volumetrisch watergehalte een
+                                    grenswaarde. In de praktijk wordt daarvoor veelal een bodemvochtpotentiaal van minus
+                                    10<sup>7</sup> cm waterkolom genomen. Het symbool voor residueel volumetrisch watergehalte is θ<sub>r</sub> (in het Engels: <em>residual volumetric water content</em>). 
                                  </p>
                                  
                               </td>
@@ -21872,13 +21898,14 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Standaard wordt gekozen voor toepassing van de methode volgens Van Genuchten en het
-                                    resultaat daarvan is een enkelvoudige curve.  Een enkelvoudige curve beschrijft de
-                                    karakteristiek van grond met een homogene poriënverdeling. Wanneer blijkt dat een
-                                    enkelvoudige curve de meetgegevens niet voldoende kan beschrijven, wordt gekozen voor
-                                    de meer uitgebreide methode vanGenuchtenDurner en dan is het resultaat een aantal
-                                    curven die tezamen een samengestelde curve definieren. Dit wordt toegepast bij gronden
-                                    met een heterogene poriënverdeling. 
+                                 <p>Standaard wordt gekozen voor toepassing van de methode volgens Van Genuchten of Mualem
+                                    Van Genuchten en het resultaat daarvan is een enkelvoudige curve. Een enkelvoudige
+                                    curve beschrijft de karakteristiek van grond met een unimodale poriënverdeling. Wanneer
+                                    blijkt dat een enkelvoudige curve de meetgegevens niet voldoende kan beschrijven,
+                                    wordt gekozen voor de meer uitgebreide methode vanGenuchtenDurner en mualemVanGenuchtenDurner
+                                    dan is het resultaat een multimodale curve, feitelijk een aantal curven die tezamen
+                                    een samengestelde curve definiëren. Dit wordt toegepast bij gronden met een heterogene
+                                    poriënverdeling. Het aantal curven wordt de modaliteit van de karakteristiek genoemd.
                                  </p>
                                  
                               </td>
@@ -21904,7 +21931,7 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>De factoren die samen de vorm van de curve beschrijven.</p>
+                              <p>De factoren die samen de vorm van de retentiecurve beschrijven.</p>
                               
                            </td>
                         </tr>
@@ -21912,7 +21939,9 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Het aantal curven wordt in de literatuur aangeduid als de modaliteit van de karakteristiek.</p>
+                              <p>De analytische beschrijving volgens van Genuchten drie vormparameters: <em>a</em>, <em>n</em> en <em>m</em>. Voor multimodale varianten worden meerdere sets waarden voor de laatste drie parameters
+                                 gegeven met een wegingsfactor. De som van alle wegingsfactoren is gelijk aan 1.
+                              </p>
                               
                            </td>
                         </tr>
@@ -21932,7 +21961,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor die gecorreleerd is met de luchtintreewaarde. </p>
+                                 <p>De factor a in de analytische beschrijving volgens Van Genuchten. </p>
                                  
                               </td>
                            </tr>
@@ -21969,14 +21998,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Fysisch gezien is de lucht intree waarde is gerelateerd aan de inverse van de intredende
-                                    luchtzuiging, oftewel de moeite waarmee lucht de poriën binnendringt van de grond.
-                                    
-                                    Mathematisch gezien is de vormfactor alpha gecorreleerd met het punt waarop de afgeleide
-                                    van de bodemvochtpotentiaal maximaal is. In de mathematische expressie van het model
-                                    heeft de vormfactor alpha de eenheid per centimeter vanwege de plaats in deze expressie.
-                                    
-                                    Het symbool voor deze vormfactor is a.
+                                 <p>Het gegeven heeft geen exacte fysische betekenis. In de mathematische expressie van
+                                    het model heeft de vormfactor a de eenheid per centimeter vanwege de plaats in deze
+                                    expressie. 
                                  </p>
                                  
                               </td>
@@ -21999,7 +22023,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor die gecorreleerd is met de poriëngrootteverdeling van de grond. </p>
+                                 <p>De factor n in de analytische beschrijving volgens Van Genuchten. </p>
                                  
                               </td>
                            </tr>
@@ -22035,9 +22059,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven bepaalt de steilheid van de waterretentiekarakteristiek bij kleine waardes
-                                    van het volumetrisch watergehalte. Een grotere n geeft een steilere grafiek bij  kleinere
-                                    watergehalten. Het symbool voor deze vormfactor is n.
+                                 <p>Het gegeven bepaalt onder meer de steilheid van de waterretentiekarakteristiek bij
+                                    kleine waardes van het volumetrisch watergehalte. Een grotere <em>n</em> geeft een steilere grafiek bij kleinere watergehalten. De vormfactor n wordt verondersteld
+                                    te correleren met de poriëngrootteverdeling van de grond.
                                  </p>
                                  
                               </td>
@@ -22060,7 +22084,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor m.</p>
+                                 <p>De factor m in de analytische beschrijving volgens Van Genuchten.</p>
                                  
                               </td>
                            </tr>
@@ -22096,9 +22120,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De vormfactor m wordt afgeleid uit vormfactor n. Meestal wordt gekozmen voor de relatie
-                                    m = 1-1/n. Maar omdat ook andere relaties  worden gebruikt, zoals m = 1 - 1/2m wordt
-                                    de waarde altijd opgegeven. Het symbool voor deze vormfactor is m.
+                                 <p>Wanneer de waterretentiekarakteristiek samen met de doorlatendheidskarakteristiek
+                                    is bepaald geldt <em>m</em> = 1-1/<em>n</em>. Wanneer de waterretentiekarakteristiek alleen is bepaald is dat vaak maar niet altijd
+                                    het geval. 
                                  </p>
                                  
                               </td>
@@ -22121,7 +22145,9 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het aandeel van de curve in de vorm van de samengestelde curve. </p>
+                                 <p>Het aandeel van de curve in de vorm van de samengestelde curve.<br clear="none">
+                                    
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -22167,9 +22193,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven geeft aan in welke mate een samenstellende  curve bijdraagt aan de vorm
-                                    van het geheel. Iedere samenstellende curve beschrijft andere waarden van de eigenschappen
-                                    van de grond. Het symbool voor de wegingsfactor is ω.
+                                 <p>Het gegeven geeft aan in welke mate een samenstellende curve bijdraagt aan de vorm
+                                    van de samengestelde curve. Het symbool voor de wegingsfactor is ω. 
                                  </p>
                                  
                               </td>
@@ -22197,7 +22222,8 @@
                            <td>
                               
                               <p>De variabelen die de curve definiëren die het verband tussen de waterdoorlatendheid
-                                 en de bodemvochtpotentiaal van het onderzochte interval beschrijft. 
+                                 en de bodemvochtpotentiaal voor een of meer monsters uit het onderzochte interval
+                                 beschrijft.
                               </p>
                               
                            </td>
@@ -22208,6 +22234,26 @@
                               
                               <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>modelleringsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em> of <em>mualemVanGenuchtenDurner.</em>
                                  
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>Het verband tussen de waterdoorlatendheid en de bodemvochtpotentiaal wordt beschreven
+                                 als een curve en die wordt in de bodemkunde de waterdoorlatendheidskarakteristiek
+                                 genoemd. De curve kan enkelvoudig of samengesteld zijn. 
+                              </p>
+                              
+                              <p>De curve die het resultaat is van de modellering wordt gedefinieerd door een waarde
+                                 voor de verzadigde waterdoorlatendheid en een of meer sets vormparameters. Voor de
+                                 definitie van een enkelvoudige curve is daarnaast een set van vier vormparameters
+                                 voldoende. Voor een curve die uit samenstellende curves is opgebouwd zijn er meer
+                                 sets nodig. Ieder van die sets heeft als extra parameter een zogenaamde wegingsfactor
+                                 en die is nodig om de bijdrage van de curve aan de samengestelde curve te definiëren.
+                                 De som van die wegingsfactoren is gelijk aan 1.
                               </p>
                               
                            </td>
@@ -22227,6 +22273,8 @@
                            <tr>
                               <th>Definitie</th>
                               <td>
+                                 
+                                 <p>De gemodelleerde waarde voor de doorlatendheid bij verzadiging. </p>
                                  
                                  <p>Het punt in het model dat de waterdoorlatendheid van de verzadigde grond het best
                                     benadert.
@@ -22266,9 +22314,13 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Dit stelt de verzadigde waterdoorlatendheid voor bij een bodemvochtpotentiaal die
-                                    gelijk is aan 0 en bij het verzadigd volumetrisch watergehalte. Het symbool voor verzadigde
-                                    waterdoorlatenheid is ksf. 
+                                 <p>De gemodelleerde doorlatendheid bij verzadiging wordt aangeduid met het symbool k<sub>sf</sub> (s = verzadigd (Eng: saturated); f = fitted). Het is een parameter in de analytische
+                                    vergelijking van Mualem, en de waarde wordt bepaald door enerzijds de ligging van
+                                    alle meetwaarden en anderzijds door de gewogen koppeling met de Van Genuchten vergelijking
+                                    voor de retentiekarakteristiek. 
+                                    De waarde voor de gemodelleerde verzadigde waterdoorlatendheid is in veel gevallen
+                                    kleiner dan de gemeten waarde van de verzadigde waterdoorlatendheid van hetzelfde
+                                    onderzochte interval. 
                                  </p>
                                  
                               </td>
@@ -22329,13 +22381,14 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Standaard wordt gekozen voor toepassing van de methode volgens MualemVan Genuchten
-                                    en het resultaat daarvan is een enkelvoudig vlak. Een enkelvoudig vlak beschrijft
-                                    de karakteristiek van grond met een homogene poriënverdeling. Wanneer blijkt dat een
-                                    enkelvoudig vlak de meetgegevens niet voldoende kan beschrijven, wordt gekozen voor
-                                    de meer uitgebreide methode mualemVanGenuchtenDurner en dan is het resultaat een aantal
-                                    curven die tezamen een samengestelde vlakken definiëren. Dit wordt toegepast bij gronden
-                                    met een heterogene poriënverdeling. 
+                                 <p>Standaard wordt gekozen voor toepassing van de methode volgens Mualem Van Genuchten
+                                    en het resultaat daarvan is een enkelvoudige curve. Een enkelvoudige curve beschrijft
+                                    de karakteristiek van grond met een unimodale poriënverdeling. Wanneer blijkt dat
+                                    een enkelvoudige curve de meetgegevens niet voldoende kan beschrijven, wordt gekozen
+                                    voor de meer uitgebreide methode mualemVanGenuchtenDurner dan is het resultaat een
+                                    multimodale curve, feitelijk een aantal curven die tezamen een samengestelde curve
+                                    definiëren. Dit wordt toegepast bij gronden met een heterogene poriënverdeling. Het
+                                    aantal curven wordt de modaliteit van de karakteristiek genoemd.
                                  </p>
                                  
                               </td>
@@ -22389,7 +22442,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor die gecorreleerd is met de luchtintreewaarde.</p>
+                                 <p>De factor a in de analytische beschrijving volgens Van Genuchten. </p>
                                  
                               </td>
                            </tr>
@@ -22426,14 +22479,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Fysisch gezien is de lucht intree waarde is gerelateerd aan de inverse van de intredende
-                                    luchtzuiging, oftewel de moeite waarmee lucht de poriën binnendringt van de grond.
-                                    
-                                    Mathematisch gezien is de vormfactor alpha gecorreleerd met het punt waarop de afgeleide
-                                    van de bodemvochtpotentiaal maximaal is. In de mathematische expressie van het model
-                                    heeft de vormfactor alpha de eenheid per centimeter vanwege de plaats in deze expressie.
-                                    
-                                    Het symbool voor deze vormfactor is a.
+                                 <p>Het gegeven heeft geen exacte fysische betekenis. In de mathematische expressie van
+                                    het model heeft de vormfactor a de eenheid per centimeter vanwege de plaats in deze
+                                    expressie. 
                                  </p>
                                  
                               </td>
@@ -22456,7 +22504,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor die gecorreleerd is met de poriëngrootteverdeling van de grond. </p>
+                                 <p>De factor n in de analytische beschrijving volgens Van Genuchten. </p>
                                  
                               </td>
                            </tr>
@@ -22492,9 +22540,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven bepaalt de steilheid van de waterretentiekarakteristiek bij kleine waardes
-                                    van het volumetrisch watergehalte. Een grotere n geeft een steilere grafiek bij  kleinere
-                                    watergehalten. Het symbool voor deze vormfactor is n.
+                                 <p>Het gegeven bepaalt onder meer de steilheid van de waterretentiekarakteristiek bij
+                                    kleine waardes van het volumetrisch watergehalte. Een grotere <em>n</em> geeft een steilere grafiek bij kleinere watergehalten. De vormfactor n wordt verondersteld
+                                    te correleren met de poriëngrootteverdeling van de grond.
                                  </p>
                                  
                               </td>
@@ -22517,7 +22565,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor m.</p>
+                                 <p>De factor m in de analytische beschrijving volgens Van Genuchten.</p>
                                  
                               </td>
                            </tr>
@@ -22553,9 +22601,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De vormfactor m wordt afgeleid uit vormfactor n. Meestal wordt gekozmen voor de relatie
-                                    m = 1-1/n. Maar omdat ook andere relaties  worden gebruikt, zoals m = 1 - 1/2m wordt
-                                    de waarde altijd opgegeven. Het symbool voor deze vormfactor is m.
+                                 <p>Wanneer de waterretentiekarakteristiek samen met de doorlatendheidskarakteristiek
+                                    is bepaald geldt <em>m</em> = 1-1/<em>n</em>. Wanneer de waterretentiekarakteristiek alleen is bepaald is dat vaak maar niet altijd
+                                    het geval. 
                                  </p>
                                  
                               </td>
@@ -22578,7 +22626,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De factor die gecorreleerd is met de kronkeligheid van het systeem van poriën. </p>
+                                 <p>De factor m in de analytische beschrijving volgens Mualem - Van Genuchten.</p>
                                  
                               </td>
                            </tr>
@@ -22605,6 +22653,18 @@
                            <tr>
                               <th>&nbsp;&nbsp;Eenheid</th>
                               <td>dimensieloos</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Vormparameter l is een maat voor de kronkeligheid van het poriënstelsel, ofwel een
+                                    maat voor de connectiviteit van de poriën. Voor een monotoom, concave vorm van de
+                                    doorlatendheidscurve (in het Mualem – van Genuchten modelconcept) geldt l &gt; 1-2/<em>m</em>
+                                    
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -22670,9 +22730,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven geeft aan in welke mate een samenstellende  curve bijdraagt aan de vorm
-                                    van het geheel. Iedere samenstellende curve beschrijft andere waarden van de eigenschappen
-                                    van de grond. Het symbool voor de wegingsfactor is ω.
+                                 <p>Het gegeven geeft aan in welke mate een samenstellende curve bijdraagt aan de vorm
+                                    van de samengestelde curve. Het symbool voor de wegingsfactor is ω. 
                                  </p>
                                  
                               </td>
