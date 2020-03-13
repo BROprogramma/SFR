@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20200310</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.3versie10maart2020-3-20200310-20200313-122404</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.3versie10maart2020-3-20200310-20200313-124315</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -21667,7 +21667,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>Wanneer  de waarde van het attribuut <em>curve enkelvoudig</em> gelijk is aan <em>ja</em>, dan moet de som van alle wegingsfactoren van de entiteit <em>Vorm van de curve bodemvochtpotentiaal en watergehalte</em> gelijk zijn aan 1.
+                              <p>Wanneer de waarde van het attribuut <em>curve enkelvoudig</em> gelijk is aan <em>ja</em>, dan moet de som van alle wegingsfactoren van de entiteit <em>Vorm retentiecurve</em> gelijk zijn aan <em>1</em>.
                               </p>
                               
                            </td>
@@ -21862,7 +21862,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van de bepalingsmethode gelijk is aan <em>vanGenuchten</em> of <em>mualemVanGenuchten</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>vanGenuchten</em> of <em>mualemVanGenuchten</em>.
+                                    De waarde van het attribuut moet gelijk zijn aan <em>nee</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>vanGenuchtenDurner</em> of <em>mualemVanGenuchtenDurner</em>.
                                  </p>
                                  
                               </td>
@@ -22153,6 +22154,16 @@
                               <td>0 tot 1</td>
                            </tr>
                            <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>curve enkelvoudig</em> van de entiteit <em>Waterretentiekarakteristiek</em> gelijk is aan <em>ja</em>.<br clear="none">
+                                    In andere gevallen ontbreekt het attribuut.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Toelichting</th>
                               <td>
                                  
@@ -22187,6 +22198,16 @@
                               
                               <p>De variabelen die de curve definiëren die het verband tussen de waterdoorlatendheid
                                  en de bodemvochtpotentiaal van het onderzochte interval beschrijft. 
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>modelleringsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em> of <em>mualemVanGenuchtenDurner.</em>
+                                 
                               </p>
                               
                            </td>
@@ -22298,7 +22319,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van de bepalingsmethode gelijk is aan <em>MualemvanGenuchtenDurner of vanGuchtentenDurner</em>. 
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchten</em>.
+                                    De waarde van het attribuut moet gelijk zijn aan <em>nee</em>, wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Modellering van hydrofysische karakteristieken</em> gelijk is aan <em>mualemVanGenuchtenDurner</em>.
                                  </p>
                                  
                               </td>
@@ -22633,6 +22655,16 @@
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>0 tot 1</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>curve enkelvoudig</em> van de entiteit <em>Waterdoorlatendheidskarakteristiek</em> gelijk is aan <em>ja</em>.<br clear="none">
+                                    In andere gevallen ontbreekt het attribuut.
+                                 </p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Toelichting</th>
