@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Bodemkundig wandonderzoek (SFR)/20200321</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.5versie21maart2020-3-20200321-20200324-112042</p>
+      <p>Model release: Conceptualmodel-BodemkundigwandonderzoekSFR-1.92.5versie21maart2020-3-20200321-20200324-114939</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -11838,8 +11838,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van wandonderzoek
-                                    bekend zijn. 
+                                 <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                                    van wandonderzoek.
                                  </p>
                                  
                               </td>
@@ -12005,7 +12005,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De einddiepte moet groter zijn dan de begindiepte van het Onderzocht interval.<br clear="none">
+                                 <p>De einddiepte moet groter zijn dan de begindiepte van het <em>Onderzocht interval</em>.<br clear="none">
                                     De einddiepte van het onderste interval mag niet groter zijn dan de <em>einddiepte wand</em> van de entiteit <em>Wandontsluiting</em>.
                                  </p>
                                  
@@ -12057,8 +12057,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
-                                    Het attribuut mag niet aanwezig zijn in alle andere gevallen. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> , <em>hydrofysicaUitgebreid</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
                                  </p>
                                  
                               </td>
@@ -12122,7 +12121,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> , <em>hydrofysicaUitgebreid</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -12168,8 +12167,9 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>chemieBodemkartering</em>, <em>chemieKlimaat</em> of <em>chemieNatuur.</em>
-                                 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>basis, chemieBodemkartering</em>, <em>chemieKlimaat</em> of <em>chemieNatuur.</em>
+                                 De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> of <em>hydrofysicaUitgebreid</em>.<br clear="none">
+                                 De entiteit mag aanwezig zijn in alle andere gevallen. 
                               </p>
                               
                            </td>
@@ -12398,7 +12398,8 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>basis</em>, <em>chemieBodemkartering</em>, <em>chemieKlimaat</em>, <em>chemieNatuur</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>basis</em>, <em>chemieBodemkartering</em>, <em>chemieKlimaat</em>, <em>chemieNatuur</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.<br clear="none">
+                                 De entiteit mag aanwezig zijn in alle andere gevallen.
                               </p>
                               
                            </td>
@@ -12757,16 +12758,6 @@
                               </td>
                            </tr>
                            <tr>
-                              <th>Regels IMBRO/A</th>
-                              <td>
-                                 
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natDroogZeven</em>.<br clear="none">
-                                    Het attribuut moet aanwezig zijn in alle andere gevallen.
-                                 </p>
-                                 
-                              </td>
-                           </tr>
-                           <tr>
                               <th>Toelichting</th>
                               <td>
                                  
@@ -12865,7 +12856,7 @@
                               
                               <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gestandaardiseerde korrelgrootteverdeling bepaald</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>.<br clear="none">
                                  Het attribuut moet aanwezig zijn in alle andere gevallen.<br clear="none">
-                                 De som van de fracties is 100%.
+                                 De som van de fracties moet gelijk zijn aan 100%.
                               </p>
                               
                            </td>
@@ -13062,7 +13053,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>minimaalBasis</em>, <em>minimaalStandaard</em> of <em>minimaalUitgebreid</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>minimaalBasis</em>, <em>minimaalStandaard</em> of <em>minimaalUitgebreid</em>.<br clear="none">
                                  De entiteit moet afwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -13401,9 +13392,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan<br clear="none">
-                                 <em>uitgebreidStandaard</em> of<br clear="none">
-                                 <em>uitgebreidUitgebreid</em>.<br clear="none">
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>uitgebreidStandaard</em> of <em>uitgebreidUitgebreid</em>.<br clear="none">
                                  De entiteit moet afwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -14538,7 +14527,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn onder IMBRO/A wanneer de waarde van het attribuut <em>gestandaardiseerde korrelgrootteverdeling bepaald</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>. 
+                              <p>De entiteit moet aanwezig zijn onder IMBRO/A wanneer de waarde van het attribuut <em>gestandaardiseerde korrelgrootteverdeling bepaald</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>.<br clear="none">
                                  De entiteit moet ontbreken in alle andere gevallen.
                               </p>
                               
@@ -28353,7 +28342,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>De dispersiemethode is onbekend.</p>
+                        <p>Er is geen dispersiemethode gebruikt. </p>
                         
                      </td>
                   </tr>
@@ -28363,7 +28352,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Er is geen dispersiemethode gebruikt. </p>
+                        <p>De dispersiemethode is onbekend.</p>
                         
                      </td>
                   </tr>
@@ -35038,7 +35027,7 @@
                         
                         <p>De bodemkundige monsteranalyse omvat ten minste alle chemische bepalingen voor het
                            thema bodemkartering die vereist zijn en dat betekent dat in ieder geval de korrelgrootte,
-                           de zuurgraad, het organische stofgehalte, de CEC , de basenbezetting en de gehalten
+                           de zuurgraad, het organische stofgehalte, de CEC, de basenbezetting en de gehalten
                            aan Fe- en Al-oxalaten zijn bepaald.
                         </p>
                         
@@ -35113,11 +35102,10 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor uitgebreid hydrofysisch
+                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
                            onderzoek vereist zijn en dat betekent dat de korrelgrootte, het organischestofgehalte,
-                           krimpverloop, waterdoorlatendheid, waterretentie stapsgewijs en de bepaling watergehalte
-                           en doorlatendheid bij veranderende bodemvochtpotentiaal zijn bepaald en dat er een
-                           synthese is gemaakt.
+                           waterdoorlatendheid, waterretentie stapsgewijs en de bepaling watergehalte en doorlatendheid
+                           bij veranderende bodemvochtpotentiaal zijn bepaald en dat er een modellering is gemaakt.
                         </p>
                         
                      </td>
@@ -35128,7 +35116,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor uitgebreid hydrofysisch
+                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
                            onderzoek vereist zijn en niet gespecificeerde chemische bepalingen.
                         </p>
                         
@@ -35140,10 +35128,11 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
+                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor uitgebreid hydrofysisch
                            onderzoek vereist zijn en dat betekent dat de korrelgrootte, het organischestofgehalte,
-                           waterdoorlatendheid, waterretentie stapsgewijs en de bepaling watergehalte en doorlatendheid
-                           bij veranderende bodemvochtpotentiaal zijn bepaald en dat er een synthese is gemaakt.
+                           krimpverloop, waterdoorlatendheid, waterretentie stapsgewijs en de bepaling watergehalte
+                           en doorlatendheid bij veranderende bodemvochtpotentiaal zijn bepaald en dat er een
+                           modellering is gemaakt.
                         </p>
                         
                      </td>
@@ -35154,7 +35143,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
+                        <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor uitgebreid hydrofysisch
                            onderzoek vereist zijn en niet gespecificeerde chemische bepalingen.
                         </p>
                         
