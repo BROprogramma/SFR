@@ -2,6 +2,8 @@
 
 Repository voor het ontwikkelen van de gegevenscatalogus Wandonderzoek - bodemkundige wandbeschrijving & wandmonsteranalyse.
 
+## Publieke consultatie verwerkt
+
 De publieke consultatie voor dit registratieobject is afgerond
 
 
