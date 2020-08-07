@@ -2,23 +2,28 @@
 
 Repository voor het ontwikkelen van de gegevenscatalogus Wandonderzoek - bodemkundige wandbeschrijving & wandmonsteranalyse.
 
-## Publieke Consultatie
-Op donderdag 31 oktober start de publieke consultatie voor de standaard [bodemkundige wandmonsteranalyse][1]. De publieke consultatie loopt tot en met 15 december 2019. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
+## Publieke consultatie verwerkt
 
-In de [instructies voor de publieke consultatie][2] wordt uitgelegd hoe u kunt reageren via Github.
-Het is ook mogelijk te reageren via een webformulier: https://basisregistratieondergrond.nl/werken-bro/producten-diensten/standaarden/publieke-consultaties/publieke-consultatie-bodemkundige/
+De publieke consultatie voor dit registratieobject is afgerond
 
-Voor het goed begrijpen van de catalogus zoals hij in de ministeriële regeling verschijnt raden we u ten sterkste aan eerst het [achtergrond document][3] te lezen. U kunt niet op dit inleidend document reageren, maar het geeft wel een goede inleiding waarmee de catalogus beter begrepen kan worden.
 
-Een wandmonsteranalyse onderzoekt wandmonsters door er metingen aan te doen. Dit gebeurt eigenlijk altijd in een laboratorium. Bodemkundige analyses worden gedaan om meer te weten te komen over de samenstelling, opbouw en vorming van bodem. De bodemkundige boormonsteranalyse komt qua laboratorium proeven (bepalingen) volledig overeen met de proeven(bepalingen) van de bodemkundige wandmonsteranalyse. Het is afdoende om van een van beide catalogi de uitbreiding te beoordelen. Het onderhoud op het bestaande deel van de catalogi verschilt wel kijk hier voor beide catalogi dus kritisch naar.
+Alle ingediende issues zijn door het standaardisatieteam in behandeling genomen en waar van toepassing zijn aanpassingen doorgevoerd in een nieuwe versie van de catalogus. In een aantal gevallen volstond een toelichting/antwoord op de issue/vraag rechtstreeks aan de indiener.  
+Een overzicht van alle ingediende issues is via deze [link][6] beschikbaar. In het overzicht is de wijze waarop het issue is beoordeeld en verwerkt opgenomen (indien van toepassing inclusief toelichting/antwoord). De issues op GitHub zullen dan ook worden afgesloten met de verwijzing naar dit overzicht. Dit geldt dus ook voor de door u ingediende issues. 
 
-Daarnaast zijn er bij de implementatie van de bestaande catalogus voor bodemkundig wandonderzoek bevindingen gedaan. Een aantal van deze bevindingen zijn in de te consulteren catalogus opgelost. Daarnaast zijn er bevindingen vanuit juridisch traject en voortschrijdend inzicht in modelleerwijze. De complete lijst met issues die opgelost worden is [hier te vinden op Github][4]. Per issue staat de oplossingsrichting aangegeven en waar in de catalogus de uitwerking terug te vinden is.
+Naast de aanpassingen naar aanleiding van de publieke consultatie zijn er ook nog andere aanpassingen doorgevoerd in de catalogus. Deze aanpassingen zijn uitgevoerd naar aanleiding van constateringen die gedaan zijn tijdens de bouwfase. Alle wijzigingen zijn verwerkt in de 1.99 versie van de catalogus. Deze 1.99 versie is via deze [link][7] te vinden.
 
-In de catalogus worden de uitbreidingen aangegeven in blauwe tekst. Substantieel onderhoud op het reeds bestaande deel van de catalogus wordt aangegeven in groene tekst.
+De catalogus versie 1.99 gaat nu een juridisch traject in zodat via de AMVB van de BRO de wettelijke versie 2.0 wordt vastgesteld. Indien er geen bijzonderheden optreden zullen de wettelijke verplichtingen voor dit registratieobject per 1 januari 2021 ingaan.
+
+Op [basisregistratieondergrond.nl is een overzicht][8] te vinden van alle vastgestelde catalogi van de BRO en de verwerking van de publieke consultatie van de tranche 3 catalogi.
 
 [1]: https://github.com/BROprogramma/SFR/raw/gh-pages/20191031%20Catalogus%20Bodemkundig%20Wandonderzoek%20versie%201.9.pdf
 [2]: https://github.com/BROprogramma/SFR/blob/gh-pages/consultatie-instructie.md
 [3]: https://github.com/BROprogramma/SFR/raw/gh-pages/20191031%20inleiding%20op%20catalogus%20wandonderzoek%201-9.pdf
 [4]: https://github.com/BROprogramma/SFR/issues?q=is%3Aissue+label%3A%22tranche+2%22+label%3A%22opgelost+in+tranche+3+catalogus%22
+[6]: https://basisregistratieondergrond.nl/publish/library/265/terugkoppeling_publieke_consultatie_bhr-p_en_sfr.xlsx
+[7]: https://basisregistratieondergrond.nl/publish/library/265/20190507_catalogus_bodemkundig_wandonderzoek.pdf
+[8]: https://basisregistratieondergrond.nl/werken-bro/producten-diensten/standaarden/catalogi/
+
+
 
 
