@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchCharacteristicsResponse
-    xmlns="http://www.broservices.nl/xsd/dssfr/1.0"
-    xmlns:bhrgtcom="http://www.broservices.nl/xsd/sfrcommon/1.0"
+    xmlns="http://www.broservices.nl/xsd/dssfr/2.0"
+    xmlns:bhrgtcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/1.0 ../../XSD/dssfr-messages.xsd"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/2.0 ../../XSD/dssfr-messages.xsd"
     >
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
        Het is niet gevalideert door de uitgifteervice en is vaktechnisch/inhoudelijk niet voorbeeldig.
@@ -13,7 +13,7 @@
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>101</brocom:requestReference>
   <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
-  <numberOfDocuments>1</numberOfDocuments>
+  <numberOfDocuments>2</numberOfDocuments>
   <dispatchDocument>
     <SFR_C gml:id="SEQ_0001">
       <brocom:broId>SFR123456789012</brocom:broId>
@@ -22,10 +22,10 @@
       <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
       <brocom:objectRegistrationTime>2017-02-23T00:00:00+01:00</brocom:objectRegistrationTime>
       <brocom:underReview>nee</brocom:underReview>
-      <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="BRO_0002">
+      <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0002">
         <gml:pos>52.287820210 5.090415500</gml:pos>
       </brocom:standardizedLocation>
-      <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="BRO_0001">
+      <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="SEQ_0003">
         <gml:pos>134750.000 477800.000</gml:pos>
       </brocom:deliveredLocation>
       <surveyPurpose codeSpace="urn:bro:sfr:SurveyPurpose">bouwwerk</surveyPurpose>
@@ -51,9 +51,14 @@
          -->
         <brocom:date>2017-12-14</brocom:date>
       </fieldworkDate>
+      <litterLayerInvestigated>ja</litterLayerInvestigated>
+      <fractionDistributionDetermined>ja</fractionDistributionDetermined>
       <localVerticalReferencePoint codeSpace="urn:bro:sfr:LocalVerticalReferencePoint">maaiveld</localVerticalReferencePoint>
       <offset uom="m">1.303</offset>
       <verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</verticalDatum>
+      <outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</outcropType>
+      <endDepthSoilFace uom="m">2.25</endDepthSoilFace>
+      <stopCriterion codeSpace="urn:bro:sfr:StopCriterionField">einddoel</stopCriterion>
       <!--Optional:-->
       <descriptionReportDate>
         <!--You have a CHOICE of the next 4 items at this level-->
@@ -69,15 +74,70 @@
       <descriptionProcedure codeSpace="urn:bro:sfr:DescriptionProcedure">AlterraTD19Av2020</descriptionProcedure>
       <!--Optional:-->
       <descriptionQuality codeSpace="urn:bro:sfr:DescriptionQuality">hoog</descriptionQuality>
-      <litterLayerInvestigated>ja</litterLayerInvestigated>
-      <!--Optional:-->
-      <fractionDistributionDetermined>ja</fractionDistributionDetermined>
-      <outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</outcropType>
-      <endDepthSoilFace uom="m">2.25</endDepthSoilFace>
-      <!--Optional:-->
-      <stopCriterion codeSpace="urn:bro:sfr:StopCriterion">einddoel</stopCriterion>
       <!--Optional:-->
       <sequenceDisturbed>ja</sequenceDisturbed>
+      <!--Optional:-->
+      <analysisReportDate>
+        <!--You have a CHOICE of the next 4 items at this level-->
+        <!-- 
+        <brocom:date>2017-12-14</brocom:date>
+        <brocom:yearMonth>2017-12</brocom:yearMonth>
+        <brocom:year>2017</brocom:year>
+        <brocom:voidReason>onbekend</brocom:voidReason>
+         -->
+        <brocom:date>2017-12-14</brocom:date>
+      </analysisReportDate>
+      <!--Optional:-->
+      <analysisType codeSpace="urn:bro:sfr:AnalysisType">nietGespecificeerd</analysisType>
+      <!--Optional:-->
+      <characteristicsModelled>ja</characteristicsModelled>
+    </SFR_C>
+  </dispatchDocument>
+  <dispatchDocument>
+    <SFR_C gml:id="SEQ_0004">
+      <brocom:broId>SFR210987654321</brocom:broId>
+      <brocom:deregistered>nee</brocom:deregistered>
+      <brocom:deliveryAccountableParty>25766179</brocom:deliveryAccountableParty>
+      <brocom:qualityRegime>IMBRO</brocom:qualityRegime>
+      <brocom:objectRegistrationTime>2021-01-18T08:30:21+01:00</brocom:objectRegistrationTime>
+      <brocom:underReview>nee</brocom:underReview>
+      <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0005">
+        <gml:pos>52.287820210 5.090415500</gml:pos>
+      </brocom:standardizedLocation>
+      <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="SEQ_0006">
+        <gml:pos>134750.000 477800.000</gml:pos>
+      </brocom:deliveredLocation>
+      <surveyPurpose codeSpace="urn:bro:sfr:SurveyPurpose">bouwwerk</surveyPurpose>
+      <discipline codeSpace="urn:bro:sfr:Discipline">bodemkunde</discipline>
+      <!--Optional:-->
+      <researchReportDate>
+        <!--You have a CHOICE of the next 4 items at this level-->
+        <!-- 
+        <brocom:date>2018-01-01</brocom:date>
+        <brocom:yearMonth>2018-01</brocom:yearMonth>
+        <brocom:year>2018</brocom:year>
+        <brocom:voidReason>onbekend</brocom:voidReason>
+         -->
+        <brocom:date>2021-01-05</brocom:date>
+      </researchReportDate>
+      <fieldworkDate>
+        <!--You have a CHOICE of the next 4 items at this level-->
+        <!-- 
+        <brocom:date>2017-12-14</brocom:date>
+        <brocom:yearMonth>2017-12</brocom:yearMonth>
+        <brocom:year>2017</brocom:year>
+        <brocom:voidReason>onbekend</brocom:voidReason>
+         -->
+        <brocom:date>2021-01-03</brocom:date>
+      </fieldworkDate>
+      <litterLayerInvestigated>nee</litterLayerInvestigated>
+      <fractionDistributionDetermined>nee</fractionDistributionDetermined>
+      <localVerticalReferencePoint codeSpace="urn:bro:sfr:LocalVerticalReferencePoint">maaiveld</localVerticalReferencePoint>
+      <offset uom="m">-4.872</offset>
+      <verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</verticalDatum>
+      <outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</outcropType>
+      <endDepthSoilFace uom="m">1.50</endDepthSoilFace>
+      <stopCriterion codeSpace="urn:bro:sfr:StopCriterionField">einddoel</stopCriterion>
     </SFR_C>
   </dispatchDocument>
 </dispatchCharacteristicsResponse>
