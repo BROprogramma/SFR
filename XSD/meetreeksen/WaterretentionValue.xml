@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swe:DataRecord
+        id="WaterretentionValueType"
+        xmlns:swe="http://www.opengis.net/swe/2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/swe/2.0 swe-profile.xsd">
+	<swe:label>WaterretentionValue resultaat record</swe:label>
+	<swe:description>Beschrijving/formaat van de parameters van een WaterretentionValue</swe:description>
+	<swe:field name="soilWaterPotential">
+	<swe:Quantity><swe:uom code="cmH2O"></swe:uom></swe:Quantity>
+	</swe:field>
+	<swe:field name="volumetricWaterContent">
+		<swe:Quantity>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm3/cm3"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="massWaterContent">
+		<swe:Quantity>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">-NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="g/g"/>
+		</swe:Quantity>
+	</swe:field>
+</swe:DataRecord>

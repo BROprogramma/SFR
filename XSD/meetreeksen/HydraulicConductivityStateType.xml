@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swe:DataRecord
+        id="HydraulicConductivityStateRecordType"
+        xmlns:swe="http://www.opengis.net/swe/2.0"
+        xmlns:swei="http://www.w3.org/2001/XMLSchema-instance"
+        swei:schemaLocation="http://www.opengis.net/swe/2.0 swe-profile.xsd">
+	<swe:label>HydraulicConductivityState resultaat record</swe:label>
+	<swe:description>Beschrijving/formaat van de parameters van een HydraulicConductivityState</swe:description>
+	<swe:field name="soilWaterPotential">
+	<swe:Quantity>
+		<swe:uom code="cmH2O"></swe:uom>
+	</swe:Quantity>
+	</swe:field>
+	<swe:field name="hydraulicConductivity">
+	<swe:Quantity>
+		<swe:uom code="cm/dag"></swe:uom>
+	</swe:Quantity>
+	</swe:field>
+	<swe:field name="volumetricWaterContent">
+		<swe:Quantity>
+			 <swe:nilValues>
+                <swe:NilValues>
+                    <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">-9999</swe:nilValue>
+                </swe:NilValues>
+            </swe:nilValues>
+			<swe:uom code="cm3/cm3" />
+		</swe:Quantity>
+	</swe:field>
+</swe:DataRecord>

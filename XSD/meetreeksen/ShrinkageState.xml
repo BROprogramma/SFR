@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swe:DataRecord
+        id="ShrinkageStateType"
+        xmlns:swe="http://www.opengis.net/swe/2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/swe/2.0 swe-profile.xsd">
+	<swe:label>ShrinkageState resultaat record</swe:label>
+	<swe:description>Beschrijving/formaat van de parameters van een ShrinkageState</swe:description>
+	<swe:field name="mass">
+	<swe:Quantity>
+		<swe:uom code="gr"></swe:uom>
+	</swe:Quantity>
+	</swe:field>
+	<swe:field name="volume">
+	<swe:Quantity>
+		<swe:uom code="cm3"></swe:uom>
+	</swe:Quantity>
+	</swe:field>
+	<swe:field name="height">
+		<swe:Quantity>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm"></swe:uom>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="diameter">
+		<swe:Quantity>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm"></swe:uom>
+		</swe:Quantity>		
+	</swe:field>
+</swe:DataRecord>

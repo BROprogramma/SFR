@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swe:DataRecord
+        id="ShapeHydraulicConductivyCurveType"
+        xmlns:swe="http://www.opengis.net/swe/2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/swe/2.0 swe-profile.xsd">
+	<swe:label>ShapeHydraulicConductivyCurve resultaat record</swe:label>
+	<swe:description>Beschrijving/formaat van de parameters van een ShapeHydraulicConductivyCurve</swe:description>
+	<swe:field name="shapefactorAlpha">
+	<swe:Quantity>
+		<swe:uom code="1/cm"></swe:uom>
+	</swe:Quantity>
+	</swe:field>
+	<swe:field name="shapefactorN">
+	</swe:field>
+	<swe:field name="shapefactorM">
+	</swe:field>
+	<swe:field name="shapefactorLambda">
+	</swe:field>
+	<swe:field name="weightfactor">
+		<swe:Quantity>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom/>
+		</swe:Quantity>
+	</swe:field>
+</swe:DataRecord> 
