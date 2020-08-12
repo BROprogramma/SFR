@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:issfr="http://www.broservices.nl/xsd/issfr/2.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:imvert="http://www.imvertor.org/schema/system"
            xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
@@ -15,19 +14,20 @@
         This schema is based on an UML specification, which is transformed by the Imvertor software. Imvertor modules are in the public domain, see http://www.imvertor.org.
     </xs:documentation>
    </xs:annotation>
-   
-   <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0"
-              schemaLocation="sfrcommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
-              schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2"
-              schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+
+   <!--
+   <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/sfrcommon/2.0/sfrcommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   -->
+   <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="sfrcommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 			  
-<xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
-<xs:element name="parseFault" type="brocom:ParseFaultType" />
-			  
-   <xs:element name="registrationRequest"
-               type="issfr:RegistrationRequestType">
+   <xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
+   <xs:element name="parseFault" type="brocom:ParseFaultType" />
+
+   <xs:element name="registrationRequest" type="issfr:RegistrationRequestType">
       <xs:annotation>
          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
       </xs:annotation>
@@ -48,6 +48,7 @@
          </xs:extension>
       </xs:complexContent>
    </xs:complexType>
+
    <xs:element name="SFR_AbstractReport"
                type="issfr:SFR_AbstractReportType"
                abstract="true"
@@ -84,7 +85,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                            maxOccurs="1"
                            type="sfrcom:DeliveryContextType">
                   <xs:annotation>
-                   
+                     
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De rechtsgrond op basis waarvan, of bij afwezigheid daarvan de activiteit naar aanleiding waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.
 Explanation: De wetgever stipuleert dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
                   </xs:annotation>
@@ -94,7 +95,7 @@ Explanation: De wetgever stipuleert dat het gegeven moet zijn vastgelegd om inzi
                            maxOccurs="1"
                            type="sfrcom:SurveyPurposeType">
                   <xs:annotation>
-                    
+                     
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het doel waarvoor het onderzoek is uitgevoerd.
 Explanation: Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor het onderzoek is uitgevoerd of preciseert de taak.</xs:documentation>
                   </xs:annotation>
@@ -104,7 +105,7 @@ Explanation: Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het d
                            maxOccurs="1"
                            type="sfrcom:DisciplineType">
                   <xs:annotation>
-                    
+                     
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De discipline waarbinnen het wandonderzoek is uitgevoerd.
 Explanation: Het vakgebied bepaalt hoe het onderzoek is uitgevoerd en welke gegevens en categorieën van gegevens vastgelegd kunnen zijn.</xs:documentation>
                   </xs:annotation>
@@ -315,15 +316,10 @@ Explanation: Het gegeven is alleen aanwezig wanneer alle deelonderzoeken zijn ge
          </xs:restriction>
       </xs:simpleContent>
    </xs:complexType>
-   <xs:element name="SourceDocument" type="issfr:SourceDocumentType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Deelonderzoek van een wandonderzoek booronderzoek. Dit is of een wandbeschrijving of eenwandmonsteranalyse (fase 1). Later zal de wandmonsteranalyse worden uitgebreid (fase 2). Later zal de reeks van deelonderzoeken worden uitgebreid metfoto's.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="SourceDocumentType">
       <xs:choice minOccurs="1" maxOccurs="1">
          <xs:element name="SFR_CompleteReport_V1" type="issfr:SFR_CompleteReport_V1Type"/>
-         <xs:element name="SFR_StartReport_V1" type="issfr:SFR_StartReport_V1Type"/>
+         <xs:element name="SFR_StartReport_V1Type" type="issfr:SFR_StartReport_V1Type"/>
          <xs:element name="SFR_EndReport_V1" type="issfr:SFR_EndReport_V1Type"/>
       </xs:choice>
    </xs:complexType>
