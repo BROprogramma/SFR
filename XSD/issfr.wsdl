@@ -1,55 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
 <wsdl:definitions name="issfr"
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
                   xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
                   xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                   xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:msg="http://www.broservices.nl/xsd/issfr/1.0"
-                  xmlns:tns="http://www.broservices.nl/wsdl/issfr/1.0"
-                  targetNamespace="http://www.broservices.nl/wsdl/issfr/1.0">
+                  xmlns:msg="http://www.broservices.nl/xsd/issfr/2.0"
+                  xmlns:tns="http://www.broservices.nl/wsdl/issfr/2.0"
+                  targetNamespace="http://www.broservices.nl/wsdl/issfr/2.0">
 
     <wsdl:documentation>
-        inname van bodemkundig wandonderzoek (SFR)
+        inname van bodemkundige wandkuil (SFR)
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issfr/1.0" targetNamespace="http://www.broservices.nl/wsdl/issfr/1.0">
-            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/1.0" schemaLocation="issfr-messages.xsd" />
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issfr/2.0" targetNamespace="http://www.broservices.nl/wsdl/issfr/2.0">
+            <!--
+            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/2.0" schemaLocation="https://schema.broservices.nl/xsd/issfr/2.0/issfr-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
+            -->
+            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/2.0" schemaLocation="issfr-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>
 
     <wsdl:message name="registrationRequest">
-        <wsdl:part name="request" element="msg:registrationRequest" />
+        <wsdl:part element="msg:registrationRequest" name="request" />
     </wsdl:message>
 
     <wsdl:message name="correctionRequest">
-        <wsdl:part name="request" element="msg:correctionRequest" />
+        <wsdl:part element="msg:correctionRequest" name="request" />
     </wsdl:message>
 
     <wsdl:message name="intakeResponse">
-        <wsdl:part name="response" element="msg:intakeResponse" />
+        <wsdl:part element="msg:intakeResponse" name="response" />
     </wsdl:message>
 
     <wsdl:message name="parseSoapFault">
-        <wsdl:part name="parseFault" element="msg:parseFault" />
+        <wsdl:part element="msg:parseFault" name="parseFault" />
     </wsdl:message>
 
     <wsdl:message name="DeliveryResponsiblePartyHeader">
-        <wsdl:part name="deliveryResponsibleParty" element="brocom:deliveryResponsibleParty" />
+        <wsdl:part element="brocom:deliveryResponsibleParty" name="deliveryResponsibleParty"/>
     </wsdl:message>
 
     <wsdl:portType name="issfr">
         <wsdl:operation name="register">
             <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wus/issfr/registrationRequest" />
             <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/issfr/intakeResponse" />
-            <wsdl:fault name="parseFault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
+            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
         </wsdl:operation>
         <wsdl:operation name="correct">
             <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wus/issfr/correctionRequest" />
             <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/issfr/intakeResponse" />
-            <wsdl:fault name="parseFault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
+            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issfr/parseSoapFault" />
         </wsdl:operation>
     </wsdl:portType>
 
@@ -65,7 +82,7 @@
                 <soap:body use="literal" />
             </wsdl:output>
             <wsdl:fault name="parseFault">
-                <soap:fault name="parseFault" use="literal" />
+                <soap:fault use="literal" name="parseFault" />
             </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="correct">
@@ -78,7 +95,7 @@
                 <soap:body use="literal" />
             </wsdl:output>
             <wsdl:fault name="parseFault">
-                <soap:fault name="parseFault" use="literal" />
+                <soap:fault use="literal" name="parseFault" />
             </wsdl:fault>
         </wsdl:operation>
     </wsdl:binding>

@@ -8,7 +8,7 @@
     version="2.0.1">
   <annotation>
     <documentation>SWE Common profile for BRO.</documentation>
-    <documentation>2.1.1: EncodedValuesPropertyType: complexContent mixed="true" in order to fix a problem with generated Java code.</documentation>
+    <documentation>2.0.1: EncodedValuesPropertyType: complexContent mixed="true" in order to fix a problem with generated Java code.</documentation>
   </annotation>
   <!--
   <import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://schema.broservices.nl/profile/xlink/1.0/xlink-profile.xsd"/>

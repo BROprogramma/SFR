@@ -238,6 +238,7 @@
     <sequence>
       <element ref="gml:AbstractTimePrimitive"/>
     </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
   </complexType>
   <!-- ================================================= -->
   <element name="AbstractTimeGeometricPrimitive" type="gml:AbstractTimeGeometricPrimitiveType" abstract="true" substitutionGroup="gml:AbstractTimePrimitive"/>

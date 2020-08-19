@@ -78,7 +78,7 @@
           <brocom:reregistrationTime>2019-05-10T09:01:58+01:00</brocom:reregistrationTime>
        </registrationHistory>
        <reportHistory>
-          <sfrcom:reportStartDate>
+          <reportStartDate>
              <!--You have a CHOICE of the next 4 items at this level-->
              <!-- 
              <brocom:date>2018-01-01</brocom:date>
@@ -87,9 +87,9 @@
              <brocom:voidReason>onbekend</brocom:voidReason>
               -->
              <brocom:voidReason>onbekend</brocom:voidReason>
-          </sfrcom:reportStartDate>
+          </reportStartDate>
           <!--Optional:-->
-          <sfrcom:reportEndDate>
+          <reportEndDate>
              <!--You have a CHOICE of the next 4 items at this level-->
              <!-- 
              <brocom:date>2018-01-01</brocom:date>
@@ -98,11 +98,11 @@
              <brocom:voidReason>onbekend</brocom:voidReason>
               -->
              <brocom:date>2019-03-18</brocom:date>
-          </sfrcom:reportEndDate>
+          </reportEndDate>
           <!--Zero or more repetitions:-->
-          <sfrcom:intermediateEvent>
-             <sfrcom:eventName codeSpace="urn:bro:sfr:EventName">vervolgGerapporteerd</sfrcom:eventName>
-             <sfrcom:eventDate>
+          <intermediateEvent>
+             <eventName codeSpace="urn:bro:sfr:EventName">vervolgGerapporteerd</eventName>
+             <eventDate>
                 <!--You have a CHOICE of the next 4 items at this level-->
                 <!-- 
                 <brocom:date>2018-01-01</brocom:date>
@@ -111,8 +111,8 @@
                 <brocom:voidReason>onbekend</brocom:voidReason>
                  -->
                 <brocom:date>2019-03-18</brocom:date>
-             </sfrcom:eventDate>
-          </sfrcom:intermediateEvent>
+             </eventDate>
+          </intermediateEvent>
        </reportHistory>
        <deliveredLocation>
           <sfrcom:location>
@@ -296,9 +296,9 @@
                             <!--Optional:-->
                             <sfrcom:rockType codeSpace="urn:bro:sfr:RockType">?</sfrcom:rockType>
                             <!--Optional:-->
-                            <sfrcom:pedologicalDepositionalCharacteristic codeSpace="urn:bro:sfr:DepositionalCharacteristic">glaciaal</sfrcom:pedologicalDepositionalCharacteristic>
+                            <sfrcom:depositionalCharacteristic codeSpace="urn:bro:sfr:DepositionalCharacteristic">glaciaal</sfrcom:depositionalCharacteristic>
                             <!--Optional:-->
-                            <sfrcom:estimatedSaturatedPermeability uom="m/(24.h)">0.5</sfrcom:estimatedSaturatedPermeability>
+                            <sfrcom:estimatedSaturatedPermeability uom="m/d">0.5</sfrcom:estimatedSaturatedPermeability>
                             <!--Optional:-->
                             <!--sfrcom:soil>
                                ...
@@ -400,8 +400,12 @@
                   <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">onbekend</srcom:determinationProcedure>
                   <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">onbekend</srcom:determinationMethod>
                   <srcom:particleSizeDistributionStandardised>nee</srcom:particleSizeDistributionStandardised>
-                  <srcom:dispersionMethod codeSpace="urn:bro:sr:DispersionMethod">todo</srcom:dispersionMethod>
+                  <!-- optional 
+                  <srcom:fractionDistribution codeSpace=""></srcom:fractionDistribution>
+                  -->
+                  <!-- optional -->
                   <srcom:performanceIrregularity codeSpace="urn:bro:sr:PerformanceIrregularity">todo</srcom:performanceIrregularity>
+                  <srcom:dispersionMethod codeSpace="urn:bro:sr:DispersionMethod">todo</srcom:dispersionMethod>
                   <srcom:nonStandardisedFraction>
                     <srcom:lowerBoundary uom="um">2</srcom:lowerBoundary>
                     <srcom:upperBoundary uom="um">0</srcom:upperBoundary>

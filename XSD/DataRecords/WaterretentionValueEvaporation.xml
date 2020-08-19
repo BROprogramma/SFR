@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<swe:DataRecord
+    id="WaterretentionValueEvaporation"
+    xmlns:swe="http://www.opengis.net/swe/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/swe/2.0 https://schema.broservices.nl/profile/swe/1.0/swe-profile.xsd">
+	<swe:label>Waterretentiewaarde verdamping</swe:label>
+	<swe:description>De waarden van de bodemvochtpotentiaal voor iedere meetpositie in het monster en van het volumetrisch watergehalte van het hele monster op het moment van de meting.</swe:description>
+	<swe:field name="elapsedTime">
+		<swe:Quantity>
+			<swe:uom code="s"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="soilWaterPotentialDepth1">
+		<swe:Quantity>
+      <swe:description>De waarde INF geeft aan dat een waarde ontbreekt omdat de tensiometer stuk is gegaan.</swe:description>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:missing">INF</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm[H2O]"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="soilWaterPotentialDepth2">
+		<swe:Quantity>
+      <swe:description>De waarde INF geeft aan dat een waarde ontbreekt omdat de tensiometer stuk is gegaan.</swe:description>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:missing">INF</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm[H2O]"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="soilWaterPotentialDepth3">
+		<swe:Quantity>
+      <swe:description>De waarde INF geeft aan dat een waarde ontbreekt omdat de tensiometer stuk is gegaan. De waarde NaN geeft aan dat het gegeven ontbreekt omdat er minder dan 3 tensiometers worden gebruikt.</swe:description>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:missing">INF</swe:nilValue>
+          <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm[H2O]"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="soilWaterPotentialDepth4">
+		<swe:Quantity>
+      <swe:description>De waarde INF geeft aan dat een waarde ontbreekt omdat de tensiometer stuk is gegaan. De waarde NaN geeft aan dat het gegeven ontbreekt omdat er minder dan 4 tensiometers worden gebruikt.</swe:description>
+			<swe:nilValues>
+				<swe:NilValues>
+					<swe:nilValue reason="urn:ogc:def:nil:OGC:missing">INF</swe:nilValue>
+          <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+				</swe:NilValues>
+			</swe:nilValues>
+			<swe:uom code="cm[H2O]"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="volumetricWaterContent">
+		<swe:Quantity>
+			<swe:uom code="cm3/cm3"/>
+		</swe:Quantity>
+	</swe:field>
+</swe:DataRecord>

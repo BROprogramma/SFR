@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
 <wsdl:definitions name="dssfr"
     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
-    xmlns:msg="http://www.broservices.nl/xsd/dssfr/1.0"
-    xmlns:tns="http://www.broservices.nl/wsdl/dssfr/1.0"
-    targetNamespace="http://www.broservices.nl/wsdl/dssfr/1.0">
+    xmlns:msg="http://www.broservices.nl/xsd/dssfr/2.0"
+    xmlns:tns="http://www.broservices.nl/wsdl/dssfr/2.0"
+	  targetNamespace="http://www.broservices.nl/wsdl/dssfr/2.0">
 
     <wsdl:documentation>
-        Deze WSDL beschrijft de webservice voor uitgifte van bodemkundige wandonderzoek (SFR)
+        Deze WSDL beschrijft de webservice voor uitgifte van bodemkundige wandkuil (SFR)
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dssfr/1.0" targetNamespace="http://www.broservices.nl/wsdl/dssfr/1.0">
-            <xsd:import namespace="http://www.broservices.nl/xsd/dssfr/1.0" schemaLocation="dssfr-messages.xsd" />
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dssfr/2.0" targetNamespace="http://www.broservices.nl/wsdl/dssfr/2.0">
+            <!--
+            <xsd:import namespace="http://www.broservices.nl/xsd/dssfr/2.0" schemaLocation="https://schema.broservices.nl/xsd/dssfr/2.0/dssfr-messages.xsd" />
+            -->
+            <xsd:import namespace="http://www.broservices.nl/xsd/dssfr/2.0" schemaLocation="dssfr-messages.xsd" />
         </xsd:schema>
     </wsdl:types>
 

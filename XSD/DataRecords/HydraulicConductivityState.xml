@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<swe:DataRecord
+		id="HydraulicConductivityState"
+		xmlns:swe="http://www.opengis.net/swe/2.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.opengis.net/swe/2.0 https://schema.broservices.nl/profile/swe/1.0/swe-profile.xsd">
+	<swe:label>Waterdoorlatendheidstoestand</swe:label>
+	<swe:description>De snelheid waarmee water door het monster stroomt bij een bepaalde bodemvochtpotentiaal met eventueel een bepaald watergehalte.</swe:description>
+	<swe:field name="soilWaterPotential">
+		<swe:Quantity>
+			<swe:uom code="cm[H2O]"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="hydraulicConductivity">
+		<swe:Quantity>
+			<swe:uom code="cm/d"/>
+		</swe:Quantity>
+	</swe:field>
+	<swe:field name="volumetricWaterContent">
+		<swe:Quantity>
+      <swe:nilValues>
+        <swe:NilValues>
+          <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
+        </swe:NilValues>
+      </swe:nilValues>
+      <swe:uom code="cm3/cm3" />
+		</swe:Quantity>
+	</swe:field>
+</swe:DataRecord>
