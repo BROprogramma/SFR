@@ -20,7 +20,7 @@
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
            targetNamespace="http://www.broservices.nl/xsd/srcommon/1.0"
            elementFormDefault="qualified"
-           version="0.9.0">
+           version="0.9.1">
 
   <xs:annotation>
     <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -1563,15 +1563,11 @@
             Explanation: Standaard wordt gekozen voor toepassing van de methode volgens Mualem en Van Genuchten en het resultaat daarvan is een enkelvoudige curve. Een enkelvoudige curve beschrijft de karakteristiek van grond met een unimodale poriënverdeling. Wanneer blijkt dat een enkelvoudige curve de meetgegevens niet voldoende kan beschrijven, wordt gekozen voor de meer uitgebreide methode volgens Mualem, VanGenuchten en Durner dan is het resultaat een multimodale curve, feitelijk een aantal curven die tezamen een samengestelde curve definiëren. Dit wordt toegepast bij gronden met een heterogene poriënverdeling. Het aantal curven wordt de modaliteit van de karakteristiek genoemd.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="hydraulicConductivityCurve"
-                  type="swe:DataArrayType"
-                  minOccurs="1"
-                  maxOccurs="1">
-        <xs:annotation>
-          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Doorlatendheidscurve.
-            Explanation: De analytische beschrijving volgens van Mualem en Van Genuchten bestaat uit vier vormparameters: a, n, m en Lambda. Voor multimodale varianten worden meerdere sets waarden voor de laatste vier parameters gegeven met een wegingsfactor. De som van alle wegingsfactoren is gelijk aan 1.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
+      <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="hydraulicConductivityCurve"
+                  nillable="false"
+                  type="swe:DataArrayPropertyType"/>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="NonStandardisedFractionType">
@@ -1834,15 +1830,11 @@
             Explanation: Standaard wordt gekozen voor toepassing van de methode volgens Van Genuchten of volgens Mualem en Van Genuchten en het resultaat daarvan is een enkelvoudige curve. Een enkelvoudige curve beschrijft de karakteristiek van grond met een homogene (unimodale) poriënverdeling. Wanneer blijkt dat een enkelvoudige curve de meetgegevens niet voldoende kan beschrijven, wordt gekozen voor de meer uitgebreide methode volgens Van Genuchten en Durner of volgens Mualem, Van Genuchten en Durner, en dan is het resultaat een multimodale curve, feitelijk een aantal curven die tezamen een samengestelde curve definiëren. Dit wordt toegepast bij gronden met een heterogene poriënverdeling. Het aantal curven wordt de modaliteit van de karakteristiek genoemd.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="retentionCurve"
-                  type="swe:DataArrayType"
-                  minOccurs="1"
-                  maxOccurs="1">
-        <xs:annotation>
-          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Retentiecurve.
-            Explanation: De analytische beschrijving volgens Van Genuchten kent drie vormparameters: a, n en m. Voor multimodale varianten worden meerdere sets waarden voor de laatste drie parameters gegeven met een wegingsfactor. De som van alle wegingsfactoren is gelijk aan 1.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
+      <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="retentionCurve"
+                  nillable="false"
+                  type="swe:DataArrayPropertyType"/>
     </xs:sequence>
   </xs:complexType>
 
