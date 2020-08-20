@@ -329,7 +329,7 @@
           </xs:element>
           <xs:element minOccurs="1"
                       maxOccurs="1"
-                      name="HydraulicConductivityChange"
+                      name="hydraulicConductivityChange"
                       nillable="false"
                       type="swe:DataArrayPropertyType"/>
         </xs:sequence>
@@ -1017,7 +1017,7 @@
                       type="swe:DataArrayPropertyType"/>
           <xs:element minOccurs="1"
                       maxOccurs="1"
-                      name="WaterContentAndConductivityUnderDecreasingSoilWaterPotential"
+                      name="waterContentAndConductivityUnderDecreasingSoilWaterPotential"
                       nillable="false"
                       type="swe:DataArrayPropertyType"/>
         </xs:sequence>

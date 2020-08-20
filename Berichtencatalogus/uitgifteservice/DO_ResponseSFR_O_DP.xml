@@ -156,7 +156,7 @@
        </deliveredLocation>
        <deliveredVerticalPosition>
           <sfrcom:localVerticalReferencePoint codeSpace="urn:bro:sfr:LocalVerticalReferencePoint">maaiveld</sfrcom:localVerticalReferencePoint>
-          <sfrcom:offset xsi:nil="true" uom="m"/>
+          <sfrcom:offset xsi:nil="true"/>
           <sfrcom:verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</sfrcom:verticalDatum>
           <sfrcom:verticalPositioningDate>
              <!--You have a CHOICE of the next 4 items at this level-->
