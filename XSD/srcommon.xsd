@@ -410,15 +410,15 @@
     <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
   </xs:complexType>
 
-  <xs:element name="OrganicCarbonDetermination"
-              type="srcom:OrganicCarbonDeterminationType"
+  <xs:element name="organicCarbonContentDetermination"
+              type="srcom:organicCarbonContentDeterminationType"
               substitutionGroup="gml:AbstractFeature">
     <xs:annotation>
       <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het volgens een bepaalde methode bepalen van het aandeel organische koolstof in de massa van het materiaal.
         Explanation: De grond of het strooisel wordt vooraf gedroogd bij 40 graden Celsius, grote brokken klei en veen worden gebroken en vervolgens wordt het materiaal op 2 mm gezeefd. De bepaling wordt uitgevoerd op het materiaal dat kleiner is dan 2 mm. Het organische koolstofgehalte wordt bepaald door koolstofverbindingen door oxidatie om te zetten in CO2. Er wordt onderscheid worden gemaakt tussen natte en droge oxidatiemethoden. Bij de natte oxidatiemethoden vindt de oxidatie plaats in een waterig millieu en gebruik makend van kaliumdichromaat of kaliumpermanganaat en zwavelzuur. Bij de droge oxidatiemethode wordt het anorganisch koolstof verwijderd en wordt het monster verhit tot een temperatuur hoger dan 900 °C.</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="OrganicCarbonDeterminationType">
+  <xs:complexType name="organicCarbonContentDeterminationType">
     <xs:complexContent>
       <xs:extension base="gml:AbstractFeatureType">
         <xs:sequence>
@@ -496,9 +496,9 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="OrganicCarbonDeterminationPropertyType">
+  <xs:complexType name="organicCarbonContentDeterminationPropertyType">
     <xs:sequence minOccurs="0">
-      <xs:element ref="srcom:OrganicCarbonDetermination"/>
+      <xs:element ref="srcom:organicCarbonContentDetermination"/>
     </xs:sequence>
     <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
   </xs:complexType>

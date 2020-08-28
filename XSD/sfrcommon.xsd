@@ -228,7 +228,7 @@
                                 maxOccurs="1"
                                 name="organicCarbonContentDetermination"
                                 nillable="false"
-                                type="srcom:OrganicCarbonDeterminationPropertyType"/>
+                                type="srcom:organicCarbonContentDeterminationPropertyType"/>
                     <xs:element minOccurs="0"
                                 maxOccurs="10"
                                 name="dryBulkDensityDetermination"
