@@ -185,8 +185,8 @@
                         </xs:annotation>
                         <xs:complexType>
                             <xs:simpleContent>
-                                <xs:restriction base="brocom:MeasureNillableType">
-                                    <xs:attribute name="uom" type="gml:UomIdentifier" fixed="m"/>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
                                 </xs:restriction>
                             </xs:simpleContent>
                         </xs:complexType>
