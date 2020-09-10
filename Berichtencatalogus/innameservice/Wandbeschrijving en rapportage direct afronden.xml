@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <registrationRequest 
-      xmlns="http://www.broservices.nl/xsd/issfr/1.0"
-      xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/1.0"
+      xmlns="http://www.broservices.nl/xsd/issfr/2.0"
+      xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
       xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
       xmlns:gml="http://www.opengis.net/gml/3.2"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.broservices.nl/xsd/issfr/1.0 ../../XSD/issfr-messages.xsd">
+      xsi:schemaLocation="http://www.broservices.nl/xsd/issfr/2.0 ../../XSD/issfr-messages.xsd">
 
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innameservice.
        Het is niet gevalideert door de innameservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
@@ -86,17 +86,6 @@
                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
             </sfrcom:verticalPositioningOperator>
          </deliveredVerticalPosition>
-         <soilUncovering>
-            <sfrcom:SoilUncovering gml:id="SomeId_20190408_SFR_SU">
-               <sfrcom:endDepthSoilFace uom="m">2.25</sfrcom:endDepthSoilFace>
-               <sfrcom:soilFaceOrientation uom="deg">45</sfrcom:soilFaceOrientation>
-               <sfrcom:outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</sfrcom:outcropType>
-               <!--Optional:-->
-               <sfrcom:stopCriterion codeSpace="urn:bro:sfr:StopCriterion">einddoel</sfrcom:stopCriterion>
-               <!--Optional:-->
-               <sfrcom:pitRefilled>onbekend</sfrcom:pitRefilled>
-            </sfrcom:SoilUncovering>
-         </soilUncovering>
          <siteCharacteristic>
             <sfrcom:SiteCharacteristic gml:id="SomeId_20190408_SFR_SC">
                <sfrcom:soilUse codeSpace="urn:bro:sfr:SoilUse">loofbos</sfrcom:soilUse>
@@ -118,6 +107,17 @@
                <sfrcom:vegetationType codeSpace="urn:bro:sfr:VegetationType">donkerBosStekelvarenLiggendWalstro</sfrcom:vegetationType>
             </sfrcom:SiteCharacteristic>
          </siteCharacteristic>
+         <soilUncovering>
+            <sfrcom:SoilUncovering gml:id="SomeId_20190408_SFR_SU">
+               <sfrcom:endDepthSoilFace uom="m">2.25</sfrcom:endDepthSoilFace>
+               <sfrcom:soilFaceOrientation uom="deg">45</sfrcom:soilFaceOrientation>
+               <sfrcom:outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</sfrcom:outcropType>
+               <!--Optional:-->
+               <sfrcom:stopCriterion codeSpace="urn:bro:sfr:StopCriterionField">einddoel</sfrcom:stopCriterion>
+               <!--Optional:-->
+               <sfrcom:pitRefilled>onbekend</sfrcom:pitRefilled>
+            </sfrcom:SoilUncovering>
+         </soilUncovering>
          <soilFaceDescription>
             <sfrcom:SoilFaceDescription gml:id="SomeId_20190408_SFR_SFD">
                <sfrcom:descriptionReportDate>
@@ -173,8 +173,8 @@
                            <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">regelmatigNietGespecificeerd</sfrcom:lowerBoundaryShape>
                            <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
                            <sfrcom:horizonCode codeSpace="urn:bro:sfr:HorizonCode">Oh</sfrcom:horizonCode>
-                           <sfrcom:litterType codeSpace="urn:bro:sfr:LitterType">loofstrooisel</sfrcom:litterType>
                            <sfrcom:estimatedOrganicMatterContent uom="%">30</sfrcom:estimatedOrganicMatterContent>
+                           <sfrcom:litterType codeSpace="urn:bro:sfr:LitterType">loofstrooisel</sfrcom:litterType>
                         </sfrcom:LitterLayer>
                      </sfrcom:litterLayer>
                      <!--1 or more repetitions:-->
