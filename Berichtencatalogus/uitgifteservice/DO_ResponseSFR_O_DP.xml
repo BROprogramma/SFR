@@ -467,7 +467,7 @@
                           <swe:value>14</swe:value>
                         </swe:Count>
                       </swe:elementCount>
-                      <swe:elementType name="krimptoestand" xlink:href="https://schema.broservices.nl/xsd/sfrcommon/2.0/meetreeksen/ShrinkageState.xml"/>
+                      <swe:elementType name="krimptoestand" xlink:href="https://schema.broservices.nl/xsd/srcommon/1.0/meetreeksen/ShrinkageState.xml"/>
                       <swe:encoding>
                         <swe:TextEncoding collapseWhiteSpaces="true" decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
                       </swe:encoding>
