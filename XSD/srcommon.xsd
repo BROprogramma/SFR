@@ -7,7 +7,7 @@
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
            targetNamespace="http://www.broservices.nl/xsd/srcommon/1.0"
            elementFormDefault="qualified"
-           version="0.9.1">
+           version="0.9.2">
 
   <xs:annotation>
     <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -802,7 +802,7 @@
                 Explanation: Voor de bepaling van het krimpverloop wordt over het algemeen uitgegaan van ongeroerde monsters, monsters die in hun geheel uit de bodem zijn genomen. Het kan voorkomen dat het monster dat wordt onderzocht al eerder in het laboratorium voor bepalingen die het krimpproces kunnen beïnvloeden is gebruikt en in dat geval wordt het als verstoord beschouwd.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="temperature" minOccurs="0" maxOccurs="1">
+          <xs:element name="temperature" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De temperatuur waaronder de bepaling is uitgevoerd.
                 Explanation: Het is goede praktijk de temperatuur zo te reguleren dat de waarde tijdens de bepaling niet meer dan een graad afwijkt van de ingestelde waarde.</xs:documentation>
