@@ -24,7 +24,7 @@
             <brocom:deliveryResponsibleParty>52766179</brocom:deliveryResponsibleParty>
             <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
             <deliveryContext codeSpace="urn:bro:sfr:DeliveryContext">publiekeTaak</deliveryContext>
-            <surveyPurpose codeSpace="urn:bro:sfr:SurveyPurpose">educatie</surveyPurpose>
+            <surveyPurpose codeSpace="urn:bro:sfr:SurveyPurpose">bouwwerk</surveyPurpose>
             <discipline codeSpace="urn:bro:sfr:Discipline">bodemkunde</discipline>
             <researchReportDate>
                 <!--You have a CHOICE of the next 4 items at this level-->

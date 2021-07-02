@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<registrationRequest 
+<registrationRequest
 		xmlns="http://www.broservices.nl/xsd/issfr/2.0"
 		xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
         xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0"
