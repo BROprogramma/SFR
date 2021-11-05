@@ -251,7 +251,7 @@
                             <!--Zero or more repetitions:-->
                             <sfrcom:litterLayer>
                                 <sfrcom:LitterLayer gml:id="id_0008">
-                                    <sfrcom:upperBoundary uom="m">-0.08</sfrcom:upperBoundary>
+                                    <sfrcom:upperBoundary uom="m">-0.080</sfrcom:upperBoundary>
                                     <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
                                     <sfrcom:lowerBoundary uom="m">0</sfrcom:lowerBoundary>
                                     <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:lowerBoundaryDetermination>
@@ -267,7 +267,7 @@
                                 <sfrcom:SoilLayer gml:id="id_0009">
                                     <sfrcom:upperBoundary uom="m">0</sfrcom:upperBoundary>
                                     <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
-                                    <sfrcom:lowerBoundary uom="m">1.60</sfrcom:lowerBoundary>
+                                    <sfrcom:lowerBoundary uom="m">1.600</sfrcom:lowerBoundary>
                                     <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">waargenomenGeleidelijk10cm</sfrcom:lowerBoundaryDetermination>
                                     <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">regelmatigNietGespecificeerd</sfrcom:lowerBoundaryShape>
                                     <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
