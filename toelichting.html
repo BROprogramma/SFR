@@ -1,49 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
-
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="content-type">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
-	<link rel="stylesheet" type="text/css" href="https://docs.geostandaarden.nl/bro/gen/localstyle.css" />
-	<title>BRO Gegevenscatalogus Wandonderzoek - bodemkunde</title>
-	<script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
-	<script class="remove" src="config.js"></script>
-</head>
-
-<body>
-	<section id='abstract'>
-	<p>Samenvatting van informatiemodel.</p>
-	</section>
-	<section id='sotd'>
-	<p>Dit is een experimenteel document waarvan de inhoud onvolledig is, incorrect kan zijn en op elk moment kan wijzigen.
-  	Het is slechts geproduceerd om tooling voor BRO standaarden te testen. Hoofdstuk vijf is automatisch gegenereerd uit
-	een UML model dat nog in ontwikkeling is.</p>
-	</section>
-<!-- hoofdstuk 1 -->
-	<section id='inleiding'>
-    	<h2>Inleiding</h2>
-		<section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'>
-		</section>
-		<section id='totstandkoming' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/totstandkoming.html'>
-		</section>
-		<section id='beheer' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/beheer.html'>
-		</section>
-		<section id="leeswijzer">
-		<h3>Leeswijzer</h3>
-			<p><a href ="#inleiding">Hoofdstuk 1</a> geeft het doel en de doelgroep van een catalogus.</p>
-			<p><a href ="#algemene-kenmerken-en-begrippen">Hoofdstuk 2</a> behandelt enkele algemene aspecten van het BRO-systeem en begrippen van algemene aard.</p>
-			<p><a href ="#bodemkundig wandonderzoek">Hoofdstuk 3</a> plaatst het object in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de <a href="#cat">gegevensdefinitie</a>.</p>
-			<p><a href ="#intro-gegevensdefinitie">Hoofdstuk 4</a> vertelt hoe de catalogus is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
-		</section>
-	</section>
-<!-- hoofdstuk 2-->
-	<section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
-    class='generic'></section>
-	
-<!-- hoofdstuk 3-->
-    <section id='bodemkundig wandonderzoek'>
-	<h2>Bodemkundig wandonderzoek</h2>
+<h2>Bodemkundig wandonderzoek</h2>
 		<section id="Inleiding">
 		<h3>Inleiding</h3>
 		<p>De catalogus voor de bodemkundige wandbeschrijving beschrijft de gegevens die in de registratie ondergrond zijn opgenomen van het wandonderzoek dat vanuit het vakgebied van de bodemkunde is uitgevoerd. De catalogus beschrijft de algemene gegevens van dit wandonderzoek samen met de gegevens van de wandmonsterbeschrijving en de wandmonsteranalyse. <br>Wandonderzoek is het geheel van gegevens dat betrekking heeft op een specifiek wandonderzoek dat op een specifiek moment gekoppeld aan een specifieke locatie in Nederland onder een bepaalde opdracht is uitgevoerd. De belangrijkste gegevens om het onderzoek te preciseren zijn het vakgebied en de uitgevoerde deelonderzoeken. <br>Wandonderzoek kan vanuit verschillende vakgebieden worden uitgevoerd, maar in de basisregistratie ondergrond omvat het alleen het vakgebied van de bodemkunde. De reden is dat wandonderzoek van oudsher een prominente plaats in de bodemkunde inneemt en dat de gegevens digitaal en  systematisch worden vastgelegd. In andere vakgebieden, zoals de geologie en geotechniek, is dat niet het geval.</p>
@@ -226,33 +181,4 @@
 			<p>De gegevens uit de bepalingen van de waterretentie stapsgewijs, van het watergehalte en de doorlatendheid bij veranderende bodemvochtpotentiaal, en van de waterdoorlatendheid worden gebruikt om hydrofysische karakteristieken te modelleren. Daarvan bestaan twee typen: de waterretentiekarakteristiek en de waterdoorlatendheidskarakteristiek. <br>De uitvoerder heeft de keuze of alleen de waterretentiekarakteristiek te modelleren of de waterretentiekarakteristiek samen met de waterdoorlatendheidskarakteristiek. Die tweede mogelijkheid bestaat overigens alleen wanneer het watergehalte en de doorlatendheid bij veranderende bodemvochtpotentiaal bepaald zijn. <br>Een tweede keuze betreft het aantal karakteristieken van een type. De uitvoerder kan er voor kiezen meer dan een karakteristiek van hetzelfde type te maken door een deel van de beschikbare bepalingen als input te nemen. Door meer modellen te maken wordt inzicht verkregen in de spreiding van de resultaten. Welke bepalingen de uitvoerder heeft gekozen wordt altijd vastgelegd (<i>bepalingsid</i>).</p>
 			<p>De modellering van alleen de waterretentiekarakteristiek berust in de huidige praktijk op de methode van Van Genuchten. Voor grond met een heterogene poriënverdeling wordt een variant gebruikt die door Durner (en later door Priesack en Durner) is uitgewerkt. De waterretentiekarakteristiek is een curve die het werkelijk verband tussen watergehalte en bodemvochtpotentiaal zo goed mogelijk beschrijft. De curve is enkelvoudig bij een homogene poriënverdeling en samengesteld bij een heterogene poriënverdeling. De curve wordt gedefinieerd door het bereik van het volumetrisch watergehalte en een of meer sets vormparameters. Het bereik van het volumetrisch watergehalte wordt gegeven door de waarde bij verzadiging (<i>verzadigd volumetrisch watergehalte</i>) en een asymptotische residuele waarde (<i>residueel volumetrisch watergehalte</i>). Voor de definitie van een enkelvoudige curve is daarnaast een set van drie vormparameters (<i>Vorm retentiecurve</i>) voldoende. Voor een curve die uit samenstellende curves is opgebouwd zijn er meer sets nodig. Ieder van die sets heeft als extra parameter een zogenaamde <i>wegingsfactor</i> en die is nodig om de bijdrage van de curve aan de samengestelde curve te definiëren. De som van die wegingsfactoren is gelijk aan 1. <br>De modellering van de waterretentiekarakteristiek en de doorlatendheidskarakteristiek is in de huidige praktijk gebaseerd op de methode van Mualem en Van Genuchten. Voor grond met een heterogene poriënverdeling wordt ook hier een variant gebruikt die door Durner (en later door Priesack en Durner) is uitgewerkt. De waterretentiekarakteristiek is hierboven al beschreven. De waterdoorlatendheidskarakteristiek is een vergelijkbare curve maar om de vorm ervan te beschrijven is een parameter meer nodig, de <i>vormfactor lambda</i>. De curve beschrijft het werkelijk verband tussen waterdoorlatendheid en bodemvochtpotentiaal zo goed mogelijk. <br>De twee karakteristieken worden onder meer gebruikt als input voor modellen waarmee de waterbeweging in de bodem wordt gesimuleerd.</p>
 			</section>    
-		</section>
-    </section>
-  
-  <!-- hoofdstuk 4-->
-<section id="intro-gegevensdefinitie">
-     <h2>De inhoud van de catalogus</h2>
-     <div id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html" class="generic"></div>
-     <section id="type-formaten">
-      <h3>Domeinen</h3>
-      <!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
-      <p>Een domein beschrijft welke waarden een attribuut mag hebben. Domeinen zijn van een bepaald type en de typen die in de catalogus worden gebruikt worden hieronder toegelicht. Sommige domeinen zijn samengesteld en die worden als laatste besproken.</p>
-      <section id="aantal" data-include="https://docs.geostandaarden.nl/bro/gen/aantal.html" class="generic"></section>
-      <section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html" class="generic"></section>
-      <section id="datumtijd" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html" class="generic"></section>
-      <section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html" class="generic"></section>
-      <section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html" class="generic"></section>
-      <section id="enumeratie" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html" class="generic"></section>
-      <section id="codelijst" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html" class="generic"></section>
-      <section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/coordinatenpaar.html" class="generic"></section> 
-      <section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html" class="generic"></section>   
-     
-    </section>
-    <section data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html" class="generic"></section>
-    <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html" class="generic"></section>
-</section>
-  <!-- hoofdstuk 5-->
-  <div id="catalogus" data-include="data/SFR-cat.respec.html" data-include-replace=true></div>
-</body>
-
-</html>
+		</section> 
