@@ -1,6 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
+  subtitle: "Bodemkundige boormonsterbeschrijving en boormonsteranalyse",
   //canonicalURI: "WV",
   //publishDate: "2020-07-02",
   maxTocLevel: 4,
@@ -28,13 +29,4 @@ var respecConfig = {
   github: "https://github.com/BROprogramma/SFR",
   previousPublishDate: "2020-07-02",
   previousStatus: "GN-DEF",
-  //localBiblio: {
-  //  "ISO19136": {
-  //    "href": "https://www.iso.org/standard/32554.html",
-  //    "title": "ISO 19136:2007 Geographic information -- Geography Markup Language (GML)",
-  //    "authors": [""],
-  //    "date": "September 2007",
-  //    "publisher": "International Organization for Standardization",
-  //  },
-  //},
 };
