@@ -1,9 +1,9 @@
 var respecConfig = {
-  specStatus: "GN-VV",
+  specStatus: "GN-WV",
   specType: "IM",
   subtitle: "Bodemkundige wandmonsterbeschrijving en wandmonsteranalyse",
   //canonicalURI: "WV",
-  publishDate: "2022-07-28",
+  //publishDate: "2022-07-28",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
@@ -27,6 +27,6 @@ var respecConfig = {
   shortName: "sfr",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SFR",
-  previousPublishDate: "2020-07-02",
-  previousStatus: "GN-DEF",
+  previousPublishDate: "2022-07-28",
+  previousStatus: "GN-VV",
 };
