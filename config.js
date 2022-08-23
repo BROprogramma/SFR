@@ -1,9 +1,9 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-VV",
   specType: "IM",
   subtitle: "Bodemkundige wandmonsterbeschrijving en wandmonsteranalyse",
   //canonicalURI: "WV",
-  //publishDate: "2020-07-02",
+  publishDate: "2022-07-28",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
