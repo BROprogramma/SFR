@@ -24,7 +24,7 @@ var respecConfig = {
       name: "Geonovum",
 	  url: "https://www.geonovum.nl",
 	}],
-  shortName: "SFR",
+  shortName: "sfr",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SFR",
   previousPublishDate: "2020-07-02",
