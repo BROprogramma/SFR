@@ -1,212 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dispatchDataResponse
-        xmlns="http://www.broservices.nl/xsd/dssfr/2.0"
-        xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
-        xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0"
-        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-        xmlns:swe="http://www.opengis.net/swe/2.0" 
-        xmlns:gml="http://www.opengis.net/gml/3.2"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+<soap:Envelope 
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/2.0 https://schema.broservices.nl/xsd/dssfr/2.0/dssfr-messages.xsd"
-    >
-    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
-         Het is niet gevalideert door de uitgifteservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-    -->
-    <brocom:responseType>dispatch</brocom:responseType>
-    <brocom:requestReference>uitgifte-38</brocom:requestReference>
-    <brocom:dispatchTime>2019-04-16T09:01:52+01:00</brocom:dispatchTime>
-    <dispatchDocument>
-        <SFR_O_DP gml:id="id_0001">
-            <brocom:broId>SFR123456789012</brocom:broId>
-            <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
-            <brocom:objectIdAccountableParty>SomeID_20190227_QR1</brocom:objectIdAccountableParty>
-            <brocom:deliveryResponsibleParty>52766179</brocom:deliveryResponsibleParty>
-            <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-            <deliveryContext codeSpace="urn:bro:sfr:DeliveryContext">publiekeTaak</deliveryContext>
-            <surveyPurpose codeSpace="urn:bro:sfr:SurveyPurpose">bouwwerk</surveyPurpose>
-            <discipline codeSpace="urn:bro:sfr:Discipline">bodemkunde</discipline>
-            <researchReportDate>
-                <!--You have a CHOICE of the next 4 items at this level-->
-                <!-- 
-                <brocom:date>2019-03-18</brocom:date>
-                <brocom:yearMonth>2019-03</brocom:yearMonth>
-                <brocom:year>2019</brocom:year>
-                <brocom:voidReason>onbekend</brocom:voidReason>
-                 -->
-                <brocom:date>2019-03-18</brocom:date>
-            </researchReportDate>
-            <fieldworkDate>
-                <!--You have a CHOICE of the next 4 items at this level-->
-                <!-- 
-                <brocom:date>2018-01-01</brocom:date>
-                <brocom:yearMonth>2018-01</brocom:yearMonth>
-                <brocom:year>2018</brocom:year>
-                <brocom:voidReason>onbekend</brocom:voidReason>
-                 -->
-                <brocom:year>2018</brocom:year>
-            </fieldworkDate>
-            <!--Optional:-->
-            <researchOperator>
-                <!--You have a CHOICE of the next 2 items at this level-->
-                <!-- 
-                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
-                 -->
-                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-            </researchOperator>
-            <litterLayerInvestigated>ja</litterLayerInvestigated>
-            <registrationHistory>
-                <brocom:objectRegistrationTime>2019-02-23T14:21:08+01:00</brocom:objectRegistrationTime>
-                <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
-                <!-- Optional -->
-                <brocom:latestAdditionTime>2019-03-11T09:54:42+01:00</brocom:latestAdditionTime>
-                <!-- Optional -->
-                <brocom:registrationCompletionTime>2019-03-11T16:54:13+01:00</brocom:registrationCompletionTime>
-                <brocom:corrected>nee</brocom:corrected>
-                <!-- Optional -->
-                <brocom:latestCorrectionTime>2019-03-10T13:33:24+01:00</brocom:latestCorrectionTime>
-                <brocom:underReview>nee</brocom:underReview>
-                <!-- Optional -->
-                <brocom:underReviewTime>2019-05-07T11:22:33+01:00</brocom:underReviewTime>
-                <brocom:deregistered>nee</brocom:deregistered>
-                <!-- Optional -->
-                <brocom:deregistrationTime>2019-05-09T16:58:26+01:00</brocom:deregistrationTime>
-                <brocom:reregistered>nee</brocom:reregistered>
-                <!-- Optional -->
-                <brocom:reregistrationTime>2019-05-10T09:01:58+01:00</brocom:reregistrationTime>
-            </registrationHistory>
-            <reportHistory>
-                <reportStartDate>
-                    <!--You have a CHOICE of the next 4 items at this level-->
-                    <!-- 
-                    <brocom:date>2018-01-01</brocom:date>
-                    <brocom:yearMonth>2018-01</brocom:yearMonth>
-                    <brocom:year>2018</brocom:year>
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                    -->
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                </reportStartDate>
-                <!--Optional:-->
-                <reportEndDate>
-                    <!--You have a CHOICE of the next 4 items at this level-->
-                    <!-- 
-                    <brocom:date>2018-01-01</brocom:date>
-                    <brocom:yearMonth>2018-01</brocom:yearMonth>
-                    <brocom:year>2018</brocom:year>
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                    -->
-                    <brocom:date>2019-03-18</brocom:date>
-                </reportEndDate>
-                <!--Zero or more repetitions:-->
-                <intermediateEvent>
-                    <eventName codeSpace="urn:bro:sfr:EventName">vervolgGerapporteerd</eventName>
-                    <eventDate>
+        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <dispatchDataResponse
+                xmlns="http://www.broservices.nl/xsd/dssfr/2.0"
+                xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
+                xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0"
+                xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                xmlns:swe="http://www.opengis.net/swe/2.0" 
+                xmlns:gml="http://www.opengis.net/gml/3.2"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/2.0 https://schema.broservices.nl/xsd/dssfr/2.0/dssfr-messages.xsd"
+            >
+            <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
+                 Het is niet gevalideert door de uitgifteservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+            -->
+            <brocom:responseType>dispatch</brocom:responseType>
+            <brocom:requestReference>uitgifte-38</brocom:requestReference>
+            <brocom:dispatchTime>2019-04-16T09:01:52+01:00</brocom:dispatchTime>
+            <dispatchDocument>
+                <SFR_O_DP gml:id="id_0001">
+                    <brocom:broId>SFR123456789012</brocom:broId>
+                    <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+                    <brocom:objectIdAccountableParty>SomeID_20190227_QR1</brocom:objectIdAccountableParty>
+                    <brocom:deliveryResponsibleParty>52766179</brocom:deliveryResponsibleParty>
+                    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+                    <deliveryContext codeSpace="urn:bro:sfr:DeliveryContext">publiekeTaak</deliveryContext>
+                    <surveyPurpose codeSpace="urn:bro:sfr:SurveyPurpose">bouwwerk</surveyPurpose>
+                    <discipline codeSpace="urn:bro:sfr:Discipline">bodemkunde</discipline>
+                    <researchReportDate>
                         <!--You have a CHOICE of the next 4 items at this level-->
                         <!-- 
-                        <brocom:date>2018-01-01</brocom:date>
-                        <brocom:yearMonth>2018-01</brocom:yearMonth>
-                        <brocom:year>2018</brocom:year>
-                        <brocom:voidReason>onbekend</brocom:voidReason>
-                        -->
                         <brocom:date>2019-03-18</brocom:date>
-                    </eventDate>
-                </intermediateEvent>
-            </reportHistory>
-            <deliveredLocation>
-                <sfrcom:location>
-                    <gml:Point gml:id="id_0002" srsName="urn:ogc:def:crs:EPSG::28992">
-                        <gml:pos>134750.000 477800.000</gml:pos>
-                    </gml:Point>
-                </sfrcom:location>
-                <sfrcom:horizontalPositioningDate>
-                    <!--You have a CHOICE of the next 4 items at this level-->
-                    <!-- 
-                    <brocom:date>2018-01-01</brocom:date>
-                    <brocom:yearMonth>2018-01</brocom:yearMonth>
-                    <brocom:year>2018</brocom:year>
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                    -->
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                </sfrcom:horizontalPositioningDate>
-                <sfrcom:horizontalPositioningMethod codeSpace="urn:bro:sfr:HorizontalPositioningMethod">kaartGrootschalig</sfrcom:horizontalPositioningMethod>
-                <!--Optional:-->
-                <sfrcom:horizontalPositioningOperator>
-                    <!--You have a CHOICE of the next 2 items at this level-->
-                    <!-- 
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                    <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
-                    -->
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                </sfrcom:horizontalPositioningOperator>
-            </deliveredLocation>
-            <deliveredVerticalPosition>
-                <sfrcom:localVerticalReferencePoint codeSpace="urn:bro:sfr:LocalVerticalReferencePoint">maaiveld</sfrcom:localVerticalReferencePoint>
-                <sfrcom:offset uom="m" xsi:nil="true"/>
-                <sfrcom:verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</sfrcom:verticalDatum>
-                <sfrcom:verticalPositioningDate>
-                    <!--You have a CHOICE of the next 4 items at this level-->
-                    <!-- 
-                    <brocom:date>2018-01-01</brocom:date>
-                    <brocom:yearMonth>2018-01</brocom:yearMonth>
-                    <brocom:year>2018</brocom:year>
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                    -->
-                    <brocom:voidReason>onbekend</brocom:voidReason>
-                </sfrcom:verticalPositioningDate>
-                <sfrcom:verticalPositioningMethod codeSpace="urn:bro:sfr:VerticalPositioningMethod">AHN3</sfrcom:verticalPositioningMethod>
-                <!--Optional:-->
-                <sfrcom:verticalPositioningOperator>
-                    <!--You have a CHOICE of the next 2 items at this level-->
-                    <!-- 
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                    <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
-                    -->
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                </sfrcom:verticalPositioningOperator>
-            </deliveredVerticalPosition>
-            <standardizedLocation>
-                <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0003">
-                    <gml:pos>52.287820210 5.090415500</gml:pos>
-                </brocom:location>
-                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
-            </standardizedLocation>
-            <siteCharacteristic>
-                <sfrcom:SiteCharacteristic gml:id="id_0004">
-                    <sfrcom:soilUse codeSpace="urn:bro:sfr:SoilUse">bos</sfrcom:soilUse>
-                    <sfrcom:artificialDrainage codeSpace="urn:bro:sfr:ArtificialDrainage">drainageOnbekend</sfrcom:artificialDrainage>
-                    <sfrcom:positionOnGroundBody codeSpace="urn:bro:sfr:PositionOnGroundBody">onbekend</sfrcom:positionOnGroundBody>
-                    <sfrcom:surfaceLevelShifted codeSpace="urn:bro:sfr:SurfaceLevelShifted">geen</sfrcom:surfaceLevelShifted>
-                    <sfrcom:tracesOfChurningPresent>onbekend</sfrcom:tracesOfChurningPresent>
-                    <!--Optional:-->
-                    <!--sfrcom:meanHighestGroundwaterTable uom="m">0.35</sfrcom:meanHighestGroundwaterTable-->
-                    <!--Optional:-->
-                    <!--sfrcom:meanLowestGroundwaterTable uom="m">2.15</sfrcom:meanLowestGroundwaterTable-->
-                    <!--Optional:-->
-                    <!--sfrcom:hydrologicalSetting codeSpace="urn:bro:sfr:HydrologicalSetting">regenwaterInfiltratieAfvoer</sfrcom:hydrologicalSetting-->
-                    <!--Optional:-->
-                    <!--sfrcom:landscapeElement codeSpace="urn:bro:sfr:LandscapeElement">houtwal</sfrcom:landscapeElement-->
-                    <!--Optional:-->
-                    <!--sfrcom:currentProces codeSpace="urn:bro:sfr:CurrentProces">?</sfrcom:currentProces-->
-                    <!--Optional:-->
-                    <sfrcom:vegetationType codeSpace="urn:bro:sfr:VegetationType">donkerBosStekelvarenLiggendWalstro</sfrcom:vegetationType>
-                </sfrcom:SiteCharacteristic>
-            </siteCharacteristic>
-            <soilUncovering>
-                <sfrcom:SoilUncovering gml:id="id_0005">
-                    <sfrcom:endDepthSoilFace uom="m">2.25</sfrcom:endDepthSoilFace>
-                    <sfrcom:soilFaceOrientation xsi:nil="true" uom="deg"/>
-                    <sfrcom:outcropType codeSpace="urn:bro:sfr:OutcropType">onbekend</sfrcom:outcropType>
-                    <!--Optional:-->
-                    <!--sfrcom:stopCriterion codeSpace="urn:bro:sfr:StopCriterion">einddoel</sfrcom:stopCriterion-->
-                    <!--Optional:-->
-                    <!--sfrcom:pitRefilled>onbekend</sfrcom:pitRefilled-->
-                </sfrcom:SoilUncovering>
-            </soilUncovering>
-            <soilFaceDescription>
-                <!--You have a CHOICE of the next 3 items at this level-->
-                <sfrcom:SoilFaceDescription gml:id="id_0006">
-                    <sfrcom:descriptionReportDate>
+                        <brocom:yearMonth>2019-03</brocom:yearMonth>
+                        <brocom:year>2019</brocom:year>
+                        <brocom:voidReason>onbekend</brocom:voidReason>
+                         -->
+                        <brocom:date>2019-03-18</brocom:date>
+                    </researchReportDate>
+                    <fieldworkDate>
                         <!--You have a CHOICE of the next 4 items at this level-->
                         <!-- 
                         <brocom:date>2018-01-01</brocom:date>
@@ -215,270 +50,442 @@
                         <brocom:voidReason>onbekend</brocom:voidReason>
                          -->
                         <brocom:year>2018</brocom:year>
-                    </sfrcom:descriptionReportDate>
-                    <sfrcom:descriptionProcedure codeSpace="urn:bro:sfr:DescriptionProcedure">AlterraTD19Av1995</sfrcom:descriptionProcedure>
-                    <sfrcom:describedWidth xsi:nil="true" uom="m"/>
-                    <sfrcom:artificiallyHumidified>nee</sfrcom:artificiallyHumidified>
+                    </fieldworkDate>
                     <!--Optional:-->
-                    <sfrcom:descriptionOperator>
+                    <researchOperator>
                         <!--You have a CHOICE of the next 2 items at this level-->
                         <!-- 
                         <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
                         <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
-                        -->
+                         -->
                         <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                    </sfrcom:descriptionOperator>
-                    <sfrcom:fractionDistributionDetermined>nee</sfrcom:fractionDistributionDetermined>
-                    <sfrcom:lowerBoundarySandFraction codeSpace="urn:bro:sfr:LowerBoundarySandFraction">50</sfrcom:lowerBoundarySandFraction>
-                    <sfrcom:soilProfile>
-                        <sfrcom:SoilProfile gml:id="id_0007">
-                            <sfrcom:descriptionQuality codeSpace="urn:bro:sfr:DescriptionQuality">standaard</sfrcom:descriptionQuality>
-                            <sfrcom:rootableDepthReached>onbekend</sfrcom:rootableDepthReached>
+                    </researchOperator>
+                    <litterLayerInvestigated>ja</litterLayerInvestigated>
+                    <registrationHistory>
+                        <brocom:objectRegistrationTime>2019-02-23T14:21:08+01:00</brocom:objectRegistrationTime>
+                        <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
+                        <!-- Optional -->
+                        <brocom:latestAdditionTime>2019-03-11T09:54:42+01:00</brocom:latestAdditionTime>
+                        <!-- Optional -->
+                        <brocom:registrationCompletionTime>2019-03-11T16:54:13+01:00</brocom:registrationCompletionTime>
+                        <brocom:corrected>nee</brocom:corrected>
+                        <!-- Optional -->
+                        <brocom:latestCorrectionTime>2019-03-10T13:33:24+01:00</brocom:latestCorrectionTime>
+                        <brocom:underReview>nee</brocom:underReview>
+                        <!-- Optional -->
+                        <brocom:underReviewTime>2019-05-07T11:22:33+01:00</brocom:underReviewTime>
+                        <brocom:deregistered>nee</brocom:deregistered>
+                        <!-- Optional -->
+                        <brocom:deregistrationTime>2019-05-09T16:58:26+01:00</brocom:deregistrationTime>
+                        <brocom:reregistered>nee</brocom:reregistered>
+                        <!-- Optional -->
+                        <brocom:reregistrationTime>2019-05-10T09:01:58+01:00</brocom:reregistrationTime>
+                    </registrationHistory>
+                    <reportHistory>
+                        <reportStartDate>
+                            <!--You have a CHOICE of the next 4 items at this level-->
+                            <!-- 
+                            <brocom:date>2018-01-01</brocom:date>
+                            <brocom:yearMonth>2018-01</brocom:yearMonth>
+                            <brocom:year>2018</brocom:year>
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                            -->
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                        </reportStartDate>
+                        <!--Optional:-->
+                        <reportEndDate>
+                            <!--You have a CHOICE of the next 4 items at this level-->
+                            <!-- 
+                            <brocom:date>2018-01-01</brocom:date>
+                            <brocom:yearMonth>2018-01</brocom:yearMonth>
+                            <brocom:year>2018</brocom:year>
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                            -->
+                            <brocom:date>2019-03-18</brocom:date>
+                        </reportEndDate>
+                        <!--Zero or more repetitions:-->
+                        <intermediateEvent>
+                            <eventName codeSpace="urn:bro:sfr:EventName">vervolgGerapporteerd</eventName>
+                            <eventDate>
+                                <!--You have a CHOICE of the next 4 items at this level-->
+                                <!-- 
+                                <brocom:date>2018-01-01</brocom:date>
+                                <brocom:yearMonth>2018-01</brocom:yearMonth>
+                                <brocom:year>2018</brocom:year>
+                                <brocom:voidReason>onbekend</brocom:voidReason>
+                                -->
+                                <brocom:date>2019-03-18</brocom:date>
+                            </eventDate>
+                        </intermediateEvent>
+                    </reportHistory>
+                    <deliveredLocation>
+                        <sfrcom:location>
+                            <gml:Point gml:id="id_0002" srsName="urn:ogc:def:crs:EPSG::28992">
+                                <gml:pos>134750.000 477800.000</gml:pos>
+                            </gml:Point>
+                        </sfrcom:location>
+                        <sfrcom:horizontalPositioningDate>
+                            <!--You have a CHOICE of the next 4 items at this level-->
+                            <!-- 
+                            <brocom:date>2018-01-01</brocom:date>
+                            <brocom:yearMonth>2018-01</brocom:yearMonth>
+                            <brocom:year>2018</brocom:year>
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                            -->
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                        </sfrcom:horizontalPositioningDate>
+                        <sfrcom:horizontalPositioningMethod codeSpace="urn:bro:sfr:HorizontalPositioningMethod">kaartGrootschalig</sfrcom:horizontalPositioningMethod>
+                        <!--Optional:-->
+                        <sfrcom:horizontalPositioningOperator>
+                            <!--You have a CHOICE of the next 2 items at this level-->
+                            <!-- 
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                            <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                            -->
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                        </sfrcom:horizontalPositioningOperator>
+                    </deliveredLocation>
+                    <deliveredVerticalPosition>
+                        <sfrcom:localVerticalReferencePoint codeSpace="urn:bro:sfr:LocalVerticalReferencePoint">maaiveld</sfrcom:localVerticalReferencePoint>
+                        <sfrcom:offset uom="m" xsi:nil="true"/>
+                        <sfrcom:verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</sfrcom:verticalDatum>
+                        <sfrcom:verticalPositioningDate>
+                            <!--You have a CHOICE of the next 4 items at this level-->
+                            <!-- 
+                            <brocom:date>2018-01-01</brocom:date>
+                            <brocom:yearMonth>2018-01</brocom:yearMonth>
+                            <brocom:year>2018</brocom:year>
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                            -->
+                            <brocom:voidReason>onbekend</brocom:voidReason>
+                        </sfrcom:verticalPositioningDate>
+                        <sfrcom:verticalPositioningMethod codeSpace="urn:bro:sfr:VerticalPositioningMethod">AHN3</sfrcom:verticalPositioningMethod>
+                        <!--Optional:-->
+                        <sfrcom:verticalPositioningOperator>
+                            <!--You have a CHOICE of the next 2 items at this level-->
+                            <!-- 
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                            <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                            -->
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                        </sfrcom:verticalPositioningOperator>
+                    </deliveredVerticalPosition>
+                    <standardizedLocation>
+                        <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0003">
+                            <gml:pos>52.287820210 5.090415500</gml:pos>
+                        </brocom:location>
+                        <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
+                    </standardizedLocation>
+                    <siteCharacteristic>
+                        <sfrcom:SiteCharacteristic gml:id="id_0004">
+                            <sfrcom:soilUse codeSpace="urn:bro:sfr:SoilUse">bos</sfrcom:soilUse>
+                            <sfrcom:artificialDrainage codeSpace="urn:bro:sfr:ArtificialDrainage">drainageOnbekend</sfrcom:artificialDrainage>
+                            <sfrcom:positionOnGroundBody codeSpace="urn:bro:sfr:PositionOnGroundBody">onbekend</sfrcom:positionOnGroundBody>
+                            <sfrcom:surfaceLevelShifted codeSpace="urn:bro:sfr:SurfaceLevelShifted">geen</sfrcom:surfaceLevelShifted>
+                            <sfrcom:tracesOfChurningPresent>onbekend</sfrcom:tracesOfChurningPresent>
                             <!--Optional:-->
-                            <!--sfrcom:rootableDepth uom="m">1.1</sfrcom:rootableDepth-->
-                            <sfrcom:meanHighestGroundwaterLevelReached>onbekend</sfrcom:meanHighestGroundwaterLevelReached>
+                            <!--sfrcom:meanHighestGroundwaterTable uom="m">0.35</sfrcom:meanHighestGroundwaterTable-->
                             <!--Optional:-->
-                            <!--sfrcom:meanHighestGroundwaterLevel uom="m">1.1</sfrcom:meanHighestGroundwaterLevel-->
+                            <!--sfrcom:meanLowestGroundwaterTable uom="m">2.15</sfrcom:meanLowestGroundwaterTable-->
                             <!--Optional:-->
-                            <!--sfrcom:meanLowestGroundwaterLevel uom="m">2.1</sfrcom:meanLowestGroundwaterLevel-->
-                            <sfrcom:horizonRepetition>onbekend</sfrcom:horizonRepetition>
-                            <!--1 or more repetitions:-->
-                            <sfrcom:localPhenomenon codeSpace="urn:bro:sfr:LocalPhenomenon">onbekend</sfrcom:localPhenomenon>
+                            <!--sfrcom:hydrologicalSetting codeSpace="urn:bro:sfr:HydrologicalSetting">regenwaterInfiltratieAfvoer</sfrcom:hydrologicalSetting-->
                             <!--Optional:-->
-                            <sfrcom:upperBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">onbekend</sfrcom:upperBoundaryShape>
-                            <sfrcom:sequenceDisturbed>onbekend</sfrcom:sequenceDisturbed>
-                            <sfrcom:compactionPresent>onbekend</sfrcom:compactionPresent>
-                            <!--Zero or more repetitions:-->
-                            <sfrcom:litterLayer>
-                                <sfrcom:LitterLayer gml:id="id_0008">
-                                    <sfrcom:upperBoundary uom="m">-0.08</sfrcom:upperBoundary>
-                                    <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
-                                    <sfrcom:lowerBoundary uom="m">0</sfrcom:lowerBoundary>
-                                    <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:lowerBoundaryDetermination>
-                                    <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">onbekend</sfrcom:lowerBoundaryShape>
-                                    <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
-                                    <sfrcom:horizonCode codeSpace="urn:bro:sfr:HorizonCode">O</sfrcom:horizonCode>
-                                    <sfrcom:litterType codeSpace="urn:bro:sfr:LitterType">loofstrooisel</sfrcom:litterType>
-                                    <sfrcom:estimatedOrganicMatterContent xsi:nil="true" uom="%"/>
-                                </sfrcom:LitterLayer>
-                            </sfrcom:litterLayer>
-                            <!--1 or more repetitions:-->
-                            <sfrcom:soilLayer>
-                                <sfrcom:SoilLayer gml:id="id_0009">
-                                    <sfrcom:upperBoundary uom="m">0</sfrcom:upperBoundary>
-                                    <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
-                                    <sfrcom:lowerBoundary uom="m">1.60</sfrcom:lowerBoundary>
-                                    <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">waargenomenGeleidelijk10cm</sfrcom:lowerBoundaryDetermination>
-                                    <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">regelmatigNietGespecificeerd</sfrcom:lowerBoundaryShape>
-                                    <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
-                                    <sfrcom:anthropogenic>onbekend</sfrcom:anthropogenic>
+                            <!--sfrcom:landscapeElement codeSpace="urn:bro:sfr:LandscapeElement">houtwal</sfrcom:landscapeElement-->
+                            <!--Optional:-->
+                            <!--sfrcom:currentProces codeSpace="urn:bro:sfr:CurrentProces">?</sfrcom:currentProces-->
+                            <!--Optional:-->
+                            <sfrcom:vegetationType codeSpace="urn:bro:sfr:VegetationType">donkerBosStekelvarenLiggendWalstro</sfrcom:vegetationType>
+                        </sfrcom:SiteCharacteristic>
+                    </siteCharacteristic>
+                    <soilUncovering>
+                        <sfrcom:SoilUncovering gml:id="id_0005">
+                            <sfrcom:endDepthSoilFace uom="m">2.25</sfrcom:endDepthSoilFace>
+                            <sfrcom:soilFaceOrientation xsi:nil="true" uom="deg"/>
+                            <sfrcom:outcropType codeSpace="urn:bro:sfr:OutcropType">onbekend</sfrcom:outcropType>
+                            <!--Optional:-->
+                            <!--sfrcom:stopCriterion codeSpace="urn:bro:sfr:StopCriterion">einddoel</sfrcom:stopCriterion-->
+                            <!--Optional:-->
+                            <!--sfrcom:pitRefilled>onbekend</sfrcom:pitRefilled-->
+                        </sfrcom:SoilUncovering>
+                    </soilUncovering>
+                    <soilFaceDescription>
+                        <!--You have a CHOICE of the next 3 items at this level-->
+                        <sfrcom:SoilFaceDescription gml:id="id_0006">
+                            <sfrcom:descriptionReportDate>
+                                <!--You have a CHOICE of the next 4 items at this level-->
+                                <!-- 
+                                <brocom:date>2018-01-01</brocom:date>
+                                <brocom:yearMonth>2018-01</brocom:yearMonth>
+                                <brocom:year>2018</brocom:year>
+                                <brocom:voidReason>onbekend</brocom:voidReason>
+                                 -->
+                                <brocom:year>2018</brocom:year>
+                            </sfrcom:descriptionReportDate>
+                            <sfrcom:descriptionProcedure codeSpace="urn:bro:sfr:DescriptionProcedure">AlterraTD19Av1995</sfrcom:descriptionProcedure>
+                            <sfrcom:describedWidth xsi:nil="true" uom="m"/>
+                            <sfrcom:artificiallyHumidified>nee</sfrcom:artificiallyHumidified>
+                            <!--Optional:-->
+                            <sfrcom:descriptionOperator>
+                                <!--You have a CHOICE of the next 2 items at this level-->
+                                <!-- 
+                                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                                <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                                -->
+                                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                            </sfrcom:descriptionOperator>
+                            <sfrcom:fractionDistributionDetermined>nee</sfrcom:fractionDistributionDetermined>
+                            <sfrcom:lowerBoundarySandFraction codeSpace="urn:bro:sfr:LowerBoundarySandFraction">50</sfrcom:lowerBoundarySandFraction>
+                            <sfrcom:soilProfile>
+                                <sfrcom:SoilProfile gml:id="id_0007">
+                                    <sfrcom:descriptionQuality codeSpace="urn:bro:sfr:DescriptionQuality">standaard</sfrcom:descriptionQuality>
+                                    <sfrcom:rootableDepthReached>onbekend</sfrcom:rootableDepthReached>
                                     <!--Optional:-->
-                                    <sfrcom:mixed>onbekend</sfrcom:mixed>
+                                    <!--sfrcom:rootableDepth uom="m">1.1</sfrcom:rootableDepth-->
+                                    <sfrcom:meanHighestGroundwaterLevelReached>onbekend</sfrcom:meanHighestGroundwaterLevelReached>
                                     <!--Optional:-->
-                                    <sfrcom:inverted>ja</sfrcom:inverted>
-                                    <!--1 to 3 repetitions:-->
-                                    <sfrcom:soilLife codeSpace="urn:bro:sfr:SoilLife">schimmeldraden</sfrcom:soilLife>
-                                    <sfrcom:soilLife codeSpace="urn:bro:sfr:SoilLife">insecten</sfrcom:soilLife>
-                                    <sfrcom:soilLife codeSpace="urn:bro:sfr:SoilLife">wormen</sfrcom:soilLife>
-                                    <sfrcom:rooted>onbekend</sfrcom:rooted>
+                                    <!--sfrcom:meanHighestGroundwaterLevel uom="m">1.1</sfrcom:meanHighestGroundwaterLevel-->
                                     <!--Optional:-->
-                                    <sfrcom:rootsEvenlyDistributed>onbekend</sfrcom:rootsEvenlyDistributed>
+                                    <!--sfrcom:meanLowestGroundwaterLevel uom="m">2.1</sfrcom:meanLowestGroundwaterLevel-->
+                                    <sfrcom:horizonRepetition>onbekend</sfrcom:horizonRepetition>
+                                    <!--1 or more repetitions:-->
+                                    <sfrcom:localPhenomenon codeSpace="urn:bro:sfr:LocalPhenomenon">onbekend</sfrcom:localPhenomenon>
                                     <!--Optional:-->
-                                    <sfrcom:rootAbundanceClass codeSpace="urn:bro:sfr:RootAbundanceClass">zeerWeinig</sfrcom:rootAbundanceClass>
-                                    <sfrcom:slant>onbekend</sfrcom:slant>
-                                    <!--Optional:-->
-                                    <sfrcom:homogeneousMaterial>
-                                        <!--Optional:-->
-                                        <sfrcom:specialMaterial codeSpace="urn:bro:sfr:SpecialMaterial">oer</sfrcom:specialMaterial>
-                                        <!--Optional:-->
-                                        <sfrcom:horizonCode codeSpace="urn:bro:sfr:HorizonCode">Cy</sfrcom:horizonCode>
-                                        <!--Optional:-->
-                                        <sfrcom:rockType codeSpace="urn:bro:sfr:RockType">?</sfrcom:rockType>
-                                        <!--Optional:-->
-                                        <sfrcom:depositionalCharacteristic codeSpace="urn:bro:sfr:DepositionalCharacteristic">glaciaal</sfrcom:depositionalCharacteristic>
-                                        <!--Optional:-->
-                                        <sfrcom:estimatedSaturatedPermeability uom="m/d">0.5</sfrcom:estimatedSaturatedPermeability>
-                                        <!--Optional:-->
-                                        <!--sfrcom:soil>
-                                           ...
-                                        </sfrcom:soil-->
-                                    </sfrcom:homogeneousMaterial>
+                                    <sfrcom:upperBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">onbekend</sfrcom:upperBoundaryShape>
+                                    <sfrcom:sequenceDisturbed>onbekend</sfrcom:sequenceDisturbed>
+                                    <sfrcom:compactionPresent>onbekend</sfrcom:compactionPresent>
                                     <!--Zero or more repetitions:-->
-                                    <!--sfrcom:layerComponent>
+                                    <sfrcom:litterLayer>
+                                        <sfrcom:LitterLayer gml:id="id_0008">
+                                            <sfrcom:upperBoundary uom="m">-0.08</sfrcom:upperBoundary>
+                                            <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
+                                            <sfrcom:lowerBoundary uom="m">0</sfrcom:lowerBoundary>
+                                            <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:lowerBoundaryDetermination>
+                                            <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">onbekend</sfrcom:lowerBoundaryShape>
+                                            <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
+                                            <sfrcom:horizonCode codeSpace="urn:bro:sfr:HorizonCode">O</sfrcom:horizonCode>
+                                            <sfrcom:litterType codeSpace="urn:bro:sfr:LitterType">loofstrooisel</sfrcom:litterType>
+                                            <sfrcom:estimatedOrganicMatterContent xsi:nil="true" uom="%"/>
+                                        </sfrcom:LitterLayer>
+                                    </sfrcom:litterLayer>
+                                    <!--1 or more repetitions:-->
+                                    <sfrcom:soilLayer>
+                                        <sfrcom:SoilLayer gml:id="id_0009">
+                                            <sfrcom:upperBoundary uom="m">0</sfrcom:upperBoundary>
+                                            <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
+                                            <sfrcom:lowerBoundary uom="m">1.60</sfrcom:lowerBoundary>
+                                            <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">waargenomenGeleidelijk10cm</sfrcom:lowerBoundaryDetermination>
+                                            <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">regelmatigNietGespecificeerd</sfrcom:lowerBoundaryShape>
+                                            <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
+                                            <sfrcom:anthropogenic>onbekend</sfrcom:anthropogenic>
+                                            <!--Optional:-->
+                                            <sfrcom:mixed>onbekend</sfrcom:mixed>
+                                            <!--Optional:-->
+                                            <sfrcom:inverted>ja</sfrcom:inverted>
+                                            <!--1 to 3 repetitions:-->
+                                            <sfrcom:soilLife codeSpace="urn:bro:sfr:SoilLife">schimmeldraden</sfrcom:soilLife>
+                                            <sfrcom:soilLife codeSpace="urn:bro:sfr:SoilLife">insecten</sfrcom:soilLife>
+                                            <sfrcom:soilLife codeSpace="urn:bro:sfr:SoilLife">wormen</sfrcom:soilLife>
+                                            <sfrcom:rooted>onbekend</sfrcom:rooted>
+                                            <!--Optional:-->
+                                            <sfrcom:rootsEvenlyDistributed>onbekend</sfrcom:rootsEvenlyDistributed>
+                                            <!--Optional:-->
+                                            <sfrcom:rootAbundanceClass codeSpace="urn:bro:sfr:RootAbundanceClass">zeerWeinig</sfrcom:rootAbundanceClass>
+                                            <sfrcom:slant>onbekend</sfrcom:slant>
+                                            <!--Optional:-->
+                                            <sfrcom:homogeneousMaterial>
+                                                <!--Optional:-->
+                                                <sfrcom:specialMaterial codeSpace="urn:bro:sfr:SpecialMaterial">oer</sfrcom:specialMaterial>
+                                                <!--Optional:-->
+                                                <sfrcom:horizonCode codeSpace="urn:bro:sfr:HorizonCode">Cy</sfrcom:horizonCode>
+                                                <!--Optional:-->
+                                                <sfrcom:rockType codeSpace="urn:bro:sfr:RockType">?</sfrcom:rockType>
+                                                <!--Optional:-->
+                                                <sfrcom:depositionalCharacteristic codeSpace="urn:bro:sfr:DepositionalCharacteristic">glaciaal</sfrcom:depositionalCharacteristic>
+                                                <!--Optional:-->
+                                                <sfrcom:estimatedSaturatedPermeability uom="m/d">0.5</sfrcom:estimatedSaturatedPermeability>
+                                                <!--Optional:-->
+                                                <!--sfrcom:soil>
+                                                   ...
+                                                </sfrcom:soil-->
+                                            </sfrcom:homogeneousMaterial>
+                                            <!--Zero or more repetitions:-->
+                                            <!--sfrcom:layerComponent>
+                                                ...
+                                            </sfrcom:layerComponent-->
+                                        </sfrcom:SoilLayer>
+                                    </sfrcom:soilLayer>
+                                    <!--Zero or more repetitions:-->
+                                    <!--sfrcom:disturbedInterval>
                                         ...
-                                    </sfrcom:layerComponent-->
-                                </sfrcom:SoilLayer>
-                            </sfrcom:soilLayer>
-                            <!--Zero or more repetitions:-->
-                            <!--sfrcom:disturbedInterval>
-                                ...
-                            </sfrcom:disturbedInterval-->
+                                    </sfrcom:disturbedInterval-->
+                                    <!--Optional:-->
+                                    <!--sfrcom:compactedInterval>
+                                        ...
+                                   </sfrcom:compactedInterval-->
+                                </sfrcom:SoilProfile>
+                            </sfrcom:soilProfile>
+                            <sfrcom:soilClassification>
+                                <sfrcom:SoilClassification gml:id="id_0010">
+                                    <sfrcom:codeGroup codeSpace="urn:bro:sfr:CodeGroup">zandgrondKalkloos</sfrcom:codeGroup>
+                                    <sfrcom:classificationCode>s4t43x</sfrcom:classificationCode>
+                                    <sfrcom:specialFeatureTop codeSpace="urn:bro:sfr:SpecialFeatureTop">zanddek</sfrcom:specialFeatureTop>
+                                    <sfrcom:soilClass codeSpace="urn:bro:sfr:SoilClass">akkereerdgrond</sfrcom:soilClass>
+                                    <!--Optional:-->
+                                    <sfrcom:textureClass codeSpace="urn:bro:sfr:TextureClass">zandLeemarmMatigFijn</sfrcom:textureClass>
+                                    <!--Optional:-->
+                                    <sfrcom:peatClass codeSpace="urn:bro:sfr:PeatClass">bosveen?</sfrcom:peatClass>
+                                    <!--Optional:-->
+                                    <sfrcom:subsoilPeat codeSpace="urn:bro:sfr:SubsoilPeat">kleiZavelLeem</sfrcom:subsoilPeat>
+                                    <!--Optional:-->
+                                    <sfrcom:lowerBoundaryPeat uom="m">1.1</sfrcom:lowerBoundaryPeat>
+                                    <!--Optional:-->
+                                    <sfrcom:subsoilDuinVagueSoil codeSpace="urn:bro:sfr:SubsoilDuinVagueSoil">zandHumuspodzol</sfrcom:subsoilDuinVagueSoil>
+                                    <!--Optional:-->
+                                    <sfrcom:textureProfile codeSpace="urn:bro:sfr:TextureProfile">homogeen</sfrcom:textureProfile>
+                                    <!--Optional:-->
+                                    <sfrcom:carbonateProfile codeSpace="urn:bro:sfr:CarbonateProfile">kalkarm</sfrcom:carbonateProfile>
+                                    <sfrcom:reworkingClass codeSpace="urn:bro:sfr:ReworkingClass">geen</sfrcom:reworkingClass>
+                                    <sfrcom:groundwaterTableClass codeSpace="urn:bro:sfr:GroundwaterTableClass">IIIb</sfrcom:groundwaterTableClass>
+                                    <!--Optional:-->
+                                    <sfrcom:anomalousGroundwaterRegime codeSpace="urn:bro:sfr:AnomalousGroundwaterRegime">schijnspiegels</sfrcom:anomalousGroundwaterRegime>
+                                    <sfrcom:specialFeatureSite codeSpace="urn:bro:sfr:SpecialFeatureSite">geen</sfrcom:specialFeatureSite>
+                                    <!--1 or more repetitions:-->
+                                    <sfrcom:specialFeatureBottom>
+                                        <sfrcom:specialFeature codeSpace="urn:bro:sfr:SpecialFeature">keileemPotklei</sfrcom:specialFeature>
+                                        <!--Optional:-->
+                                        <sfrcom:beginDepth uom="m">0.7</sfrcom:beginDepth>
+                                    </sfrcom:specialFeatureBottom>
+                                    <sfrcom:specialFeatureBottom>
+                                        <sfrcom:specialFeature codeSpace="urn:bro:sfr:SpecialFeature">zandHoloceen</sfrcom:specialFeature>
+                                        <!--Optional:-->
+                                        <sfrcom:beginDepth uom="m">1.1</sfrcom:beginDepth>
+                                    </sfrcom:specialFeatureBottom>
+                                </sfrcom:SoilClassification>
+                            </sfrcom:soilClassification>
+                        </sfrcom:SoilFaceDescription>
+                    </soilFaceDescription>
+                    <soilFaceSampleAnalysis>
+                        <sfrcom:SoilFaceSampleAnalysis gml:id="id_0011">
+                            <sfrcom:analysisReportDate>
+                                <!--You have a CHOICE of the next 4 items at this level-->
+                                <!-- 
+                                <brocom:date>1987-09-18</brocom:date>
+                                <brocom:yearMonth>1987-09</brocom:yearMonth>
+                                <brocom:year>1987</brocom:year>
+                                <brocom:voidReason>onbekend</brocom:voidReason>
+                                 -->
+                                <brocom:yearMonth>1987-09</brocom:yearMonth>
+                            </sfrcom:analysisReportDate>
+                            <sfrcom:analysisType codeSpace="urn:bro:sfr:AnalysisType">nietGespecificeerd</sfrcom:analysisType>
                             <!--Optional:-->
-                            <!--sfrcom:compactedInterval>
-                                ...
-                           </sfrcom:compactedInterval-->
-                        </sfrcom:SoilProfile>
-                    </sfrcom:soilProfile>
-                    <sfrcom:soilClassification>
-                        <sfrcom:SoilClassification gml:id="id_0010">
-                            <sfrcom:codeGroup codeSpace="urn:bro:sfr:CodeGroup">zandgrondKalkloos</sfrcom:codeGroup>
-                            <sfrcom:classificationCode>s4t43x</sfrcom:classificationCode>
-                            <sfrcom:specialFeatureTop codeSpace="urn:bro:sfr:SpecialFeatureTop">zanddek</sfrcom:specialFeatureTop>
-                            <sfrcom:soilClass codeSpace="urn:bro:sfr:SoilClass">akkereerdgrond</sfrcom:soilClass>
-                            <!--Optional:-->
-                            <sfrcom:textureClass codeSpace="urn:bro:sfr:TextureClass">zandLeemarmMatigFijn</sfrcom:textureClass>
-                            <!--Optional:-->
-                            <sfrcom:peatClass codeSpace="urn:bro:sfr:PeatClass">bosveen?</sfrcom:peatClass>
-                            <!--Optional:-->
-                            <sfrcom:subsoilPeat codeSpace="urn:bro:sfr:SubsoilPeat">kleiZavelLeem</sfrcom:subsoilPeat>
-                            <!--Optional:-->
-                            <sfrcom:lowerBoundaryPeat uom="m">1.1</sfrcom:lowerBoundaryPeat>
-                            <!--Optional:-->
-                            <sfrcom:subsoilDuinVagueSoil codeSpace="urn:bro:sfr:SubsoilDuinVagueSoil">zandHumuspodzol</sfrcom:subsoilDuinVagueSoil>
-                            <!--Optional:-->
-                            <sfrcom:textureProfile codeSpace="urn:bro:sfr:TextureProfile">homogeen</sfrcom:textureProfile>
-                            <!--Optional:-->
-                            <sfrcom:carbonateProfile codeSpace="urn:bro:sfr:CarbonateProfile">kalkarm</sfrcom:carbonateProfile>
-                            <sfrcom:reworkingClass codeSpace="urn:bro:sfr:ReworkingClass">geen</sfrcom:reworkingClass>
-                            <sfrcom:groundwaterTableClass codeSpace="urn:bro:sfr:GroundwaterTableClass">IIIb</sfrcom:groundwaterTableClass>
-                            <!--Optional:-->
-                            <sfrcom:anomalousGroundwaterRegime codeSpace="urn:bro:sfr:AnomalousGroundwaterRegime">schijnspiegels</sfrcom:anomalousGroundwaterRegime>
-                            <sfrcom:specialFeatureSite codeSpace="urn:bro:sfr:SpecialFeatureSite">geen</sfrcom:specialFeatureSite>
+                            <sfrcom:analysisOperator>
+                                <!--You have a CHOICE of the next 2 items at this level-->
+                                <!-- 
+                                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                                <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                                 -->
+                                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                            </sfrcom:analysisOperator>
                             <!--1 or more repetitions:-->
-                            <sfrcom:specialFeatureBottom>
-                                <sfrcom:specialFeature codeSpace="urn:bro:sfr:SpecialFeature">keileemPotklei</sfrcom:specialFeature>
-                                <!--Optional:-->
-                                <sfrcom:beginDepth uom="m">0.7</sfrcom:beginDepth>
-                            </sfrcom:specialFeatureBottom>
-                            <sfrcom:specialFeatureBottom>
-                                <sfrcom:specialFeature codeSpace="urn:bro:sfr:SpecialFeature">zandHoloceen</sfrcom:specialFeature>
-                                <!--Optional:-->
-                                <sfrcom:beginDepth uom="m">1.1</sfrcom:beginDepth>
-                            </sfrcom:specialFeatureBottom>
-                        </sfrcom:SoilClassification>
-                    </sfrcom:soilClassification>
-                </sfrcom:SoilFaceDescription>
-            </soilFaceDescription>
-            <soilFaceSampleAnalysis>
-                <sfrcom:SoilFaceSampleAnalysis gml:id="id_0011">
-                    <sfrcom:analysisReportDate>
-                        <!--You have a CHOICE of the next 4 items at this level-->
-                        <!-- 
-                        <brocom:date>1987-09-18</brocom:date>
-                        <brocom:yearMonth>1987-09</brocom:yearMonth>
-                        <brocom:year>1987</brocom:year>
-                        <brocom:voidReason>onbekend</brocom:voidReason>
-                         -->
-                        <brocom:yearMonth>1987-09</brocom:yearMonth>
-                    </sfrcom:analysisReportDate>
-                    <sfrcom:analysisType codeSpace="urn:bro:sfr:AnalysisType">nietGespecificeerd</sfrcom:analysisType>
-                    <!--Optional:-->
-                    <sfrcom:analysisOperator>
-                        <!--You have a CHOICE of the next 2 items at this level-->
-                        <!-- 
-                        <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                        <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
-                         -->
-                        <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                    </sfrcom:analysisOperator>
-                    <!--1 or more repetitions:-->
-                    <sfrcom:investigatedInterval>
-                        <sfrcom:InvestigatedInterval gml:id="id_0012">
-                            <sfrcom:beginDepth uom="m">0.00</sfrcom:beginDepth>
-                            <sfrcom:endDepth uom="m">25.00</sfrcom:endDepth>
-                            <sfrcom:characteristicModelled>nee</sfrcom:characteristicModelled>
-                            <sfrcom:pHDetermination>
-                                <srcom:PHDetermination gml:id="id_0013">
-                                    <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">ISO10390v2005</srcom:determinationProcedure>
-                                    <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">zuurgraadKCl</srcom:determinationMethod>
-                                    <srcom:pH uom="1">7.4</srcom:pH>
-                                </srcom:PHDetermination>
-                            </sfrcom:pHDetermination>
-                            <sfrcom:particleSizeDistributionDetermination>
-                                <srcom:ParticleSizeDistributionDetermination gml:id="id_0014">
-                                    <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">onbekend</srcom:determinationProcedure>
-                                    <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">onbekend</srcom:determinationMethod>
-                                    <srcom:particleSizeDistributionStandardised>nee</srcom:particleSizeDistributionStandardised>
-                                    <!-- optional 
-                                    <srcom:fractionDistribution codeSpace=""></srcom:fractionDistribution>
-                                    -->
-                                    <!-- optional -->
-                                    <srcom:performanceIrregularity codeSpace="urn:bro:sr:PerformanceIrregularity">todo</srcom:performanceIrregularity>
-                                    <srcom:dispersionMethod codeSpace="urn:bro:sr:DispersionMethod">todo</srcom:dispersionMethod>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">2</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">14.5</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">0.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">16</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">2</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">5.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">50</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">16</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">21.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">105</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">50</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">35.7</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">150</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">105</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">19.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">210</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">150</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">3.0</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">210</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">0.6</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                </srcom:ParticleSizeDistributionDetermination>
-                            </sfrcom:particleSizeDistributionDetermination>
-                        </sfrcom:InvestigatedInterval>
-                    </sfrcom:investigatedInterval>
-                    <sfrcom:investigatedInterval>
-                        <sfrcom:InvestigatedInterval gml:id="id_0015">
-                            <sfrcom:beginDepth uom="m">10.00</sfrcom:beginDepth>
-                            <sfrcom:endDepth uom="m">20.00</sfrcom:endDepth>
-                            <sfrcom:characteristicModelled>nee</sfrcom:characteristicModelled>
-                            <sfrcom:shrinkageDetermination>
-                                <srcom:ShrinkageDetermination gml:id="id_0016">
-                                    <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">bronswijk1986</srcom:determinationProcedure>
-                                    <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">schuifmaat</srcom:determinationMethod>
-                                    <srcom:disturbed>nee</srcom:disturbed>
-                                    <srcom:shrinkage>
-                                        <swe:DataArray id="id_0017">
-                                            <swe:elementCount>
-                                                <swe:Count>
-                                                    <swe:value>14</swe:value>
-                                                </swe:Count>
-                                            </swe:elementCount>
-                                            <swe:elementType name="krimptoestand" xlink:href="https://schema.broservices.nl/xsd/sfrcommon/2.0/meetreeksen/ShrinkageState.xml"/>
-                                            <swe:encoding>
-                                              <swe:TextEncoding collapseWhiteSpaces="true" decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
-                                            </swe:encoding>
-                                            <swe:values>66.4,39.4,NaN,NaN;65.5,38.8,NaN,NaN;64.8,38.4,NaN,NaN;60.8,35.4,NaN,NaN;60.3,35.0,NaN,NaN;58.9,33.4,NaN,NaN;57.4,32.4,NaN,NaN;55.8,30.9,NaN,NaN;53.9,29.0,NaN,NaN;52.8,28.1,NaN,NaN;50.4,26.1,NaN,NaN;49.0,25.2,NaN,NaN;48.5,24.9,NaN,NaN;43.4,23.1,NaN,NaN</swe:values>
-                                        </swe:DataArray>
-                                    </srcom:shrinkage>
-                                </srcom:ShrinkageDetermination>
-                            </sfrcom:shrinkageDetermination>
-                        </sfrcom:InvestigatedInterval>
-                    </sfrcom:investigatedInterval>
-                </sfrcom:SoilFaceSampleAnalysis>
-            </soilFaceSampleAnalysis>
-        </SFR_O_DP>
-    </dispatchDocument>
-</dispatchDataResponse>
+                            <sfrcom:investigatedInterval>
+                                <sfrcom:InvestigatedInterval gml:id="id_0012">
+                                    <sfrcom:beginDepth uom="m">0.00</sfrcom:beginDepth>
+                                    <sfrcom:endDepth uom="m">25.00</sfrcom:endDepth>
+                                    <sfrcom:characteristicModelled>nee</sfrcom:characteristicModelled>
+                                    <sfrcom:pHDetermination>
+                                        <srcom:PHDetermination gml:id="id_0013">
+                                            <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">ISO10390v2005</srcom:determinationProcedure>
+                                            <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">zuurgraadKCl</srcom:determinationMethod>
+                                            <srcom:pH uom="1">7.4</srcom:pH>
+                                        </srcom:PHDetermination>
+                                    </sfrcom:pHDetermination>
+                                    <sfrcom:particleSizeDistributionDetermination>
+                                        <srcom:ParticleSizeDistributionDetermination gml:id="id_0014">
+                                            <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">onbekend</srcom:determinationProcedure>
+                                            <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">onbekend</srcom:determinationMethod>
+                                            <srcom:particleSizeDistributionStandardised>nee</srcom:particleSizeDistributionStandardised>
+                                            <!-- optional 
+                                            <srcom:fractionDistribution codeSpace=""></srcom:fractionDistribution>
+                                            -->
+                                            <!-- optional -->
+                                            <srcom:performanceIrregularity codeSpace="urn:bro:sr:PerformanceIrregularity">todo</srcom:performanceIrregularity>
+                                            <srcom:dispersionMethod codeSpace="urn:bro:sr:DispersionMethod">todo</srcom:dispersionMethod>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">2</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">14.5</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">0.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">16</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">2</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">5.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">50</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">16</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">21.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">105</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">50</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">35.7</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">150</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">105</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">19.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">210</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">150</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">3.0</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">210</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">0.6</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                        </srcom:ParticleSizeDistributionDetermination>
+                                    </sfrcom:particleSizeDistributionDetermination>
+                                </sfrcom:InvestigatedInterval>
+                            </sfrcom:investigatedInterval>
+                            <sfrcom:investigatedInterval>
+                                <sfrcom:InvestigatedInterval gml:id="id_0015">
+                                    <sfrcom:beginDepth uom="m">10.00</sfrcom:beginDepth>
+                                    <sfrcom:endDepth uom="m">20.00</sfrcom:endDepth>
+                                    <sfrcom:characteristicModelled>nee</sfrcom:characteristicModelled>
+                                    <sfrcom:shrinkageDetermination>
+                                        <srcom:ShrinkageDetermination gml:id="id_0016">
+                                            <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">bronswijk1986</srcom:determinationProcedure>
+                                            <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">schuifmaat</srcom:determinationMethod>
+                                            <srcom:disturbed>nee</srcom:disturbed>
+                                            <srcom:shrinkage>
+                                                <swe:DataArray id="id_0017">
+                                                    <swe:elementCount>
+                                                        <swe:Count>
+                                                            <swe:value>14</swe:value>
+                                                        </swe:Count>
+                                                    </swe:elementCount>
+                                                    <swe:elementType name="krimptoestand" xlink:href="https://schema.broservices.nl/xsd/sfrcommon/2.0/meetreeksen/ShrinkageState.xml"/>
+                                                    <swe:encoding>
+                                                      <swe:TextEncoding collapseWhiteSpaces="true" decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
+                                                    </swe:encoding>
+                                                    <swe:values>66.4,39.4,NaN,NaN;65.5,38.8,NaN,NaN;64.8,38.4,NaN,NaN;60.8,35.4,NaN,NaN;60.3,35.0,NaN,NaN;58.9,33.4,NaN,NaN;57.4,32.4,NaN,NaN;55.8,30.9,NaN,NaN;53.9,29.0,NaN,NaN;52.8,28.1,NaN,NaN;50.4,26.1,NaN,NaN;49.0,25.2,NaN,NaN;48.5,24.9,NaN,NaN;43.4,23.1,NaN,NaN</swe:values>
+                                                </swe:DataArray>
+                                            </srcom:shrinkage>
+                                        </srcom:ShrinkageDetermination>
+                                    </sfrcom:shrinkageDetermination>
+                                </sfrcom:InvestigatedInterval>
+                            </sfrcom:investigatedInterval>
+                        </sfrcom:SoilFaceSampleAnalysis>
+                    </soilFaceSampleAnalysis>
+                </SFR_O_DP>
+            </dispatchDocument>
+        </dispatchDataResponse>
+    </soap:Body>
+</soap:Envelope>

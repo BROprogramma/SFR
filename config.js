@@ -1,8 +1,9 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
+  subtitle: "Bodemkundige wandmonsterbeschrijving en wandmonsteranalyse",
   //canonicalURI: "WV",
-  //publishDate: "2020-07-02",
+  //publishDate: "2022-07-28",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
@@ -26,15 +27,6 @@ var respecConfig = {
   shortName: "sfr",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SFR",
-  previousPublishDate: "2020-07-02",
-  previousStatus: "GN-DEF",
-  //localBiblio: {
-  //  "ISO19136": {
-  //    "href": "https://www.iso.org/standard/32554.html",
-  //    "title": "ISO 19136:2007 Geographic information -- Geography Markup Language (GML)",
-  //    "authors": [""],
-  //    "date": "September 2007",
-  //    "publisher": "International Organization for Standardization",
-  //  },
-  //},
+  previousPublishDate: "2022-07-28",
+  previousStatus: "GN-VV",
 };
