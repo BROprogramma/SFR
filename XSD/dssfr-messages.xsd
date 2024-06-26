@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
 <xs:schema xmlns:dssfr="http://www.broservices.nl/xsd/dssfr/2.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
@@ -7,7 +20,7 @@
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
            targetNamespace="http://www.broservices.nl/xsd/dssfr/2.0"
            elementFormDefault="qualified"
-           version="1.9.0">
+           version="2.0.2">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -15,14 +28,14 @@
         </xs:appinfo>
     </xs:annotation>
 
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="sfrcommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
     <!--
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
     <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/sfrcommon/2.0/sfrcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="sfrcommon.xsd"/>
-    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
     <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
     <xs:element name="parseFault" type="brocom:ParseFaultType" />
@@ -230,7 +243,7 @@
                         </xs:complexType>
                     </xs:element>
                     <xs:element name="stopCriterion"
-                                minOccurs="1"
+                                minOccurs="0"
                                 maxOccurs="1"
                                 type="sfrcom:StopCriterionFieldType">
                         <xs:annotation>
@@ -304,7 +317,7 @@
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Type analyse</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="characteristicsModelled"
+                    <xs:element name="characteristicModelled"
                                 type="brocom:IndicationYesNoType"
                                 minOccurs="0"
                                 maxOccurs="1">
@@ -662,7 +675,7 @@
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TYpe van de analyses</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="characteristicsModelled"
+                    <xs:element name="characteristicModelled"
                                 type="brocom:IndicationYesNoType"
                                 minOccurs="0"
                                 maxOccurs="1">
