@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Verstoring>
+		<Waarde>kryoturbatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijke verstoring veroorzaakt door een fysisch proces: de vervorming van bodemlagen door bevriezen en ontdooien van de grond.</Omschrijving>
+	</Verstoring>
+	<Verstoring>
+		<Waarde>wortelzakvorming</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijke verstoring veroorzaakt door een biologisch proces: wortels doen de podzol-B-horizont profiel uitzakken.</Omschrijving>
+	</Verstoring>
+	<Verstoring>
+		<Waarde>doorgraving</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijke verstoring veroorzaakt door een fysisch proces: gewervelde dieren hebben gangen gemaakt in de bodem en die zijn later grotendeels weer met grond opgevuld. De gangen strekken zich in alle richtingen uit.</Omschrijving>
+	</Verstoring>
+	<Verstoring>
+		<Waarde>kering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogene verstoring: de mens heeft door bewerking de natuurlijke samenhang van de grond veranderd en materiaal van diepte naar boven gebracht. De bewerking is niet zo intensief geweest dat het interval volledig gehomogeniseerd is.</Omschrijving>
+	</Verstoring>
+	<Verstoring>
+		<Waarde>scheurvorming</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijke verstoring veroorzaakt door een fysisch proces: de grond is vanaf het maaiveld uitgedroogd en er hebben zich tot een zeker diepte scheuren gevormd die later grotendeels met grond en ander materiaal zijn opgevuld. Dit vind vooral plaats in klei en zavel gronden.</Omschrijving>
+	</Verstoring>
+</domeintabel>

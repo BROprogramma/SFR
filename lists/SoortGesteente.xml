@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortGesteente>
+		<Waarde>kalksteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voornamelijk uit calciumcarbonaat (CaCO&lt;sub&gt;3&lt;/sub&gt;, kalk). Hieronder vallen alle kalkstenen met uitzondering van mergel, dat apart onderscheiden wordt.</Omschrijving>
+	</SoortGesteente>
+	<SoortGesteente>
+		<Waarde>schalie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sedimentair gesteente dat bestaat uit geharde, geconsolideerde klei.</Omschrijving>
+	</SoortGesteente>
+	<SoortGesteente>
+		<Waarde>zandsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor meer dan 95 % uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt.</Omschrijving>
+	</SoortGesteente>
+	<SoortGesteente>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gesteentesoort is niet bekend.</Omschrijving>
+	</SoortGesteente>
+</domeintabel>

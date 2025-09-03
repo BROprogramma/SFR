@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NaamGebeurtenis>
+		<Waarde>vervolgGerapporteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is na de eerste rapportage een volgend rapport overgedragen, maar dat is nog niet het rapport waarmee het onderzoek wordt gecompleteerd.</Omschrijving>
+	</NaamGebeurtenis>
+</domeintabel>

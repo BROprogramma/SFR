@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<VormGrens>
+		<Waarde>onregelmatig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is grillig en vertoont uitstulpingen naar beneden, zakken; de breedte van de zakken is kleiner dan de dikte van de laag.</Omschrijving>
+	</VormGrens>
+	<VormGrens>
+		<Waarde>regelmatigGolvend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens toont zich als een golvende lijn. Deze waarde geldt alleen voor de bovengrens van het profiel.</Omschrijving>
+	</VormGrens>
+	<VormGrens>
+		<Waarde>regelmatigRecht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens toont zich als een min of meer rechte lijn; deze waarde geldt alleen voor de bovengrens van het profiel.</Omschrijving>
+	</VormGrens>
+	<VormGrens>
+		<Waarde>regelmatigNietGespecificeerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is niet grillig en toont zich als een lijn zonder uitstulpingen; de afstand tussen twee toppen is groter dan het verschil in hoogte over die afstand; deze waarde geldt alleen voor de ondergrens.</Omschrijving>
+	</VormGrens>
+	<VormGrens>
+		<Waarde>zeerOnregelmatig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is grillig en vertoont grote uitstulpingen naar beneden, zakken; de breedte van de zakken is groter dan de dikte van de laag.</Omschrijving>
+	</VormGrens>
+	<VormGrens>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vorm van de grens is niet bekend.</Omschrijving>
+	</VormGrens>
+</domeintabel>

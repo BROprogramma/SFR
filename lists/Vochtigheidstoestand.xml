@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Vochtigheidstoestand>
+		<Waarde>droog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond blijft na kneden droog aanvoelen.</Omschrijving>
+	</Vochtigheidstoestand>
+	<Vochtigheidstoestand>
+		<Waarde>vochtig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond voelt na kneden vochtig aan.</Omschrijving>
+	</Vochtigheidstoestand>
+	<Vochtigheidstoestand>
+		<Waarde>nat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Na kneden van de grond ontstaat knijpvocht.</Omschrijving>
+	</Vochtigheidstoestand>
+	<Vochtigheidstoestand>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vochtigheidstoestand is niet bekend.</Omschrijving>
+	</Vochtigheidstoestand>
+</domeintabel>

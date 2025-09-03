@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Modelleringsprocedure>
+		<Waarde>WENRHydrofysicav1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het modelleren van de bodemvochtpotentiaal, volumetrisch watergehalte en waterdoorlatendheid voor de hydrofysische karakteristieken.</Omschrijving>
+	</Modelleringsprocedure>
+</domeintabel>

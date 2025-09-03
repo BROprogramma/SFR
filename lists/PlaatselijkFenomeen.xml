@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PlaatselijkFenomeen>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komen geen fenomenen voor die de laagopbouw plaatselijk verstoren.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>gang</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk fenomeen veroorzaakt door een biologisch proces: gewervelde dieren hebben gangen gemaakt in de bodem en die zijn later grotendeels weer met grond opgevuld. De gangen strekken zich in alle richtingen uit.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>hol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk fenomeen veroorzaakt door een biologisch proces: gewervelde dieren hebben holen gemaakt in de bodem. Deze kunnen in alle richtingen van de wand voorkomen en zijn niet opgevuld.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>krimpscheur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk fenomeen veroorzaakt door een fysisch proces. de grond is vanaf het maaiveld uitgedroogd en er hebben zich tot een zekere diepte scheuren gevormd die later grotendeels met grond en ander materiaal zijn opgevuld. Dit komt voor op klei- en zavelgronden.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>orgelpijp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk fenomeen veroorzaakt door een chemisch proces: Zuur van regenwater of van plantenwortels lost kalk op en activeert de vorming van orgelpijpen. Dit komt alleen voor op kalkrijke gronden.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>vorstwig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijke fenomeen veroorzaakt door een fysisch proces: een scheur in de grond die is gevormd door langdurige bevriezing. Dit is een bijzonder vorm van kryoturbatie.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>woelspoor</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen fenomeen veroorzaakt door de mens: Een verticale strook van verstoring die onderin wat breder is en die herkend wordt als het gevolg is van het met de beitel van een cultivator lostrekken van de grond; door zijn specifieke vorm ook wel ganzevoet genoemd.</Omschrijving>
+	</PlaatselijkFenomeen>
+	<PlaatselijkFenomeen>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend of er storende fenomenen zijn waargenomen.</Omschrijving>
+	</PlaatselijkFenomeen>
+</domeintabel>

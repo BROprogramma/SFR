@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Structuurtype>
+		<Waarde>aggregaatZwak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont geen gelaagdheid en heeft een zwak ontwikkelde aggregaatstructuur: aggregaten maken minder dan 30 % van het grondvolume uit. De aggregaten tonen zich alleen wanneer de grond wordt opengebroken.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>aggregaatMatig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont geen gelaagdheid en heeft een matig ontwikkelde aggregaatstructuur: aggregaten maken voor 30 tot 70 % van het grondvolume uit. De aggregaten tonen zich wanneer de grond wordt opengebroken of gedeeltelijk wordt losgestoken.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>aggregaatSterk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont geen gelaagdheid en heeft een sterk ontwikkelde aggregaatstructuur: aggregaten maken meer dan 70 % van het grondvolume uit. De aggregaten tonen zich wanneer de grond wordt losgestoken.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>enkelkorrel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bestaat uit korrels en vertoont geen gelaagdheid.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>gangenstructuur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont geen gelaagdheid, maar een gatenstructuur; de gaten (poriën)verlopen verticaal en zijn onderling niet of zelden verbonden.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>massief</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont geen gelaagdheid, aggregaten of gaten (poriën).</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>sedimentairGelaagdWeinigVerstoord</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont gelaagdheid en de gelaagdheid is voor minder dan 10 % verstoord.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>sedimentairGelaagdMatigVerstoord</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont gelaagdheid en de gelaagdheid is voor 10 tot 70 % verstoord.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>sedimentairGelaagdSterkVerstoord</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont gelaagdheid en de gelaagdheid is voor meer dan 70 % verstoord.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>sponsstructuur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond vertoont geen gelaagdheid, maar een gatenstructuur; de gaten (poriën) lopen in alle richtingen en zijn onderling verbonden.</Omschrijving>
+	</Structuurtype>
+	<Structuurtype>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het structuurtype is niet bekend.</Omschrijving>
+	</Structuurtype>
+</domeintabel>

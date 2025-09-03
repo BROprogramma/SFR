@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortBijzonderBestanddeel>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzondere bestanddelen.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>artefact</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: de niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>botresten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: botten of resten daarvan, afkomstig van gewervelde dieren of mensen. Uitgesloten hiervan zijn resten van vissen. De botresten zijn vaak wit tot grijs van kleur en hebben een grootte van enkele milimeters tot decimeters.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>glauconiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>glimmer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muscoviet of biotiet bestaan. Synoniem is mica.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>houtskool</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout. Het materiaal is zwart, vaak gebroken en heeft meestal een grootte van milimeters tot enkele decimeters.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: huishoudelijk afval, bestaat vaak uit verpakkingsmateriaal (papier, plastic), plastic, metaal, klein aardewerk en eventueel etensresten.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>ijzeroer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: korrels of brokken samengesteld materiaal van neergeslagen ijzerverbindingen in een matrix van zand en/of grind, klei of silt. Het is meestal geel-bruin, rood-bruin of donker-bruin van kleur (roestig) maar kan als het opengebroken wordt van binnen donkergrijs tot bijna zwart zijn. De grootte van de brokken is meestal 0,5 tot 50 mm, maar grotere brokken zijn mogelijk. De concreties komen soms in laagjes voor.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>kalkconcreties</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: delen van de grond die door calciumcarbonaat tot een geheel zijn samengekit. Omvat een scala aan verschijningsvormen, van lösspoppetjes tot septariën. Lössafzettingen daargelaten, komen de concreties overwegend voor in Tertiare kleilagen. De grootte ligt meestal tussen enkele centimeters en enkele decimeters.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>plantenrestenHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de niet-houtige delen van planten, zoals worteltjes, rietstengels en bladeren.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>puin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>toemaak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: mengsel van aangevoerd stadsvuil en duinzand, vaak gemengd met lokaal aanwezige slootbagger.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>vivianiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: mineraal (gehydrateerd ferrofosfaat) dat meestal in de vorm van kleine brokjes voorkomt in (organisch rijke) klei of leem. Meest herkenbare eigenschap is dat het verse witte mineraal binnen korte tijd verkleurd naar fel blauw bij blootstelling aan de lucht. De brokjes hebben meestal een grootte van o,5 tot 10 mm. Komt incidenteel ook voor in combinatie met ijzeroer en kan dan als brokjes en/of huidjes voorkomen.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>vuursteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. Hieronder valt ook halfverharding in de vorm van lavagruis, schelpengruis, en andere verharde opgebrachte grondmengsels.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>verbrandingsresten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter die varieert van kleiner dan 63 µm tot groter dan 22 mm.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+</domeintabel>

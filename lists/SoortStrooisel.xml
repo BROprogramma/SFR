@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortStrooisel>
+		<Waarde>loofstrooisel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het strooisel bestaat &lt;font color="#ff0000"&gt;voornamelijk &lt;/font&gt;uit de resten van de &lt;font color="#ff0000"&gt;bovengrondse delen van de planten van loofbossen en gemengde bossen met meer loofbomen dan naaldbomen.&lt;/font&gt;</Omschrijving>
+	</SoortStrooisel>
+	<SoortStrooisel>
+		<Waarde>naaldstrooisel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het strooisel bestaat &lt;font color="#ff0000"&gt;voornamelijk &lt;/font&gt;uit de resten van voornamelijk bovengrondse plantedelen in naaldbos en gemengd bos met meer naaldbomen dan loofbomen.</Omschrijving>
+	</SoortStrooisel>
+	<SoortStrooisel>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De soort strooisel is niet bekend.</Omschrijving>
+	</SoortStrooisel>
+</domeintabel>

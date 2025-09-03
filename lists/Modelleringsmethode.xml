@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Modelleringsmethode>
+		<Waarde>mualemVanGenuchten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het modelleren van de waterretentie- en de waterdoorlatendheidskarakteristiek volgens Mualem (1976: &lt;i&gt;A new model for predicting the hydraulic conductivity of unsaturated porous media. Water Resources Research 12: 513-522&lt;/i&gt;) en Van Genuchten (1980: &lt;i&gt;A closed-form equation for Predicting the Hydraulic Conductivity of Unsaturated Soils. Soil Sci. Soc. Am. J. 44: 892-898&lt;/i&gt;).</Omschrijving>
+	</Modelleringsmethode>
+	<Modelleringsmethode>
+		<Waarde>mualemVanGenuchtenDurner</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het modelleren van de waterretentie- en de waterdoorlatendheidskarakteristiek volgens Mualem (1976: &lt;i&gt;A new model for predicting the hydraulic conductivity of unsaturated porous media. Water Resources Research 12: 513-522&lt;/i&gt;) en Van Genuchten (1980: &lt;i&gt;A closed-form equation for Predicting the Hydraulic Conductivity of Unsaturated Soils. Soil Sci. Soc. Am. J. 44: 892-898&lt;/i&gt;) en Durner (1994: &lt;i&gt;Hydraulic conductivity estimation for soils with heterogeneous pore structure. Water Resources Research 30: 211-223&lt;/i&gt;) en Priesack &amp;#38;amp; Durner (2006: &lt;i&gt;Closed-form expression for the multi-modal unsaturated conductivity function, Vadose Zone Journal 5: 121-124&lt;/i&gt;).</Omschrijving>
+	</Modelleringsmethode>
+	<Modelleringsmethode>
+		<Waarde>vanGenuchten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het modelleren van de waterretentiekarakteristiek volgens Van Genuchten (1980: &lt;i&gt;A closed-form quation for Predicting the Hydraulic Conductivity of Unsaturated Soils. Soil Sci. Soc. Am. J. 44: 892-898).&lt;/i&gt;</Omschrijving>
+	</Modelleringsmethode>
+	<Modelleringsmethode>
+		<Waarde>vanGenuchtenDurner</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het modelleren van de waterretentiekarakteristiek volgens Van Genuchten (1980: &lt;i&gt;A closed-form quation for Predicting the Hydraulic Conductivity of Unsaturated Soils. Soil Sci. Soc. Am. J. 44: 892-898) en&lt;/i&gt; Durner (1994: &lt;i&gt;Hydraulic conductivity estimation for soils with heterogeneous pore structure. Water Resources Research 30: 211-223&lt;/i&gt;) en Priesack &amp;#38;amp; Durner (2006: &lt;i&gt;Closed-form expression for the multi-modal unsaturated conductivity function, Vadose Zone Journal 5: 121-124&lt;/i&gt;).</Omschrijving>
+	</Modelleringsmethode>
+</domeintabel>

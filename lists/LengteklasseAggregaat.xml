@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LengteklasseAggregaat>
+		<Waarde>uiterstKortTot2mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is kleiner dan 2 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>zeerKort2tot5mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is tussen de 2 en 5 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>kort5tot10mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is tussen de 5 en 10 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>matigKort10tot20mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is tussen de 10 en 20 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>matigLang20tot50mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is tussen de 20 en 50 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>lang50tot200mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is tussen de 50 en 200 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>zeerLang200tot500mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is tussen de 200 en 500 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+	<LengteklasseAggregaat>
+		<Waarde>uiterstLangMinstens500mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale as is groter dan 500 mm.</Omschrijving>
+	</LengteklasseAggregaat>
+</domeintabel>

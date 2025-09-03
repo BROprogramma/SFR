@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Profielverloop>
+		<Waarde>homogeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel of klei met homogene, aflopende of oplopende profielopbouw (code "5").</Omschrijving>
+	</Profielverloop>
+	<Profielverloop>
+		<Waarde>opKleiOndergrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel of klei op een ondergrond van niet-kalkrijke zware klei, doorlopend tot dieper dan 120 cm (code "4").</Omschrijving>
+	</Profielverloop>
+	<Profielverloop>
+		<Waarde>opKleiTussenlaag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel of klei op een tussenlaag van niet-kalkrijke zware klei, eindigend binnen 120 cm (code "3").</Omschrijving>
+	</Profielverloop>
+	<Profielverloop>
+		<Waarde>opVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel of klei op veen, kleigronden met meer dan 40 cm moerig materiaal vanaf 40 à 80 cm (code "1").</Omschrijving>
+	</Profielverloop>
+	<Profielverloop>
+		<Waarde>opZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel of klei op zand, kleigronden met een zandlaag van meer dan 20 cm dikte vanaf 25 à 80 cm (code "2").</Omschrijving>
+	</Profielverloop>
+	<Profielverloop>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het profielverloop is niet bekend (code “0”).</Omschrijving>
+	</Profielverloop>
+</domeintabel>

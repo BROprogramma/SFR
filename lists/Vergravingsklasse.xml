@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Vergravingsklasse>
+		<Waarde>afgegraven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden waarbij door afgraving een deel van het oorspronkelijke bodemprofiel is verwijderd (code "G").</Omschrijving>
+	</Vergravingsklasse>
+	<Vergravingsklasse>
+		<Waarde>geegaliseerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden waarbij door een cultuurtechnische ingreep het natuurlijke reliëf is genivelleerd, vereffend (code "E").</Omschrijving>
+	</Vergravingsklasse>
+	<Vergravingsklasse>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen vergravingen geconstateerd.</Omschrijving>
+	</Vergravingsklasse>
+	<Vergravingsklasse>
+		<Waarde>opgehoogd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden die door de aanvoer van bodemmateriaal van elders zijn opgehoogd (code "H").</Omschrijving>
+	</Vergravingsklasse>
+	<Vergravingsklasse>
+		<Waarde>vergraven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden waarbij als gevolg van een grondbewerking een heterogene laag voorkomt die tussen 0 en 40 cm-mv. begint, tot grotere diepte dan 40 cm doorloopt en dikker is dan 20 cm (code "F").</Omschrijving>
+	</Vergravingsklasse>
+</domeintabel>

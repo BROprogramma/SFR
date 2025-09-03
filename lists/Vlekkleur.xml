@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Vlekkleur>
+		<Waarde>bruinTotBijnaZwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn bruin tot bijna zwart. Bruine tot bijna zwarte vlekken wijzen op concentraties van humus. Een voorbeeld zijn de zgn. Molinia-spikkels.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>donkerbruinTotPaars</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn donkerbruin tot paars. Donkerbruin tot paarse vlekken wijzen op concentraties van mangaanverbindingen.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>donkergeelTotOkergeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn donkergeel tot okergeel. Donker- tot okergele vlekken wijzen op concentraties van fosforverbindingen die het gevolg zijn van de omzetting van botresten.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>geelTotLichtgeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn geel tot lichtgeel. Gelige vlekken wijzen op concentraties op sulfaten, zoals in katteklei.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>grijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn grijs. Grijze vlekken wijzen op reducerende omstandigheden.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>oranjeroodTotRoodbruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn oranjerood tot roodbruin, roestkleurig. Roestkleurige vlekken wijzen op oxiderende omstandigheden.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De kleur is niet bekend.</Omschrijving>
+	</Vlekkleur>
+</domeintabel>

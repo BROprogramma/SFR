@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MaaiveldVerlegd>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De positie van het maaiveld is niet zichtbaar veranderd.</Omschrijving>
+	</MaaiveldVerlegd>
+	<MaaiveldVerlegd>
+		<Waarde>afgegraven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het maaiveld is door afgraving verlaagd.</Omschrijving>
+	</MaaiveldVerlegd>
+	<MaaiveldVerlegd>
+		<Waarde>geegaliseerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het natuurlijke reliëf is door egalisatie verdwenen.</Omschrijving>
+	</MaaiveldVerlegd>
+	<MaaiveldVerlegd>
+		<Waarde>opgehoogd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het maaiveld is opgehoogd met materiaal van elders.</Omschrijving>
+	</MaaiveldVerlegd>
+</domeintabel>

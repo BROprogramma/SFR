@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TypeOntsluiting>
+		<Waarde>afgraving</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten doordat er grond was weggegraven voor de start van het onderzoek en voor een ander doel.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>bouwput</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten doordat er grond was uitgegraven ten behoeve van bouwwerkzaamheden.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>groeve</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten doordat er een groeve was gemaakt om delfstoffen te winnen.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>profielkuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten doordat er ten behoeve van het doen van wandonderzoek een kuil is gegraven.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>sleuf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten doordat de grond over een aanzienlijke lengte is weggehaald, bijvoorbeeld ten behoeve van de aanleg van kabels en leidingen.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>slootwand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten in de wand van een sloot.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>weginsnijding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem is ontsloten in de kant van een weg.</Omschrijving>
+	</TypeOntsluiting>
+	<TypeOntsluiting>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De wijze waarop de ondergrond is ontsloten is niet bekend.</Omschrijving>
+	</TypeOntsluiting>
+</domeintabel>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortVeen>
+		<Waarde>bagger</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mengsel van gedeeltelijk vergane, van organismen overgebleven stoffen en oeverafslag, dat als een slappe laag de bodem van stilstaande of langzaam stromende wateren bedekt.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>bolster</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwak gehumificeerd jong veenmos-veen. De net afgestorven veenmosplantjes hebben een vuilwitte kleur.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>bosveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen bestaande uit een matrix die weinig samenhang vertoont met daarin resten van hout die typisch millimeters tot decimeters groot zijn. Dit type veen kan een relatief grote minerale component hebben.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>broekveenEutroof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen gevormd in broekbossen in een voedselrijk milieu. Meestal bestaande uit zegge, hout (els, wilg) en soms wat riet.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>broekveenMesotroof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen gevormd in broekbossen in een matig voedselrijk milieu. Meestal bestaande uit zegge, hout (els, wilg) en soms wat riet.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>gliede</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwarte vervloeide humus die wordt aangetroffen in humeuze inspoelingshorizonten aan de basis van veenpakketten.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>gyttja</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Modderige humusvorm, afgezet op de bodem van voedselrijke wateren, bestaande uit micro-organismen, plantenresten en de resten van excrementen van waterdieren.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>heideveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen bestaande uit een samenhangende matrix van fijn vezelig materiaal met daarin veel als zodanig herkenbare resten van worteltjes en takjes van heide. Dit type veen is gewoonlijk mineraalarm.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>rietveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen voornamelijk bestaande uit resten van riet. Dit type veen kan een relatief grote minerale component hebben.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>rietzeggeveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen voornamelijk bestaande uit een combinatie van resten van zegge en een kleinere hoeveelheid riet.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>spalterveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gelaagd mosveen.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>veenmosveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen bestaande uit resten van veenmos, veelal met een zeer hoog organischestofgehalte.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>verslagen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afgeslagen veen dat elders is gesedimenteerd op veelal meerbodems.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>verweerdKleirijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk amorf veen dat totaal gehumificeerd is onder invloed van oxidatie en rijk is aan klei.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>verweerdMineraalarm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk amorf veen dat totaal gehumificeerd is onder invloed van oxidatie en weinig minerale delen bevat.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>verweerdZandrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk amorf veen dat totaal gehumificeerd is onder invloed van oxidatie en rijk is aan zand.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>wollegrasveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen, voornamemelijk bestaande uit resten van wollegras. Dit type veen is gewoonlijk mineraalarm.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>zeggerietveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen voornamelijk bestaande uit een combinatie van resten van riet en een kleinere hoeveelheid zegge.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>zeggeveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen voornamelijk bestaande uit zegge. Dit type veen kan een geringe minerale component hebben.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>nietGespecificeerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het soort veen is onderzocht maar niet nader gespecificeerd. Het gaat om een soort veen die niet in de classificate is opgenomen, zoals scheuchzeriaveen.</Omschrijving>
+	</SoortVeen>
+	<SoortVeen>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het soort veen is niet bepaald.</Omschrijving>
+	</SoortVeen>
+</domeintabel>

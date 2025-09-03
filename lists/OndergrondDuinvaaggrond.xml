@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OndergrondDuinvaaggrond>
+		<Waarde>moerigMateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerig materiaal (code "v").</Omschrijving>
+	</OndergrondDuinvaaggrond>
+	<OndergrondDuinvaaggrond>
+		<Waarde>nietBereikt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De ondergrond van de duinvaaggrond is met beschrijven niet bereikt (geen code).</Omschrijving>
+	</OndergrondDuinvaaggrond>
+	<OndergrondDuinvaaggrond>
+		<Waarde>zand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand zonder podzol (code "z").</Omschrijving>
+	</OndergrondDuinvaaggrond>
+	<OndergrondDuinvaaggrond>
+		<Waarde>zandHumuspodzol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand met humuspodzol (code "p").</Omschrijving>
+	</OndergrondDuinvaaggrond>
+	<OndergrondDuinvaaggrond>
+		<Waarde>zandModerpodzol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand met moderpodzol (code "m").</Omschrijving>
+	</OndergrondDuinvaaggrond>
+	<OndergrondDuinvaaggrond>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De aard van de ondergrond van de duinvaaggrond is niet bepaald (geen code).</Omschrijving>
+	</OndergrondDuinvaaggrond>
+</domeintabel>

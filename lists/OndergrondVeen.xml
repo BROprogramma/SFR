@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OndergrondVeen>
+		<Waarde>kleiZavelLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei (zavel) of leem (code "k").</Omschrijving>
+	</OndergrondVeen>
+	<OndergrondVeen>
+		<Waarde>zand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand zonder humuspodzol (code "z").</Omschrijving>
+	</OndergrondVeen>
+	<OndergrondVeen>
+		<Waarde>zandHumuspodzol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand met humuspodzol (code "p").</Omschrijving>
+	</OndergrondVeen>
+</domeintabel>
