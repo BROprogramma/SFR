@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<KunstmatigeDrainage>
+		<Waarde>drainageAanwezig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is een drainagesysteem aangebracht.</Omschrijving>
+	</KunstmatigeDrainage>
+	<KunstmatigeDrainage>
+		<Waarde>drainageAfwezig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen drainagesysteem aangebracht.</Omschrijving>
+	</KunstmatigeDrainage>
+	<KunstmatigeDrainage>
+		<Waarde>drainageNietBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het kan niet worden vastgesteld of er een drainagesysteem is aangebracht.</Omschrijving>
+	</KunstmatigeDrainage>
+	<KunstmatigeDrainage>
+		<Waarde>drainageOnbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend of men op de aanwezigheid van een drainagesysteem heeft gelet.</Omschrijving>
+	</KunstmatigeDrainage>
+</domeintabel>

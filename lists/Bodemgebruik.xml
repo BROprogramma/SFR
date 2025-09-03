@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bodemgebruik>
+		<Waarde>akkerAardappelen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw en wel voor aardappelen.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akkerBieten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw en wel voor bieten.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akkerBollen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw en wel voor bloembollen.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akkerGewas</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw, maar niet voor aardappelen, bieten, granen of mais.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akkerGranen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw en wel voor granen.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akkerKaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw waarvan niet bepaald kan worden welk gewas gezaaid of gepoot is, of welk gewas er heeft gestaan (zoals bij geploegd land).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akkerMais</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw en wel voor mais.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>boomkwekerij</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als boomkwekerij.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>boomgaardGeenOndergroei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als boomgaard zonder ondergroei.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>boomgaardOndergroei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als boomgaard met ondergroei (veelal gras).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>gebruikInTransitie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein dat niet-verhard is en nog niet werkelijk in gebruik is omdat men het gebruik van het terrein aan het veranderen is.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>gemengdBos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat bedekt is met bos, zijnde gemengd bos.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>graslandBlijvend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein of een kleiner stuk grond (grasland, wegberm, dijk) in landelijk gebied dat voor lange tijd met gras begroeid is.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>graslandNietblijvend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein of een kleiner stuk grond (grasland, wegberm, dijk) in landelijk gebied dat tijdelijk met gras begroeid is.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>loofbos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat bedekt is met loofbos, zijnde meer dan 80% loofbomen.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>naaldbos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat bedekt is met naaldbos, zijnde meer dan 80% naaldbomen.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurGeenVegetatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein zonder vegetatie, bijvoorbeeld stranden, wadplaten of stuifzandgebieden.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurKorteVegetatieDroog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein en begroeid is met korte vegetatie dat een droge groeiplaats vraagt en geen heide is (zoals de natuur in de duinen langs de kust en op de Veluwe).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurKorteVegetatieHeide</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein en begroeid is met heide.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurKorteVegetatieNat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein en begroeid is met korte vegetatie, dat een natte groeiplaats vraagt (kwelders en slikken langs de kust, gebieden in de Biesbosch, blauwgraslanden).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurKorteVegetatieVochtig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein en begroeid is met korte vegetatie dat een groeiplaats vraagt die niet droog en niet nat is.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>nietLandelijkGras</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in niet-landelijk gebied dat overwegend met gras is begroeid ( bijv. parken, golfbanen, sportparken, grasstroken en een grasveld bij zwembaden).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>nietLandelijkBomen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in niet-landelijk gebied dat overwegend met bomen is begroeid (plantsoenen, singeld, begraafplaatsen, volkstuinenen campings).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>glastuinbouw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor tuinbouw onder glas.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>akker</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw, niet nader gespecificeerd.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>bos</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat bedekt is met bos, niet nader gespecificeerd.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>fruitteelt</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als boomgaard, niet nader gespecificeerd.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>grasland</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein of een kleiner stuk grond (grasland, wegberm, dijk) in landelijk gebied dat voor korte of lange tijd met gras begroeid is, niet nader gespecificeerd.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuur</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein, niet nader gespecificeerd.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>tuinbouw</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als vollegrondtuinbouw of tuinbouw onder glas, niet nader gespecificeerd.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend wat het bodemgebruik was ten tijde van het onderzoek.</Omschrijving>
+	</Bodemgebruik>
+</domeintabel>

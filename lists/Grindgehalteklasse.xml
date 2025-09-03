@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Grindgehalteklasse>
+		<Waarde>zwakGrindig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind is aanwezig en maakt minder dan 5 % van de massa uit.</Omschrijving>
+	</Grindgehalteklasse>
+	<Grindgehalteklasse>
+		<Waarde>matigGrindig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind maakt tussen 5 en 15 % van de massa uit.</Omschrijving>
+	</Grindgehalteklasse>
+	<Grindgehalteklasse>
+		<Waarde>sterkGrindig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind maakt tussen 15 en 30 % van de massa uit.</Omschrijving>
+	</Grindgehalteklasse>
+	<Grindgehalteklasse>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grindgehalteklasse is niet bekend.</Omschrijving>
+	</Grindgehalteklasse>
+</domeintabel>

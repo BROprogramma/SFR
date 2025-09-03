@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Brokje>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat geen brokjes van en andere grondsoort of van gesteente.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>gipsbrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes gips.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>kalksteenbrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes kalksteen.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>kleibrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes klei.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>kleisteenbrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes kleisteen.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>leembrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes leem.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>steenkoolbrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes steenkool.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>veenbrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes veen.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>zandsteenbrokjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes zandsteen of verkit zand.</Omschrijving>
+	</Brokje>
+	<Brokje>
+		<Waarde>oerbrokjes</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond bevat brokjes oer.</Omschrijving>
+	</Brokje>
+</domeintabel>

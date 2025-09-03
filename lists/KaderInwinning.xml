@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<KaderInwinning>
+		<Waarde>bodemchemischOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de chemische eigenschappen van de ondergrond te verkennen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>bodemfysischOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de fysische eigenschappen van de ondergrond te verkennen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>bodemkaartNederland</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de Bodemkaart van Nederland op te stellen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>bodemkaartNederlandEenheidType</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de kaarteenheden van de Bodemkaart van Nederland te definieren. Dit doel is binnen de basisregistratieondergrond specifiek voor het registratie object bodemkundig Wandonderzoek.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>bodemopbouwNatuurterreinen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de inrichting, het beheer en onderhoud van natuurgebieden te verkennen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>delfstofwinning</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de inwinnen van oppervlaktedelftstoffen te verkennen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>gebiedsinrichting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek in verband met de herinrichting van een gebied (o.a. landinrichting).</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>hydrologischOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel de hydrologische eigenschappen van de ondergrond te verkennen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>educatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodemkundig onderzoek met als doel educatie.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend voor welk doel het onderzoek is uitgevoerd.</Omschrijving>
+	</KaderInwinning>
+</domeintabel>

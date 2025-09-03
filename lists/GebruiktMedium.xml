@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GebruiktMedium>
+		<Waarde>demiwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is gedemineraliseerd water gebruikt. Dat is water waaruit alle zouten die doorgaans in leidingwater in vrij kleine hoeveelheden aanwezig zijn, verwijderd zijn. Dit wordt ook wel osmosewater genoemd.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>gezuiverdWater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is leidingwater gebruikt dat door destillatie, demineralisatie of ionisatie gezuiverd is van alle zouten en mineralen. In de geotechniek maakt ieder lab zelf zijn gezuiverd water.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>grondwaterLokaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is grondwater gebruikt. Het grondwater komt uit het boorgat.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>leidingwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is water gebruikt dat bestemd is voor menselijke consumptie en via leidingen wordt getransporteerd.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>oppervlaktewaterLokaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is oppervlaktewater gebruikt. Het water komt uit de nabijheid van de locatie van het onderzoek.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>zoutwater1000tot10000</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is zoutwater gebruikt met een elektrische geleidbaarheid die ligt tussen 1000 en 10000 µS/cm. De geleidbaarheid is een maat voor het zoutgehalte.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>zoutwater10000tot25000</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is zoutwater gebruikt met een elektrische geleidbaarheid die ligt tussen 10000 en 25000 µS/cm. De geleidbaarheid is een maat voor het zoutgehalte.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>zoutwater25000tot50000</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is zoutwater gebruikt met een elektrische geleidbaarheid die ligt tussen 25000 en 50000 µS/cm. De geleidbaarheid is een maat voor het zoutgehalte.</Omschrijving>
+	</GebruiktMedium>
+	<GebruiktMedium>
+		<Waarde>zoutwaterMinstens50000</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In de bepaling is zoutwater gebruikt met een elektrische geleidbaarheid groter dan 50000 µS/cm. De geleidbaarheid is een maat voor het zoutgehalte.</Omschrijving>
+	</GebruiktMedium>
+</domeintabel>

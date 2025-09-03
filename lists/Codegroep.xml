@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Codegroep>
+		<Waarde>brikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Minerale gronden met een inspoelingslaag van lutum en ijzer beginnend binnen 80 cm diepte. De inspoelingslaag, de zgn. briklaag, ontstaat door kleiverplaatsing en komt voor in kalkloze lutumrijke afzettingen van ten minste laat-pleistocene ouderdom.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>kleigrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden die binnen 80 cm diepte voor meer dan de helft van de dikte uit gerijpte zavel of klei bestaan. Voor de indeling in deze codegroep moeten een briklaag en een moerige bovengrond of tussenlaag ontbreken. Tot deze groep behoren tevens de dikke eerdgronden in klei en de kalksteen verweringsgronden. De gronden zijn tot tenminste 40 cm diepte gerijpt. Op basis van de herkomst worden gronden verder onderverdeeld in zeeklei, rivierklei, oude klei en beekklei.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>leemgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden die binnen 80 cm diepte voor meer dan de helft van de dikte uit eolisch materiaal bestaan met meer dan 50 % leem en/of meer dan 8 % lutum. Voor de indeling in deze codegroep moeten een briklaag en een moerige bovengrond of tussenlaag ontbreken. Leem- of lössgronden komen vooral voor in Zuid-Limburg.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>moerigeGrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden, waar binnen de eerste 40 cm een moerige laag begint, die minimaal 15 en maximaal 40 dik is. Een moerige bovengrond is minimaal 20 cm dik en ligt binnen 40 cm op een minerale ondergrond. Een moerige tussenlaag begint binnen 40 cm en is 5 á 40 cm dik en wordt afgedekt door een zand- of kleidek.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>nietGerijpteMineraleGrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Minerale gronden die binnen 20 cm diepte hoogstens bijna gerijpt of nog slapper zijn. Deze gronden liggen overwegend in de schorren en slikken langs de kust en verspreid in lage terreindelen langs de rivieren. Het recent gesedimenteerde materiaal moet het rijpingsproces nog geheel of gedeeltelijk doorlopen. Naar de aard van het afzettingsmilieu worden ze onderverdeeld in zeeklei en rivierklei.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>podzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden met een duidelijke podzol-B-horizont en een A-horizont dunner dan 50 cm. Podzolgronden hebben een veelal bruin gekleurde inspoelingslaag (B-horizont), waarin organische stof al dan niet samen met ijzer- en aluminiumverbindingen is opgehoopt. Indien tevens een 'dikke eerdlaag', moerige bovengrond of moerige tussenlaag aanwezig is behoren ze tot een andere codegroep.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>veengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden, die tussen 0 en 80 cm diepte voor meer dan de helft van deze dikte uit 'moerig' materiaal bestaan.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>zandgrondKalkhoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gronden die tussen 0 en 80 cm diepte voor meer dan de helft van de dikte bestaan uit zand dat jonger is dan dekzand en waarbij een duidelijke podzol-horizont en briklaag ontbreken en waarbij ook geen moerige bovengrond of moerige tussenlaag aanwezig is. Tot deze groep behoren tevens de dikke eerdgronden in kalkhoudend zand. Kalkhoudende zanden zijn overwegend onder mariene omstandigheden afgezet. Andere zandgronden in deze codegroep zijn jonge stuifzandgronden en zanden die zijn afgezet onder fluviatiele omstandigheden. Het zand in deze codegroep is kalkrijk én relatief recent afgezet.</Omschrijving>
+	</Codegroep>
+	<Codegroep>
+		<Waarde>zandgrondKalkloos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Minerale gronden die tussen 0 en 80 cm diepte voor meer dan de helft van de dikte uit kalkloos zand bestaan. Een duidelijke podzol-horizont ontbreekt of deze komt voor onder een meer dan 50 cm dikke humeuze bovengrond. Ook is er geen moerige bovengrond of moerige tussenlaag aanwezig. Tot deze groep behoren tevens de dikke eerdgronden in kalkloos zand.</Omschrijving>
+	</Codegroep>
+</domeintabel>

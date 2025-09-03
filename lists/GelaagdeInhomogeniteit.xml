@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GelaagdeInhomogeniteit>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen afwijkende laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>detritusLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Detritus maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>grindLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>gyttjaLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gyttja maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>humusLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Humus maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>kalkLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kalk maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>kleiLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>leemLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leem maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>oerLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oer maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>schelpmateriaalLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>veenLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>vuursteenLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vuursteen maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+	<GelaagdeInhomogeniteit>
+		<Waarde>zandLaagjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand maakt minder dan 50 % van het volume uit en komt voor in laagjes.</Omschrijving>
+	</GelaagdeInhomogeniteit>
+</domeintabel>

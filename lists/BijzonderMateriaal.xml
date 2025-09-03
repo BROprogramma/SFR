@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderMateriaal>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: niet nader omschreven huishoudelijk afval.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
+		<Waarde>oer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: IJzerverkitting die op natuurlijke wijze door inspoeling is gevormd.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
+		<Waarde>puin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
+		<Waarde>verbrandingsresten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: minerale verbrandingsresten met een diameter die varieert van kleiner dan 63 µm tot groter dan 2 mm.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
+		<Waarde>vivianiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: Het kleurloze, blauwe of groene vivianiet heeft een parel- tot glasglans, een blauwwitte streepkleur en een perfecte splijting volgens kristalvlak [010]. De gemiddelde dichtheid is 2,65 en de hardheid is 1,5 tot 2. Het kristalstelsel is monoklien en het mineraal is niet radioactief. Vivianiet komt veel voor als secundair mineraal in metallische erts afzettingen, pegmatieten en in door organisch materiaal gedomineerde fosfaatgesteenten.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
+		<Waarde>kalkgyttja</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: materiaal die vrijwel volledig uit kalk bestaat, wittig tot gelig is en een pasta-achtige consistentie heeft.</Omschrijving>
+	</BijzonderMateriaal>
+</domeintabel>

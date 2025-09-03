@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderheidLocatie>
+		<Waarde>dal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodem in een dal, in de nabijheid van een helling (code "d"). Van toepassing alleen in Zuid-Limburg, bij leemgronden, brikgronden en kleigronden.</Omschrijving>
+	</BijzonderheidLocatie>
+	<BijzonderheidLocatie>
+		<Waarde>helling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodem op een helling (code "h"). Van toepassing alleen in Zuid-Limburg, bij leemgronden, brikgronden en kleigronden.</Omschrijving>
+	</BijzonderheidLocatie>
+	<BijzonderheidLocatie>
+		<Waarde>hellingvoet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bodem aan de voet van een helling (code "c"). Van toepassing alleen in Zuid-Limburg, bij, leemgronden, brikgronden en kleigronden.</Omschrijving>
+	</BijzonderheidLocatie>
+	<BijzonderheidLocatie>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzonderheden.</Omschrijving>
+	</BijzonderheidLocatie>
+</domeintabel>

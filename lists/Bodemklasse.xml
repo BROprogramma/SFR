@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bodemklasse>
+		<Waarde>aarveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Aarveengrond (code "1c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>akkereerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkereerdgrond (code "4t").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>beekvaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beekvaaggrond (code "5h").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>beemdbrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beemdbrikgrond (code "3b").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>bergbrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bergbrikgrond (code "3d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>boveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boveengrond (code "1g").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>broekeerdgrondMoerig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Broekeerdgrond moerige bovengrond (code "v4d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>broekeerdgrondSiltZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Broekeerdgrond kleiig, uiterst fijn silt- of zanddek (code "u4d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>broekeerdgrondZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Broekeerdgrond zanddek, 15 à 40 cm dik, met en zonder minerale eerdlaag (code "z4d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>broekeerdgrondZavelKleidek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Broekeerdgrond zavel- of kleidek (code "k4d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>bruineBeekeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruine beekeerdgrond (code "4h").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>bruineBeekeerdgrondCultuurdek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruine beekeerdgrond met een cultuurdek - een 30 à 50 cm dikke bovengrond (code "c4h").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>bruineEnkeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruine enkeerdgrond (code "4r").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>daalbrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Daalbrikgrond (code "3h").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>dampodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dampodzolgrond (code "2m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>delbrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Delbrikgrond (code "3f").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond (code "5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond beekklei (code "B5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond beekklei, gebroken dek (code "oB5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond oude klei (code "K5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond oude klei, gebroken dek (code "oK5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond rivierklei (code "R5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond rivierklei bruine kom (code "bR5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond rivierklei, gebroken dek (code "oR5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond zeeklei (code "M5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond zeeklei, gebroken dek (code "oM5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond zeeklei, knipklei (code "kM5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>drechtvaaggrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Drechtvaaggrond zeeklei, knippige klei (code "gM5m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>duinvaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Duinvaaggrond (code "5t").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>duinvaaggrondMatigHumusarm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Duinvaaggrond matig humusarm stuifzand (code "c5t").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>duinvaaggrondUiterstHumusarm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Duinvaaggrond uiterst humusarm stuifzand (code "a5t").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>duinvaaggrondZeerHumusarm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Duinvaaggrond zeer humusarm stuifzand (code "b5t").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>gooreerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gooreerdgrond (code "4i").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>gooreerdgrondCultuurdek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gooreerdgrond met een cultuurdek – een 30 à 50 cm dikke bovengrond (code "c4i").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>gorsvaaggrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gorsvaaggrond rivierklei (code "R5d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>gorsvaaggrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gorsvaaggrond zeeklei (code "M5d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>haarpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Haarpodzolgrond (code "2z").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>haarpodzolgrondZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Haarpodzolgrond met een zanddek (code "2v").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>heuvelpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Heuvelpodzolgrond (code "2x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hoekpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoekpodzolgrond (code "2g").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond (code "4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond beekklei (code "B4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond beekklei, gebroken dek (code "oB4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond oude klei (code "K4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond rivierklei (code "R4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond rivierklei, gebroken dek (code "oR4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond zeeklei (code "M4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond zeeklei, gebroken dek (code "oM4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond zeeklei knipklei (code "kM4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>hofeerdgrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hofeerdgrond zeeklei knippige klei (code "gM4x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>holtpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holtpodzolgrond (code "2i").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>holtpodzolgrondZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holtpodzolgrond met een zanddek (code "2c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>horstpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Horstpodzolgrond (code "2h").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>kamppodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kamppodzolgrond (code "2w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>kanteerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kanteerdgrond (code "4v").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>koopveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Koopveengrond (code "1d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>krijteerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Krijteerdgrond oude klei (code "K4q").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>krijtvaaggrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Krijtvaaggrond oude klei (code "K5q").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>kuilbrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kuilbrikgrond (code "3c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>laarpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laarpodzolgrond (code "2q").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond (code "4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond beekklei (code "B4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond beekklei, gebroken dek (code "oB4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond oude klei (code "K4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond oude klei, gebroken dek (code "oK4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond rivierklei (code "R4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond rivierklei bruine kom (code "bR4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond rivierklei, gebroken dek (code "oR4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond zeeklei (code "M4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond zeeklei, gebroken dek (code "oM4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond zeeklei, knipklei (code "kM4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>leekeerdgrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leekeerdgrond zeeklei, knippige klei (code "gM4p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond (code "4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond beekklei (code "B4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond beekklei, gebroken dek (code "oB4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond oude klei (code "K4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond oude klei, gebroken dek (code "oK4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond rivierklei (code "R4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond rivierklei bruine kom (code "bR4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond rivierklei, gebroken dek (code "oR4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond zeeklei (code "M4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond zeeklei, gebroken dek (code "oM4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond zeeklei, knipklei (code "kM4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>liedeerdgrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Liedeerdgrond zeeklei, knippige klei (code "gM4m").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>loopodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Loopodzolgrond (code "2d").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>madeveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Madeveengrond (code "1h").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>meerveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meerveengrond (code "1t").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>moerpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerpodzolgrond (code "2n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>moerpodzolgrondZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerpodzolgrond met een zanddek (code "2l").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>moerpodzolgrondZavelKleidek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerpodzolgrond met een zavel- of kleidek (code "2k").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond (code "5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond beekklei (code "B5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond beekklei, gebroken dek (code "oB5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond oude klei (code "K5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond oude klei, gebroken dek (code "oK5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond rivierklei (code "R5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond rivierklei bruine kom (code "bR5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond rivierklei, gebroken dek (code "oR5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond zeeklei (code "M5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond zeeklei, gebroken dek (code "oM5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond zeeklei, knipklei (code "kM5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>nesvaaggrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nesvaaggrond zeeklei, knippige klei (code "gM5n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond (code "5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond beekklei (code "B5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond beekklei, gebroken dek (code "oB5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond oude klei (code "K5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond oude klei, gebroken dek (code "oK5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond rivierklei (code "R5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond rivierklei bruine kom (code "bR5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond rivierklei, gebroken dek (code "oR5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond zeeklei (code "M5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaagrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond zeeklei, gebroken dek (code "oM5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond zeeklei knipklei (code "kM5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>ooivaaggrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ooivaaggrond zeeklei knippige klei (code "gM5x").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>plaseerdgrondMoerig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plaseerdgrond moerige bovengrond (code "v4c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>plaseerdgrondUiterstFijnZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plaseerdgrond met dek van uiterst fijn zand (code "u4c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>plaseerdgrondZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plaseerdgrond zanddek, 15 à 40 cm dik, met en zonder minerale eerdlaag (code "z4c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>plaseerdgrondZavelKleidek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plaseerdgrond zavel- of kleidek, 15 à 40 cm dik (code "k4c").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond (code "5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond beekklei (code "B5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond beekklei, gebroken dek (code "oB5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond oude klei (code "K5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond oude klei, gebroken dek (code "oK5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaagrond rivierklei (code "R5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond rivierklei, bruine kom (code "bR5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond rivierklei, gebroken dek (code "oR5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond zeeklei (code "M5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaagrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond zeeklei, gebroken dek (code "oM5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond zeeklei, knipklei (code "kM5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>poldervaaggrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poldervaaggrond zeeklei, knippige klei (code "gM5p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>radebrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Radebrikgrond (code "3i").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>rooibrikgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rooibrikgrond (code "3g").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>slikvaaggrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Slikvaaggrond rivierklei (code "R5f").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>slikvaaggrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Slikvaaggrond zeeklei (code "M5f").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond (code "4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond beekklei (code "B4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond beekklei, gebroken dek (code "oB4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond oude klei (code "K4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond oude klei, gebroken dek (code "oK4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond rivierklei (code "R4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond rivierklei bruine kom (code "bR4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond rivierklei gebroken dek (code "oR4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond zeeklei (code "M4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond zeeklei, gebroken dek (code "oM4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond zeeklei knipklei (code "kM4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tochteerdgrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tochteerdgrond zeeklei knippige klei (code "gM4n").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond (code "4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond beekklei (code "B4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond beekklei, gebroken dek (code "oB4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond oude klei (code "R4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond oude klei, gebroken dek (code "oK4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond rivierklei (code "R4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond rivierklei bruine kom (code "bR4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond rivierklei, gebroken dek (code "oR4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond zeeklei (code "M4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond zeeklei, gebroken dek (code "oM4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond zeeklei knipklei (code "kM4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>tuineerdgrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuineerdgrond zeeklei knippige klei (code "gM4w").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>veldpodzolgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veldpodzolgrond (code "2r").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>veldpodzolgrondZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veldpodzolgrond met een zanddek (code "2p").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>veldpodzolgrondZavelKleidek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veldpodzolgrond met een zavel- of kleidek (code "2o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>vlakvaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlakvaaggrond (code "5k").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>vlierveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlierveengrond (code "1v").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>vlietveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlietveengrond (code "1k").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>vorstvaaggrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vorstvaaggrond (code "5v").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>waardveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Waardveengrond (code "1s").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>weideveengrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Weideveengrond (code "1r").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond (code "4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondBeekklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond beekklei (code "B4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondBeekkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond beekklei, gebroken dek (code "oB4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondOudeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond oude klei (code "K4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondOudekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond oude klei, gebroken dek (code "oK4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondRivierklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond rivierklei (code "R4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondRivierkleiBruineKom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond rivierklei bruine kom (code "bR4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondRivierkleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond rivierklei, gebroken dek (code "oR4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondZeeklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond zeeklei (code "M4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondZeekleiGebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond zeeklei, gebroken dek (code "oM4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondZeekleiKnip</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond zeeklei, knipklei (code "kM4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>woudeerdgrondZeekleiKnippig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woudeerdgrond zeeklei, knippige klei (code "gM4o").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>zwarteBeekeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwarte beekeerdgrond (code "4k").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>zwarteBeekeerdgrondCultuurdek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwarte beekeerdgrond met een cultuurdek – een 30 à 50 cm dikke bovengrond (code "c4k").</Omschrijving>
+	</Bodemklasse>
+	<Bodemklasse>
+		<Waarde>zwarteEnkeerdgrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwarte enkeerdgrond (code "4s").</Omschrijving>
+	</Bodemklasse>
+</domeintabel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HoekigheidAggregaat>
+		<Waarde>afgerond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De aggregaten hebben geen scherpe hoeken.</Omschrijving>
+	</HoekigheidAggregaat>
+	<HoekigheidAggregaat>
+		<Waarde>scherp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De aggregaten hebben scherpe hoeken.</Omschrijving>
+	</HoekigheidAggregaat>
+	<HoekigheidAggregaat>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend wat de hoekigheid van de aggregaten is.</Omschrijving>
+	</HoekigheidAggregaat>
+</domeintabel>

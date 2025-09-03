@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Afzettingskarakteristiek>
+		<Waarde>dekzandFluvioperiglaciaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van dekzand van vroeg pleistocene ouderdom, in de warmere periode tussen de ijstijden met water meegevoerd.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>dekzandLaatWeichselien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van dekzand van laat-Weichselien ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>dekzandMiddenWeichselien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van dekzand van midden-Weichselien ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>dekzandPremorenaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van dekzand van vroeg pleistocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinKustLaatHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stuifzand in de vorm van duinen aan de kust, van laat-holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinKustVroegHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stuifzand in de vorm van duinen aan de kust, van vroeg-holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinLandHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stuifzand in de vorm van duinen aan land, van holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinRivierHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stuifzand in de vorm van duinen langs/naast de rivieren, van holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>eolischZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Eolische of fluvioperiglaciale afzetting van zand, anders dan dekzand, stuifzand en löss.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielBeekHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van holocene ouderdom gevormd door beken of kleine rivieren.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielMaasHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Maas, van holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielMaasRijnLaatPleistoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn of Maas, van laat-pleistocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielMaasRijnVroegMiddenPleistoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn of Maas, van vroeg- of midden-pleistocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielOostelijkeRivieren</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van het systeem van oostelijke rivieren dat het Eridanos riviersysteem wordt genoemd en in het Neogeen en Pleistoceen actief was.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielRijnHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn, van holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielUiterwaardHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn of Maas, vanaf het moment van het bouwen van dijken.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>gebrokenDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zandbijmening in klei.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>gestuwdMaasRijnPleistoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn of Maas, van pleistocene ouderdom, in gestuwde positie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>gestuwdOostelijkeRivieren</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van het Eridanos riviersysteem in gestuwde positie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>gestuwdTertiair</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van tertiaire ouderdom in gestuwde positie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalKeileem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk zandige tot uiterst siltige vaste veelal grijze klei met grove tot zeer grove secundaire fractie, grondmorene gevormd onder de ijskap van de voorlaatste ijstijd (Saalien). Formatie van Drente, Laagpakket van Gieten.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalKeizand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keizand.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalPotklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwak tot matig siltig of zandige, stevig tot (zeer) harde, veelal kalkrijke en glimmerhoudende, licht- tot donkergrijze, of donkerbruine tot zwarte, nabij het maaiveld door oxidatie soms rode klei. Formatie van Peelo, Laagpakket van Nieuwolda. Sedimenten die afgezet zijn in diepe sub-glaciale smeltwatergeulen, direct na het afsmelten van het Elsterien landijs. Hoge tot zeer hoge lutum percentages zijn kenmerkend, in enkele gevallen oplopend tot 60 %. Kenmerkend voor de Formatie van Peelo is de sterke wisseling in dikte over korte afstanden. Klei soms gelamineerd in warven. Fijnkorrelige smeltwaterafzetting die volledig uit vettig klei bestaat.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalWarvenklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer regelmatig gelamineerde opeenvolging ontstaan door seizoensinvloed op afzetting in glaciaal meer, bijvoorbeeld potklei en glaciale klei in Bekken van Amsterdam (Laag van Oosterdok, Formatie van Drente). Warven tonen een afwisseling in zomerlagen (licht) en winterlagen (donker). Fijnkorrelige smeltwaterafzetting die uit laagjes potklei afgewisseld met laagjes zand bestaat.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van zand door smeltwater in pleistoceen, meestal in de vorm van waaiers (sandrs).</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>hellingGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hellingafzetting van grof materiaal, meestal vermengd met fijner materiaal, van pleistocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>hellingLoess</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hellingafzetting van holocene ouderdom die uit in pleistoceen op de helling afgezette löss bestaat.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>loessdek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van löss op heuvels, op een groot aaneengesloten areaal.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>loessinsluiting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van löss in kleine, versnipperde, lager liggende, natte gebieden.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienFluviatielHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van holocene ouderdom gevormd in het overgangsbereik tussen rivier en zee.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienLagunairHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van holocene ouderdom gevormd in de lagunen.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienLaatHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van laat-holocene ouderdom gevormd in zee.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienVroegHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van vroeg-holocene ouderdom gevormd in zee.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>tertiair</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van tertiaire ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>dekzandPleistoceen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van dekzand van pleistocene ouderdom zonder nadere specificatie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinKustHoloceen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zandafzetting in de vorm van duinen aan de kust, van holocene ouderdom zonder nadere specificatie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielMaasRijnHoloceen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn of Maas, van holocene ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielMaasRijnPleistoceen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van Rijn of Maas, van pleistocene ouderdom zonder nadere specificatie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>gestuwd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting in gestuwde positie, de afkomst en ouderdom niet gespecificeerd.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaal</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van ongespecificeerd materiaal door smeltwater, van pleistoceen ouderdom.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>loess</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lössafzetting van pleistocene ouderdom zonder nadere specificatie.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienHoloceen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Afzetting van holocene ouderdom gevormd in zee, zonder nadere specificatie.</Omschrijving>
+	</Afzettingskarakteristiek>
+</domeintabel>

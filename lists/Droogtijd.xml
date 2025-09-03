@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Droogtijd>
+		<Waarde>stabieleMassa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is gedroogd tot het materiaal een stabiele massa heeft en dat is wanneer de afname van de massa minder is dan 0.6 % per 24 uur.</Omschrijving>
+	</Droogtijd>
+	<Droogtijd>
+		<Waarde>24uur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is 24 uur gedroogd.</Omschrijving>
+	</Droogtijd>
+	<Droogtijd>
+		<Waarde>onbekend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De droogtijd van het materiaal is niet bekend.</Omschrijving>
+	</Droogtijd>
+</domeintabel>

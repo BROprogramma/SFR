@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HydrologischeOmstandigheid>
+		<Waarde>kwelBrak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat brak grondwater via kwel de wortelzone kan bereiken.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>kwelZoetNormaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat zoet grondwater via kwel de wortelzone kan bereiken en er gelden geen bijzondere omstandigheden.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>kwelZoetWijst</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat zoet grondwater via kwel de wortelzone kan bereiken. Het omhoogkomen van zoet grondwater is direct geassocieerd met een breuk in de ondergrond.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>kwelZoetSpreng</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat plaatselijk zoet grondwater wordt afgetapt en in een speciaal aangelegde beek kan vloeien doordat de mens ter plaatse de afdekkende grondlaag heeft verwijderd.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>inundatieZoetGrondwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat het periodiek onder water staat door het omhoogkomen van zoet grondwater (kwel).</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>inundatieZeewater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat het periodiek onder water komt te staan door het binnendringen van zeewater.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>inundatieRivierwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat het periodiek onder water komt te staan door het binnendringen van rivierwater.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>inundatieRegenwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat het periodiek onder water komt te staan doordat de afvoer van regenwater stagneert.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>regenwaterOppervlakkigeAfvoer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is zo gelegen dat het regenwater vooral oppervlakkig wordt afgevoerd.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>regenwaterInfiltratieAfvoer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het terrein is in een wegzijgingsgebied gelegen, waar de neerslag makkelijk infiltreert en snel naar de diepte wordt afgevoerd.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>nietBijzonder</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er gelden geen bijzondere hydrologische omstandigheden.</Omschrijving>
+	</HydrologischeOmstandigheid>
+	<HydrologischeOmstandigheid>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vochtigheidstoestand van het terrein is niet bekend.</Omschrijving>
+	</HydrologischeOmstandigheid>
+</domeintabel>

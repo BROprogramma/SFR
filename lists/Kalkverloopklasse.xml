@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Kalkverloopklasse>
+		<Waarde>kalkloos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kalkloos (code "c") zijn profielen die: — tot ten minste 50 cm diepte kalkloos zijn; — tot ten hoogste 30 cm diepte kalkrijk zijn en daaronder tot tenminste 80 cm diepte kalkloos; — tot ten hoogste 30 cm diepte kalkarm zijn en daaronder tot tenminste 80 cm diepte kalkloos; — tot 30 à 50 cm diepte kalkloos zijn en daaronder tot ten minste 80 cm diepte kalkarm.</Omschrijving>
+	</Kalkverloopklasse>
+	<Kalkverloopklasse>
+		<Waarde>kalkarm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kalkarm (code "b") zijn profielen die: — tot ten minste 50 cm diepte kalkarm zijn; — tot ten hoogste 30 cm diepte kalkrijk zijn en daaronder tot tenminste 80 cm diepte kalkarm; — tot 30 à 50 cm diepte kalkrijk zijn en daaronder tot ten minste 80 cm diepte kalkloos; — tot 30 à 50 cm diepte kalkloos zijn en daaronder tot ten minste 80 cm diepte kalkrijk; — tot ten hoogste 30 cm diepte kalkloos zijn en daaronder tot tenminste 80 cm diepte kalkarm; — tot 30 à 50 cm diepte kalkarm zijn en daaronder tot ten minste 80 cm diepte kalkloos.</Omschrijving>
+	</Kalkverloopklasse>
+	<Kalkverloopklasse>
+		<Waarde>kalkrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kalkrijk (code "a") zijn profielen die: — tot ten minste 50 cm diepte kalkrijk zijn; — tot 30 à 50 cm diepte kalkrijk zijn en daaronder tot ten minste 80 cm diepte kalkarm; — tot ten hoogste 50 cm diepte kalkarm zijn en daaronder tot tenminste 80 cm diepte kalkrijk; — tot ten hoogste 30 cm diepte kalkloos zijn en daaronder tot tenminste 80 cm diepte kalkrijk.</Omschrijving>
+	</Kalkverloopklasse>
+	<Kalkverloopklasse>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De kalkverloopklasse is niet bekend.</Omschrijving>
+	</Kalkverloopklasse>
+</domeintabel>

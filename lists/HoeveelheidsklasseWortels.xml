@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HoeveelheidsklasseWortels>
+		<Waarde>zeerWeinig1tot5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het aantal wortels per vierkante decimeter ligt tussen 1 en 5.</Omschrijving>
+	</HoeveelheidsklasseWortels>
+	<HoeveelheidsklasseWortels>
+		<Waarde>weinig5tot10</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het aantal wortels per vierkante decimeter ligt tussen 5 en 10.</Omschrijving>
+	</HoeveelheidsklasseWortels>
+	<HoeveelheidsklasseWortels>
+		<Waarde>veel10tot15</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het aantal wortels per vierkante decimeter ligt tussen 10 en 15.</Omschrijving>
+	</HoeveelheidsklasseWortels>
+	<HoeveelheidsklasseWortels>
+		<Waarde>zeerVeelMinstens15</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het aantal wortels per vierkante decimeter is groter dan 15.</Omschrijving>
+	</HoeveelheidsklasseWortels>
+	<HoeveelheidsklasseWortels>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De hoeveelheidsklasse van wortels is niet bekend.</Omschrijving>
+	</HoeveelheidsklasseWortels>
+</domeintabel>

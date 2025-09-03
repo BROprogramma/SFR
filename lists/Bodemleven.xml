@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bodemleven>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn geen (sporen van) organismen waargenomen.</Omschrijving>
+	</Bodemleven>
+	<Bodemleven>
+		<Waarde>insecten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn larven of volwassen insecten waargenomen.</Omschrijving>
+	</Bodemleven>
+	<Bodemleven>
+		<Waarde>schimmeldraden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn schimmeldraden waargenomen.</Omschrijving>
+	</Bodemleven>
+	<Bodemleven>
+		<Waarde>wormen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn (sporen van) wormen waargenomen.</Omschrijving>
+	</Bodemleven>
+	<Bodemleven>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend of er (sporen van) organismen zijn waargenomen.</Omschrijving>
+	</Bodemleven>
+</domeintabel>

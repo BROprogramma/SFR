@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Kleur>
+		<Waarde>blauwGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>BlauwGrijs omvat de Munsellkleuren 10B 5/1, 10B 6/1, 5B 5/1, 5B 6/1, 5PB 5/1 of 5PB 6/1(bluish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>blauwZwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>BlauwZwart omvat de Munsellkleuren 10B 2.5/1, 5B 2.5/1 of 5PB 2.5/1 (bluish black).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>bruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruin omvat de Munsellkleuren 10YR 4/3, 10YR 5/3, 7.5YR 4/2, 7.5YR 4/3, 7.5YR 4/4, 7.5YR 5/2, 7.5YR 5/3 of 7.5YR 5/4 (brown) en 5YR 3/6.</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>bruinGeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>BruinGeel omvat de Munsellkleuren 10YR 6/6 of 10YR 6/8 (brownish yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>bruinRood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>BruinRood omvat de Munsellkleuren 10R 3/2, 10R 3/3, 10R 3/4, 5R 3/2, 5R 3/3, 5R 3/4, 7.5R 3/2, 7.5R 3/3, 7.5R 3/4 en 2.5YR 3/2 (dusky red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerblauwGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerblauwGrijs omvat de Munsellkleuren 10B 4/1, 5B 4/1, 5PB 4/1, 5B 4/2 (dark bluish gray), 5B 3/1 en 5PB 3/1, 10B 3/1 (very dark bluish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerbruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkerbruin omvat de Munsellkleuren 10YR 3/3, 7.5YR 3/2, 7.5YR 3/3 of 7.5YR 3/4 (dark brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergeelBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkergeelBruin omvat de Munsellkleuren 10YR 3/4, 10YR 3/6, 10YR 4/4, 10YR 2/6, 10YR 4/8 of 10YR 4/6 (dark yellowish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkergrijs omvat de Munsellkleuren 10YR 4/1, 2.5Y 4/1, 5Y 4/1, 5YR 4/1, 7.5YR 4/1, 10YR 4/0, 2.5Y 4/0, 5Y 4/0, 5YR 4/0, 7.5Y 3/0 of N 4/ (dark gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergrijsBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkergrijsBruin omvat de Munsellkleuren 10YR 4/2 of 2.5Y 4/2 (dark grayish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergrijsGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkergrijsGroen omvat de Munsellkleuren 5GY 3/2 (very dark grayish green), 5GY 4/2 (dark grayish green), 5BG 4/2 en 10GY 3/2 (dusky yellowish green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergroenGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkergroenGrijs omvat de Munsellkleuren 10GY 4/1 (dark greenish black), 10BG 4/1, 10G 4/1, 10Y 4/1, 5BG 4/1, 5G 4/1, 5GY 4/1 (dark greenish gray) of 5G 3/1 (very dark greenish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerolijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkerolijf omvat de Munsellkleur 10Y 3/4, 5Y 2/4, 5Y 3/3, 7.5Y 2/4 of 7.5Y 2/6 (dark olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerrood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkerrood omvat de Munsellkleuren 2.5YR 3/8, 10R 3/6, 2.5YR 3/6, 5R 2.5/6, 5R 3/6, 5R 3/8, 7.5R 3/6 of 7.5R 3/8 (dark red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>geelBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GeelBruin omvat de Munsellkleuren 10YR 5/4, 10YR 5/6 of 10YR 5/8 (yellowish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>grijsBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GrijsBruin omvat de Munsellkleuren 10YR 5/2 of 2.5Y 5/2 (grayish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>geel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geel omvat de Munsellkleuren 10YR 7/6, 10YR 7/8, 10YR 8/6, 10YR 8/8, 2.5Y 7/6, 2.5Y 7/8, 2.5Y 8/6, 2.5Y 8/8, 5Y 7/6, 5Y 7/8, 5Y 8/6 of 5Y 8/8 (yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>grijsGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GrijsGroen omvat de Munsellkleuren 5G 4/2, 5G 5/2 of 5GY 5/2 (grayish green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>grijsRood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GrijsRood omvat de Munsellkleuren 10R 4/2, 10R 4/3, 10R 4/4, 10R 5/2, 10R 5/3, 10R 5/4, 2.5YR 4/2, 2.5YR 5/2, 5R 4/2, 5R 4/3, 5R 4/4, 5R 5/2, 5R 5/3, 5R 5/4, 7.5R 4/2, 7.5R 4/3, 7.5R 4/4, 7.5R 5/2, 7.5R 5/3 of 7.5R 5/4 (weak red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>grijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grijs omvat de Munsellkleuren 2.5YR 5/0, 7.5Y 5/0, 7.5Y 4/0, 5Y 6/0, 2.5Y 6/0, 2.5Y 5/0, 10YR 6/0, 10YR 5/0, 10YR 5/1, 10YR 6/1, 2.5Y 5/1, 2.5Y 6/1, 5Y 5/1, 5Y 6/1, 5YR 5/1, 5YR 6/1, 7.5YR 5/1, 7.5YR 6/1, N 5/ of N 6/ (gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>groenGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GroenGrijs omvat de Munsellkleuren 10BG 5/1, 10BG 6/1, 10G 5/1, 10G 6/1, 10GY 5/1, 10GY 6/1, 10Y 5/1, 10Y 6/1, 5BG 5/1, 5BG 6/1, 5G 5/1, 5G 6/1, 5GY 5/1 of 5GY 6/1 (greenish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>groenZwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GroenZwart omvat de Munsellkleuren 10BG 2.5/1, 5G 2/1, 10G 2.5/1, 5GY 2/1, 10GY 2.5/1, 10Y 2.5/1, 5BG 2.5/1, 5G 2.5/1 en 5GY 2.5/1 (greenish black).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtblauwGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtblauwGrijs omvat de Munsellkleuren 10B 7/1, 10B 8/1, 5B 7/1, 5B 8/1, 5PB 7/1 of 5PB 8/1 (light bluish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtbruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichtbruin omvat de Munsellkleuren 7.5YR 6/3 of 7.5YR 6/4 (light brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtbruinGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtbruinGrijs omvat de Munsellkleuren 10YR 6/2 of 2.5Y 6/2 (light brownish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgeelBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgeelBruin omvat de Munsellkleuren 10YR 6/4, 2.5Y 6/3 of 2.5Y 6/4 (light yellowish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichtgrijs omvat de Munsellkleuren 2.5Y 7/0, 10YR 7/1, 10YR 7/2, 2.5Y 7/1, 2.5Y 7/2, 5Y 7/1, 5Y 7/2, 5YR 7/1, 7.5YR 7/1 of N 7/ (light gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgrijsBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgrijsBruin omvat de Munsellkleuren 10YR 6/3, 2.5Y 7/3, 2.5Y 7/4, 2.5Y 8/2, 2.5Y 8/3 of 2.5Y 8/4 (pale brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgrijsGeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgrijsGeel omvat de Munsellkleuren 2.5Y 8.5/2, 5Y 7/3, 5Y 7/4, 5Y 8/2, 5Y 8/3 of 5Y 8/4 (pale yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgrijsGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgrijsGroen omvat de Munsellkleuren 5G 6/2, 5G 7/2, 5G 8/2, 10G 6/2 (pale green), 5GY 7/2 (grayish yellow green), 10G 8/2 (very pale green) en 5GY 6/2 (light grayish green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgroenGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgroenGrijs omvat de Munsellkleuren 10BG 7/1, 10BG 8/1, 10G 7/1, 10G 8/1, 10GY 7/1, 10GY 8/1, 10Y 7/1, 10Y 8/1, 5BG 7/1, 5BG 8/1, 5G 7/1, 5G 8/1, 5GY 7/1 of 5GY 8/1 (light greenish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtolijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichtolijf omvat de Munsellkleur 5Y 4/8, 10Y 5/4 (light olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtolijfBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtolijfBruin omvat de Munsellkleuren 2.5Y 5/3, 2.5Y 5/4, 2.5Y 5/6 of 2.5Y 5/8 (light olive brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtolijfGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtolijfGrijs omvat de Munsellkleur 5Y 6/2 (light olive gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtrood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichtrood omvat de Munsellkleuren 10R 6/6, 10R 6/8, 10R 7/6, 10R 7/8, 2.5YR 6/6, 2.5YR 6/8, 2.5YR 7/6, 2.5YR 7/8, 5R 6/6, 5R 6/8, 5R 7/6, 5R 7/8, 7.5R 6/6, 7.5R 6/8, 7.5R 7/6 of 7.5R 7/8 (light red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>olijfGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OlijfGrijs omvat de Munsellkleuren 5Y 4/2 of 5Y 5/2 (olive gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>oranjeBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OranjeBruin omvat de Munsellkleuren 7.5YR 4/6, 7.5YR 5/6 of 7.5YR 5/8 (strong brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>roodBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RoodBruin omvat de Munsellkleuren 2.5YR 4/3, 2.5YR 4/4, 2.5YR 5/3, 2.5YR 5/4, 5YR 4/3, 5YR 4/4, 5YR 5/3 of 5YR 5/4 (reddish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>roodGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RoodGrijs omvat de Munsellkleuren 10R 5/1, 10R 6/1, 2.5YR 5/1, 2.5YR 6/1, 5R 5/1, 5R 6/1, 5YR 5/2, 7.5R 5/1 of 7.5R 6/1 (reddish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerbruinRood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerbruinRood omvat de Munsellkleuren 10R 2.5/2, 2.5YR 2.5/2, 5R 2.5/2, 5R 2.5/3, 5R 2.5/4, 7.5R 2.5/2, 7.5R 2.5/3 of 7.5R 2.5/4 (very dusky red) en 5YR 2/6.</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergrijsOlijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkergrijsOlijf omvat de Munsellkleuren 10Y 3/2 (very dark grayish olive) en 10Y 4/2 (dark grayish olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergroenZwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkergroenZwart omvat de Munsellkleuren 10Y 3/1 en 5GY 3/1, 10GY 3/1, 5G 3/1 (very dark greenish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerolijfBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerolijfBruin omvat de Munsellkleuren 2.5Y 3/3 (dark olive brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerolijfGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerolijfGrijs omvat de Munsellkleur 5Y 3/2 (dark olive gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerolijfGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerolijfGroen omvat de Munsellkleuren 5GY 2/4, 5GY 3/4 (dark olive green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerroodBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerroodBruin omvat de Munsellkleuren 5YR 2.5/2, 5YR 2/3, 5YR 2/4, 5YR 3/2, 2.5YR 2.5/3, 2.5YR 2.5/4, 2.5YR 3/3, 2.5YR 3/4 , 5YR 2.5/2, 5YR 3/2, 5YR 3/3, 5YR 3/4 (dark reddish brown), 5YR 2/2 (dusky brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerroodGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerroodGrijs omvat de Munsellkleuren 10R 3/1, 10R 4/1, 2.5YR 3/1, 2.5YR 4/1, 5R 3/1, 5R 4/1, 5YR 4/2, 7.5R 3/1 of 7.5R 4/1 (dark reddish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>olijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Olijf omvat de Munsellkleuren 7.5Y 4/8, 7.5Y 3/6, 10Y 4/4, 5Y 4/3, 5Y 4/4, 5Y 5/3, 5Y 5/4 of 5Y 5/6 (olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>geelRood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GeelRood omvat de Munsellkleuren 5YR 4/8, 5YR 4/6, 5YR 5/6 en 5YR 5/8 (yellowish red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>grijsOlijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GrijsOlijf omvat de Munsellkleuren 10Y 5/2 (grayish olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>rood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rood omvat de Munsellkleuren 10R 4/6, 10R 4/8, 10R 5/6, 10R 5/8, 2.5YR 4/6, 2.5YR 4/8, 2.5YR 5/6, 2.5YR 5/8, 5R 4/6, 5R 4/8, 5R 5/6, 5R 5/8, 7.5R 4/6, 7.5R 4/8, 7.5R 5/6 of 7.5R 5/8 (red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgeelGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgeelGroen omvat de Munsellkleur 5GY 6/4 (pale yellowish green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgeelRoze</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgeelRoze omvat de Munsellkleuren 7.5YR 9.5/2 of 7.5YR 9/2 (pale yellowish pink).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>roze</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Roze omvat de Munsellkleuren 10R 8/3, 10R 8/4, 2.5YR 8/3, 2.5YR 8/4, 5YR 7/3, 5YR 7/4, 5YR 8/3, 5YR 8/4, 7.5YR 7/3, 7.5YR 7/4, 7.5YR 8/3 of 7.5YR 8/4 (pink).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>wit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Wit omvat de Munsellkleuren 10R 8/1, 10YR 8.5/1, 10YR 8/1, 10YR 9.5/1, 10YR 9/1, 2.5Y 8.5/1, 2.5Y 8/1, 2.5Y 9.5/1, 2.5Y 9/1, 2.5YR 8/1, 5R 8/1, 5Y 8/1, 5YR 8/1, 7.5R 8/1, 7.5YR 8.5/1, 7.5YR 8/1, 7.5YR 9.5/1, 7.5YR 9/1, N 8.5/, N 8/ of N 9/ (white).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>witGeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>WitGeel omvat de Munsellkleuren 2.5Y 9.5/2 of 2.5Y 9/2 (very pale yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgrijsOlijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgrijsOlijf omvat de Munsellkleuren 10Y 6/2 (light grayish olive), 10Y 6/4, 5Y 6/3 of 5Y 6/4 (pale olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>zwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwart omvat de Munsellkleuren 10YR 2/1, 2.5Y 2.5/1, 5Y 2.5/1, 5Y 2.5/2, 5YR 2.5/1 of 7.5YR 2.5/1, 10YR 2.5/0, 10YR 2/0, 2.5Y 2.5/2, 2.5Y 2/0, 2.5Y 2/1, 2.5YR 2/0, 5Y 2/0, 5YR 2.5/0, 5YR 2/0, 7.5Y 2.5/0, 7.5Y 2/0, N 2 (black).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtgrijsRood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtgrijsRood omvat de Munsellkleuren 10R 6/2, 10R 6/3, 10R 6/4, 10R 7/2, 10R 7/3, 10R 7/4, 2.5YR 6/2, 2.5YR 7/2, 5R 6/2, 5R 6/3, 5R 6/4, 5R 7/2, 5R 7/3, 5R 7/4, 7.5R 6/2, 7.5R 6/3, 7.5R 6/4, 7.5R 7/2, 7.5R 7/3 of 7.5R 7/4 (pale red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>zwartBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ZwartBruin omvat de Munsellkleuren 10YR 2/2 (very dark brown), 10YR 3/2, 2.5Y 3/2 very dark grayish brown, 7.5YR 2.5/2 of 7.5YR 2.5/3 (very dark brown) en 2.5Y 2/2, 5YR 2/1, 10YR 2.5/3, 10YR 2.5/4, 2.5YR 2/2, 2.5YR 2/3, 2.5YR 2/4.</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtolijfGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtolijfGroen omvat de Munsellkleuren 5GY 5/4 (light olive green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>zwartGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ZwartGrijs omvat de Munsellkleuren 10YR 3/1, 2.5Y 3/1, 5Y 3/1, 5YR 3/1, 7.5YR 3/1 of N 3/ (very dark gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtoranjegeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichtoranjegeel omvat de Munsellkleuren 10YR 9.5/2 of 10YR 9/2 (pale orange yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtroodBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtroodBruin omvat de Munsellkleuren 2.5YR 6/3, 2.5YR 6/4, 2.5YR 7/3, 2.5YR 7/4, 5YR 6/3 of 5YR 6/4 (light reddish brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtroodGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>LichtroodGrijs omvat de Munsellkleuren 2.5YR 7/1 (light reddish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>lichtroze</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichtroze omvat de Munsellkleuren 5R 8/2, 5R 8/3, 5R 8/4, 7.5R 8/2, 7.5R 8/3 of 7.5R 8/4 (light pink).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>olijfBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OlijfBruin omvat de Munsellkleuren 2.5Y 4/3, 2.5Y 4/4 of 2.5Y 4/6 (olive brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>olijfGeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OlijfGeel omvat de Munsellkleuren 2.5Y 6/6, 2.5Y 6/8, 5Y 6/6 of 5Y 6/8 (olive yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>olijfGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OlijfGroen omvat de Munsellkleur 5GY 4/4 (olive green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>roodGeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RoodGeel omvat de Munsellkleuren 5YR 6/6, 5YR 6/8, 5YR 7/6, 5YR 7/8, 7.5YR 6/6, 7.5YR 6/8, 7.5YR 7/6, 7.5YR 7/8 of 7.5YR 8/6 (reddish yellow).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>roodZwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RoodZwart omvat de Munsellkleuren 2.5YR 2/1, 2.5YR 2.5/0, 10R 2/1, 10R 2.5/1 of 2.5YR 2.5/1 (reddish black).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>rozeGrijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RozeGrijs omvat de Munsellkleuren 10R 7/1, 5R 7/1, 5YR 6/2, 5YR 7/2, 7.5R 7/1, 7.5YR 6/2, 7.5YR 7/2 (pinkish gray).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>rozeWit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RozeWit omvat de Munsellkleuren 10R 8/2, 2.5YR 8/2, 5YR 8/2, 7.5YR 8.5/2 of 7.5YR 8/2 (pinkish white).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>witBruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>WitBruin omvat de Munsellkleuren 10YR 7/3, 10YR 7/4, 10YR 8.5/2, 10YR 8/2, 10YR 8/3, of 10YR 8/4 (very pale brown).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>zwartGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ZwartGroen omvat de Munsellkleuren 10BG 3/1, 10G 3/1, 10GY 3/1, 5BG 3/1 (very dark greenish gray), 5G 2.5/2 of 5G 3/2 (very dark grayish green).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>zwartOlijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ZwartOlijf omvat de Munsellkleuren 10Y 3/2 (very dark grayish olive).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>zwartRood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ZwartRood omvat de Munsellkleuren 5R 2.5/1, 7.5R 2.5/1 (reddish black), 5R 2/2 (blackish red) en 5R 2/6 (very dark red).</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerblauw</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkerblauw zoals gebruikt voor archiefgegevens.</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkergroen </Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkergroen zoals gebruikt voor archiefgegevens.</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>donkerpaarsRood</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DonkerpaarsRood zoals gebruikt voor archiefgegevens.</Omschrijving>
+	</Kleur>
+	<Kleur>
+		<Waarde>olijfZwart</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OlijfZwart zoals gebruikt voor archiefgegevens.</Omschrijving>
+	</Kleur>
+</domeintabel>

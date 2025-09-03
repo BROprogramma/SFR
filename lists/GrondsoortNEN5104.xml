@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GrondsoortNEN5104>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>kleiigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand kleiig, benaming gebaseerd op NEN 5104. Grond die voor minimaal 82,5 % van de massa uit zand, voor 5 tot 8 % uit lutum, voor maximaal 12,5 % uit silt bestaat en minder dan 1 6% organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei matig siltig, benaming gebaseerd op NEN5104. Grond die voor 35 tot 50 % van de massa uit lutum, voor 50 tot 6 5% uit silt en voor maximaal 65 % uit zand bestaat en minder dan 30 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand matig Siltig, benaming gebaseerd op NEN 5104. Grond die voor 82,5 tot 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor 10 tot 17,5 % uit silt bestaat en minder dan 16 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei matig zandig, benaming gebaseerd op NEN 5104. Grond die voor 12 tot 17,5 % van de massa uit lutum, voor 32,5 tot 38 % uit silt en voor 50 tot 88 % uit zand bestaat en minder dan 30 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>mineraalarmVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen mineraal arm, benaming gebaseerd op NEN 5104. Grond die voor meer dan 35 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor maximaal 30 % uit lutum en voor maximaal 65 % uit silt plus zand.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>schelpmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkKleiigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen sterk kleiig, benaming gebaseerd op NEN 5104. Grond die voor 15 tot 30 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, en voor 8 tot 70 % uit lutum en voor de rest uit silt plus zand.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei sterk siltig, benaming gebaseerd op NEN 5104. Grond die voor 25 tot 35 % van de massa uit lutum, voor 65 tot 75 % uit silt en voor maximaal 75 % uit zand bestaat en minder dan 30 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand sterk siltig, benaming gebaseerd op NEN 5104. Grond die voor 67,5 tot 82,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor 17,5 tot 32,5 % uit silt bestaat en minder dan 16 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei sterk zandig, benaming gebaseerd op NEN 5104. Grond die voor 8 tot 12 % van de massa uit lutum, voor 38 tot 42 % uit silt en voor 50 tot 92 % uit zand bestaat en minder dan 30 % organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leem sterk zandig, benaming gebaseerd op NEN 5104. Grond die voor maximaal 17,5 % van de massa uit lutum, voor minimaal 50 % uit silt en voor 15 tot 50 % uit zand bestaat en minder dan 30 % grind en minder dan 30 % organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen sterk zandig, benaming gebaseerd op NEN 5104. Grond die voor 22,5 tot 45 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, en voor minder dan 8 % uit lutum en voor de rest uit silt plus zand.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>uiterstSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei uiterst siltig, benaming gebaseerd op NEN 5104. Grond die voor 8 tot 25 % van de massa uit lutum, voor 25 tot 75 % uit silt en voor 50 tot 92 % uit zand bestaat en minder dan 30 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>uiterstSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand uiterst siltig, benaming gebaseerd op NEN 5104. Grond die voor 50 tot 67,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor 32,5 tot 50 % uit silt bestaat en minder dan 16 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakKleiigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen zwak kleiig, benaming gebaseerd op NEN 5104. Grond die voor 22,5 tot 45 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat en voor 8 tot 55 % uit lutum en voor de rest uit silt plus zand.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei zwak siltig, benaming gebaseerd op NEN 5104. Grond die voor meer dan 50 % van de massa uit lutum en voor minder dan 50 % uit silt en zand bestaat en minder dan 30 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand zwak siltig, benaming gebaseerd op NEN 5104. Grond die voor minimaal 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor maximaal 10 % uit silt bestaat en minder dan 16 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei matig zandig, benaming gebaseerd op NEN 5104. Grond die voor 12 tot 17,5 % van de massa uit lutum, voor 32,5 tot 38 % uit silt en voor 50 tot 88 % uit zand bestaat en minder dan 30 % organische stof en minder dan 30 % grind bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leem zwak zandig, benaming gebaseerd op NEN 5104. Grond die voor maximaal 25 % van de massa uit lutum, voor minimaal 65 % uit silt en voor maximaal 15 % uit zand bestaat en minder dan 30 % grind en minder dan 30 % organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen zwak zandig, benaming gebaseerd op NEN 5104. Grond die voor 15 tot 30 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, en voor minder dan 8 % uit lutum en voor de rest uit silt plus zand.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De naam van de grondsoort NEN 5104 is niet bepaald.</Omschrijving>
+	</GrondsoortNEN5104>
+</domeintabel>
