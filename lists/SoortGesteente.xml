@@ -4,7 +4,7 @@
 		<Waarde>kalksteen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het gesteente bestaat voornamelijk uit calciumcarbonaat (CaCO&lt;sub&gt;3&lt;/sub&gt;, kalk). Hieronder vallen alle kalkstenen met uitzondering van mergel, dat apart onderscheiden wordt.</Omschrijving>
+		<Omschrijving>Het gesteente bestaat voornamelijk uit calciumcarbonaat (CaCO<sub>3</sub>, kalk). Hieronder vallen alle kalkstenen met uitzondering van mergel, dat apart onderscheiden wordt.</Omschrijving>
 	</SoortGesteente>
 	<SoortGesteente>
 		<Waarde>schalie</Waarde>
@@ -25,3 +25,4 @@
 		<Omschrijving>De gesteentesoort is niet bekend.</Omschrijving>
 	</SoortGesteente>
 </domeintabel>
+
