@@ -4,7 +4,7 @@
 		<Waarde>bronswijk1986</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Bronswijk 1986: &lt;i&gt;Handleiding voor het bepalen van het zwel- en krimpvermogen van een bodem&lt;/i&gt; voor eigen gebruik opgesteld door het Instituut voor Cultuurtechniek en Waterhuishouding, een van de voorgangers van WENR, beschrijft de procedure voor het bepalen van het krimpverloop van grond.</Omschrijving>
+		<Omschrijving>Bronswijk 1986:<i>Handleiding voor het bepalen van het zwel- en krimpvermogen van een bodem</i> voor eigen gebruik opgesteld door het Instituut voor Cultuurtechniek en Waterhuishouding, een van de voorgangers van WENR, beschrijft de procedure voor het bepalen van het krimpverloop van grond.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>cameraprocedureWENRv1</Waarde>
@@ -34,37 +34,37 @@
 		<Waarde>ISO10390v2005</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ISO 10390:2005 &lt;i&gt;Bodem - Bepaling van de pH waarde &lt;/i&gt;en beschrijft de procedure voor het bepalen van de zuurgraad.</Omschrijving>
+		<Omschrijving>ISO 10390:2005<i>Bodem - Bepaling van de pH waarde</i>en beschrijft de procedure voor het bepalen van de zuurgraad.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO11272v2017plusWENR</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de droge bulkdichtheid die zich conformeert aan &lt;i&gt;ISO 11272:2017 Soil quality -Determination of dry bulk density&lt;/i&gt; en op onderdelen wat specifieker is.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de droge bulkdichtheid die zich conformeert aan<i>ISO 11272:2017 Soil quality -Determination of dry bulk density</i> en op onderdelen wat specifieker is.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO11274v2014plusWENR2020</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie en die zich conformeert aan &lt;i&gt;NEN-EN-ISO 11274:2014 Bodem - Bepaling van eigenschappen van waterretentie - Laboratoriummethoden&lt;/i&gt; en op onderdelen wat specifieker is. De procedure dekt sinds 2020 ook de methode luchtdroog.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie en die zich conformeert aan<i>NEN-EN-ISO 11274:2014 Bodem - Bepaling van eigenschappen van waterretentie - Laboratoriummethoden</i> en op onderdelen wat specifieker is. De procedure dekt sinds 2020 ook de methode luchtdroog.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO11275v2014plusWENR</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie en de snelheid waarmee water door de grond stroomt die zich conformeert aan &lt;i&gt;NEN-EN-ISO 11275:2014 Bodem - Bepaling van onverzadigde hydraulische conductiviteit en waterretentie karakteristieken - Indamprestmethode van wind&lt;/i&gt; en op onderdelen wat specifieker is.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie en de snelheid waarmee water door de grond stroomt die zich conformeert aan<i>NEN-EN-ISO 11275:2014 Bodem - Bepaling van onverzadigde hydraulische conductiviteit en waterretentie karakteristieken - Indamprestmethode van wind</i> en op onderdelen wat specifieker is.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO11277v2009</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-ISO 11277:2009&lt;i&gt; Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode door zeven en sedimentering &lt;/i&gt;beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van zeven en pipetteren. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
+		<Omschrijving>NEN-ISO 11277:2009&lt;i&gt; Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode door zeven en sedimentering</i>beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van zeven en pipetteren. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN5753v2018plusWENR</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de korrelgrootteverdeling die zich conformeert aan NEN 5753:2018&lt;i&gt; Bodem - Bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem met behulp van zeef en pipet.&lt;/i&gt; Deze beschrijft de procedure voor de bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem na verwijdering van organische stof en koolzure kalk. Bij WENR wordt ijzer nooit verwijderd in de voorbehandeling. Bij het pipetteren wordt door WENR gecorrigeerd voor het kalkgehalte en de indampresten van de peptisator volgens de methode van Huba.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de korrelgrootteverdeling die zich conformeert aan NEN 5753:2018&lt;i&gt; Bodem - Bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem met behulp van zeef en pipet.</i> Deze beschrijft de procedure voor de bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem na verwijdering van organische stof en koolzure kalk. Bij WENR wordt ijzer nooit verwijderd in de voorbehandeling. Bij het pipetteren wordt door WENR gecorrigeerd voor het kalkgehalte en de indampresten van de peptisator volgens de methode van Huba.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN5754v2014</Waarde>
@@ -76,13 +76,13 @@
 		<Waarde>NEN5754v2014plusWENR</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de chemie voor het bepalen van het organische koolstofgehalte die zich conformeert aan NEN 5754:2014 &lt;i&gt;Bodem - Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode&lt;/i&gt; en op onderdelen wat specifieker is.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de chemie voor het bepalen van het organische koolstofgehalte die zich conformeert aan NEN 5754:2014<i>Bodem - Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</i> en op onderdelen wat specifieker is.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN5789plusWENR</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991 &lt;i&gt;Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid, &lt;/i&gt;en op onderdelen wat specifieker is.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991<i>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</i>en op onderdelen wat specifieker is.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>geen</Waarde>
@@ -100,6 +100,7 @@
 		<Waarde>ISO14235v1998</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ISO 14235:1998 &lt;i&gt;Bodem - Bepaling van organisch koolstof met sulfachrome oxidatie &lt;/i&gt;beschrijft de procedure voor het bepalen van het organisch koolstofgehalte.</Omschrijving>
+		<Omschrijving>ISO 14235:1998<i>Bodem - Bepaling van organisch koolstof met sulfachrome oxidatie</i>beschrijft de procedure voor het bepalen van het organisch koolstofgehalte.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
