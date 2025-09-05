@@ -4,72 +4,73 @@
 		<Waarde>basisBasis</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50 µm is niet onderverdeeld; fractie 50-63; de fractie &amp;#38;gt; 63µm is niet onderverdeeld.</Omschrijving>
+		<Omschrijving>De fractie &lt; 50 µm is niet onderverdeeld; fractie 50-63; de fractie &gt; 63µm is niet onderverdeeld.</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>basisStandaard</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50 µm is niet onderverdeeld; fractie 50-63; de fractie &amp;#38;gt; 63 µm is op de standaard manier onderverdeeld (in de fracties 63-105 µm, 105-210 µm, 210-420 µm, 420-2000 µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50 µm is niet onderverdeeld; fractie 50-63; de fractie &gt; 63 µm is op de standaard manier onderverdeeld (in de fracties 63-105 µm, 105-210 µm, 210-420 µm, 420-2000 µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>basisUitgebreid</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50 µm is niet onderverdeeld; fractie 50-63; de fractie &amp;#38;gt; 63 µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105 µm, 105-210 µm, 210-300 µm, 300-420 µm, 420-600 µm, 600-850 µm, 850-1200 µm, 1200-1700 µm, 1700-2000 µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50 µm is niet onderverdeeld; fractie 50-63; de fractie &gt; 63 µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105 µm, 105-210 µm, 210-300 µm, 300-420 µm, 420-600 µm, 600-850 µm, 850-1200 µm, 1200-1700 µm, 1700-2000 µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>minimaalBasis</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de minimale manier onderverdeeld (in de fracties 0-2µm, 2-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is niet onderverdeeld.</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de minimale manier onderverdeeld (in de fracties 0-2µm, 2-50µm); fractie 50-63; de fractie &gt; 63µm is niet onderverdeeld.</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>minimaalStandaard</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de minimale manier onderverdeeld (in de fracties 0-2µm, 2-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-420µm, 420-2000µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de minimale manier onderverdeeld (in de fracties 0-2µm, 2-50µm); fractie 50-63; de fractie &gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-420µm, 420-2000µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>minimaalUitgebreid</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de minimale manier onderverdeeld (in de fracties 0-2µm, 2-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-300µm, 300-420µm, 420-600µm, 600-850µm, 850-1200µm, 1200-1700µm, 1700-2000µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de minimale manier onderverdeeld (in de fracties 0-2µm, 2-50µm); fractie 50-63; de fractie &gt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-300µm, 300-420µm, 420-600µm, 600-850µm, 850-1200µm, 1200-1700µm, 1700-2000µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>standaardBasis</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de standaardmanier onderverdeeld (in de fracties 0-2µm, 2-16µm, 16-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is niet onderverdeeld.</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de standaardmanier onderverdeeld (in de fracties 0-2µm, 2-16µm, 16-50µm); fractie 50-63; de fractie &gt; 63µm is niet onderverdeeld.</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>standaardStandaard</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de standaard manier onderverdeeld (in de fracties 0-2µm, 2-16µm, 16-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-420µm, 420-2000µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de standaard manier onderverdeeld (in de fracties 0-2µm, 2-16µm, 16-50µm); fractie 50-63; de fractie &gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-420µm, 420-2000µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>standaardUitgebreid</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de standaard manier onderverdeeld (in de fracties 0-2µm, 2-16µm, 16-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-300µm, 300-420µm, 420-600µm, 600-850µm, 850-1200µm, 1200-1700µm, 1700-2000µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de standaard manier onderverdeeld (in de fracties 0-2µm, 2-16µm, 16-50µm); fractie 50-63; de fractie &gt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-300µm, 300-420µm, 420-600µm, 600-850µm, 850-1200µm, 1200-1700µm, 1700-2000µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>uitgebreidBasis</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-25µm, 25-35µm, 35-50µm); fractie 50-63; de fractie &amp;#38;gt; 63µm is niet onderverdeeld.</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-25µm, 25-35µm, 35-50µm); fractie 50-63; de fractie &gt; 63µm is niet onderverdeeld.</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>uitgebreidStandaard</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op de uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-25µm, 25-35µm, 35-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-420µm, 420-2000µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op de uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-25µm, 25-35µm, 35-50µm); fractie 50-63; de fractie &gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-420µm, 420-2000µm).</Omschrijving>
 	</FractieverdelingLab>
 	<FractieverdelingLab>
 		<Waarde>uitgebreidUitgebreid</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De fractie &amp;#38;lt; 50µm is op uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-25µm, 25-35µm, 35-50µm); &lt;font color="#2e74b5"&gt;fractie 50-63; &lt;/font&gt;de fractie &amp;#38;gt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-300µm, 300-420µm, 420-600µm, 600-850µm, 850-1200µm, 1200-1700µm, 1700-2000µm).</Omschrijving>
+		<Omschrijving>De fractie &lt; 50µm is op uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-25µm, 25-35µm, 35-50µm); fractie 50-63; de fractie &gt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 63-105µm, 105-210µm, 210-300µm, 300-420µm, 420-600µm, 600-850µm, 850-1200µm, 1200-1700µm, 1700-2000µm).</Omschrijving>
 	</FractieverdelingLab>
 </domeintabel>
+
