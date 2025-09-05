@@ -58,7 +58,7 @@
 		<Waarde>ISO11277v2009</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-ISO 11277:2009&lt;i&gt; Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode door zeven en sedimentering</i>beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van zeven en pipetteren. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
+		<Omschrijving>NEN-ISO 11277:2009<i> Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode door zeven en sedimentering</i>beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van zeven en pipetteren. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN5753v2018plusWENR</Waarde>
@@ -103,5 +103,6 @@
 		<Omschrijving>ISO 14235:1998<i>Bodem - Bepaling van organisch koolstof met sulfachrome oxidatie</i>beschrijft de procedure voor het bepalen van het organisch koolstofgehalte.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
 
