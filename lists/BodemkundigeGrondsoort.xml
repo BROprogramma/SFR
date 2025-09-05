@@ -46,7 +46,7 @@
 		<Waarde>leemarmZand</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Leemarm zand, naam gebaseerd op de leemdriehoek. Lutumgehalte &amp;#38;amp;lt; 8 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 10 %.</Omschrijving>
+		<Omschrijving>Leemarm zand, naam gebaseerd op de leemdriehoek. Lutumgehalte &lt; 8 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 10 %.</Omschrijving>
 	</BodemkundigeGrondsoort>
 	<BodemkundigeGrondsoort>
 		<Waarde>lichteKlei</Waarde>
@@ -157,3 +157,4 @@
 		<Omschrijving>De bodemkundige grondsoort is niet bepaald.</Omschrijving>
 	</BodemkundigeGrondsoort>
 </domeintabel>
+
