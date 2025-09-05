@@ -46,13 +46,13 @@
 		<Waarde>drukplaat</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Een monster wordt op een poreuze, keramische plaat geplaatst en er wordt een bodemvochtpotentiaal aangebracht. Zodra het monster in evenwicht is met de ingestelde bodemvochtpotentiaal, wordt het monster gewogen. Bij waarden groter dan minus 1000 cm H&lt;sub&gt;2&lt;/sub&gt;O kan de meting een aantal keren worden herhaald aan hetzelfde monster, steeds bij een lagere potentiaal. Bij waarden kleiner dan minus 1000 cm H&lt;sub&gt;2&lt;/sub&gt;O is er maar een meting per monster. Aan het eind wordt het monster gedroogd in de oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Deze methode kan meten van een bodemvochtpotentiaal tussen 0 en minus 15.000 cm H&lt;sub&gt;2&lt;/sub&gt;O.</Omschrijving>
+		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Een monster wordt op een poreuze, keramische plaat geplaatst en er wordt een bodemvochtpotentiaal aangebracht. Zodra het monster in evenwicht is met de ingestelde bodemvochtpotentiaal, wordt het monster gewogen. Bij waarden groter dan minus 1000 cm H<sub>2</sub>O kan de meting een aantal keren worden herhaald aan hetzelfde monster, steeds bij een lagere potentiaal. Bij waarden kleiner dan minus 1000 cm H<sub>2</sub>O is er maar een meting per monster. Aan het eind wordt het monster gedroogd in de oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Deze methode kan meten van een bodemvochtpotentiaal tussen 0 en minus 15.000 cm H<sub>2</sub>O.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>k50</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het waterdoorlatendheidsverloop. De methode wordt gebruikt voor het natte bereik (tot minus 1000 cm H&lt;sub&gt;2&lt;/sub&gt;O). De waterdoorlatendheid wordt bepaald bij een stapsgewijs afnemende bodemvochtpotentiaal. In iedere stap wordt een drukgradiënt aangelegd tussen de bovenkant en onderkant door het monster te benevelen met een constante hoeveelheid water en aan de onderkant een kleine zuigspanning aan te leggen. Zodra het debiet constant is, wordt de meting uitgevoerd en daarbij wordt de bodemvochtpotentiaal gemeten met een tensiometer. De optie bestaat om het volumetrisch watergehalte te bepalen. De waterdoorlatendheid wordt berekend met de wet van Darcy bij de bodemvochtpotentiaal in het midden van het monster.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het waterdoorlatendheidsverloop. De methode wordt gebruikt voor het natte bereik (tot minus 1000 cm H<sub>2</sub>O). De waterdoorlatendheid wordt bepaald bij een stapsgewijs afnemende bodemvochtpotentiaal. In iedere stap wordt een drukgradiënt aangelegd tussen de bovenkant en onderkant door het monster te benevelen met een constante hoeveelheid water en aan de onderkant een kleine zuigspanning aan te leggen. Zodra het debiet constant is, wordt de meting uitgevoerd en daarbij wordt de bodemvochtpotentiaal gemeten met een tensiometer. De optie bestaat om het volumetrisch watergehalte te bepalen. De waterdoorlatendheid wordt berekend met de wet van Darcy bij de bodemvochtpotentiaal in het midden van het monster.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>laserVolume</Waarde>
@@ -88,7 +88,7 @@
 		<Waarde>natOxiderenDichromaatKurmies</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in een sterk zuur milieu geoxideerd met kaliumdichromaat en gedurende anderhalf uur verhit op 100 °C. De hoeveelheid Cr&lt;sup&gt;3+&lt;/sup&gt; wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in een sterk zuur milieu geoxideerd met kaliumdichromaat en gedurende anderhalf uur verhit op 100 °C. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>verdampingsmethodeStandaardIPM</Waarde>
@@ -106,13 +106,13 @@
 		<Waarde>verhittenCO2meten</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. Voorafgaand aan de bepaling wordt de anorganische koolstof verwijderd met fosforzuur. Het materiaal wordt vervolgens bij een temperatuur van ten minste 900 °C verbrand waarbij de aanwezige organische koolstof wordt omgezet in CO&lt;sub&gt;2&lt;/sub&gt;. De hoeveelheid CO&lt;sub&gt;2&lt;/sub&gt; wordt gemeten en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. Voorafgaand aan de bepaling wordt de anorganische koolstof verwijderd met fosforzuur. Het materiaal wordt vervolgens bij een temperatuur van ten minste 900 °C verbrand waarbij de aanwezige organische koolstof wordt omgezet in CO<sub>2</sub>. De hoeveelheid CO<sub>2</sub> wordt gemeten en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>zandbak</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Het monster wordt op een bak geplaatst gevuld met grond die een hoge doorlatendheid combineert met een kleine poriëndiameter. Er wordt een bepaalde bodemvochtpotentiaal aangebracht. Zodra het monster in evenwicht is met de ingestelde potentiaal, wordt het monster gewogen. Dit proces wordt een aantal keren herhaald steeds bij een andere potentiaal. De potentiaal neemt stapsgewijs toe (&lt;i&gt;vernattend&lt;/i&gt;) of stapsgewijs af. Aan het eind wordt het monster gedroogd in de oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Met deze methode kan het watergehalte bij een drukhoogte van 0 tot minus 100 cm H&lt;sub&gt;2&lt;/sub&gt;O en voor archiefgegevens tot minus 200 cm worden gemeten.</Omschrijving>
+		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Het monster wordt op een bak geplaatst gevuld met grond die een hoge doorlatendheid combineert met een kleine poriëndiameter. Er wordt een bepaalde bodemvochtpotentiaal aangebracht. Zodra het monster in evenwicht is met de ingestelde potentiaal, wordt het monster gewogen. Dit proces wordt een aantal keren herhaald steeds bij een andere potentiaal. De potentiaal neemt stapsgewijs toe (&lt;i&gt;vernattend&lt;/i&gt;) of stapsgewijs af. Aan het eind wordt het monster gedroogd in de oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Met deze methode kan het watergehalte bij een drukhoogte van 0 tot minus 100 cm H<sub>2</sub>O en voor archiefgegevens tot minus 200 cm worden gemeten.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>zandbakDrukplaat</Waarde>
@@ -124,7 +124,7 @@
 		<Waarde>zuurgraadCaCl2</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling makend van een glaselektrode in een 1:5 volumetrische oplossing van grond in 0,01 mol/l CaCl&lt;sub&gt;2&lt;/sub&gt;.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling makend van een glaselektrode in een 1:5 volumetrische oplossing van grond in 0,01 mol/l CaCl<sub>2</sub>.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>zuurgraadH2O</Waarde>
@@ -142,7 +142,7 @@
 		<Waarde>natOxiderenDichromaatNietKurmies</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat. Verhitting vindt niet plaats of is anders dan gedurende anderhalf uur op 100 °C. De organische koolstof wordt omgezet in kooldioxide en het dichromaat in Cr&lt;sup&gt;3+&lt;/sup&gt;. De hoeveelheid Cr&lt;sup&gt;3+&lt;/sup&gt; wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat. Verhitting vindt niet plaats of is anders dan gedurende anderhalf uur op 100 °C. De organische koolstof wordt omgezet in kooldioxide en het dichromaat in Cr<sup>3+</sup>. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>onbekend</Waarde>
@@ -160,19 +160,19 @@
 		<Waarde>natOxiderenDichromaatWalkleyBlack</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat zonder toegevoegde warmte. De organische koolstof wordt omgezet in kooldioxide en het dichromaat in Cr&lt;sup&gt;3+&lt;/sup&gt;. De hoeveelheid Cr&lt;sup&gt;3+&lt;/sup&gt; wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat zonder toegevoegde warmte. De organische koolstof wordt omgezet in kooldioxide en het dichromaat in Cr<sup>3+</sup>. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natOxiderenH2O2</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. De organische stof is verwijderd met H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt; (30 %). Uit het massaverlies is het gehalte berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. De organische stof is verwijderd met H<sub>2</sub>O<sub>2</sub> (30 %). Uit het massaverlies is het gehalte berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natOxiderenKMnO4</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische koolstof is verwijderd met KMnO&lt;sub&gt;4&lt;/sub&gt; en zwavelzuur. Uit de verbruikte hoeveelheid KMnO&lt;sub&gt;4&lt;/sub&gt;, wordt de hoeveelheid zuurstof berekend die voor oxidatie nodig is geweest en daaruit leidt men het gehalte aan organische koolstof af. De methode is ook bekend als organisch koolstofbepaling volgens Istscherekow.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische koolstof is verwijderd met KMnO<sub>4</sub> en zwavelzuur. Uit de verbruikte hoeveelheid KMnO<sub>4</sub>, wordt de hoeveelheid zuurstof berekend die voor oxidatie nodig is geweest en daaruit leidt men het gehalte aan organische koolstof af. De methode is ook bekend als organisch koolstofbepaling volgens Istscherekow.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>onbekendBeuving</Waarde>
@@ -187,3 +187,4 @@
 		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. Het materiaal wordt verhit tot 600 °C, waardoor de organische stof verbrandt. Uit het massaverlies is het gehalte berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
+
