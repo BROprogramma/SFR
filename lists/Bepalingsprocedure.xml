@@ -64,7 +64,7 @@
 		<Waarde>NEN5753v2018plusWENR</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de korrelgrootteverdeling die zich conformeert aan NEN 5753:2018&lt;i&gt; Bodem - Bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem met behulp van zeef en pipet.</i> Deze beschrijft de procedure voor de bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem na verwijdering van organische stof en koolzure kalk. Bij WENR wordt ijzer nooit verwijderd in de voorbehandeling. Bij het pipetteren wordt door WENR gecorrigeerd voor het kalkgehalte en de indampresten van de peptisator volgens de methode van Huba.</Omschrijving>
+		<Omschrijving>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de korrelgrootteverdeling die zich conformeert aan NEN 5753:201<i> Bodem - Bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem met behulp van zeef en pipet.</i> Deze beschrijft de procedure voor de bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem na verwijdering van organische stof en koolzure kalk. Bij WENR wordt ijzer nooit verwijderd in de voorbehandeling. Bij het pipetteren wordt door WENR gecorrigeerd voor het kalkgehalte en de indampresten van de peptisator volgens de methode van Huba.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN5754v2014</Waarde>
@@ -103,4 +103,5 @@
 		<Omschrijving>ISO 14235:1998<i>Bodem - Bepaling van organisch koolstof met sulfachrome oxidatie</i>beschrijft de procedure voor het bepalen van het organisch koolstofgehalte.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
