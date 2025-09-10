@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bepalingsmethode>
+		<Waarde>aantaID1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het krimpverloop. De massa is bepaald met een balans. Het volume is bepaald door de gemiddelde hoogte of de gemiddelde diameter te meten.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>aantalD2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het krimpverloop. De massa is bepaald met een balans. Het volume is bepaald door de gemiddelde hoogte en de gemiddelde diameter te meten.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>archimedes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het krimpverloop. Een verzadigd monster is gecoated en ondergedompeld in een bak met water. Uit de hoeveelheid verplaatst water is het volume van het monster berekend met behulp van de wet van Archimedes. De massa is bepaald met een balans. Deze methode wordt toegepast op kluiten die met een schop uit de bodem worden gestoken.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>camera</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het krimpverloop. Met behulp van cameraopnames is het volume van het monster bepaald op basis van het aantal pixels. De massa is bepaald met een balans.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>constantHead</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de verzadigde waterdoorlatendheid. Er wordt een hydraulische gradiënt aangelegd tussen de boven- en onderkant van het monster en die wordt tijdens de proef constant gehouden. Zodra het debiet niet meer verandert, wordt de meting uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>constantHeadEnK50</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het waterdoorlatendheidsverloop. Eerst wordt de verzadigde waterdoorlatendheid bepaald met de constant head methode, waarna aan hetzelfde monster het verloop in de onverzadigde grond wordt bepaald met de k50-methode.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>drogenOven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de droge bulkdichtheid. De waterverzadigde grond wordt getrimd tot het volume van de ring. Het materiaal wordt gedroogd in een oven, waardoor het water verdampt, en vervolgens gewogen. Uit de massa en het bekend volume wordt de droge bulkdichtheid berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>drukplaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Een monster wordt op een poreuze, keramische plaat geplaatst en er wordt een bodemvochtpotentiaal aangebracht. Zodra het monster in evenwicht is met de ingestelde bodemvochtpotentiaal, wordt het monster gewogen. Bij waarden groter dan minus 1000 cm H<sub>2</sub>O kan de meting een aantal keren worden herhaald aan hetzelfde monster, steeds bij een lagere potentiaal. Bij waarden kleiner dan minus 1000 cm H<sub>2</sub>O is er maar een meting per monster. Aan het eind wordt het monster gedroogd in de oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Deze methode kan meten van een bodemvochtpotentiaal tussen 0 en minus 15.000 cm H<sub>2</sub>O.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>k50</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het waterdoorlatendheidsverloop. De methode wordt gebruikt voor het natte bereik (tot minus 1000 cm H<sub>2</sub>O). De waterdoorlatendheid wordt bepaald bij een stapsgewijs afnemende bodemvochtpotentiaal. In iedere stap wordt een drukgradiënt aangelegd tussen de bovenkant en onderkant door het monster te benevelen met een constante hoeveelheid water en aan de onderkant een kleine zuigspanning aan te leggen. Zodra het debiet constant is, wordt de meting uitgevoerd en daarbij wordt de bodemvochtpotentiaal gemeten met een tensiometer. De optie bestaat om het volumetrisch watergehalte te bepalen. De waterdoorlatendheid wordt berekend met de wet van Darcy bij de bodemvochtpotentiaal in het midden van het monster.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>laserVolume</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het krimpverloop. Met behulp van laser van het monster is het volume van het monster bepaald. De berekening van het volume is geautomatiseerd uitgevoerd. De massa is bepaald met een balans.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>luchtdroog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Een monster wordt in een droogbak zonder deksel in een stellingkast geplaatst tot de massa niet meer verandert. Daarna wordt het monster gewogen en na drogen in de oven nogmaals gewogen. Uit het massaverlies wordt het watergehalte berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natDroogZeven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef. De verdeling van de korrels groter dan 50 µm is bepaald door middel van droge zeving.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natDroogZevenPipet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef. De verdeling van de korrels kleiner dan 50 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natZeven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natOxiderenDichromaatKurmies</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in een sterk zuur milieu geoxideerd met kaliumdichromaat en gedurende anderhalf uur verhit op 100 °C. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>verdampingsmethodeStandaardIPM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het watergehalte en de doorlatendheid bij veranderende bodemvochtpotentiaal. De methode beschrijft het bepalen van de waterretentie volgens de verdampingsmethode, de reductie van het aantal metingen tot een verwerkbaar resultaat, het modelleren van de waterretentiekarakteristiek die de waterretentie bij verdamping het best beschrijft (prefit) en de berekening van de waterdoorlatendheden volgens de Instantaneous Profile Method (IPM- methode).</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>verhitten550</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. Het materiaal wordt verhit tot 550 °C, waardoor de organische stof verbrandt. Uit het massaverlies is het gehalte berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>verhittenCO2meten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. Voorafgaand aan de bepaling wordt de anorganische koolstof verwijderd met fosforzuur. Het materiaal wordt vervolgens bij een temperatuur van ten minste 900 °C verbrand waarbij de aanwezige organische koolstof wordt omgezet in CO<sub>2</sub>. De hoeveelheid CO<sub>2</sub> wordt gemeten en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>zandbak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Het monster wordt op een bak geplaatst gevuld met grond die een hoge doorlatendheid combineert met een kleine poriëndiameter. Er wordt een bepaalde bodemvochtpotentiaal aangebracht. Zodra het monster in evenwicht is met de ingestelde potentiaal, wordt het monster gewogen. Dit proces wordt een aantal keren herhaald steeds bij een andere potentiaal. De potentiaal neemt stapsgewijs toe (&lt;i&gt;vernattend&lt;/i&gt;) of stapsgewijs af. Aan het eind wordt het monster gedroogd in de oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Met deze methode kan het watergehalte bij een drukhoogte van 0 tot minus 100 cm H<sub>2</sub>O en voor archiefgegevens tot minus 200 cm worden gemeten.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>zandbakDrukplaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor de stapsgewijze bepaling van de waterretentie. Bij deze methode wordt eerst de zandbakmethode gevolgd. Vervolgens wordt hetzelfde monster gebruikt voor metingen met de drukplaat methode.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>zuurgraadCaCl2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling makend van een glaselektrode in een 1:5 volumetrische oplossing van grond in 0,01 mol/l CaCl<sub>2</sub>.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>zuurgraadH2O</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling gebruik makend van een glaselektrode in een 1:5 volumetrische oplossing van grond in water.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>zuurgraadKCl</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling gebruik makend van een glaselektrode in een 1:5 volumetrische oplossing van grond in 1 mol/l KCl.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natOxiderenDichromaatNietKurmies</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat. Verhitting vindt niet plaats of is anders dan gedurende anderhalf uur op 100 °C. De organische koolstof wordt omgezet in kooldioxide en het dichromaat in Cr<sup>3+</sup>. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend welke methode is gehanteerd.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>aantal1DOnbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het krimpverloop. De massa is bepaald met een balans. Het volume is bepaald door de afmeting van het monster op een niet nader bepaalde manier te meten.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natOxiderenDichromaatWalkleyBlack</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat zonder toegevoegde warmte. De organische koolstof wordt omgezet in kooldioxide en het dichromaat in Cr<sup>3+</sup>. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natOxiderenH2O2</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. De organische stof is verwijderd met H<sub>2</sub>O<sub>2</sub> (30 %). Uit het massaverlies is het gehalte berekend.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natOxiderenKMnO4</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organische koolstofgehalte. De organische koolstof is verwijderd met KMnO<sub>4</sub> en zwavelzuur. Uit de verbruikte hoeveelheid KMnO<sub>4</sub>, wordt de hoeveelheid zuurstof berekend die voor oxidatie nodig is geweest en daaruit leidt men het gehalte aan organische koolstof af. De methode is ook bekend als organisch koolstofbepaling volgens Istscherekow.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>onbekendBeuving</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het watergehalte en de doorlatendheid bij veranderende bodemvochtpotentiaal. De methode is voor eigen gebruik opgesteld door het Instituut voor Cultuurtechniek en Waterhuishouding, een van de voorgangers van Wageningen Environmental Research en ligt ten grondslag aan de gegevens in Beuving 1986: &lt;i&gt;Vocht- en doorlatendheidskarakteristieken, dichtheid en samenstelling van bodemprofielen in zand-, zavel-, klei- en veengronden.&lt;/i&gt;</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>verhitten600</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. Het materiaal wordt verhit tot 600 °C, waardoor de organische stof verbrandt. Uit het massaverlies is het gehalte berekend.</Omschrijving>
+	</Bepalingsmethode>
+</domeintabel>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderheidUitvoering>
+		<Waarde>gatOpgevuld</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een gat in het monster ontstaan door wormen of door in het lab verwijderen van materiaal, is opgevuld met materiaal met dezelfde samenstelling als de rest van het monster.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>organischestofAanwezig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Na de voorbehandeling van het materiaal is er nog organische stof aanwezig.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn geen bijzonderheden tijdens de uitvoering geconstateerd.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend of er bijzonderheden tijdens de uitvoering zijn geconstateerd.</Omschrijving>
+	</BijzonderheidUitvoering>
+</domeintabel>

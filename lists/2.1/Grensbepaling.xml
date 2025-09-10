@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Grensbepaling>
+		<Waarde>waargenomenScherpTot2cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de wand. De verandering voltrekt zich binnen een bereik dat tussen 0 en 2 cm ligt.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>waargenomenDuidelijk2tot10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de wand. De verandering voltrekt zich binnen een bereik dat tussen 2 en 10 cm ligt.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>waargenomenGeleidelijkMinstens10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de wand. De verandering voltrekt zich in een bereik dat groter is dan 10 cm.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>voorbepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is niet gebaseerd op een verandering maar is kunstmatig bepaald; het begrip scherpte is niet van toepassing.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend op welke manier de grens is bepaald.</Omschrijving>
+	</Grensbepaling>
+</domeintabel>

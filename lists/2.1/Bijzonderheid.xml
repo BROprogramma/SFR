@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bijzonderheid>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzonderheden in het onderste deel van het profiel geconstateerd.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>bolster</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bolster, beginnend binnen 40 cm en ten minste 20 cm dik (code "j"). Van toepassing bij veengronden en moerige gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>glauconietklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Glauconietklei, beginnend tussen 40 en 120 cm en ten minste 20 cm dik (code "a"). Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>grofZandGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grof zand en/of grind, beginnend tussen 40 en 80 cm en ten minste 40 cm dik of beginnend dieper dan 80 cm en doorgaand tot dieper dan 120 cm (code "g"). Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>kalksteenKleefaarde</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kalksteen of kleefaarde, beginnend tussen 40 en 120 cm (code "k"). Van toepassing bij leemgronden, brikgronden en kleigronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>katteklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Katteklei, beginnend binnen 80 cm en ten minste 20 cm dik (code "l"). Van toepassing bij veengronden, moerige gronden en kleigronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>keileemPotklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keileem of potklei, beginnend tussen 40 en 120 cm en ten minste 20 cm dik (code "x"). Van toepassing bij alle gronden behalve bij brikgronden, kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>moerigeLaag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerige laag beginnend binnen 80 cm en tenminste 40 cm dik (code "m"). Van toepassing bij podzolgronden, kalkloze en kalkhoudende zandgronden en leemgronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>moerigMateriaalDiep</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerig materiaal, beginnend dieper dan 80 cm en doorgaand tot dieper dan 120 cm (code "v"). Van toepassing bij alle gronden behalve bij veengronden, brikgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>moerigMateriaalOndiep</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerig materiaal, beginnend tussen 40 en 80 cm en 15 à 40 cm dik ( code "w"). Van toepassing bij podzolgronden, kalkloze en kalkhoudende zandgronden, leemgronden en kleigronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>oudeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oude klei, anders dan keileem, potklei of glauconietklei, beginnend tussen 40 en 120 cm en ten minste 20 cm dik (code "t"). Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>spalterveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Spalterveen, ten minste 5 cm dik en direct onder de A-horizont beginnend (code "q"). Van toepassing bij veengronden en moerige gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>vuursteeneluvium</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vuursteeneluvium, beginnend tussen 40 en 120 cm en ten minste 20 cm dik (code "s"). Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>zandHoloceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holoceen zand, beginnend tussen 40 en 120 cm en ten minste 20 cm dik (code "z"). Van toepassing bij niet-gerijpte minerale gronden en kleigronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>zandPleistoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Pleistoceen zand, beginnend tussen 40 en 120 cm (code "p"). Van toepassing bij kalkhoudende zandgronden en kleigronden.</Omschrijving>
+	</Bijzonderheid>
+	<Bijzonderheid>
+		<Waarde>zavelKleiHalfGerijpt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meestal niet geheel gerijpte zavel of klei, beginnend tussen 40 en 120 cm; zepige zavel of klei (code "r"). Van toepassing bij moerige gronden, podzolgronden, kalkloze en kalkhoudende zandgronden en leemgronden.</Omschrijving>
+	</Bijzonderheid>
+</domeintabel>

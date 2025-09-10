@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Beschrijfkwaliteit>
+		<Waarde>standaard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De beschrijving van de opbouw van de bodem voldoet aan de minimum eisen. Deze kwaliteit dekt alle historische beschrijvingen en volstaat ook na 2019 voor veel projectkarteringen.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>hoog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De beschrijving van de opbouw van de bodem voldoet aan de eisen die vanaf 2019 gelden voor het definiëren van nieuwe kaarteenheden. Dit type onderzoek impliceert veelal het graven van een profielkuil.</Omschrijving>
+	</Beschrijfkwaliteit>
+</domeintabel>

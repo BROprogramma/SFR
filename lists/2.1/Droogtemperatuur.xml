@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Droogtemperatuur>
+		<Waarde>105graden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is gedroogd bij een temperatuur van 105 °C.</Omschrijving>
+	</Droogtemperatuur>
+	<Droogtemperatuur>
+		<Waarde>40graden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is gedroogd bij een temperatuur van 40 °C.</Omschrijving>
+	</Droogtemperatuur>
+	<Droogtemperatuur>
+		<Waarde>60graden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is gedroogd bij een temperatuur van 60 °C.</Omschrijving>
+	</Droogtemperatuur>
+	<Droogtemperatuur>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De temperatuur waarbij het materiaal is gedroogd is niet bekend.</Omschrijving>
+	</Droogtemperatuur>
+</domeintabel>

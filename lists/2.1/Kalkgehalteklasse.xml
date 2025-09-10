@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Kalkgehalteklasse>
+		<Waarde>kalkloosNEN5104</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geeft geen zichtbare of hoorbare opbruising bij het toevoegen van verdund zoutzuur (10 % HCl). Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</Kalkgehalteklasse>
+	<Kalkgehalteklasse>
+		<Waarde>kalkhoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruist waarneembaar, maar niet aanhoudend op bij het toevoegen van verdund zoutzuur (10 % HCI). Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Kalkgehalteklasse>
+	<Kalkgehalteklasse>
+		<Waarde>kalkrijkNEN5104</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruist sterk en aanhoudend op bij het toevoegen van verdund zoutzuur (10 % HCl). Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</Kalkgehalteklasse>
+	<Kalkgehalteklasse>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De kalkgehalteklasse is niet bekend.</Omschrijving>
+	</Kalkgehalteklasse>
+</domeintabel>

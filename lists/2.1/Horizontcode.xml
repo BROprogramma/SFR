@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Horizontcode>
+		<Waarde>Aa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Aab</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Aag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Aagb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven', met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Aap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Aapg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), geheel of voor een groot deel bestaand uit door de mens van elders aangevoerd materiaal, wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ah</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ahb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ahg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ahgb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), niet bewerkt, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven', met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ahgc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet, niet bewerkt, met roestvlekken, extreem ijzerrijk.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet(niet meer herkenbaar als resten van planten en dieren), wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Apg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Apgc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), met roestvlekken, extreem ijzerrijk.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ABh</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale (soms moerige) samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en met kenmerken van ingespoelde humus.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ABt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling en met kenmerken van ingespoelde lutum.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ABtg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, minerale samenstelling en met kenmerken van ingespoelde lutum en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ABu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ABw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en met kenmerken van homogenisatie.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ABwg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en met kenmerken van homogenisatie en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ACe</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale samenstelling en met kenmerken van ontijzering.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ACg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling en met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ACgc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling en met roestvlekken en extreem ijzerrijk.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ACu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ACw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling en kenmerken van verwering en homogenisatie.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>ACwg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling en kenmerken van verwering en homogenisatie en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>AEg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een E-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden, met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>AEu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een E-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Apb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), is ooit met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Apgb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), is ooit met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven', met roestvlekken.</Omschrijving>
+	</Horizontcode>	
+	<Horizontcode>
+		<Waarde>Bh</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhe</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en kenmerken van ontijzering.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bheb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en kenmerken van ontijzering, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhgb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en roestvlekken, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhsb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bhsc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde humus en sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), extreem ijzerrijk.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) horizont met ingespoelde sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont met ingespoelde lutum.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Btb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont met ingespoelde lutum, na de bodemvorming met een sediment, sedentaat of een dik ( dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Btg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont, met ingespoelde lutum en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur. Dit laatste alleen bij kleilagen.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bwb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bwg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bwgb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gehomogeniseerde B-horizont met nieuwgevormde kleimineralen en/of vrijgekomen sesquioxyden (met name ijzer) of een blokkige of samengesteld prismatische bodemstructuur en roestvlekken, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bws</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gehomogeniseerde B-horizont met vrijgekomen en ingespoelde sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Bwsb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gehomogeniseerde B-horizont met vrijgekomen en ingespoelde sesquioxyden (hiertoe behoren ijzer- en aluminiumverbindingen), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>BCe</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling en kenmerken van ontijzering.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>BCg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling en roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>BCu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>BCw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling en kenmerken van homogenisatie.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, extreem ijzerrijk.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ce</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met kenmerken van ontijzering.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met kenmerken van ontijzering en geheel gereduceerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cgc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met roestvlekken en extreem ijzerrijk.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cgcp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met roestvlekken en extreem ijzerrijk, wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cgi</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met roestvlekken en half of minder gerijpt materiaal.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cgr</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met roestvlekken en geheel gereduceerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cgri</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, met roestvlekken, half of minder gerijpt materiaal en geheel gereduceerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ci</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, half of minder gerijpt materiaal.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cj</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, gele kattekleivlekken (jarosiet).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cr</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, geheel gereduceerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Crc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, extreem ijzerrijk en geheel gereduceerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cri</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, half of minder gerijpt materiaal en geheel gereduceerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen, zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige laag die weinig of niet is veranderd door bodemvormende processen, sterk verweerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cwg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige laag die weinig of niet is veranderd door bodemvormende processen, sterk verweerd en met roestvlekken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cwgp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige laag die weinig of niet is veranderd door bodemvormende processen, sterk verweerd en met roestvlekken, wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Cy</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een zandige laag, die weinig of niet is veranderd door bodemvormende processen, met ijzerhuidjes.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Eb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Meestal heeft de E-horizont een lager humusgehalte dan de erboven liggende horizont. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Eg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden, met roestvlekken. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Eu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden, zonder specifieke kenmerken. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>EBh</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden en met kenmerken van ingespoelde humus.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>EBt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden en met kenmerken van ingespoelde lutum.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>EBu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>EBw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden en deels met kenmerken van ingespoelde lutum.</Omschrijving>
+	</Horizontcode>	
+	<Horizontcode>
+		<Waarde>Ob</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting, die na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt is (begraven strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Of</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met omgezette plantenresten, maar met nog herkenbare fragmenten.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ofb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting, met omgezette plantenresten, maar met nog herkenbare fragmenten, die na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt is (begraven strooisellaag).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Oh</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), een compacte laag omgezette organische stof zonder herkenbare plantenresten, die van het bodemoppervlak los getrokken kan worden.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ohb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting, een compacte laag omgezette organische stof zonder herkenbare plantenresten, die van het bodemoppervlak los getrokken kan worden, die na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt is (begraven strooisellaag).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met verse, nauwelijks aangetaste bladeren.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Olb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting, met verse, nauwelijks aangetaste bladeren, die na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt is (begraven strooisellaag).</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ou</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), hoofd- en overgangshorizont die geen andere kleine-letter-toevoeging heeft, maar die wel onderverdeeld wordt. Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Oub</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting, hoofd- en overgangshorizont die geen andere kleine-letter-toevoeging heeft, maar die wel onderverdeeld wordt, die na de bodemvorming in een A- of een E-horizont 'begraven' is (begraven strooisellaag). Zonder specifieke kenmerken.</Omschrijving>
+	</Horizontcode>	
+	<Horizontcode>
+		<Waarde>Ru</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vast gesteente.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>A</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren). Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>AB</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>AC</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>AE</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een A- naar een E-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>B</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale (soms moerige) inspoelingshorizont. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>BC</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>C</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen die een O-, A-, E- en B-horizont zouden kunnen doen ontstaan. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>E</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Meestal heeft de E-horizont een lager humusgehalte dan de erboven liggende horizont. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>EB</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>O</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+</domeintabel>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderheidBovenin>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzonderheden in het bovendeel van het profiel.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>colluviaalDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Colluviaal dek, beginnend aan maaiveld (code "c"). Van toepassing alleen bij brikgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>colluviaalDekGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Colluviaal dek, beginnend aan maaiveld en grind, ondieper dan 40 cm beginnend (code "cg"). Van toepassing alleen bij brikgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>colluviaalDekIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Colluviaal dek, beginnend aan maaiveld en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "cf"). Van toepassing alleen bij brikgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>colluviaalDekStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Colluviaal dek, beginnend aan maaiveld en stenen in de bovenste 40 cm van het profiel (code "cm"). Van toepassing alleen bij brikgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>getijdeInvloed</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beïnvloed door getijde op overgang van zeeklei – rivierklei (code "e"). Van toepassing bij niet-gerijpte minerale gronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>getijdeInvloedGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beïnvloed door getijde op overgang van zeeklei - rivierklei en grind, ondieper dan 40 cm beginnend (code "eg"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>getijdeInvloedIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beïnvloed door getijde op overgang van zeeklei - rivierklei en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "ef"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>getijdeInvloedStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beïnvloed door getijde op overgang van zeeklei - rivierklei en stenen in de bovenste 80 cm van het profiel en stenen in de bovenste 40 cm van het profiel (code "em"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>getijdeInvloedZouthoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beïnvloed door getijde op overgang van zeeklei - rivierklei en zout kwelwater in de bovenste 40 cm van het profiel (code "en"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind, ondieper dan 40 cm beginnend (code "g"). Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>ijzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik. De waarde is in toevoeging vooraan in de standaardpuntencode opgenomen met code "f". Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>ijzerrijkGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik en grind, ondieper dan 40 cm beginnend ( code "fg"). Van toepassing bij alle gronden behalve bij kalkhoudende zandgronden en niet-gerijpte minerale gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>ijzerrijkStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik en stenen in de bovenste 40 cm van het profiel (code "fm"). Van toepassing bij podzolgronden, kalkloze zandgronden, leemgronden, brikgronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kolenslik</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kolenslik in de bovenste 80 cm van het profiel, over 15 à 40 cm dikte (code "h"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kolenslikGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kolenslik in de bovenste 80 cm van het profiel, over 15 à 40 cm dikte en grind, ondieper dan 40 cm beginnend (code "hg"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kolenslikStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kolenslik in de bovenste 80 cm van het profiel, over 15 à 40 cm dikte en stenen in de bovenste 40 cm van het profiel (code "hm"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kruinigePercelen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bol geploegd en daardoor op korte afstand verschil in dikte bovenste lagen (code "b"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kruinigePercelenGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bol geploegd en daardoor op korte afstand verschil in dikte bovenste lagen en grind, ondieper dan 40 cm beginnend (code "bg"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kruinigePercelenIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bol geploegd en daardoor op korte afstand verschil in dikte bovenste lagen en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "bf"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>kruinigePercelenStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bol geploegd en daardoor op korte afstand verschil in dikte bovenste lagen en stenen in de bovenste 40 cm van het profiel (code "bm"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>loessdek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lössdek, beginnend aan maaiveld en 15 à 40 cm dik (code "l"). Van toepassing bij veengronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>loessdekGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lössdek, beginnend aan maaiveld en 15 à 40 cm dik en grind, ondieper dan 40 cm beginnend (code "lg"). Van toepassing bij veengronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>loessdekIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lössdek, beginnend aan maaiveld en 15 à 40 cm dik en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "lf"). Van toepassing bij veengronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>loessdekStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lössdek, beginnend aan maaiveld en 15 à 40 cm dik en stenen in de bovenste 40 cm van het profiel (code "lm"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>opgebrachtHumusrijkDek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebracht moerig of humusrijk dek, beginnend aan maaiveld en 15 à 50 cm dik; toemaakdek (code "o"). Van toepassing alleen bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>opgebrachtHumusrijkDekGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebracht moerig of humusrijk dek, beginnend aan maaiveld en 15 à 50 cm dik (toemaakdek) en grind, ondieper dan 40 cm beginnend (code "og"). Van toepassing alleen bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>opgebrachtHumusrijkDekIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebracht moerig of humusrijk dek, beginnend aan maaiveld en 15 à 50 cm dik (toemaakdek) en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "of"). Van toepassing alleen bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>opgebrachtHumusrijkDekVerdrogendeLagen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebracht moerig of humusrijk dek, beginnend aan maaiveld en 15 à 50 cm dik (toemaakdek) en verdrogende lagen in de bovenste 80 cm van het profiel (code "od"). Van toepassing alleen bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>siltZanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig, uiterst fijn silt- of zanddek, beginnend aan maaiveld en 15 à 40 cm dik (code "u"). Van toepassing bij veengronden, podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>siltZanddekGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig, uiterst fijn silt- of zanddek, beginnend aan maaiveld en 15 à 40 cm dik en grind, ondieper dan 40 cm beginnend (code "ug"). Van toepassing bij veengronden, podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>siltZanddekIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig, uiterst fijn silt- of zanddek, beginnend aan maaiveld en 15 à 40 cm dik en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "uf"). Van toepassing bij veengronden, podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>siltZanddekStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig, uiterst fijn silt- of zanddek, beginnend aan maaiveld en 15 à 40 cm dik en stenen in de bovenste 40 cm van het profiel (code "um"). Van toepassing bij podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stenen in de bovenste 40 cm van het profiel (code "m"). Van toepassing bij podzolgronden, kalkloze zandgronden, leemgronden, brikgronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>verdrogendeLagen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Verdrogende lagen in de bovenste 40 cm van het profiel (code "d"). Van toepassing bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>verdrogendeLagenGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Verdrogende lagen in de bovenste 40 cm van het profiel en grind, ondieper dan 40 cm beginnend (code "dg"). Van toepassing bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>verdrogendeLagenIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Verdrogende lagen in de bovenste 40 cm van het profiel en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "df"). Van toepassing bij veengronden en moerige gronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddek, beginnend aan maaiveld en 15 à 40 cm dik (code "z"). Van toepassing bij kalkloze zandgronden, leemgronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddek, beginnend aan maaiveld en 15 à 40 cm dik en grind, ondieper dan 40 cm beginnend (code "zg"). Van toepassing bij kalkloze zandgronden, leemgronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddek, beginnend aan maaiveld en 15 à 40 cm dik en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "zf"). Van toepassing bij kalkloze zandgronden, leemgronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekKolenslik</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddek, beginnend aan maaiveld en 15 à 40 cm dik en kolenslik in de bovenste 40 cm van het profiel, over 15 à 40 cm dikte (code "zh"). Van toepassing alleen bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddek, beginnend aan maaiveld en 15 à 40 cm dik en stenen in de bovenste 40 cm van het profiel (code "zm"). Van toepassing bij kalkloze zandgronden, leemgronden en kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekZouthoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddek, beginnend aan maaiveld en 15 à 40 cm dik en zout kwelwater in de bovenste 40 cm van het profiel (code "zn"). Van toepassing bij kleigronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekDun</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddekje, beginnend aan maaiveld en 5 à 15 cm dik (code "s"). Van toepassing bij veengronden, moerige gronden, podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekDunGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddekje, beginnend aan maaiveld en 5 à 15 cm dik en grind, ondieper dan 40 cm beginnend (code "sg"). Van toepassing bij veengronden, moerige gronden, podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekDunIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddekje, beginnend aan maaiveld en 5 à 15 cm dik en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "sf"). Van toepassing bij veengronden, moerige gronden, podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zanddekDunStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zanddekje, beginnend aan maaiveld en 5 à 15 cm dik en stenen in de bovenste 40 cm van het profiel (code "sm"). Van toepassing bij podzolgronden, kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zavelKleidek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel- of kleidek, beginnend aan maaiveld en 15 à 40 cm dik (code "k"). Van toepassing bij kalkloze en kalkhoudende zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zavelKleidekGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel- of kleidek, beginnend aan maaiveld en 15 à 40 cm dik en grind, ondieper dan 40 cm beginnend (code "kg"). Van toepassing bij kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zavelKleidekIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel- of kleidek, beginnend aan maaiveld en 15 à 40 cm dik en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "kf"). Van toepassing bij kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zavelKleidekStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zavel- of kleidek, beginnend aan maaiveld en 15 à 40 cm dik en stenen in de bovenste 40 cm van het profiel (code "km"). Van toepassing bij kalkloze zandgronden en leemgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zouthoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zout kwelwater in de bovenste 40 cm van het profiel (code "n"). Van toepassing bij kleigronden en kalkhoudende zandgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zouthoudendGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zout kwelwater in de bovenste 40 cm van het profiel en grind, ondieper dan 40 cm beginnend (code "ng"). Van toepassing bij kleigronden en kalkhoudende zandgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zouthoudendIJzerrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zout kwelwater in de bovenste 40 cm van het profiel en ijzerrijk, binnen 50 cm beginnend en ten minste 10 cm dik (code "nf"). Van toepassing bij kleigronden en kalkhoudende zandgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+	<BijzonderheidBovenin>
+		<Waarde>zouthoudendStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zout kwelwater in de bovenste 40 cm van het profiel en stenen in de bovenste 40 cm van het profiel (code "nm"). Van toepassing bij kleigronden en kalkhoudende zandgronden.</Omschrijving>
+	</BijzonderheidBovenin>
+</domeintabel>

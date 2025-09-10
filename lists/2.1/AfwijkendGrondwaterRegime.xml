@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AfwijkendGrondwaterRegime>
+		<Waarde>buitenHoofdkering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Buiten de hoofdwaterkering gelegen gronden; periodiek overstroomd. De waarde is voorafgaand aan de grondwatertrap in de standaardpuntencode opgenomen met de code "b".</Omschrijving>
+	</AfwijkendGrondwaterRegime>
+	<AfwijkendGrondwaterRegime>
+		<Waarde>overstroomdWinter</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water boven maaiveld gedurende een aaneengesloten periode van meer dan 1 maand tijdens de winterperiode (alleen bij binnen de hoofdwaterkering gelegen gronden). De waarde is voorafgaand aan de grondwatertrap in de standaardpuntencode opgenomen met de code "w".</Omschrijving>
+	</AfwijkendGrondwaterRegime>
+	<AfwijkendGrondwaterRegime>
+		<Waarde>schijnspiegels</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schijnspiegels; het niveau van de GHG wordt bepaald door periodiek optredende grondwaterstanden boven een slecht doorlatende laag, waaronder weer een onverzadigde zone voorkomt. Deze kwalitatieve toevoeging geven we alleen aan bij gronden met een grondwaterfluctuatie (GLG-GHG) van meer dan 120 cm. De waarde is voorafgaand aan de grondwatertrap in de standaardpuntencode opgenomen met de code "s".</Omschrijving>
+	</AfwijkendGrondwaterRegime>
+</domeintabel>

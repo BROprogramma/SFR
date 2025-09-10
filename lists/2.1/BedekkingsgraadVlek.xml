@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BedekkingsgraadVlek>
+		<Waarde>weinigTot2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken beslaan tussen de 0 tot 2 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadVlek>
+	<BedekkingsgraadVlek>
+		<Waarde>matig2tot20</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken beslaan tussen de 2 tot 20 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadVlek>
+	<BedekkingsgraadVlek>
+		<Waarde>veel20tot50</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken beslaan meer dan 20 % tot maximaal 50 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadVlek>
+	<BedekkingsgraadVlek>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De hoeveelheid vlekken is niet bekend.</Omschrijving>
+	</BedekkingsgraadVlek>
+</domeintabel>

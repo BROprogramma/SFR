@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Grondwatertrap>
+		<Waarde>Ia</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 0 en 25 cm, GLG ligt tussen 0 en 50 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Ic</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 25 en 50 cm, GLG ligt tussen 25 en 50 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IIa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 0 en 25 cm, GLG ligt tussen 50 en 80 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IIb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 25 en 40 cm, GLG ligt tussen 50 en 80 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IIc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 40 en 80 cm, GLG ligt tussen 50 en 80 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IIIa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 0 en 25 cm, GLG ligt tussen 80 en 120 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IIIb</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 25 en 40 cm, GLG ligt tussen 80 en 120 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IVc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 80 en 120 cm, GLG ligt tussen 80 en 120 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>IVu</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 40 en 80 cm, GLG ligt tussen 80 en 120 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Vad</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 0 en 25 cm, GLG ligt op 180 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Vao</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 0 en 25 cm, GLG ligt tussen 120 en 180 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Vbd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 25 en 40 cm, GLG ligt op 180 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Vbo</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 25 en 40 cm, GLG ligt tussen 120 en 180 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VId</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 40 en 80 cm, GLG ligt op 180 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VIo</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 40 en 80 cm, GLG ligt tussen 120 en 180 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VIId</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 80 en 140 cm, GLG ligt op 180 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VIIo</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 80 en 140 cm, GLG ligt tussen 120 en 180 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VIIId</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt op 140 cm of dieper, GLG ligt op 180 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VIIIo</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 140 en 180 cm, GLG ligt tussen 140 en 180 cm.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Va</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 0 en 25 cm, GLG ligt op 120 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>Vb</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 25 en 40 cm, GLG ligt op 120 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VI</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt tussen 40 en 80 cm, GLG ligt op 120 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VII</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt op 80 cm of dieper, GLG ligt op 120 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>VIII</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>GHG ligt op 140 cm of dieper, GLG ligt op 140 cm of dieper.</Omschrijving>
+	</Grondwatertrap>
+	<Grondwatertrap>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grondwatertrap is niet bekend.</Omschrijving>
+	</Grondwatertrap>
+</domeintabel>

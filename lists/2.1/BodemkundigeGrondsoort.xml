@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BodemkundigeGrondsoort>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind, grindgehalte is gelijk aan of groter dan 30 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>kleiarmSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiarm silt, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 0% tot 5% en leemgehalte (lutumgehalte + siltgehalte) is gelijk aan of groter dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>kleiarmZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiarm zand, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 0% tot 5% en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>kleiigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiige leem, naam gebaseerd op de leemdriehoek. Lutumgehalte is kleiner dan 17,5 % à 30 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>kleiigSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig silt, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 5 % tot 8 % en leemgehalte (lutumgehalte + siltgehalte) is gelijk aan of groter dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>kleiigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig veen, naam gebaseerd op de veendriehoek. Organische stofgehalte vanaf 22,5 % tot 35 % en combinatie lutumgehalte en organische stofgehalte voldoen aan eisen (functie) van veendriehoek.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>kleiigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiig zand, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 5 % tot 8 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>leemarmZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leemarm zand, naam gebaseerd op de leemdriehoek. Lutumgehalte &lt; 8 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 10 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>lichteKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte klei, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 25 % tot 35 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>matigLichteZavel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Matig lichte zavel, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 12 % tot 17,5 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 50%.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>matigZwareKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Matig zware klei, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 35 % tot 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>schelpmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal, schelpmateriaalgehalte is gelijk aan of groter dan 30 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>siltigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Siltige leem, naam gebaseerd op de leemdriehoek. Lutumgehalte tussen 8% en 30 % en leemgehalte (lutumgehalte + siltgehalte) is gelijk aan of groter dan 85 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>sterkLemigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk lemig zand, naam gebaseerd op de leemdriehoek. Lutumgehalte is kleiner dan 8% en leemgehalte (lutumgehalte + siltgehalte) vanaf 17,5 % tot 32,5 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>veen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen, naam gebaseerd op de veendriehoek. Organische stofgehalte is groter dan 35 % en combinatie lutumgehalte en organische stofgehalte voldoen aan eisen (functie) van veendriehoek.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>venigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Venige klei, naam gebaseerd op de veendriehoek. Organische stofgehalte vanaf 15 % tot 22,5 % en combinatie lutumgehalte en organische stofgehalte voldoen aan eisen (functie) van veendriehoek.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>venigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Venig zand, naam gebaseerd op de veendriehoek. Organische stofgehalte vanaf 15 % tot 22,5 % en combinatie lutumgehalte en organische stofgehalte voldoen aan eisen (functie) van veendriehoek.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zandigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zandige leem, naam gebaseerd op de leemdriehoek. Lutumgehalte tussen 8 % en 22 % en leemgehalte is gelijk aan of kleiner dan 85 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zandig veen, naam gebaseerd op de veendriehoek. Organische stofgehalte vanaf 22,5 % tot 35 % en combinatie lutumgehalte en organische stofgehalte voldoen aan eisen (functie) van veendriehoek.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zeerLichteZavel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer lichte zavel, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 8 % tot 12 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zeerSterkLemigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer sterk lemig zand, naam gebaseerd op de leemdriehoek. Lutumgehalte is kleiner dan 8% en leemgehalte (lutumgehalte + siltgehalte) vanaf 32,5 % tot 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zeerZwareKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer zware klei, naam gebaseerd op de kleidriehoek. Lutumgehalte is gelijk aan of groter dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zwakLemigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwak lemig zand, naam gebaseerd op de leemdriehoek. Lutumgehalte is kleiner dan 8 % en leemgehalte (lutumgehalte + siltgehalte) vanaf 1 0% tot 17,5 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>zwareZavel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zware zavel, naam gebaseerd op de kleidriehoek. Lutumgehalte vanaf 17,5 % tot 25 % en leemgehalte (lutumgehalte + siltgehalte) is kleiner dan 50 %.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>moerigMateriaal</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moerig materiaal, naam gebaseerd op de veendriehoek. Organische stofgehalte vanaf 15  % tot 22,5 %. Deze waarde is een verzamelnaam voor de bodemkundige grondsoorten veen, kleiigVeen, venigeKlei, venigZand en zandigVeen.</Omschrijving>
+	</BodemkundigeGrondsoort>
+	<BodemkundigeGrondsoort>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodemkundige grondsoort is niet bepaald.</Omschrijving>
+	</BodemkundigeGrondsoort>
+</domeintabel>
+

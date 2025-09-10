@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HoeveelheidsklassePorien>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn geen poriën zichtbaar.</Omschrijving>
+	</HoeveelheidsklassePorien>
+	<HoeveelheidsklassePorien>
+		<Waarde>weinigTot0.5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poriën zijn aanwezig en beslaan minder dan 0.5 % van het oppervlak.</Omschrijving>
+	</HoeveelheidsklassePorien>
+	<HoeveelheidsklassePorien>
+		<Waarde>matig0.5tot5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poriën beslaan tussen 0.5 en 5 % van het oppervlak.</Omschrijving>
+	</HoeveelheidsklassePorien>
+	<HoeveelheidsklassePorien>
+		<Waarde>veelMinstens5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Poriën beslaan meer dan 5 % van het oppervlak.</Omschrijving>
+	</HoeveelheidsklassePorien>
+</domeintabel>

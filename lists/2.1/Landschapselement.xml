@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Landschapselement>
+		<Waarde>berm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Strook grond langs een weg die onder meer steun geeft aan het weglichaam.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>daliegat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Cirkelvormige depressie van twee á vijf meter doorsnede waar kalkrijke klei is gewonnen die gebruikt werd voor de verbetering van (nu verdwenen) veenland.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>dekzandrug</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Terreinverheffing met flauwe helling, die grotendeels onder arctische omstandigheden in het Weichselien door de wind zijn gevormd.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>dobbe</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk of menselijk landschapselement. Poel zonder aan- of afvoer van water.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>eenmanses</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Veelal bolgelegen akker, vanaf de middeleeuwen ontstaan op zandgronden door toebrengen mengsel van plaggen en mest.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>esker</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Heuvelrug gevormd door het smeltwater van landijs. Deze rug kan zowel in een tunnel onder het landijs tot afzetting zijn gekomen als tussen afsmeltende landijsblokken.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>gemoerneerdTerrein</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Onregelmatig hobbelig, terrein onstaan door delving van zout veen. De ontstane putten werden daarna gedempt met uitgegraven klei.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>getijdeplaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Bij laagwater droogvallende plaat in een getijdengebied.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>greppel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Niet watervoerende, smalle en ondiepe gegraven geul voor waterafvoer vanuit de kavel naar de sloot.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>houtwal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk of halfnatuurlijk landschapselement. Natuurlijk begroeide wal met bomen en struiken als erfafscheiding en scheiding tussen weilanden en akkers.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>koebosje</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Klein, met bomen begroeid en vaak met een ringsloot omzoomd stuk land waar in het verleden ziek vee begraven werd. Meestal gelegen aan de rand van een weide.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>kreekrug</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Zandige rug in het zeekleilandschap ontstaan door inversie van het landschap.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>kwelder</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Begroeide buitendijkse landaanwas die bij een gemiddeld hoogwater niet meer onderloopt.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>laagteNietPannig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Het tegenovergestelde van laagtePannig.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>laagtePannig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Hol gelegen perceel in het veengebied door versterkte maaivelddaling als gevolg van verschillen in grondwaterstand.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>oeverwal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Een langgerekte hoogte langs een (voormalige) rivier.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>oudeBewoningsplaats</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Plaats waar vroegere bewoning heeft plaatsgevonden.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>pingoruine</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Cirkel- tot ovaalvormige depressies, omgeven door een vrijwel gesloten walletje. Ontstaan onder arctische omstandigheden, onder invloed van bodemijs.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>rabat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Opgehoogde plantstroken voor bomen in natte gebieden. Het ophogen van het rabat gebeurt met de grond die vrij komt bij het graven van waterafvoerende greppels.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>restgeulDroog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Lijnvormige laagte ontstaan door opvulling van een kreekrug of rivier.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>restRandNietVerveend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Hoogveenrand die niet verveend is.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>rivierduinBegraven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Voormalig rivierduin dat overdekt is door later gevormde grond en uitsteekt boven de omgeving.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>rivierduinNietBegraven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk landschapselement. Rivierduin dat niet overdekt is en waarvan de vorming nog niet voltooid hoeft te zijn.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>vlakte</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk of menselijk landschapselement. Een zichtbare vlakte in het landschap.</Omschrijving>
+	</Landschapselement>
+	<Landschapselement>
+		<Waarde>zetwal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Menselijk landschapselement. Vaak smalle, langerekte strook grond in het veengebied, waar het uitgebaggerde veen op te drogen werd gelegd om er turven van te maken.</Omschrijving>
+	</Landschapselement>
+</domeintabel>

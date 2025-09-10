@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BepalingsmethodeVolumetrischWatergehalte>
+		<Waarde>volumetrischAfgeleid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode om het volumetrisch watergehalte te bepalen. Het afgeleide, ook wel berekende volumetrische watergehalte is een indirecte bepaling waarbij het massawatergehalte van de grond wordt vermenigvuldigd met de droge bulkdichtheid van een verwant monster. De aanname is dat de dichtheid van water 1 g/cm3 is.</Omschrijving>
+	</BepalingsmethodeVolumetrischWatergehalte>
+	<BepalingsmethodeVolumetrischWatergehalte>
+		<Waarde>volumetrischBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode om het volumetrisch watergehalte te bepalen. Het bepaalde, ook wel gemeten volumetrisch watergehalte is de gemeten hoeveelheid water gedeeld door het gemeten volume van de ring waarin de grond zich bevindt. De aanname is dat de dichtheid van water 1 g/cm3 is.</Omschrijving>
+	</BepalingsmethodeVolumetrischWatergehalte>
+	<BepalingsmethodeVolumetrischWatergehalte>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het volumetrische watergehalte is niet bepaald; er wordt volstaan met het massa watergehalte. Dit is het geval wanneer er alleen verstoorde monsters voorhanden zijn.</Omschrijving>
+	</BepalingsmethodeVolumetrischWatergehalte>
+	<BepalingsmethodeVolumetrischWatergehalte>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De manier waarop het volumetrisch watergehalte is bepaald is niet bekend.</Omschrijving>
+	</BepalingsmethodeVolumetrischWatergehalte>
+</domeintabel>

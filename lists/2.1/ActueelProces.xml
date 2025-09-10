@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ActueelProces>
+		<Waarde>geulverlegging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komen lateraal migrerende geulen voor.</Omschrijving>
+	</ActueelProces>
+	<ActueelProces>
+		<Waarde>geulvorming</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er vindt vorming of verdieping van geulen plaats door uitschuring van de waterbodem.</Omschrijving>
+	</ActueelProces>
+	<ActueelProces>
+		<Waarde>piping</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water stroomt onder een dijk of ander grondlichaam door om binnendijks aan het oppervlak te komen.</Omschrijving>
+	</ActueelProces>
+	<ActueelProces>
+		<Waarde>verstuiving</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er vindt verstuiving plaats wanneer het hard waait (levend stuifzand).</Omschrijving>
+	</ActueelProces>
+	<ActueelProces>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend of er exogene processen actief zijn.&lt;/font&gt;</Omschrijving>
+	</ActueelProces>
+</domeintabel>
+
