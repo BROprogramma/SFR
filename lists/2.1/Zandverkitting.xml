@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Zandverkitting>
+		<Waarde>onverkit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is niet verkit.</Omschrijving>
+	</Zandverkitting>
+	<Zandverkitting>
+		<Waarde>matigVerkit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is verkit en gemakkelijk met de hand te breken.</Omschrijving>
+	</Zandverkitting>
+	<Zandverkitting>
+		<Waarde>sterkVerkit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is verkit en moeilijk met de hand te breken.</Omschrijving>
+	</Zandverkitting>
+	<Zandverkitting>
+		<Waarde>zeerSterkVerkit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is verkit en niet met de hand te breken.</Omschrijving>
+	</Zandverkitting>
+	<Zandverkitting>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De mate waarin het zand verkit is, is niet bekend.</Omschrijving>
+	</Zandverkitting>
+</domeintabel>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Rijpingsklasse>
+		<Waarde>geheelOngerijpt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geheel ongerijpt, zeer slap, loopt bij knijpen zeer gemakkelijk tussen de vingers door.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>bijnaOngerijpt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bijna ongerijpt, slap, loopt bij knijpen gemakkelijk tussen de vingers door.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>halfGerijpt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Half gerijpt, matig slap, kan met knijpen nog goed tussen de vingers door worden geperst.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>bijnaGerijpt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bijna gerijpt, matig stevig, kan met stevig knijpen nog juist tussen de vingers geperst worden.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>geheelGerijpt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gerijpt, stevig, kan niet meer tussen de vingers geperst worden.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>geheelGerijptZeerStevig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer stevig, kan met duimnagel ingedrukt worden.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>geheelGerijptHard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hard, kan met mes nog worden gesneden.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>geheelGerijptZeerHard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer hard, kan met mes niet meer worden gesneden.</Omschrijving>
+	</Rijpingsklasse>
+	<Rijpingsklasse>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De rijpingsklasse is niet bekend.</Omschrijving>
+	</Rijpingsklasse>
+</domeintabel>

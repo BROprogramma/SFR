@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortVegetatie>
+		<Waarde>afwezig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen spontane vegetatie in het bos aanwezig. In de classificatie van Bannink et al. heeft het de code 0.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosKantmosKlauwtjesmos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Kantmos en Klauwtjesmos. In de classificatie van Bannink et al. heeft het de code I.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosKronkelsteeltjeGewoonSterremos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Kronkelsteeltje en Gewoon sterremos. In de classificatie van Bannink et al. heeft het de code II.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosKronkelsteeltjeWildeLijsterbesKnikkendWilgeroosje</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Kronkelsteeltje, Wilde lijsterbes en Knikkend wilgeroosje. In de classificatie van Bannink et al. heeft het de code III.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosStekelvarenLiggendWalstro</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Stekelvaren en Liggend walstro. In de classificatie van Bannink et al. heeft het de code IV.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosWildeKamperfoelieStekelvarenDrienerfmuur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Wilde kamperfoelie, Stekelvaren en Drienerfmuur. In de classificatie van Bannink et al. heeft het de code V.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosRankendeHelmbloemWitteKlaverzuringStekelvarenBraam</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Rankende helmbloem, Witte klaverzuring, Stekelvaren en Braam. In de classificatie van Bannink et al. heeft het de code VI.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>donkerBosWitteKlaverzuringDauwbraamRobertskruidSpeenkruid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Donkere bossen met vegetatie in gezelschap van Witte klaverzuring, Dauwbraam, Robertskruid en Speenkruid. In de classificatie van Bannink et al. heeft het de waarde VII.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosZandzeggeRuigHaarmos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Zandzegge en Ruig Haarmos (veel open zand). In de classificatie van Bannink et al. heeft het de code A0.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosRendiermosZandGaffeltand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Rendiermos en Zand-Gaffeltand. In de classificatie van Bannink et al. heeft het de code A1.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosRendiermosKlauwtjesmos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Rendiermos en Klauwtjesmos. In de classificatie van Bannink et al. heeft het de code A2.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosBronsmosKlauwtjesmosGewoonGaffeltandmos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Bronsmos, Klauwtjesmos en Gewoon Gaffeltandmos. In de classificatie van Bannink et al. heeft het de code H1.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosBronsmosGrootLaddermos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Bronsmos en Groot Laddermos. In de classificatie van Bannink et al. heeft het de code H2.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosBronsmosBochtigeSmeleStruisgrassen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Bronsmos, Bochtige smele en Struisgrassen. In de classificatie van Bannink et al. heeft het de code R1.1.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosBronsmosWildeLijsterbes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Bronsmos en Wilde lijsterbes. In de classificatie van Bannink et al. heeft het de code R1.2.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosBraamStekelvarenGrootLaddermos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Braam, Stekelvaren en Groot Laddermos. In de classificatie van Bannink et al. heeft het de waarde R2.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosGladdeWitbolValseSalieBraam</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Gladde witbol, Valse salie en Braam. In de classificatie van Bannink et al. heeft het de code R3.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosFramboosBraam</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Framboos en Braam. In de classificatie van Bannink et al. heeft het de code R4.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosDuinrietZandzegge</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Duinriet en Zandzegge (veel open zand). In de classificatie van Bannink et al. heeft het de code K0.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosWitteKlaverzuringHazelaarDrienerfmuur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Witte Klaverzuring, Hazelaar en Drienerfmuur. In de classificatie van Bannink et al. heeft het de code Z.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosGroteBrandnetelStekelvaren</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Grote brandnetel en Stekelvaren. In de classificatie van Bannink et al. heeft het de code K1.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosDauwbraamVlasbekjeHondstong</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Dauwbraam, Vlasbekje en Hondstong. In de classificatie van Bannink et al. heeft het de code K2.</Omschrijving>
+	</SoortVegetatie>
+	<SoortVegetatie>
+		<Waarde>lichtBosDauwbraamRobertskruid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lichte bossen met vegetatie in gezelschap van Dauwbraam en Robertskruid. In de classificatie van Bannink et al. heeft het de code K3.</Omschrijving>
+	</SoortVegetatie>
+</domeintabel>

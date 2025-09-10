@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StopcriteriumVeld>
+		<Waarde>einddoel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het vooraf gestelde doel van de veldactiviteit is bereikt; vaak is dat de beoogde einddiepte.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>obstakelGrindStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op grind, zeer grove grond of stenen is gestuit.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>obstakelIJzervloer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op een ijzervloer, ofwel een laag ijzeroer, is gestuit.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>obstakelPuin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op puin is gestuit.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>obstakelVastGesteente</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat het vast gesteente is bereikt.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>storing</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voortijdig gestopt omdat er bij de graafwerkzaamheden een probleem is opgetreden, materieel of procesmatig.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>grondwaterdruk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat de grondwaterdruk te hoog is om veilig verder te kunnen werken.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>risico</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat er niet veilig verder gewerkt kan worden vanwege een niet nader omschreven risico.</Omschrijving>
+	</StopcriteriumVeld>
+	<StopcriteriumVeld>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt. De reden is niet bekend.</Omschrijving>
+	</StopcriteriumVeld>
+</domeintabel>

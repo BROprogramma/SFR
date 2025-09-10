@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHN2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald d.m.v. Actueel Hoogtebestand Nederland, versie 2 van 2007-2012.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHN3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 3 van 2014-2019.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS0tot4cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner dan 4 centimeter.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS4tot10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen 4 en 10 centimeter.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS10tot20cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 10 en 20 centimeter.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS20tot100cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 20 en 100 centimeter.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHN1</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 1 van 1996-2003.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>geen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen positie bepaald.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+</domeintabel>

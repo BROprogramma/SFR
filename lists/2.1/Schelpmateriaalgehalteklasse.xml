@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Schelpmateriaalgehalteklasse>
+		<Waarde>zwakSchelphoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwak schelphoudend, schelpen maken tussen de 0 en 1 % van de massa uit.</Omschrijving>
+	</Schelpmateriaalgehalteklasse>
+	<Schelpmateriaalgehalteklasse>
+		<Waarde>schelphoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelphoudend, schelpen maken tussen de 1 en 10 % van de massa uit.</Omschrijving>
+	</Schelpmateriaalgehalteklasse>
+	<Schelpmateriaalgehalteklasse>
+		<Waarde>sterkSchelphoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk schelphoudend, schelpen maken tussen de 10 en 30 % van de massa uit.</Omschrijving>
+	</Schelpmateriaalgehalteklasse>
+	<Schelpmateriaalgehalteklasse>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De schelpmateriaalgehalteklasse is niet bekend.</Omschrijving>
+	</Schelpmateriaalgehalteklasse>
+</domeintabel>

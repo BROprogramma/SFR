@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<VormAggregaat>
+		<Waarde>blok</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gemiddelde aggregaat is in alle richtingen ongeveer even lang.</Omschrijving>
+	</VormAggregaat>
+	<VormAggregaat>
+		<Waarde>plaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gemiddelde aggregaat is in twee van de drie richtingen ongeveer even lang, maar in de derde veel korter.</Omschrijving>
+	</VormAggregaat>
+	<VormAggregaat>
+		<Waarde>prisma</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gemiddelde aggregaat is in twee van de drie richtingen ongeveer even lang, maar in de derde veel langer.</Omschrijving>
+	</VormAggregaat>
+</domeintabel>
