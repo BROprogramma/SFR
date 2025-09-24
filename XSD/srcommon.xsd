@@ -1341,9 +1341,21 @@
           </xs:simpleContent>
         </xs:complexType>
       </xs:element>
-      <xs:element name="fraction105to210um" minOccurs="1" maxOccurs="1">
+      <xs:element name="fraction105to150um" minOccurs="1" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 105 tot 210 µm in de massa van het materiaal.</xs:documentation>
+          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 105 tot 150 µm in de massa van het materiaal.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:restriction base="gml:MeasureType">
+              <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%"/>
+            </xs:restriction>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+            <xs:element name="fraction150to210um" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 150 tot 210 µm in de massa van het materiaal.</xs:documentation>
         </xs:annotation>
         <xs:complexType>
           <xs:simpleContent>
@@ -1697,9 +1709,21 @@
           </xs:simpleContent>
         </xs:complexType>
       </xs:element>
-      <xs:element name="fraction105to210um" minOccurs="1" maxOccurs="1">
+      <xs:element name="fraction105to150um" minOccurs="1" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 105 tot 210 µm in de massa van het materiaal.</xs:documentation>
+          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 105 tot 150 µm in de massa van het materiaal.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:restriction base="gml:MeasureType">
+              <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%"/>
+            </xs:restriction>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+            <xs:element name="fraction150to210um" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 150 tot 210 µm in de massa van het materiaal.</xs:documentation>
         </xs:annotation>
         <xs:complexType>
           <xs:simpleContent>
