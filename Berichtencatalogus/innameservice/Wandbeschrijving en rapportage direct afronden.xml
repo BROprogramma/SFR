@@ -92,7 +92,7 @@
             </deliveredVerticalPosition>
             <soilUncovering>
                 <sfrcom:SoilUncovering gml:id="id_0003">
-                    <sfrcom:endDepthSoilFace uom="m">2.25</sfrcom:endDepthSoilFace>
+                    <sfrcom:endDepthSoilFace uom="m">2.251</sfrcom:endDepthSoilFace>
                     <sfrcom:soilFaceOrientation xsi:nil="true" uom="deg"/>
                     <sfrcom:outcropType codeSpace="urn:bro:sfr:OutcropType">onbekend</sfrcom:outcropType>
                     <!--Optional:-->
@@ -170,9 +170,9 @@
                             <!--Zero or more repetitions:-->
                             <sfrcom:litterLayer>
                                 <sfrcom:LitterLayer gml:id="id_0007">
-                                    <sfrcom:upperBoundary uom="m">-0.08</sfrcom:upperBoundary>
+                                    <sfrcom:upperBoundary uom="m">-0.088</sfrcom:upperBoundary>
                                     <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
-                                    <sfrcom:lowerBoundary uom="m">0</sfrcom:lowerBoundary>
+                                    <sfrcom:lowerBoundary uom="m">0.000</sfrcom:lowerBoundary>
                                     <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:lowerBoundaryDetermination>
                                     <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">onbekend</sfrcom:lowerBoundaryShape>
                                     <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
@@ -184,9 +184,9 @@
                             <!--1 or more repetitions:-->
                             <sfrcom:soilLayer>
                                 <sfrcom:SoilLayer gml:id="id_0008">
-                                    <sfrcom:upperBoundary uom="m">0</sfrcom:upperBoundary>
+                                    <sfrcom:upperBoundary uom="m">0.000</sfrcom:upperBoundary>
                                     <sfrcom:upperBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">onbekend</sfrcom:upperBoundaryDetermination>
-                                    <sfrcom:lowerBoundary uom="m">2.25</sfrcom:lowerBoundary>
+                                    <sfrcom:lowerBoundary uom="m">2.251</sfrcom:lowerBoundary>
                                     <sfrcom:lowerBoundaryDetermination codeSpace="urn:bro:sfr:BoundaryPositioningMethod">waargenomenGeleidelijkMinstens10cm</sfrcom:lowerBoundaryDetermination>
                                     <sfrcom:lowerBoundaryShape codeSpace="urn:bro:sfr:BoundaryShape">regelmatigNietGespecificeerd</sfrcom:lowerBoundaryShape>
                                     <sfrcom:layerDiscontinuous>onbekend</sfrcom:layerDiscontinuous>
@@ -279,12 +279,12 @@
                             <sfrcom:specialFeatureBottom>
                                 <sfrcom:specialFeature codeSpace="urn:bro:sfr:SpecialFeature">keileemPotklei</sfrcom:specialFeature>
                                 <!--Optional:-->
-                                <sfrcom:beginDepth uom="m">0.7</sfrcom:beginDepth>
+                                <sfrcom:beginDepth uom="m">0.701</sfrcom:beginDepth>
                             </sfrcom:specialFeatureBottom>
                             <sfrcom:specialFeatureBottom>
                                 <sfrcom:specialFeature codeSpace="urn:bro:sfr:SpecialFeature">zandHoloceen</sfrcom:specialFeature>
                                 <!--Optional:-->
-                                <sfrcom:beginDepth uom="m">1.1</sfrcom:beginDepth>
+                                <sfrcom:beginDepth uom="m">1.101</sfrcom:beginDepth>
                             </sfrcom:specialFeatureBottom>
                         </sfrcom:SoilClassification>
                     </sfrcom:soilClassification>
