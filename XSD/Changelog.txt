@@ -1,0 +1,21 @@
+Changelog
+----------------------------
+Versie 1.0.0 - 26.06.2026
+----------------------------
+
+1. Voor het bestand issfr-messages:
+   - Namespaceversie bijgewerkt voor brocommon van 3.0 naar 3 enz;
+   - Versienummer van het bestand bijgewerkt;
+   - order voor soilUncovering en siteCharacteristics bijgewerkt.
+
+2. Voor het sfrcommon:
+   - Namespaceversie bijgewerkt voor sfrcommonrcommon van 2.0 naar 2, voor brocommon van 3.0 naar 3, voor sfrcommon van 2.0 naar 2 enz;
+   - Versienummer van het bestand bijgewerkt;
+   - order van littertype bijgewerkt (lijn 357).
+
+3. Voor het bestand srcommon:
+   - Namespaceversie bijgewerkt voor brocommon van 3.0 naar 3, en voor srcommon van 1.0 naar 1 enz;
+   - Versienummer van het bestand bijgewerkt van 1.0.1 naar 1.0.2;
+   - Kardinaliteit van hydraulicConductivityChange bijgewerkt;
+   - Type van volumetricWaterContentDetermined bijgewerkt;
+   - Fractions bijgewerkt (kardinaliteit aangepast en fraction150to210um is terug toegevoegd).

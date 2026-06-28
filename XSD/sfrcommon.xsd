@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
+<xs:schema xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
+           xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/sfrcommon/2.0"
+           targetNamespace="http://www.broservices.nl/xsd/sfrcommon/2"
            elementFormDefault="qualified"
-           version="1.9.0">
+           version="2.0.2">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -16,12 +16,12 @@
     </xs:annotation>
 
     <!--
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/srcommon/1.0/srcommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/srcommon/1" schemaLocation="https://schema.broservices.nl/xsd/srcommon/1/srcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="srcommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/srcommon/1" schemaLocation="srcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
     <xs:element name="CompactedInterval"
@@ -354,6 +354,18 @@
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code van de horizon waartoe het strooisel volgens de Nederlandse classificatie wordt gerekend.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
+                    <xs:element name="litterType"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="sfrcom:LitterTypeType">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>LitterType</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De nadere aanduiding van de herkomst van het organisch materiaal waaruit de laag bestaat.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
                     <xs:element name="estimatedOrganicMatterContent"
                                 minOccurs="1"
                                 maxOccurs="1"
@@ -369,18 +381,6 @@
                                 </xs:restriction>
                             </xs:simpleContent>
                         </xs:complexType>
-                    </xs:element>
-                    <xs:element name="litterType"
-                                minOccurs="1"
-                                maxOccurs="1"
-                                type="sfrcom:LitterTypeType">
-                        <xs:annotation>
-                            <xs:appinfo>
-                                <CodeListName>LitterType</CodeListName>
-                                <CodeListURI/>
-                            </xs:appinfo>
-                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De nadere aanduiding van de herkomst van het organisch materiaal waaruit de laag bestaat.</xs:documentation>
-                        </xs:annotation>
                     </xs:element>
                     <xs:element minOccurs="0"
                                 maxOccurs="unbounded"
