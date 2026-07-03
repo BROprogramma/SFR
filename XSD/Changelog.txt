@@ -1,4 +1,22 @@
 Changelog
+
+----------------------------
+Versie 1.1.0 - 02.07.2026
+----------------------------
+
+1. Voor het bestand issfr-messages:
+   - opgeschoond, dubbele namespaces verwijderd
+
+2. Voor het bestand issf.wsdl
+   - DeliveryResponsiblePartyHeader verwijderd.
+
+3. Voor het sfrcommon:
+   - opgeschoond, dubbele namespaces verwijderd
+4. Voor het srcommon:
+   - DeterminationMethodType en DeterminationMethodVolumetricWaterContentType omgedraaid
+
+
+
 ----------------------------
 Versie 1.0.0 - 26.06.2026
 ----------------------------
