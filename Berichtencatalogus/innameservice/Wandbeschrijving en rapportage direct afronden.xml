@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <registrationRequest 
-		xmlns="http://www.broservices.nl/xsd/issfr/2.0"
-		xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
-		xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+		xmlns="http://www.broservices.nl/xsd/issfr/2"
+		xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2"
+		xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
 		xmlns:gml="http://www.opengis.net/gml/3.2"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/issfr/2.0 https://schema.broservices.nl/xsd/issfr/2.0/issfr-messages.xsd"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issfr/2 https://schema.broservices.nl/xsd/issfr/2/issfr-messages.xsd"
 	>
     <!-- Disclaimer: dit voorbeeldbericht valideert tegen versie 2.0 van de validatieservice van de acceptatie omgeving van het bronhouderportaal, maar de gegevens zijn fictief en waarschijnlijk vaktechnisch/inhoudelijk niet correct.-->
 	<brocom:requestReference>SFR-BRO-1596</brocom:requestReference>

@@ -1,6 +1,16 @@
 Changelog
 
 ----------------------------
+Versie 1.2.0 - 03.07.2026
+----------------------------
+
+1. Voor alle voorbeeldberichten:
+   - namespaces bijgewerkt van 3.0 naar 3 enz
+
+2. Voor brocommon:
+   -namespaces bijgewerkt van 3.0 naar 3 enz
+
+----------------------------
 Versie 1.1.0 - 02.07.2026
 ----------------------------
 
