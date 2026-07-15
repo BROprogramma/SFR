@@ -4,23 +4,23 @@
                   xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
                   xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:msg="http://www.broservices.nl/xsd/issfr/2.0"
-                  xmlns:tns="http://www.broservices.nl/wsdl/issfr/2.0"
-                  targetNamespace="http://www.broservices.nl/wsdl/issfr/2.0">
+                  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
+                  xmlns:msg="http://www.broservices.nl/xsd/issfr/2"
+                  xmlns:tns="http://www.broservices.nl/wsdl/issfr/2"
+                  targetNamespace="http://www.broservices.nl/wsdl/issfr/2">
 
     <wsdl:documentation>
         inname van bodemkundige wandkuil (SFR)
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issfr/2.0" targetNamespace="http://www.broservices.nl/wsdl/issfr/2.0">
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issfr/2" targetNamespace="http://www.broservices.nl/wsdl/issfr/2">
             <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/2.0" schemaLocation="https://schema.broservices.nl/xsd/issfr/2.0/issfr-messages.xsd" />
-            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/2" schemaLocation="https://schema.broservices.nl/xsd/issfr/2/issfr-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
             -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/2.0" schemaLocation="issfr-messages.xsd" />
-            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/issfr/2" schemaLocation="issfr-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>
 

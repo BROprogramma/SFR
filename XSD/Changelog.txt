@@ -1,5 +1,13 @@
 Changelog
+----------------------------
+Versie 1.3.0 - 15.07.2026
+----------------------------
 
+Voor brocommon - laatste versie van brocommon toegevoegd
+
+Voor dssfr-messages.xsd, dssfr en isbhr wsdl bestanden:
+   - namespaces bijgewerkt van 2.0 naar 2 (3.0 naar 3 enz)
+   
 ----------------------------
 Versie 1.2.0 - 03.07.2026
 ----------------------------
