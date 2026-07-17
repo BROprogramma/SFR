@@ -40,10 +40,6 @@
         <wsdl:part element="msg:parseFault" name="parseFault" />
     </wsdl:message>
 
-    <wsdl:message name="DeliveryResponsiblePartyHeader">
-        <wsdl:part element="brocom:deliveryResponsibleParty" name="deliveryResponsibleParty"/>
-    </wsdl:message>
-
     <wsdl:portType name="issfr">
         <wsdl:operation name="register">
             <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wus/issfr/registrationRequest" />
@@ -63,7 +59,6 @@
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
-                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal" />
@@ -76,7 +71,6 @@
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
-                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal" />
