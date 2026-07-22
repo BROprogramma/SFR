@@ -456,8 +456,8 @@
                             </sfrcom:investigatedInterval>
                             <sfrcom:investigatedInterval>
                                 <sfrcom:InvestigatedInterval gml:id="id_0015">
-                                    <sfrcom:beginDepth uom="m">10.00</sfrcom:beginDepth>
-                                    <sfrcom:endDepth uom="m">20.00</sfrcom:endDepth>
+                                    <sfrcom:beginDepth uom="m">10.000</sfrcom:beginDepth>
+                                    <sfrcom:endDepth uom="m">20.000</sfrcom:endDepth>
                                     <sfrcom:characteristicModelled>nee</sfrcom:characteristicModelled>
                                     <sfrcom:shrinkageDetermination>
                                         <srcom:ShrinkageDetermination gml:id="id_0016">

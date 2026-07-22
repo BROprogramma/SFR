@@ -111,9 +111,9 @@
                     <sfrcom:surfaceLevelShifted codeSpace="urn:bro:sfr:SurfaceLevelShifted">geen</sfrcom:surfaceLevelShifted>
                     <sfrcom:tracesOfChurningPresent>onbekend</sfrcom:tracesOfChurningPresent>
                     <!--Optional:-->
-                    <!--sfrcom:meanHighestGroundwaterTable uom="m">0.35</sfrcom:meanHighestGroundwaterTable-->
+                    <!--sfrcom:meanHighestGroundwaterTable uom="m">0.350</sfrcom:meanHighestGroundwaterTable-->
                     <!--Optional:-->
-                    <!--sfrcom:meanLowestGroundwaterTable uom="m">2.15</sfrcom:meanLowestGroundwaterTable-->
+                    <!--sfrcom:meanLowestGroundwaterTable uom="m">2.150</sfrcom:meanLowestGroundwaterTable-->
                     <!--Optional:-->
                     <!--sfrcom:hydrologicalSetting codeSpace="urn:bro:sfr:HydrologicalSetting">regenwaterInfiltratieAfvoer</sfrcom:hydrologicalSetting-->
                     <!--Optional:-->
@@ -260,7 +260,7 @@
                             <sfrcom:subsoilPeat codeSpace="urn:bro:sfr:SubsoilPeat">kleiZavelLeem</sfrcom:subsoilPeat>
 							-->
                             <!--Optional:
-                            <sfrcom:lowerBoundaryPeat uom="m">1.1</sfrcom:lowerBoundaryPeat>
+                            <sfrcom:lowerBoundaryPeat uom="m">1.100</sfrcom:lowerBoundaryPeat>
 							-->
                             <!--Optional:
                             <sfrcom:subsoilDuinVagueSoil codeSpace="urn:bro:sfr:SubsoilDuinVagueSoil">zandHumuspodzol</sfrcom:subsoilDuinVagueSoil>

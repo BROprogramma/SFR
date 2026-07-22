@@ -62,7 +62,7 @@
                     <offset uom="m">1.303</offset>
                     <verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</verticalDatum>
                     <outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</outcropType>
-                    <endDepthSoilFace uom="m">2.25</endDepthSoilFace>
+                    <endDepthSoilFace uom="m">2.250</endDepthSoilFace>
                     <stopCriterion codeSpace="urn:bro:sfr:StopCriterionField">einddoel</stopCriterion>
                     <!--Optional:-->
                     <descriptionReportDate>
@@ -141,7 +141,7 @@
                     <offset uom="m">-4.872</offset>
                     <verticalDatum codeSpace="urn:bro:sfr:VerticalDatum">NAP</verticalDatum>
                     <outcropType codeSpace="urn:bro:sfr:OutcropType">profielkuil</outcropType>
-                    <endDepthSoilFace uom="m">1.50</endDepthSoilFace>
+                    <endDepthSoilFace uom="m">1.500</endDepthSoilFace>
                     <stopCriterion codeSpace="urn:bro:sfr:StopCriterionField">einddoel</stopCriterion>
                 </SFR_C>
             </dispatchDocument>

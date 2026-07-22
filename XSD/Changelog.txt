@@ -1,6 +1,16 @@
 Changelog
 
 ----------------------------
+Versie 1.5.0 - 22.07.2026
+----------------------------
+
+Voor voorbeeldberichten
+   - toegeovoegd 3 cijfers achter de komma volgens werkafspraken
+
+Voor srcommon.xsd
+   - nieuwe korrelgrootte (105-150 en 150-210) toegeovoegd volgens werkafspraken voor StandardDistributionFraction63to2000umType en voor DetailedDistributionFraction63to2000umType
+
+----------------------------
 Versie 1.4.0 - 17.07.2026
 ----------------------------
 
