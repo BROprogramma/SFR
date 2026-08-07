@@ -1,0 +1,1 @@
+Dit document beschrijft de definitie van het wandonderzoek dat vanuit het vakgebied van de bodemkunde is uitgevoerd, met een algemene toelichting.
