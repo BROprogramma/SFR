@@ -1043,7 +1043,7 @@
 					</xs:simpleContent>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="fraction105to210um" minOccurs="1" maxOccurs="1">
+			<xs:element name="fraction105to210um" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 105 tot 210 µm in de massa van het materiaal.</xs:documentation>
 				</xs:annotation>
@@ -1414,7 +1414,7 @@
 					</xs:simpleContent>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="fraction105to210um" minOccurs="1" maxOccurs="1">
+			<xs:element name="fraction105to210um" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 105 tot 210 µm in de massa van het materiaal.</xs:documentation>
 				</xs:annotation>
