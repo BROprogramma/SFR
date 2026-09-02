@@ -180,7 +180,7 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), is ooit met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven', met roestvlekken.</Omschrijving>
 	</Horizontcode>	
-		<Horizontcode>
+	<Horizontcode>
 		<Waarde>Au</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -263,9 +263,8 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een minerale horizont, met ingespoelde lutum en roestvlekken.</Omschrijving>
-	</Horizontcode>
 	</Horizontcode>	
-		<Horizontcode>
+	<Horizontcode>
 		<Waarde>Bu</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
