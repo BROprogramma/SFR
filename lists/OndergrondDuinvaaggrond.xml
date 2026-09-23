@@ -7,12 +7,6 @@
 		<Omschrijving>Moerig materiaal (code "v").</Omschrijving>
 	</OndergrondDuinvaaggrond>
 	<OndergrondDuinvaaggrond>
-		<Waarde>nietAangeboord</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>De ondergrond van de duinvaaggrond is niet aangeboord (geen code).</Omschrijving>
-	</OndergrondDuinvaaggrond>
-	<OndergrondDuinvaaggrond>
 		<Waarde>nietBereikt</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
