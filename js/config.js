@@ -2,8 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   //-- title is verplicht! Neem hier de titel van het document op ----------------------
-  title:
-    "Catalogus registratie ondergrond Wandonderzoek - Bodemkundige wandmonsterbeschrijving en wandmonsteranalyse",
+  title: "Catalogus registratie ondergrond Wandonderzoek - Bodemkundige wandmonsterbeschrijving en wandmonsteranalyse",
   //subtitle: "Versie 2.1",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",// Werkversie
