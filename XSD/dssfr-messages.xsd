@@ -12,13 +12,13 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:dssfr="http://www.broservices.nl/xsd/dssfr/2.0"
+<xs:schema xmlns:dssfr="http://www.broservices.nl/xsd/dssfr/2"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2.0"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
+           xmlns:sfrcom="http://www.broservices.nl/xsd/sfrcommon/2"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/dssfr/2.0"
+           targetNamespace="http://www.broservices.nl/xsd/dssfr/2"
            elementFormDefault="qualified"
            version="2.0.2">
 
@@ -28,12 +28,12 @@
         </xs:appinfo>
     </xs:annotation>
 
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="sfrcommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2" schemaLocation="sfrcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
     <!--
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/sfrcommon/2.0/sfrcommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/sfrcommon/2" schemaLocation="https://schema.broservices.nl/xsd/sfrcommon/2/sfrcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
 

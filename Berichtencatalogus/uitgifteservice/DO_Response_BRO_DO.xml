@@ -5,11 +5,11 @@
         xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Body>
         <gld:dispatchDataResponse
-                xmlns:gld="http://www.broservices.nl/xsd/dssfr/2.0"
-                xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                xmlns:gld="http://www.broservices.nl/xsd/dssfr/2"
+                xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
                 xmlns:gml="http://www.opengis.net/gml/3.2"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/2.0 https://schema.broservices.nl/xsd/dssfr/2.0/dssfr-messages.xsd"
+                xsi:schemaLocation="http://www.broservices.nl/xsd/dssfr/2 https://schema.broservices.nl/xsd/dssfr/2/dssfr-messages.xsd"
             >
             <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
                  Het is niet gevalideerd door de uitgifteservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
